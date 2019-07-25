@@ -1,2 +1,4 @@
 data/
 material/example/
+.ipynb_checkpoints/
+.idea/
