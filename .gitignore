@@ -3,3 +3,6 @@ material/example/
 .ipynb_checkpoints/
 .idea/
 material/*(Original).pdf
+material/*.png
+material/*.gliffy
+material/project-pro*.pdf
