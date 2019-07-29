@@ -59,7 +59,7 @@ def text_preproc_maker(stopwords, language='de'):
 
 def text_aggregator(df_pd, metadata=None, min_len=2000):
     if metadata is not None:
-        # TODO: increase the efficiency of aggregation
+        # TODO: increase the efficiency of aggregation: numpy or spark
         if metadata == 'DATE':
             data = []
             tokens_agg = []
