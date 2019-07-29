@@ -1,7 +1,7 @@
-from gensim.utils import SaveLoad
+import pickle
 import pyLDAvis.gensim
 
-lda = SaveLoad.load('./lda_model')
+lda = pickle.load(open('../model/lda_model', 'rb'))
 
 # Todo: import corpus and dictionary
-vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
+vis = pyLDAvis.gensim.prepare(lda['model'], lda['corpus'], dictionary=lda['dictionary'])

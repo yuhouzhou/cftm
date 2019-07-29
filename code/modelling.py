@@ -1,6 +1,7 @@
 from code import preprocessing as pp
 from spacy.lang.de.stop_words import STOP_WORDS
 from gensim.models.ldamodel import LdaModel
+import pickle
 
 # Data preprocessing
 path1 = "../data/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
@@ -18,7 +19,7 @@ dictionary, corpus = pp.gensim_prep(data)
 lda = LdaModel(corpus, num_topics=10)
 
 # pickle the model
-lda.save('../model/lda_model')
-
+lda_pickle = {"model": lda, "dictionary": dictionary, "corpus": corpus}
+pickle.dump(lda_pickle, open('../model/lda_model', 'wb'))
 
 
