@@ -8,11 +8,9 @@ def parquet_transform(path1, path2, n=-1):
     spark = SparkSession(sc)
 
     # Load parquet file into spark dataframe
-    parquetFile = spark.read.parquet(
-        "../data/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet")
-    parquetFile.createOrReplaceTempView("parquetFile")
-    parquetFile2 = spark.read.parquet(
-        "../data/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet")
+    parquetFile1 = spark.read.parquet(path1)
+    parquetFile1.createOrReplaceTempView("parquetFile1")
+    parquetFile2 = spark.read.parquet(path2)
     parquetFile2.createOrReplaceTempView("parquetFile2")
 
     # Select columns which are needed
@@ -20,13 +18,13 @@ def parquet_transform(path1, path2, n=-1):
     SELECT
         /* T0.KATEGORIE_2     AS CATEGORY_2,
         T0.KATEGORIE_1     AS CATEGORY_1,
-        T1.ERGEBNISSATZ_ID AS RESPONSE_ID,
+        T1.ERGEBNISSATZ_ID AS RESPONSE_ID, */
         T0.STIMMUNG          AS SENTIMENT,
-        T1.DATUM_ID        AS DATE, */
+        T1.DATUM_ID        AS DATE,
         T1.ANTWORT_WERT    AS TEXT
     FROM
         parquetFile2 T0,
-        parquetFile T1
+        parquetFile1 T1
     WHERE
         T0.KATEGORIE_1_ID = T1.KATEGORIE_1_ID
         AND T0.KATEGORIE_2_ID = T1.KATEGORIE_2_ID
@@ -57,6 +55,24 @@ def text_preproc_maker(nlp, stopwords):
 
     return text_preproc
 
+def text_aggregator(df_pd, metadata=None, min_len=2000):
+    if metadata is not None:
+        if metadata == 'DATE':
+            data = []
+            tokens_agg = []
+            for tokens in df_pd['TEXT_PROCESSED']:
+                if len(tokens_agg) < min_len:
+                    tokens_agg += tokens
+                else:
+                    data.append(tokens_agg)
+                    tokens_agg = []
+            # Append the rest of tokens to data
+            if tokens_agg is not []:
+                data.append(tokens_agg)
+        if metadata ==  'SENTIMENT':
+            pass
+
+    return data
 
 if __name__ == "__main__":
     import spacy
@@ -70,5 +86,7 @@ if __name__ == "__main__":
     stopwords = list(STOP_WORDS)
     text_preproc = text_preproc_maker(nlp, stopwords)
 
-    data = df_pd['TEXT'].apply(text_preproc)
-    print(data)
+    df_pd['TEXT_PROCESSED'] = df_pd['TEXT'].apply(text_preproc)
+    data = text_aggregator(df_pd, metadata='DATE', min_len=300)
+    for i in range(len(data)):
+        print("The length of Doc {} is {}".format(i, len(data[i])))
