@@ -1,10 +1,11 @@
 import cftm_parser
-import  preprocessing as pp
+import preprocessing as pp
 from spacy.lang.de.stop_words import STOP_WORDS
 from gensim.models.ldamodel import LdaModel
 import pickle
 import pyLDAvis.gensim
 import webbrowser
+import os
 
 # Parsing
 path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
@@ -13,7 +14,8 @@ df_pd = cftm_parser.parquet_transform(path1, path2, n=1000)
 
 # Preprocessing
 stopwords = list(STOP_WORDS)
-dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text = 'TEXT', metadata='DATE', min_len=300)
+dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
+                                     min_len=300)
 
 # Data Modelling
 lda = LdaModel(corpus, num_topics=10)
