@@ -20,6 +20,6 @@ lda = LdaModel(corpus, num_topics=10)
 
 # pickle the model
 lda_pickle = {"model": lda, "dictionary": dictionary, "corpus": corpus}
-pickle.dump(lda_pickle, open('../output/lda_model', 'wb'))
+pickle.dump(lda_pickle, open('../output/lda_model.pickle', 'wb'))
 
 
