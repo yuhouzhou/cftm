@@ -7,20 +7,38 @@ import pickle
 import pyLDAvis.gensim
 import webbrowser
 import os
+import numpy as np
 
 # Parsing
 path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
 path2 = "../data.nosync/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet"
 df_pd = cftm_parser.parquet_transform(path1, path2, n=-1)
 
-
 # Preprocessing
 stopwords = list(STOP_WORDS)
 texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
                                             min_len=-1)
 
-# Data Modelling
-lda = LdaModel(corpus, num_topics=10)
+# Model Generation
+lda_lst = []
+coherence_lst = []
+n_topics_min = 19
+n_topics_max = 20
+for i in range(n_topics_min, n_topics_max + 1):
+    # Data Modelling
+    lda = LdaModel(corpus, num_topics=i)
+    lda_lst.append(lda)
+
+    # Data Evaluation
+    coherence_model_lda = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
+                                         coherence='u_mass')
+    coherence = coherence_model_lda.get_coherence()
+    coherence_lst.append(lda)
+
+# Model Selection
+index = np.argmin(coherence_lst)
+lda = lda_lst[index]
+
 # pickle the model
 lda_pickle = {"model": lda, "texts": texts, "dictionary": dictionary, "corpus": corpus}
 pickle.dump(lda_pickle, open('../output/lda_model.pickle', 'wb'))
@@ -29,9 +47,3 @@ pickle.dump(lda_pickle, open('../output/lda_model.pickle', 'wb'))
 vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
 pyLDAvis.save_html(vis, '../output/lda.html')
 webbrowser.open(os.path.abspath('../output/lda.html'), new=2)
-
-# Data Evaluation
-coherence_model_lda = CoherenceModel(model=lda, texts= texts, corpus=corpus, dictionary=dictionary,
-                                     coherence='u_mass')
-lda['coherence'] = coherence_model_lda.get_coherence()
-print('\nCoherence Score: ', lda['coherence'])
