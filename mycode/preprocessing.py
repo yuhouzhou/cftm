@@ -5,44 +5,53 @@ from gensim.corpora.dictionary import Dictionary
 
 def text_preproc_maker(stopwords, language='de'):
     nlp = spacy.load(language)
+
+    # TODO: increase the efficiency of text_preproc
     def text_preproc(sentence):
-        mytokens = nlp.tokenizer(sentence)
-        mytokens = [word.lemma_.lower().strip() for word in mytokens]
-        mytokens = [word for word in mytokens if word not in stopwords and word not in string.punctuation]
-        return mytokens
+        tokens = nlp.tokenizer(sentence)
+        tokens = [token.lemma_.lower().strip() for token in tokens]
+        tokens = [token for token in tokens if token not in stopwords and token not in string.punctuation]
+        return tokens
 
     return text_preproc
 
-def text_aggregator(df_pd, metadata=None, min_len=300):
+
+def text_aggregator(df_pd, metadata=None, min_len=-1):
     if metadata is not None:
-        # TODO: increase the efficiency of aggregation: numpy or spark
-        if metadata == 'DATE':
-            texts = []
-            tokens_agg = []
-            for tokens in df_pd['TEXT_PROCESSED']:
-                if len(tokens_agg) < min_len:
-                    tokens_agg += tokens
-                else:
+        # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
+        if min_len > 0:
+            if metadata == 'DATE':
+                texts = []
+                tokens_agg = []
+                for tokens in df_pd['TEXT_PROCESSED']:
+                    if len(tokens_agg) < min_len:
+                        tokens_agg += tokens
+                    else:
+                        texts.append(tokens_agg)
+                        tokens_agg = []
+                # Append the rest of tokens to data
+                if tokens_agg is not []:
                     texts.append(tokens_agg)
-                    tokens_agg = []
-            # Append the rest of tokens to data
-            if tokens_agg is not []:
-                texts.append(tokens_agg)
-        if metadata ==  'SENTIMENT':
-            pass
+            if metadata == 'SENTIMENT':
+                pass
+        else:
+            texts = df_pd['TEXT_PROCESSED']
 
     return texts
+
 
 def gensim_prep(texts):
     dictionary = Dictionary(texts)
     corpus = [dictionary.doc2bow(text) for text in texts]
     return texts, dictionary, corpus
 
-def preprocessor(df_pd, stopwords, language='de', text = 'TEXT', metadata=None, min_len=300):
+
+def preprocessor(df_pd, stopwords, language='de', text='TEXT', metadata=None, min_len=300):
     text_preproc = text_preproc_maker(stopwords, language)
-    df_pd[text+'_PROCESSED'] = df_pd[text].apply(text_preproc)
+    df_pd[text + '_PROCESSED'] = df_pd[text].apply(text_preproc)
     texts = text_aggregator(df_pd, metadata, min_len)
     return gensim_prep(texts)
+
 
 if __name__ == "__main__":
     from spacy.lang.de.stop_words import STOP_WORDS

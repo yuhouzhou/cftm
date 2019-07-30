@@ -17,7 +17,7 @@ df_pd = cftm_parser.parquet_transform(path1, path2, n=-1)
 # Preprocessing
 stopwords = list(STOP_WORDS)
 texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
-                                            min_len=300)
+                                            min_len=-1)
 
 # Data Modelling
 lda = LdaModel(corpus, num_topics=10)
