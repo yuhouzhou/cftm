@@ -23,7 +23,7 @@ def parquet_transform(path1, path2, n=-1):
     parquetFile2.createOrReplaceTempView("parquetFile2")
 
     # Select columns which are needed
-    df = spark.sql("""
+    query_p1 = """
     SELECT
         /* T0.KATEGORIE_2     AS CATEGORY_2,
         T0.KATEGORIE_1     AS CATEGORY_1,
@@ -42,13 +42,17 @@ def parquet_transform(path1, path2, n=-1):
             AND (T1.UMFRAGE_KATEGORIE_ID = 1
                 AND (T1.GRUPPE_ID = 170
                     OR T1.GRUPPE_ID = 171)))
-    """)
+    """
+    if n>=0:
+        query_p2 = " LIMIT "+ str(n)
+    else:
+        query_p2 = ""
+    query = query_p1 + query_p2
+
+    df = spark.sql(query)
 
     # Convert Spark dataframe to Pandas dataframe
-    if n>=0:
-        df_pd = df.dropDuplicates().toPandas()[:n]
-    else:
-        df_pd = df.dropDuplicates().toPandas()
+    df_pd = df.dropDuplicates().toPandas()
 
     sc.stop()
 
