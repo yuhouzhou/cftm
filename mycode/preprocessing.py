@@ -17,32 +17,32 @@ def text_aggregator(df_pd, metadata=None, min_len=300):
     if metadata is not None:
         # TODO: increase the efficiency of aggregation: numpy or spark
         if metadata == 'DATE':
-            data = []
+            texts = []
             tokens_agg = []
             for tokens in df_pd['TEXT_PROCESSED']:
                 if len(tokens_agg) < min_len:
                     tokens_agg += tokens
                 else:
-                    data.append(tokens_agg)
+                    texts.append(tokens_agg)
                     tokens_agg = []
             # Append the rest of tokens to data
             if tokens_agg is not []:
-                data.append(tokens_agg)
+                texts.append(tokens_agg)
         if metadata ==  'SENTIMENT':
             pass
 
-    return data
+    return texts
 
-def gensim_prep(data):
-    dictionary = Dictionary(data)
-    corpus = [dictionary.doc2bow(text) for text in data]
-    return dictionary, corpus
+def gensim_prep(texts):
+    dictionary = Dictionary(texts)
+    corpus = [dictionary.doc2bow(text) for text in texts]
+    return texts, dictionary, corpus
 
 def preprocessor(df_pd, stopwords, language='de', text = 'TEXT', metadata=None, min_len=300):
     text_preproc = text_preproc_maker(stopwords, language)
     df_pd[text+'_PROCESSED'] = df_pd[text].apply(text_preproc)
-    data = text_aggregator(df_pd, metadata, min_len)
-    return gensim_prep(data)
+    texts = text_aggregator(df_pd, metadata, min_len)
+    return gensim_prep(texts)
 
 if __name__ == "__main__":
     from spacy.lang.de.stop_words import STOP_WORDS
@@ -56,6 +56,6 @@ if __name__ == "__main__":
     text_preproc = text_preproc_maker(stopwords)
 
     df_pd['TEXT_PROCESSED'] = df_pd['TEXT'].apply(text_preproc)
-    data = text_aggregator(df_pd, metadata='DATE', min_len=300)
-    for i in range(len(data)):
-        print("The length of Doc {} is {}".format(i, len(data[i])))
+    texts = text_aggregator(df_pd, metadata='DATE', min_len=300)
+    for i in range(len(texts)):
+        print("The length of Doc {} is {}".format(i, len(texts[i])))

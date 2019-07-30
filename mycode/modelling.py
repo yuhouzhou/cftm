@@ -11,15 +11,15 @@ df_pd = pp.parquet_transform(path1, path2, n=1000)
 text_preproc = pp.text_preproc_maker(list(STOP_WORDS))
 df_pd['TEXT_PROCESSED'] = df_pd['TEXT'].apply(text_preproc)
 
-data = pp.text_aggregator(df_pd, metadata='DATE', min_len=500)
+texts = pp.text_aggregator(df_pd, metadata='DATE', min_len=500)
 
-dictionary, corpus = pp.gensim_prep(data)
+dictionary, corpus = pp.gensim_prep(texts)
 
 # Data Modelling
 lda = LdaModel(corpus, num_topics=10)
 
 # pickle the model
-lda_pickle = {"model": lda, "dictionary": dictionary, "corpus": corpus}
+lda_pickle = {"model": lda, "texts":texts, "dictionary": dictionary, "corpus": corpus}
 pickle.dump(lda_pickle, open('../output/lda_model.pickle', 'wb'))
 
 
