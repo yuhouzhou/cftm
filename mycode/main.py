@@ -8,9 +8,10 @@ import pyLDAvis.gensim
 import webbrowser
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 # import argparse
 
-USE_TRAINING_DATA = False
+USE_TRAINING_DATA = True
 if USE_TRAINING_DATA == True:
     training_data = pickle.load(open('../output/training_data.pickle', 'rb'))
     texts, dictionary, corpus = training_data['texts'], training_data['dictionary'], training_data['corpus']
@@ -31,7 +32,7 @@ else:
 # Model Generation
 lda_lst = []
 coherence_lst = []
-n_topics_min = 1
+n_topics_min = 95
 n_topics_max = 100
 for i in range(n_topics_min, n_topics_max + 1):
     # Data Modelling
@@ -45,7 +46,10 @@ for i in range(n_topics_min, n_topics_max + 1):
     coherence_lst.append(coherence)
 
 # Model Selection
-print(coherence_lst)
+plt.scatter(range(n_topics_min, n_topics_max+1), coherence_lst)
+plt.xlabel('Number of Topics')
+plt.ylabel('Topic Coherence')
+plt.savefig('../output/coherence.png')
 index = np.argmin(coherence_lst)
 lda = lda_lst[index]
 lda.save('../output/lda_model')
