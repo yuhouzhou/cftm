@@ -18,6 +18,8 @@ df_pd = cftm_parser.parquet_transform(path1, path2, n=-1)
 stopwords = list(STOP_WORDS)
 texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
                                             min_len=-1)
+training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
+pickle.dump(training_data, open('../output/training_data.pickle', 'wb'))
 
 # Model Generation
 lda_lst = []
@@ -38,10 +40,7 @@ for i in range(n_topics_min, n_topics_max + 1):
 # Model Selection
 index = np.argmin(coherence_lst)
 lda = lda_lst[index]
-
-# pickle the model
-lda_pickle = {"model": lda, "texts": texts, "dictionary": dictionary, "corpus": corpus}
-pickle.dump(lda_pickle, open('../output/lda_model.pickle', 'wb'))
+lda.save('../output/lda_model')
 
 # Data Visualization
 vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
