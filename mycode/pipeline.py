@@ -66,16 +66,12 @@ if args.modelling:
     # Model Selection
     lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
                   "n_topics_min": n_topics_min, "n_topics_max": n_topics_max}
-    pickle.dump(lda_pickle, open('../output/lda_model_n_coherence_lst.pydict', 'wb'))
+    pickle.dump(lda_pickle, open('../output/lda_model_n_coherence_lst.pickle', 'wb'))
 else:
-    lda_pickle = pickle.load(open('../output/lda_model_n_coherence_lst.pydict', 'rb'))
-    lda_lst = lda_pickle['model_lst']
-    coherence_lst = lda_pickle['coherence_lst']
-    n_topics_min = lda_pickle['n_topics_min']
-    n_topics_max = lda_pickle['n_topics_max']
+    lda_pickle = pickle.load(open('../output/lda_model_n_coherence_lst.pickle', 'rb'))
+    lda_lst, coherence_lst, n_topics_min, n_topics_max = lda_pickle.values()
 
 # Plot Topic Coherence
-# TODO: Change the way of pickling above
 index = int(np.argmin(coherence_lst))
 lda = lda_lst[index]
 plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
