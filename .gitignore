@@ -8,3 +8,4 @@ material/*.gliffy
 material/project-pro*.pdf
 spark-warehouse/
 *.pickle
+output/archive/
