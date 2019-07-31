@@ -39,7 +39,7 @@ if args.preprocessing:
     # Preprocessing
     stopwords = list(STOP_WORDS)
     texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
-                                                min_len=300)
+                                                min_len=2000)
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open('../output/training_data.pickle', 'wb'))
 else:
