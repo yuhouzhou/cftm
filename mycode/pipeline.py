@@ -39,7 +39,7 @@ if args.preprocessing:
     # Preprocessing
     stopwords = list(STOP_WORDS)
     texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
-                                                min_len=-1)
+                                                min_len=300)
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open('../output/training_data.pickle', 'wb'))
 else:
@@ -52,6 +52,7 @@ if args.modelling:
     coherence_lst = []
     n_topics_min = 95
     n_topics_max = 100
+    print("Topic Modelling starts...")
     for i in tqdm(range(n_topics_min, n_topics_max + 1)):
         # Data Modelling
         lda = LdaModel(corpus, num_topics=i)
@@ -74,12 +75,13 @@ else:
     coherence_lst = lda_pickle['coherence_lst']
 
 # Plot Topic Coherence
-    plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
-    plt.scatter(n_topics_min + index, coherence_lst[index], color='r')
-    plt.title('Topic Coherence vs. Number of Topics')
-    plt.xlabel('Number of Topics')
-    plt.ylabel('Topic Coherence')
-    plt.savefig('../output/coherence.png')
+# TODO: Change the way of pickling above
+plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
+plt.scatter(n_topics_min + index, coherence_lst[index], color='r')
+plt.title('Topic Coherence vs. Number of Topics')
+plt.xlabel('Number of Topics')
+plt.ylabel('Topic Coherence')
+plt.savefig('../output/coherence.png')
 
 # Data Visualization
 vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)

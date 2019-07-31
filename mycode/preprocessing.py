@@ -1,7 +1,7 @@
 import string
 import spacy
 from gensim.corpora.dictionary import Dictionary
-
+from tqdm import tqdm
 
 def text_preproc_maker(stopwords, language='de'):
     nlp = spacy.load(language)
@@ -23,7 +23,7 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
             if metadata == 'DATE':
                 texts = []
                 tokens_agg = []
-                for tokens in df_pd['TEXT_PROCESSED']:
+                for tokens in tqdm(df_pd['TEXT_PROCESSED']):
                     if len(tokens_agg) < min_len:
                         tokens_agg += tokens
                     else:
@@ -48,7 +48,10 @@ def gensim_prep(texts):
 
 def preprocessor(df_pd, stopwords, language='de', text='TEXT', metadata=None, min_len=300):
     text_preproc = text_preproc_maker(stopwords, language)
-    df_pd[text + '_PROCESSED'] = df_pd[text].apply(text_preproc)
+    print('Text preprocessing starts...')
+    tqdm.pandas()
+    df_pd[text + '_PROCESSED'] = df_pd[text].progress_apply(text_preproc)
+    print("Text aggregation starts...")
     texts = text_aggregator(df_pd, metadata, min_len)
     return gensim_prep(texts)
 
