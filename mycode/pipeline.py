@@ -14,32 +14,31 @@ from tqdm import tqdm
 
 # TODO: Before deployment finish arg parser; enclose the pipeline into one function
 # n_topic_min and max, etc....
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
 
-    parser.add_argument(
-        '--preprocessing',
-        type = int,
-        help ='Use preprocessing'
-    )
-    parser.add_argument(
-        '--modelling',
-        type=int,
-        help='Use modelling'
-    )
-    args = parser.parse_args()
+parser = argparse.ArgumentParser()
 
+parser.add_argument(
+    '--preprocessing',
+    type=int,
+    help='Use preprocessing'
+)
+parser.add_argument(
+    '--modelling',
+    type=int,
+    help='Use modelling'
+)
+args = parser.parse_args()
 
 if args.preprocessing:
     # Parsing
     path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
     path2 = "../data.nosync/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet"
-    df_pd = cftm_parser.parquet_transform(path1, path2, n=20000)
+    df_pd = cftm_parser.parquet_transform(path1, path2, n=200000)
 
     # Preprocessing
     stopwords = list(STOP_WORDS)
     texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
-                                                min_len=2000)
+                                                min_len=-1)
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open('../output/training_data.pickle', 'wb'))
 else:
@@ -65,17 +64,20 @@ if args.modelling:
         coherence_lst.append(coherence)
 
     # Model Selection
-    index = np.argmin(coherence_lst)
-    lda = lda_lst[index]
-    lda_pickle = {"model": lda, "coherence_lst":coherence_lst}
+    lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
+                  "n_topics_min": n_topics_min, "n_topics_max": n_topics_max}
     pickle.dump(lda_pickle, open('../output/lda_model_n_coherence_lst.pydict', 'wb'))
 else:
     lda_pickle = pickle.load(open('../output/lda_model_n_coherence_lst.pydict', 'rb'))
-    lda = lda_pickle['model']
+    lda_lst = lda_pickle['model_lst']
     coherence_lst = lda_pickle['coherence_lst']
+    n_topics_min = lda_pickle['n_topics_min']
+    n_topics_max = lda_pickle['n_topics_max']
 
 # Plot Topic Coherence
 # TODO: Change the way of pickling above
+index = int(np.argmin(coherence_lst))
+lda = lda_lst[index]
 plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
 plt.scatter(n_topics_min + index, coherence_lst[index], color='r')
 plt.title('Topic Coherence vs. Number of Topics')
@@ -87,6 +89,3 @@ plt.savefig('../output/coherence.png')
 vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
 pyLDAvis.save_html(vis, '../output/lda.html')
 webbrowser.open(os.path.abspath('../output/lda.html'), new=2)
-
-
-
