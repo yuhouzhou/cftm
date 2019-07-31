@@ -20,12 +20,12 @@ parser = argparse.ArgumentParser()
 parser.add_argument(
     '--preprocessing',
     type=int,
-    help='Use preprocessing'
+    help='Enter 1 to preprocess parquet files; 0 to use pickled training file'
 )
 parser.add_argument(
     '--modelling',
     type=int,
-    help='Use modelling'
+    help='Enter 1 to run lda models; 0 to use pickled lda model '
 )
 args = parser.parse_args()
 
@@ -33,7 +33,7 @@ if args.preprocessing:
     # Parsing
     path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
     path2 = "../data.nosync/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet"
-    df_pd = cftm_parser.parquet_transform(path1, path2, n=200000)
+    df_pd = cftm_parser.parquet_transform(path1, path2, n=20000)
 
     # Preprocessing
     stopwords = list(STOP_WORDS)
@@ -49,12 +49,12 @@ if args.modelling:
     # Model Generation
     lda_lst = []
     coherence_lst = []
-    n_topics_min = 95
+    n_topics_min = 1
     n_topics_max = 100
     print("Topic Modelling starts...")
     for i in tqdm(range(n_topics_min, n_topics_max + 1)):
         # Data Modelling
-        lda = LdaModel(corpus, num_topics=i)
+        lda = LdaModel(corpus, num_topics=i, random_state=1)
         lda_lst.append(lda)
 
         # Data Evaluation
@@ -76,9 +76,11 @@ index = int(np.argmin(coherence_lst))
 lda = lda_lst[index]
 plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
 plt.scatter(n_topics_min + index, coherence_lst[index], color='r')
+plt.annotate(str(n_topics_min + index)+', '+str(coherence_lst[index]), (n_topics_min + index, coherence_lst[index]))
 plt.title('Topic Coherence vs. Number of Topics')
 plt.xlabel('Number of Topics')
-plt.ylabel('Topic Coherence')
+plt.ylabel('Topic Coherence (By UMass)')
+plt.tight_layout()
 plt.savefig('../output/coherence.png')
 
 # Data Visualization
