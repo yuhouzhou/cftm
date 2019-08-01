@@ -6,7 +6,7 @@ from tqdm import tqdm
 def text_preproc_maker(stopwords, language='de'):
     nlp = spacy.load(language)
 
-    # TODO: increase the efficiency of text_preproc
+    # TODO: increase the efficiency of text_preproc; Now: 8 min 12 sec for 1,300,724 entries of feedback
     def text_preproc(sentence):
         tokens = nlp.tokenizer(sentence)
         tokens = [token.lemma_.lower().strip() for token in tokens]

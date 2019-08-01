@@ -30,7 +30,7 @@ parser.add_argument(
 )
 parser.add_argument(
     '--modelling',
-    type=int, nargs='?', const=1, default=-1,
+    type=int, nargs='?', const=1, default=1,
     help='Enter 1 to run lda models; 0 to use pickled lda model '
 )
 parser.add_argument(
