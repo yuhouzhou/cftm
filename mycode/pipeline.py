@@ -35,8 +35,15 @@ parser.add_argument(
 )
 
 parser.add_argument(
-    '-r', '--topic_range', nargs=2, default=[10, 15],
+    '-r', '--topic_range',
+    nargs=2, default=[10, 15],
     type=int
+)
+
+parser.add_argument(
+    '-v', '--visualise',
+    type=int, nargs="?", const=1, default=1,
+    help='Enter 1 to visualise the topic coherence and the model result; 0 to skip'
 )
 
 
@@ -87,21 +94,22 @@ else:
     lda_pickle = pickle.load(open('../output/lda_model_n_coherence_lst.pickle', 'rb'))
     lda_lst, coherence_lst, n_topic_min, n_topics_max = lda_pickle.values()
 
-# Plot Topic Coherence
-index = int(np.argmin(coherence_lst))
-lda = lda_lst[index]
-plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst)
-plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
-plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]), (n_topic_min + index, coherence_lst[index]))
-plt.title('Topic Coherence vs. Number of Topics')
-plt.xlabel('Number of Topics')
-plt.ylabel('Topic Coherence (By UMass)')
-plt.tight_layout()
-plt.savefig('../output/coherence.png')
-if args.modelling:
-    plt.savefig('../output/archive/coherence_'+dt+'.png')
+if args.visualise:
+    # Plot Topic Coherence
+    index = int(np.argmin(coherence_lst))
+    lda = lda_lst[index]
+    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst)
+    plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
+    plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]), (n_topic_min + index, coherence_lst[index]))
+    plt.title('Topic Coherence vs. Number of Topics')
+    plt.xlabel('Number of Topics')
+    plt.ylabel('Topic Coherence (By UMass)')
+    plt.tight_layout()
+    plt.savefig('../output/coherence.png')
+    if args.modelling:
+        plt.savefig('../output/archive/coherence_'+dt+'.png')
 
-# Data Visualization
-vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
-pyLDAvis.save_html(vis, '../output/lda.html')
-webbrowser.open(os.path.abspath('../output/lda.html'), new=2)
+    # Data Visualization
+    vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
+    pyLDAvis.save_html(vis, '../output/lda.html')
+    webbrowser.open(os.path.abspath('../output/lda.html'), new=2)
