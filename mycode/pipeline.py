@@ -16,31 +16,29 @@ import datetime
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '--preprocessing',
+    '-p', '--preprocessing',
     type=int, nargs='?', const=1, default=1,
     help='Enter 1 to preprocess parquet files; 0 to use pickled training file'
 )
 parser.add_argument(
-    '--observation_n',
+    '-o', '--observation_n',
     type=int, nargs='?', const=-1,default=-1,
 )
 parser.add_argument(
-    '--agg_length',
+    '-l', '--agg_length',
     type=int, nargs='?', const=-1,default=-1
 )
 parser.add_argument(
-    '--modelling',
+    '-m', '--modelling',
     type=int, nargs='?', const=1, default=1,
     help='Enter 1 to run lda models; 0 to use pickled lda model '
 )
+
 parser.add_argument(
-    '--topics_n_min', nargs='?', const=10, default=10,
+    '-r', '--topic_range', nargs=2, default=[10, 15],
     type=int
 )
-parser.add_argument(
-    '--topics_n_max', nargs='?', const=20, default=20,
-    type=int
-)
+
 
 args = parser.parse_args()
 
@@ -66,10 +64,10 @@ if args.modelling:
     # Model Generation
     lda_lst = []
     coherence_lst = []
-    n_topics_min = args.topics_n_min
-    n_topics_max = args.topics_n_max
+    n_topic_min = args.topic_range[0]
+    n_topics_max = args.topic_range[1]
     print("Topic Modelling starts...")
-    for i in tqdm(range(n_topics_min, n_topics_max + 1)):
+    for i in tqdm(range(n_topic_min, n_topics_max + 1)):
         # Data Modelling
         lda = LdaModel(corpus, num_topics=i, random_state=1)
         lda_lst.append(lda)
@@ -82,19 +80,19 @@ if args.modelling:
 
     # Model Selection
     lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
-                  "n_topics_min": n_topics_min, "n_topics_max": n_topics_max}
+                  "n_topics_min": n_topic_min, "n_topics_max": n_topics_max}
     pickle.dump(lda_pickle, open('../output/lda_model_n_coherence_lst.pickle', 'wb'))
     pickle.dump(lda_pickle, open('../output/archive/lda_model_n_coherence_lst_'+dt+'.pickle', 'wb'))
 else:
     lda_pickle = pickle.load(open('../output/lda_model_n_coherence_lst.pickle', 'rb'))
-    lda_lst, coherence_lst, n_topics_min, n_topics_max = lda_pickle.values()
+    lda_lst, coherence_lst, n_topic_min, n_topics_max = lda_pickle.values()
 
 # Plot Topic Coherence
 index = int(np.argmin(coherence_lst))
 lda = lda_lst[index]
-plt.scatter(range(n_topics_min, n_topics_max + 1), coherence_lst)
-plt.scatter(n_topics_min + index, coherence_lst[index], color='r')
-plt.annotate(str(n_topics_min + index)+', '+str(coherence_lst[index]), (n_topics_min + index, coherence_lst[index]))
+plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst)
+plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
+plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]), (n_topic_min + index, coherence_lst[index]))
 plt.title('Topic Coherence vs. Number of Topics')
 plt.xlabel('Number of Topics')
 plt.ylabel('Topic Coherence (By UMass)')
