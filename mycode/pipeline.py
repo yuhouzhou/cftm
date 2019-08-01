@@ -32,7 +32,7 @@ parser.add_argument(
 )
 
 parser.add_argument(
-    '-', '--path_file',
+    '-p', '--path_file',
     type=str, nargs='?', const='./path.yaml', default='./path.yaml'
 )
 
