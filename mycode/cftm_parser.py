@@ -1,8 +1,9 @@
 from pyspark.context import SparkContext
 from pyspark.sql.session import SparkSession
 
+
 def parquet_transform(path1, path2, n=-1):
-    '''Transform the project parquet file to Pandas Dataframe
+    """Transform the project parquet file to Pandas Dataframe
 
     Args:
         path1: the path of the first parquet file
@@ -11,17 +12,20 @@ def parquet_transform(path1, path2, n=-1):
 
     Returns: a Pandas Dataframe including text and its metadata
 
-    '''
+    """
 
     sc = SparkContext('local')
     spark = SparkSession(sc)
 
+    print("> File loading started...")
     # Load parquet file into spark dataframe
     parquetFile1 = spark.read.parquet(path1)
     parquetFile1.createOrReplaceTempView("parquetFile1")
     parquetFile2 = spark.read.parquet(path2)
     parquetFile2.createOrReplaceTempView("parquetFile2")
+    print("> File loading finshied...")
 
+    print("> Parsing started...")
     # Select columns which are needed
     query_p1 = """
     SELECT
@@ -43,8 +47,8 @@ def parquet_transform(path1, path2, n=-1):
                 AND (T1.GRUPPE_ID = 170
                     OR T1.GRUPPE_ID = 171)))
     """
-    if n>=0:
-        query_p2 = " LIMIT "+ str(n)
+    if n >= 0:
+        query_p2 = " LIMIT " + str(n)
     else:
         query_p2 = ""
     query = query_p1 + query_p2
@@ -54,9 +58,12 @@ def parquet_transform(path1, path2, n=-1):
     # Convert Spark dataframe to Pandas dataframe
     df_pd = df.dropDuplicates().toPandas()
 
+    print("> Parsing finished!")
+
     sc.stop()
 
     return df_pd
+
 
 if __name__ == "__main__":
     path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"

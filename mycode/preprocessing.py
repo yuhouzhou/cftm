@@ -20,7 +20,7 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
     if metadata is not None:
         # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
         if min_len > 0:
-            print("Text aggregation starts...")
+            print("> Text aggregation started...")
             if metadata == 'DATE':
                 texts = []
                 tokens_agg = []
@@ -36,7 +36,7 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
             if metadata == 'SENTIMENT':
                 pass
         else:
-            print("Text aggregation is skipped...")
+            print("> Text aggregation is skipped...")
             texts = df_pd['TEXT_PROCESSED']
 
     return texts
@@ -50,7 +50,7 @@ def gensim_prep(texts):
 
 def preprocessor(df_pd, stopwords, language='de', text='TEXT', metadata=None, min_len=300):
     text_preproc = text_preproc_maker(stopwords, language)
-    print('Text preprocessing starts...')
+    print('> Text preprocessing started...')
     tqdm.pandas()
     df_pd[text + '_PROCESSED'] = df_pd[text].progress_apply(text_preproc)
     texts = text_aggregator(df_pd, metadata, min_len)
