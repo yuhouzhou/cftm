@@ -32,6 +32,11 @@ parser.add_argument(
 )
 
 parser.add_argument(
+    '-', '--path_file',
+    type=str, nargs='?', const='./path.yaml', default='./path.yaml'
+)
+
+parser.add_argument(
     '-o', '--observation_n',
     type=int, nargs='?', const=-1, default=-1
 )
@@ -43,7 +48,7 @@ parser.add_argument(
 
 parser.add_argument(
     '-r', '--topic_range',
-    type=int, nargs=2, default=[10, 15]
+    type=int, nargs=2, default=[1, 10]
 )
 
 parser.add_argument(
@@ -53,7 +58,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path = yaml.load(open('./path.yaml')).values()
+parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path = yaml.load(open(args.path_file)).values()
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
 
 if args.pipeline[0]:
