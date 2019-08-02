@@ -74,6 +74,8 @@ if __name__ == "__main__":
     text_preproc = text_preproc_maker(stopwords)
 
     df_pd['TEXT_PROCESSED'] = df_pd['TEXT'].apply(text_preproc)
+    # TODO:
+    #  Remove low frequent words
     texts = text_aggregator(df_pd, metadata='DATE', min_len=-1)
     for i in range(len(texts)):
         print("The length of Doc {} is {}".format(i, len(texts[i])))
