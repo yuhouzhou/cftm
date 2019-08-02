@@ -6,7 +6,8 @@ from tqdm import tqdm
 def text_preproc_maker(stopwords, language='de'):
     nlp = spacy.load(language)
 
-    # TODO: increase the efficiency of text_preproc; Now: 8 min 12 sec for 1,300,724 entries of feedback
+    # TODO:
+    #  increase the efficiency of text_preproc; Now: 8 min 12 sec for 1,300,724 entries of feedback
     def text_preproc(sentence):
         tokens = nlp.tokenizer(sentence)
         tokens = [token.lemma_.lower().strip() for token in tokens]
@@ -21,6 +22,8 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
         # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
         if min_len > 0:
             print("> Text aggregation started...")
+            # TODO:
+            #  Figure out why this does not improve the result
             if metadata == 'DATE':
                 texts = []
                 tokens_agg = []
@@ -33,6 +36,8 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
                 # Append the rest of tokens to data
                 if tokens_agg is not []:
                     texts.append(tokens_agg)
+            # TODO:
+            #  Finish the SENTIMENT aggregation
             if metadata == 'SENTIMENT':
                 pass
         else:

@@ -93,9 +93,9 @@ if args.pipeline[1]:
             lda_lst.append(lda)
 
             # Data Evaluation
-            coherence_model_lda = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
-                                                 coherence='u_mass')
-            coherence = coherence_model_lda.get_coherence()
+            cm = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
+                                coherence='u_mass')
+            coherence = cm.get_coherence()
             coherence_lst.append(coherence)
     # If the modelling time is too long, the program can be interrupted by keyboard.
     # All the generated content will be saved.
