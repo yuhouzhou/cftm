@@ -85,17 +85,31 @@ if args.pipeline[1]:
     coherence_lst = []
     n_topic_min = args.topic_range[0]
     n_topics_max = args.topic_range[1]
-    print("> Topic modelling started...")
-    for i in tqdm(range(n_topic_min, n_topics_max + 1)):
-        # Data Modelling
-        lda = LdaModel(corpus, num_topics=i, random_state=args.seed)
-        lda_lst.append(lda)
+    print("> Topic modelling started at ", datetime.datetime.now())
+    try:
+        for i in tqdm(range(n_topic_min, n_topics_max + 1)):
+            # Data Modelling
+            lda = LdaModel(corpus, num_topics=i, random_state=args.seed)
+            lda_lst.append(lda)
 
-        # Data Evaluation
-        coherence_model_lda = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
-                                             coherence='u_mass')
-        coherence = coherence_model_lda.get_coherence()
-        coherence_lst.append(coherence)
+            # Data Evaluation
+            cm = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
+                                coherence='u_mass')
+            coherence = cm.get_coherence()
+            coherence_lst.append(coherence)
+    # If the modelling time is too long, the program can be interrupted by keyboard.
+    # All the generated content will be saved.
+    # TODO:
+    #  Does not work due to scipy BUG
+    #  https://github.com/ContinuumIO/anaconda-issues/issues/905
+    #  and
+    #  https://stackoverflow.com/questions/15457786/ctrl-c-crashes-python-after-importing-scipy-stats
+    except KeyboardInterrupt:
+        if len(lda_lst) == len(coherence_lst):
+            print("> The modelling processing is stopped, but generated Models and their coherence are saved.")
+        else:
+            print("> The modelling processing is stopped. Generated Models are saved, "
+                  "but the coherence of the last model is failed to save.")
 
     # Model Selection
     lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
