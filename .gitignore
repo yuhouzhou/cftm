@@ -3,10 +3,9 @@ data*/
 output/archive/
 *.pickle
 
-# Only track diliverables
+# Track deliverables
 doc/*
 !doc/Customer Feedback Topic Modeling*.pdf
-!doc/Customer Feedback Topic Modeling*.tex
 
 # Others
 *.ipynb
@@ -18,3 +17,5 @@ tmp/
 
 # Include
 !*.sty
+!*.tex
+!*.docx
