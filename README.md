@@ -35,5 +35,5 @@ By using `spark.sql()` we get the columns of interests, such as "Date", "Sentime
 
 Use `matplotlib` to visualize the topic coherence change of models.
 
-Use `pyLDAvis.sklearn` to visualize the topic result.
+Use `pyLDAvis` to visualize the topic result.
 
