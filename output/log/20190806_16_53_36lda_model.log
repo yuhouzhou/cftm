@@ -1,0 +1,1656 @@
+2019-08-06 16:53:43,406 : INFO : using symmetric alpha at 0.005
+2019-08-06 16:53:43,407 : INFO : using symmetric eta at 0.005
+2019-08-06 16:53:43,433 : INFO : using serial LDA version on this node
+2019-08-06 16:53:46,655 : INFO : running online (single-pass) LDA training, 200 topics, 1 passes over the supplied corpus of 1300724 documents, updating model once every 30000 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-06 16:53:46,657 : INFO : PROGRESS: pass 0, at document #30000/1300724
+2019-08-06 16:54:00,556 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:54:04,986 : INFO : topic #92 (0.005): 0.026*"bild" + 0.019*"qualität" + 0.019*"bestellen" + 0.016*"buch" + 0.014*"einfach" + 0.013*"foto" + 0.012*"karte" + 0.011*"karten" + 0.011*"seite" + 0.010*"2"
+2019-08-06 16:54:04,988 : INFO : topic #27 (0.005): 0.024*"hintergrund" + 0.017*"bild" + 0.015*"fotobuch" + 0.013*"seite" + 0.013*"programm" + 0.008*"2" + 0.008*"bestellen" + 0.008*"zufrieden" + 0.008*"größe" + 0.007*"neu"
+2019-08-06 16:54:04,990 : INFO : topic #192 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 16:54:04,992 : INFO : topic #137 (0.005): 0.021*"zahlen" + 0.021*"erstellen" + 0.021*"fotobücher" + 0.021*"seite" + 0.021*"€" + 0.020*"ca." + 0.010*"schnitt" + 0.010*"gelingen" + 0.010*"15" + 0.010*"2"
+2019-08-06 16:54:04,994 : INFO : topic #127 (0.005): 0.022*"service" + 0.017*"erhalten" + 0.013*"cliparts" + 0.013*"problem" + 0.013*"erneut" + 0.009*"buch" + 0.009*"fertigstellen" + 0.009*"erscheinen" + 0.009*"2014" + 0.009*"gesamt"
+2019-08-06 16:54:05,153 : INFO : topic diff=196.476669, rho=1.000000
+2019-08-06 16:54:05,209 : INFO : PROGRESS: pass 0, at document #60000/1300724
+2019-08-06 16:54:23,239 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:54:27,480 : INFO : topic #182 (0.005): 0.220*"toll" + 0.039*"geschenk" + 0.033*"öffnen" + 0.028*"super" + 0.025*"bestellen" + 0.025*"fotobuch" + 0.025*"software" + 0.024*"idee" + 0.023*"fotobücher" + 0.019*"produkt"
+2019-08-06 16:54:27,483 : INFO : topic #101 (0.005): 0.055*"beliefern" + 0.000*"kalender" + 0.000*"weihnachten" + 0.000*"recherche" + 0.000*"termin" + 0.000*"versprechen" + 0.000*"fotokalender" + 0.000*"auftrag" + 0.000*"auslösen" + 0.000*"ergebnis"
+2019-08-06 16:54:27,486 : INFO : topic #97 (0.005): 0.052*"x" + 0.046*"format" + 0.041*"auswählen" + 0.040*"30" + 0.036*"stürzen" + 0.031*"cm" + 0.028*"bestellen" + 0.026*"foto" + 0.019*"querformat" + 0.018*"panorama"
+2019-08-06 16:54:27,488 : INFO : topic #25 (0.005): 0.230*"einfache" + 0.049*"schnellen" + 0.034*"bild" + 0.034*"foto" + 0.033*"lieferung" + 0.032*"bilderrahmen" + 0.026*"material" + 0.024*"bestellvorgang" + 0.022*"sehen" + 0.017*"gestaltung"
+2019-08-06 16:54:27,490 : INFO : topic #162 (0.005): 0.096*"person" + 0.091*"fest" + 0.065*"blättern" + 0.064*"foto" + 0.058*"lassen" + 0.058*"abbilden" + 0.048*"karton" + 0.047*"seite" + 0.044*"dick" + 0.044*"wählen"
+2019-08-06 16:54:27,651 : INFO : topic diff=1.401915, rho=0.707107
+2019-08-06 16:54:27,716 : INFO : PROGRESS: pass 0, at document #90000/1300724
+2019-08-06 16:54:45,139 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:54:49,203 : INFO : topic #164 (0.005): 0.084*"extrem" + 0.047*"bild" + 0.046*"trotz" + 0.045*"..." + 0.033*"einfach" + 0.033*"gelingen" + 0.032*"somit" + 0.030*"qualität" + 0.029*"auge" + 0.024*"finde"
+2019-08-06 16:54:49,205 : INFO : topic #198 (0.005): 0.492*"zufrieden" + 0.206*"produkt" + 0.064*"auswahl" + 0.038*"weiterempfehlen" + 0.016*"all" + 0.016*"lieb" + 0.013*"schön" + 0.012*"ander" + 0.012*"handyhülle" + 0.011*"programm"
+2019-08-06 16:54:49,207 : INFO : topic #149 (0.005): 0.066*"schnell" + 0.029*"qualität" + 0.027*"gestaltungsmöglichkeiten" + 0.026*"inhalt" + 0.025*"verarbeitung" + 0.022*"software" + 0.022*"finden" + 0.021*"auswahl" + 0.018*"einfach" + 0.017*"geben"
+2019-08-06 16:54:49,209 : INFO : topic #82 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 16:54:49,211 : INFO : topic #9 (0.005): 0.124*"ware" + 0.061*"grüßen" + 0.047*"loben" + 0.034*"lieben" + 0.030*"eintreffen" + 0.028*"gerne" + 0.027*"schöne" + 0.026*"anmerkung" + 0.025*"service" + 0.025*"cm"
+2019-08-06 16:54:49,378 : INFO : topic diff=0.226742, rho=0.577350
+2019-08-06 16:54:49,437 : INFO : PROGRESS: pass 0, at document #120000/1300724
+2019-08-06 16:55:06,923 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:55:11,312 : INFO : topic #21 (0.005): 0.284*"super" + 0.038*"bilder" + 0.030*"bild" + 0.027*"schön" + 0.026*"fotobuch" + 0.025*"bestellen" + 0.022*"sehen" + 0.015*"ansonsten" + 0.015*"dünn" + 0.015*"kalender"
+2019-08-06 16:55:11,314 : INFO : topic #15 (0.005): 0.082*"schicken" + 0.064*"buchen" + 0.031*"fotoalben" + 0.025*"bestellen" + 0.024*"mal" + 0.022*"e-mail" + 0.021*"neu" + 0.020*"lassen" + 0.019*"halte" + 0.019*"fotobuch"
+2019-08-06 16:55:11,316 : INFO : topic #0 (0.005): 0.081*"qualität" + 0.079*"wandbilder" + 0.065*"handling" + 0.049*"einfaches" + 0.037*"diesmal" + 0.032*"schnellen" + 0.031*"einfach" + 0.028*"bestellen" + 0.022*"bild" + 0.018*"direkt"
+2019-08-06 16:55:11,318 : INFO : topic #101 (0.005): 0.117*"beliefern" + 0.000*"kalender" + 0.000*"weihnachten" + 0.000*"recherche" + 0.000*"termin" + 0.000*"versprechen" + 0.000*"fotokalender" + 0.000*"auftrag" + 0.000*"auslösen" + 0.000*"ergebnis"
+2019-08-06 16:55:11,320 : INFO : topic #183 (0.005): 0.067*"praktisch" + 0.061*"eingeben" + 0.056*"mehrmals" + 0.043*"insbesondere" + 0.028*"finden" + 0.028*"wort" + 0.027*"foto" + 0.024*"normale" + 0.024*"falsch" + 0.023*"bestellen"
+2019-08-06 16:55:11,467 : INFO : topic diff=0.108092, rho=0.500000
+2019-08-06 16:55:11,522 : INFO : PROGRESS: pass 0, at document #150000/1300724
+2019-08-06 16:55:27,749 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:55:32,176 : INFO : topic #114 (0.005): 0.154*"rundum" + 0.131*"zufrieden" + 0.030*"linux" + 0.023*"ort" + 0.021*"qualität" + 0.017*"einfacher" + 0.016*"zwischendurch" + 0.013*"wochenend" + 0.013*"2mal" + 0.012*"bestellung"
+2019-08-06 16:55:32,178 : INFO : topic #181 (0.005): 0.206*"ok" + 0.088*"rückseite" + 0.055*"art" + 0.044*"bezahlen" + 0.041*"herstellung" + 0.039*"schwer" + 0.035*"empfinden" + 0.035*"vorderseite" + 0.032*"vorne" + 0.029*"grußkarte"
+2019-08-06 16:55:32,180 : INFO : topic #187 (0.005): 0.158*"motiv" + 0.121*"postkarten" + 0.101*"anbieten" + 0.091*"freude" + 0.031*"finden" + 0.028*"geben" + 0.024*"jed" + 0.018*"gestalten" + 0.016*"möglichkeit" + 0.016*"bestellen"
+2019-08-06 16:55:32,182 : INFO : topic #134 (0.005): 0.055*"schlechte" + 0.052*"beheben" + 0.047*"bild" + 0.044*"eins" + 0.042*"fehler" + 0.041*"entdecken" + 0.025*"flexibilität" + 0.024*"fotobuch" + 0.021*"2018" + 0.020*"einstellen"
+2019-08-06 16:55:32,184 : INFO : topic #2 (0.005): 0.113*"beschädigen" + 0.071*"produktes" + 0.039*"fotobuch" + 0.037*"qualität" + 0.020*"überschreiten" + 0.019*"folie" + 0.018*"aktualisierung" + 0.017*"software" + 0.017*"bild" + 0.017*"seitenanzahl"
+2019-08-06 16:55:32,345 : INFO : topic diff=0.066102, rho=0.447214
+2019-08-06 16:55:32,405 : INFO : PROGRESS: pass 0, at document #180000/1300724
+2019-08-06 16:55:48,293 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:55:52,294 : INFO : topic #120 (0.005): 0.107*"handeln" + 0.073*"knicken" + 0.054*"spitz" + 0.047*"verschwimmen" + 0.042*"bild" + 0.042*"familie" + 0.040*"mitteilung" + 0.037*"foto" + 0.025*"sehen" + 0.024*"letzt"
+2019-08-06 16:55:52,296 : INFO : topic #162 (0.005): 0.141*"wählen" + 0.094*"lassen" + 0.076*"foto" + 0.073*"einzeln" + 0.060*"schaden" + 0.059*"fest" + 0.058*"bringen" + 0.057*"dick" + 0.057*"person" + 0.042*"karton"
+2019-08-06 16:55:52,298 : INFO : topic #83 (0.005): 0.129*"teilweise" + 0.113*"foto" + 0.088*"vorschau" + 0.085*"zuschneiden" + 0.064*"schwarz" + 0.054*"häufig" + 0.044*"sehen" + 0.042*"z" + 0.038*"entstehen" + 0.029*"b"
+2019-08-06 16:55:52,300 : INFO : topic #126 (0.005): 0.127*"10" + 0.065*"euro" + 0.064*"porto" + 0.057*"filiale" + 0.057*"ärgern" + 0.052*"email" + 0.045*"paket" + 0.042*"bestellen" + 0.037*"abholen" + 0.036*"zukunft"
+2019-08-06 16:55:52,302 : INFO : topic #93 (0.005): 0.102*"lieferservice" + 0.062*"fertigung" + 0.051*"qualität" + 0.037*"eingabe" + 0.034*"demnächst" + 0.030*"planen" + 0.026*"fotoprogramm" + 0.024*"zahlung" + 0.022*"beurteilung" + 0.021*"schnell"
+2019-08-06 16:55:52,463 : INFO : topic diff=0.050280, rho=0.408248
+2019-08-06 16:55:52,524 : INFO : PROGRESS: pass 0, at document #210000/1300724
+2019-08-06 16:56:06,330 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:56:10,843 : INFO : topic #173 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 16:56:10,845 : INFO : topic #9 (0.005): 0.214*"ware" + 0.096*"grüßen" + 0.078*"eintreffen" + 0.050*"eigentlich" + 0.048*"telefon" + 0.048*"loben" + 0.034*"freundlich" + 0.030*"gerne" + 0.029*"lieben" + 0.028*"glauben"
+2019-08-06 16:56:10,847 : INFO : topic #10 (0.005): 0.109*"termin" + 0.091*"kostenlos" + 0.043*"auffindbar" + 0.034*"budni" + 0.031*"kalenderblatt" + 0.025*"beraten" + 0.022*"bestellung" + 0.022*"edeka" + 0.020*"qualität" + 0.017*"mach"
+2019-08-06 16:56:10,849 : INFO : topic #130 (0.005): 0.097*"matt" + 0.093*"fotoqualität" + 0.060*"nett" + 0.046*"bild" + 0.044*"bisschen" + 0.038*"ausgewählt" + 0.038*"wechseln" + 0.036*":-(" + 0.030*"überlegen" + 0.025*"abspeichern"
+2019-08-06 16:56:10,850 : INFO : topic #76 (0.005): 0.144*"woche" + 0.039*"erfahren" + 0.033*"mitarbeiterin" + 0.030*"meldung" + 0.030*"bestellung" + 0.028*"2" + 0.027*"bestellen" + 0.024*"anklicken" + 0.024*"erhalten" + 0.022*"umsonst"
+2019-08-06 16:56:11,003 : INFO : topic diff=0.038193, rho=0.377964
+2019-08-06 16:56:11,061 : INFO : PROGRESS: pass 0, at document #240000/1300724
+2019-08-06 16:56:24,797 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:56:29,741 : INFO : topic #163 (0.005): 0.105*"vorhanden" + 0.095*"erhalten" + 0.095*"falsch" + 0.061*"zweimal" + 0.046*"bestellung" + 0.033*"fotobuch" + 0.030*"liefern" + 0.029*"bestätigung" + 0.028*"filiale" + 0.028*"bestellen"
+2019-08-06 16:56:29,743 : INFO : topic #43 (0.005): 0.099*"gesicht" + 0.066*"schönes" + 0.064*"nennen" + 0.054*"rotstich" + 0.052*"farbwiedergabe" + 0.033*"express" + 0.030*"blume" + 0.029*"wär" + 0.025*"bild" + 0.024*"foto"
+2019-08-06 16:56:29,746 : INFO : topic #29 (0.005): 0.392*"seite" + 0.054*"foto" + 0.054*"8" + 0.042*"einzelne" + 0.035*"zum beispiel" + 0.031*"verschieben" + 0.023*"sauber" + 0.023*"müsste" + 0.021*"gestalten" + 0.020*"erweitern"
+2019-08-06 16:56:29,748 : INFO : topic #116 (0.005): 0.135*"verständlich" + 0.097*"helfen" + 0.091*"frage" + 0.078*"100" + 0.048*"fall" + 0.043*"beantworten" + 0.042*"jed" + 0.041*"cewe" + 0.035*"fotobuch" + 0.033*"software"
+2019-08-06 16:56:29,751 : INFO : topic #187 (0.005): 0.202*"motiv" + 0.151*"postkarten" + 0.125*"anbieten" + 0.120*"freude" + 0.034*"finden" + 0.027*"geben" + 0.021*"gestalten" + 0.017*"einrichten" + 0.017*"jed" + 0.016*"soviel"
+2019-08-06 16:56:29,951 : INFO : topic diff=0.031676, rho=0.353553
+2019-08-06 16:56:30,035 : INFO : PROGRESS: pass 0, at document #270000/1300724
+2019-08-06 16:56:45,202 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:56:49,974 : INFO : topic #67 (0.005): 0.365*"erstellen" + 0.064*"paar" + 0.056*"bitte" + 0.054*"pc" + 0.051*"umständlich" + 0.048*"software" + 0.027*"vermissen" + 0.025*"datei" + 0.025*"buch" + 0.024*"cewe"
+2019-08-06 16:56:49,976 : INFO : topic #151 (0.005): 0.091*"fair" + 0.089*"z." + 0.081*"b." + 0.077*"qualität" + 0.070*"bzw" + 0.061*"information" + 0.056*"pünktliche" + 0.039*"unterschied" + 0.037*"auszeichnen" + 0.035*"eindeutig"
+2019-08-06 16:56:49,979 : INFO : topic #10 (0.005): 0.131*"termin" + 0.103*"kostenlos" + 0.053*"auffindbar" + 0.038*"budni" + 0.030*"kalenderblatt" + 0.026*"beraten" + 0.023*"edeka" + 0.023*"bestellung" + 0.023*"ansprechpartner" + 0.018*"qualität"
+2019-08-06 16:56:49,981 : INFO : topic #105 (0.005): 0.319*"ankommen" + 0.096*"computer" + 0.060*"bild" + 0.050*"vorher" + 0.036*"anstatt" + 0.035*"bestellen" + 0.026*"fotobuch" + 0.023*"shop" + 0.017*"foto" + 0.016*"schaden"
+2019-08-06 16:56:49,983 : INFO : topic #51 (0.005): 0.126*"u" + 0.107*"senden" + 0.089*"unbedingt" + 0.063*"kontrast" + 0.054*"kopf" + 0.049*":(" + 0.045*"bild" + 0.042*"quer" + 0.036*"foto" + 0.033*"fleck"
+2019-08-06 16:56:50,151 : INFO : topic diff=0.027050, rho=0.333333
+2019-08-06 16:56:50,218 : INFO : PROGRESS: pass 0, at document #300000/1300724
+2019-08-06 16:57:04,482 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:57:09,420 : INFO : topic #182 (0.005): 0.634*"toll" + 0.061*"öffnen" + 0.025*"software" + 0.024*"fotobuch" + 0.019*"super" + 0.018*"ersetzen" + 0.015*"fotobücher" + 0.012*"anstandslos" + 0.012*"idee" + 0.012*"unterlaufen"
+2019-08-06 16:57:09,423 : INFO : topic #39 (0.005): 0.129*"scharf" + 0.091*"fotos" + 0.090*"gering" + 0.088*"bild" + 0.055*"foto" + 0.052*"qualität" + 0.030*"farbe" + 0.030*"detail" + 0.029*"formatauswahl" + 0.022*"brillante"
+2019-08-06 16:57:09,425 : INFO : topic #10 (0.005): 0.135*"termin" + 0.104*"kostenlos" + 0.059*"auffindbar" + 0.043*"budni" + 0.033*"kalenderblatt" + 0.027*"beraten" + 0.022*"bestellung" + 0.021*"ansprechpartner" + 0.021*"edeka" + 0.020*"aussetzen"
+2019-08-06 16:57:09,427 : INFO : topic #80 (0.005): 0.222*"relativ" + 0.184*"preis-leistungsverhältnis" + 0.052*"inzwischen" + 0.051*"bild" + 0.041*"beschriftung" + 0.039*"software" + 0.038*"optimieren" + 0.035*"hochformat" + 0.032*"beschriften" + 0.031*"ober"
+2019-08-06 16:57:09,429 : INFO : topic #156 (0.005): 0.295*"tollen" + 0.219*"gestaltung" + 0.090*"qualität" + 0.059*"möglichkeit" + 0.053*"schade" + 0.025*"pro" + 0.021*"vielseitig" + 0.021*"finden" + 0.020*"geben" + 0.016*"umsetzen"
+2019-08-06 16:57:09,593 : INFO : topic diff=0.020789, rho=0.316228
+2019-08-06 16:57:09,657 : INFO : PROGRESS: pass 0, at document #330000/1300724
+2019-08-06 16:57:23,051 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:57:27,211 : INFO : topic #93 (0.005): 0.156*"lieferservice" + 0.096*"fertigung" + 0.061*"qualität" + 0.055*"demnächst" + 0.051*"eingabe" + 0.046*"planen" + 0.034*"zahlung" + 0.033*"beurteilung" + 0.031*"fotoprogramm" + 0.021*"browser"
+2019-08-06 16:57:27,213 : INFO : topic #106 (0.005): 0.154*"preis" + 0.098*"ca." + 0.096*"grund" + 0.071*"qualität" + 0.050*"solch" + 0.031*"bestellen" + 0.030*"eintragen" + 0.028*"bedeuten" + 0.027*"herzliche" + 0.026*"umfangreiche"
+2019-08-06 16:57:27,214 : INFO : topic #197 (0.005): 0.229*"hausen" + 0.049*"mustern" + 0.047*"11" + 0.044*"kontaktieren" + 0.031*"begrüßen" + 0.028*"geschmack" + 0.028*"voraussichtlich" + 0.027*"bestellen" + 0.024*"unterscheiden" + 0.023*"bestellung"
+2019-08-06 16:57:27,217 : INFO : topic #181 (0.005): 0.246*"ok" + 0.107*"rückseite" + 0.079*"schwer" + 0.068*"art" + 0.047*"herstellung" + 0.043*"bezahlen" + 0.038*"empfinden" + 0.037*"vorne" + 0.033*"informieren" + 0.026*"vorderseite"
+2019-08-06 16:57:27,219 : INFO : topic #122 (0.005): 0.344*"beziehungsweise" + 0.067*"bild" + 0.055*"das heißt" + 0.046*"angepasst" + 0.046*"saubere" + 0.036*"jeweilig" + 0.023*"abziehen" + 0.017*"bildbearbeitungsprogramm" + 0.016*"zum beispiel" + 0.016*"finden"
+2019-08-06 16:57:27,371 : INFO : topic diff=0.022280, rho=0.301511
+2019-08-06 16:57:27,433 : INFO : PROGRESS: pass 0, at document #360000/1300724
+2019-08-06 16:57:39,814 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:57:44,060 : INFO : topic #90 (0.005): 0.126*"15" + 0.114*"gewünscht" + 0.113*"verpacken" + 0.063*"bild" + 0.056*"mangelhaft" + 0.045*"klar" + 0.039*"niedrig" + 0.032*"24" + 0.030*"qualität" + 0.029*"geraten"
+2019-08-06 16:57:44,062 : INFO : topic #81 (0.005): 0.223*"vielfältig" + 0.082*"erkennbar" + 0.069*"photo" + 0.057*"angabe" + 0.032*"möglichkeit" + 0.032*"passte" + 0.031*"20er" + 0.027*"via" + 0.024*"iphone" + 0.024*"programm"
+2019-08-06 16:57:44,064 : INFO : topic #53 (0.005): 0.330*"fertigen" + 0.067*"komfortabel" + 0.056*"brauche" + 0.043*"qualität" + 0.038*"händeln" + 0.037*"einfach" + 0.036*"assistent" + 0.035*"z.b." + 0.030*"software" + 0.026*"fotobuch"
+2019-08-06 16:57:44,066 : INFO : topic #91 (0.005): 0.158*"siehe" + 0.089*"wissen" + 0.079*"9" + 0.065*"nachfragen" + 0.059*"heißen" + 0.051*"buchrücken" + 0.044*"schriftgröße" + 0.034*"kulanz" + 0.031*"2" + 0.030*"messen"
+2019-08-06 16:57:44,068 : INFO : topic #189 (0.005): 0.273*"unkompliziert" + 0.138*"poster" + 0.100*"ziemlich" + 0.073*"tasse" + 0.036*"blatt" + 0.032*"ordentlich" + 0.028*"bestellen" + 0.026*"druck" + 0.024*"bestellung" + 0.022*"gegensatz"
+2019-08-06 16:57:44,230 : INFO : topic diff=0.016694, rho=0.288675
+2019-08-06 16:57:44,289 : INFO : PROGRESS: pass 0, at document #390000/1300724
+2019-08-06 16:57:57,163 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:58:01,850 : INFO : topic #136 (0.005): 0.121*"10er" + 0.061*"blau" + 0.046*"bestellen" + 0.045*"aufhängen" + 0.042*"testen" + 0.041*"bild" + 0.039*"set" + 0.037*"drucksen" + 0.035*"falz" + 0.034*"klappkarten"
+2019-08-06 16:58:01,853 : INFO : topic #50 (0.005): 0.115*"vorstellen" + 0.110*"bildschirm" + 0.096*"individuelle" + 0.076*"entwickeln" + 0.065*"bild" + 0.064*"foto" + 0.042*"qualität" + 0.036*"verlaufen" + 0.032*"schärfen" + 0.028*"sehen"
+2019-08-06 16:58:01,855 : INFO : topic #143 (0.005): 0.087*"nummer" + 0.062*"reagieren" + 0.059*"bearbeitungsmöglichkeiten" + 0.056*"erfüllen" + 0.050*"manko" + 0.043*"flecken" + 0.041*"qualität" + 0.039*"sorgfältig" + 0.037*"bearbeitungssoftware" + 0.036*"foto-paradies"
+2019-08-06 16:58:01,858 : INFO : topic #121 (0.005): 0.100*"warenkorb" + 0.087*"änderung" + 0.066*"anfangen" + 0.057*"ansicht" + 0.042*"kulant" + 0.040*"vermutlich" + 0.033*"speicherung" + 0.031*"lesbar" + 0.027*"vorne" + 0.025*"speichern"
+2019-08-06 16:58:01,860 : INFO : topic #10 (0.005): 0.143*"termin" + 0.113*"kostenlos" + 0.061*"auffindbar" + 0.043*"budni" + 0.034*"kalenderblatt" + 0.026*"beraten" + 0.024*"edeka" + 0.024*"mach" + 0.020*"aussetzen" + 0.020*"bestellung"
+2019-08-06 16:58:02,038 : INFO : topic diff=0.017368, rho=0.277350
+2019-08-06 16:58:02,106 : INFO : PROGRESS: pass 0, at document #420000/1300724
+2019-08-06 16:58:16,074 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:58:20,785 : INFO : topic #40 (0.005): 0.240*"kosten" + 0.163*"nachbestellen" + 0.044*"fotobuch" + 0.044*"einbinden" + 0.040*"wieso" + 0.034*"lästig" + 0.030*"hierfür" + 0.028*"finden" + 0.025*"päckchen" + 0.021*"neu"
+2019-08-06 16:58:20,789 : INFO : topic #34 (0.005): 0.322*"gestalten" + 0.129*"verschieden" + 0.107*"individuell" + 0.047*"möglichkeit" + 0.043*"postkarte" + 0.040*"maßen" + 0.035*"herstellen" + 0.031*"fotobuch" + 0.025*"fotobücher" + 0.020*"finden"
+2019-08-06 16:58:20,792 : INFO : topic #18 (0.005): 0.194*"fallen" + 0.070*"post" + 0.062*"7" + 0.058*"anfertigen" + 0.057*"halten" + 0.053*"beratung" + 0.050*"freundliche" + 0.042*"versprechen" + 0.041*"foto" + 0.034*"paradies"
+2019-08-06 16:58:20,794 : INFO : topic #111 (0.005): 0.239*"absolut" + 0.090*"bearbeitungszeit" + 0.084*"qualität" + 0.057*"beschreibung" + 0.056*"bearbeitungsprogramm" + 0.054*"digital" + 0.046*"betreffen" + 0.046*"herzlich" + 0.032*"......" + 0.029*"interessant"
+2019-08-06 16:58:20,797 : INFO : topic #89 (0.005): 0.297*"verschenken" + 0.051*"tischkalender" + 0.046*"kontrollieren" + 0.041*"kreative" + 0.026*"qualität" + 0.025*"bestellen" + 0.023*"absehen" + 0.022*"zurückgreifen" + 0.020*"november" + 0.018*"fotobücher"
+2019-08-06 16:58:20,996 : INFO : topic diff=0.015692, rho=0.267261
+2019-08-06 16:58:21,061 : INFO : PROGRESS: pass 0, at document #450000/1300724
+2019-08-06 16:58:33,030 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:58:37,037 : INFO : topic #134 (0.005): 0.115*"einstellen" + 0.073*"eins" + 0.073*"beheben" + 0.067*"schlechte" + 0.050*"bild" + 0.047*"entdecken" + 0.041*"fehler" + 0.031*"fotobuch" + 0.029*"auftauchen" + 0.029*"fertigstellen"
+2019-08-06 16:58:37,039 : INFO : topic #53 (0.005): 0.347*"fertigen" + 0.074*"komfortabel" + 0.058*"brauche" + 0.042*"z.b." + 0.040*"assistent" + 0.039*"qualität" + 0.036*"händeln" + 0.030*"produktauswahl" + 0.029*"software" + 0.025*"fotobuch"
+2019-08-06 16:58:37,041 : INFO : topic #7 (0.005): 0.196*"überraschen" + 0.111*"angenehm" + 0.071*"lieferdatum" + 0.051*"aufpreis" + 0.037*"photoshop" + 0.036*"editor" + 0.030*"erinnern" + 0.029*"bevorzugen" + 0.025*"bild" + 0.024*"erachten"
+2019-08-06 16:58:37,044 : INFO : topic #175 (0.005): 0.184*"grußkarten" + 0.101*"rossmann" + 0.083*"wichtig" + 0.070*"laden" + 0.062*"intuitiv" + 0.054*"“" + 0.050*"ansehen" + 0.047*"„" + 0.031*"60" + 0.029*"finden"
+2019-08-06 16:58:37,046 : INFO : topic #50 (0.005): 0.108*"vorstellen" + 0.105*"bildschirm" + 0.100*"individuelle" + 0.083*"entwickeln" + 0.065*"bild" + 0.061*"foto" + 0.041*"qualität" + 0.038*"verlaufen" + 0.037*"schärfen" + 0.031*"farbe"
+2019-08-06 16:58:37,209 : INFO : topic diff=0.015813, rho=0.258199
+2019-08-06 16:58:37,274 : INFO : PROGRESS: pass 0, at document #480000/1300724
+2019-08-06 16:58:49,672 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:58:54,044 : INFO : topic #82 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 16:58:54,046 : INFO : topic #52 (0.005): 0.270*"optimal" + 0.148*"sparen" + 0.087*"bestellt" + 0.064*"qualität" + 0.048*"anlass" + 0.048*"bild" + 0.031*"hintergrundbilder" + 0.024*"einschätzen" + 0.024*"enkel" + 0.019*"lieferkosten"
+2019-08-06 16:58:54,048 : INFO : topic #138 (0.005): 0.464*"problem" + 0.072*"lösen" + 0.065*"kundendienst" + 0.043*"lösung" + 0.036*"leute" + 0.022*"neu" + 0.022*"schließen" + 0.020*"programm" + 0.015*"vermerken" + 0.015*"qualität"
+2019-08-06 16:58:54,050 : INFO : topic #169 (0.005): 0.211*"erwarten" + 0.172*"problemlos" + 0.064*"schick" + 0.053*"qualität" + 0.045*"rot" + 0.045*"bezüglich" + 0.044*"langsam" + 0.038*"laut" + 0.030*"defekt" + 0.030*"cewe-fotobuch"
+2019-08-06 16:58:54,052 : INFO : topic #34 (0.005): 0.335*"gestalten" + 0.128*"verschieden" + 0.106*"individuell" + 0.049*"möglichkeit" + 0.042*"postkarte" + 0.039*"maßen" + 0.035*"herstellen" + 0.034*"fotobuch" + 0.025*"fotobücher" + 0.020*"finden"
+2019-08-06 16:58:54,210 : INFO : topic diff=0.013991, rho=0.250000
+2019-08-06 16:58:54,271 : INFO : PROGRESS: pass 0, at document #510000/1300724
+2019-08-06 16:59:08,548 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:59:12,723 : INFO : topic #151 (0.005): 0.097*"b." + 0.097*"z." + 0.090*"fair" + 0.076*"bzw" + 0.074*"information" + 0.072*"qualität" + 0.062*"pünktliche" + 0.044*"eindeutig" + 0.039*"auszeichnen" + 0.037*"unterschied"
+2019-08-06 16:59:12,726 : INFO : topic #131 (0.005): 0.554*"schön" + 0.149*"farbe" + 0.073*"unterschiedlich" + 0.042*"foto" + 0.041*"papierqualität" + 0.032*"geld" + 0.018*"auffallen" + 0.009*"weihnachtskarten" + 0.009*"zeitlich" + 0.008*"ausgeben"
+2019-08-06 16:59:12,727 : INFO : topic #5 (0.005): 0.215*"internet" + 0.129*"öfter" + 0.079*"wahl" + 0.073*"13" + 0.060*"bestellen" + 0.059*"benutzerfreundlich" + 0.032*"strich" + 0.029*"dienst" + 0.028*"drogerie" + 0.025*"qualität"
+2019-08-06 16:59:12,729 : INFO : topic #7 (0.005): 0.207*"überraschen" + 0.111*"angenehm" + 0.071*"lieferdatum" + 0.045*"aufpreis" + 0.040*"photoshop" + 0.039*"editor" + 0.029*"bevorzugen" + 0.026*"erachten" + 0.025*"erinnern" + 0.025*"bild"
+2019-08-06 16:59:12,731 : INFO : topic #42 (0.005): 0.231*"sagen" + 0.117*"auflösung" + 0.066*"stets" + 0.058*"nachfrage" + 0.050*"mittlerweile" + 0.050*"nachricht" + 0.041*"umgehen" + 0.038*"zustellen" + 0.037*"qualität" + 0.034*"januar"
+2019-08-06 16:59:12,893 : INFO : topic diff=0.012778, rho=0.242536
+2019-08-06 16:59:12,966 : INFO : PROGRESS: pass 0, at document #540000/1300724
+2019-08-06 16:59:25,819 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:59:30,336 : INFO : topic #153 (0.005): 0.228*"früh" + 0.190*"direkt" + 0.063*"bild" + 0.042*"anwenden" + 0.034*"bildoptimierung" + 0.033*"speicher" + 0.029*"reduzieren" + 0.025*"gelegenheit" + 0.019*"investieren" + 0.018*"geben"
+2019-08-06 16:59:30,338 : INFO : topic #113 (0.005): 0.280*"erfahrung" + 0.143*"positiv" + 0.059*"mitte" + 0.054*"auskunft" + 0.053*"firma" + 0.046*"qualität" + 0.045*"regelmäßig" + 0.044*"günstige" + 0.038*"homepage" + 0.034*"verlassen"
+2019-08-06 16:59:30,340 : INFO : topic #126 (0.005): 0.208*"10" + 0.099*"euro" + 0.079*"ärgern" + 0.075*"porto" + 0.070*"email" + 0.069*"paket" + 0.056*"bestellen" + 0.043*"zukunft" + 0.036*"bestellung" + 0.023*"bestätigen"
+2019-08-06 16:59:30,343 : INFO : topic #50 (0.005): 0.111*"vorstellen" + 0.108*"bildschirm" + 0.101*"individuelle" + 0.079*"entwickeln" + 0.070*"bild" + 0.059*"foto" + 0.041*"verlaufen" + 0.039*"qualität" + 0.036*"schärfen" + 0.032*"farbe"
+2019-08-06 16:59:30,345 : INFO : topic #83 (0.005): 0.172*"teilweise" + 0.107*"foto" + 0.098*"vorschau" + 0.079*"zuschneiden" + 0.064*"schwarz" + 0.057*"häufig" + 0.049*"entstehen" + 0.037*"z" + 0.037*"mangel" + 0.034*"sehen"
+2019-08-06 16:59:30,497 : INFO : topic diff=0.012535, rho=0.235702
+2019-08-06 16:59:30,559 : INFO : PROGRESS: pass 0, at document #570000/1300724
+2019-08-06 16:59:43,414 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 16:59:47,764 : INFO : topic #83 (0.005): 0.173*"teilweise" + 0.107*"foto" + 0.096*"vorschau" + 0.077*"zuschneiden" + 0.062*"schwarz" + 0.061*"häufig" + 0.049*"entstehen" + 0.039*"mangel" + 0.037*"z" + 0.033*"sehen"
+2019-08-06 16:59:47,767 : INFO : topic #52 (0.005): 0.267*"optimal" + 0.147*"sparen" + 0.096*"bestellt" + 0.059*"anlass" + 0.054*"qualität" + 0.048*"bild" + 0.037*"hintergrundbilder" + 0.025*"einschätzen" + 0.024*"lieferkosten" + 0.021*"enkel"
+2019-08-06 16:59:47,770 : INFO : topic #106 (0.005): 0.159*"preis" + 0.127*"ca." + 0.116*"grund" + 0.072*"qualität" + 0.049*"solch" + 0.032*"herzliche" + 0.028*"bedeuten" + 0.026*"eintragen" + 0.025*"bestellen" + 0.025*"70"
+2019-08-06 16:59:47,773 : INFO : topic #102 (0.005): 0.196*"fotobücher" + 0.172*"kunde" + 0.111*"verwenden" + 0.094*"cewe" + 0.086*"manch" + 0.036*"bild" + 0.030*"jedesmal" + 0.025*"all" + 0.020*"qualität" + 0.019*"finden"
+2019-08-06 16:59:47,775 : INFO : topic #174 (0.005): 0.183*"fotopapier" + 0.100*"doppeln" + 0.098*"eventuell" + 0.068*"ersichtlich" + 0.057*"ausführen" + 0.055*"zuhause" + 0.054*"anfänger" + 0.042*"sicherlich" + 0.040*"laie" + 0.037*"bestellung"
+2019-08-06 16:59:47,932 : INFO : topic diff=0.011244, rho=0.229416
+2019-08-06 16:59:47,996 : INFO : PROGRESS: pass 0, at document #600000/1300724
+2019-08-06 16:59:59,999 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:00:04,044 : INFO : topic #120 (0.005): 0.178*"beid" + 0.105*"handeln" + 0.095*"knicken" + 0.082*"familie" + 0.068*"bild" + 0.063*"mitteilung" + 0.056*"verschwimmen" + 0.046*"spitz" + 0.039*"foto" + 0.029*"letzt"
+2019-08-06 17:00:04,046 : INFO : topic #79 (0.005): 0.662*"einfach" + 0.108*"qualität" + 0.083*"online" + 0.038*"bestellung" + 0.026*"brauchen" + 0.014*"bestellen" + 0.011*"vorherig" + 0.008*"bild" + 0.007*"reichen" + 0.006*"aufbauen"
+2019-08-06 17:00:04,049 : INFO : topic #95 (0.005): 0.138*"tatsächlich" + 0.126*"lesen" + 0.101*"zumindest" + 0.059*"textfeld" + 0.050*"riesig" + 0.036*"spiralbindung" + 0.030*"mehrmalig" + 0.026*"ungenau" + 0.025*"nah" + 0.024*"klein"
+2019-08-06 17:00:04,051 : INFO : topic #39 (0.005): 0.143*"scharf" + 0.126*"bild" + 0.102*"fotos" + 0.085*"gering" + 0.066*"foto" + 0.048*"qualität" + 0.039*"detail" + 0.029*"formatauswahl" + 0.028*"obwohl" + 0.028*"farbe"
+2019-08-06 17:00:04,054 : INFO : topic #71 (0.005): 0.168*"voll" + 0.143*"alt" + 0.088*"unten" + 0.067*"anschauen" + 0.060*"umfangreich" + 0.048*"links" + 0.047*"empfehlung" + 0.044*"rechts" + 0.038*"fotobuch" + 0.036*"bisherig"
+2019-08-06 17:00:04,216 : INFO : topic diff=0.011224, rho=0.223607
+2019-08-06 17:00:04,272 : INFO : PROGRESS: pass 0, at document #630000/1300724
+2019-08-06 17:00:15,732 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:00:19,822 : INFO : topic #186 (0.005): 0.272*"stimmen" + 0.180*"bitten" + 0.126*"qualität" + 0.111*"zufriedenheit" + 0.042*"prompt" + 0.038*"professionell" + 0.036*"erledigen" + 0.031*"akzeptabel" + 0.024*"s" + 0.020*"anbringen"
+2019-08-06 17:00:19,824 : INFO : topic #178 (0.005): 0.612*"programm" + 0.104*"spaßen" + 0.055*"monat" + 0.024*"irgendwie" + 0.019*"finden" + 0.019*"jed" + 0.019*"fotobücher" + 0.017*"kalendarium" + 0.016*"cewe" + 0.013*"ideal"
+2019-08-06 17:00:19,827 : INFO : topic #1 (0.005): 0.411*"liefern" + 0.350*"lieferzeit" + 0.036*"breit" + 0.028*"helligkeit" + 0.021*"standard" + 0.021*"bestellen" + 0.018*"internetseite" + 0.017*"bild" + 0.013*"ups" + 0.011*"foto"
+2019-08-06 17:00:19,829 : INFO : topic #100 (0.005): 0.313*"freuen" + 0.098*"frei" + 0.072*"mann" + 0.060*"froh" + 0.032*"selbe" + 0.028*"rollen" + 0.027*"gültig" + 0.025*"hintergrundfarben" + 0.024*"fotobuch" + 0.023*"wählbar"
+2019-08-06 17:00:19,831 : INFO : topic #69 (0.005): 0.168*"fotobüchern" + 0.143*"deutlich" + 0.104*"pünktlich" + 0.062*"einband" + 0.055*"ebenfalls" + 0.050*"letzt" + 0.043*"schief" + 0.042*"grundsätzlich" + 0.039*"ablauf" + 0.029*"gesamteindruck"
+2019-08-06 17:00:19,987 : INFO : topic diff=0.011345, rho=0.218218
+2019-08-06 17:00:20,048 : INFO : PROGRESS: pass 0, at document #660000/1300724
+2019-08-06 17:00:31,432 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:00:35,670 : INFO : topic #81 (0.005): 0.238*"vielfältig" + 0.101*"erkennbar" + 0.080*"angabe" + 0.078*"photo" + 0.038*"iphone" + 0.037*"passte" + 0.035*"möglichkeit" + 0.031*"via" + 0.025*"20er" + 0.023*"rotstichig"
+2019-08-06 17:00:35,672 : INFO : topic #183 (0.005): 0.152*"praktisch" + 0.117*"mehrmals" + 0.103*"eingeben" + 0.082*"insbesondere" + 0.044*"normale" + 0.042*"kundenfreundlich" + 0.036*"wort" + 0.035*"bestellen" + 0.032*"finden" + 0.031*"fotoabzügen"
+2019-08-06 17:00:35,675 : INFO : topic #149 (0.005): 0.119*"inhalt" + 0.052*"qualität" + 0.044*"jahreszahl" + 0.040*"verarbeitung" + 0.037*"beinhalten" + 0.033*"wiederum" + 0.027*"vllt" + 0.025*"versetzen" + 0.025*"zueinander" + 0.024*"vielfach"
+2019-08-06 17:00:35,676 : INFO : topic #44 (0.005): 0.489*"gestaltungsmöglichkeiten" + 0.104*"qualität" + 0.064*"software" + 0.028*"konkurrenz" + 0.026*"probieren" + 0.025*"bieten" + 0.022*"geben" + 0.019*"enorm" + 0.018*"cewe" + 0.017*"woran"
+2019-08-06 17:00:35,678 : INFO : topic #30 (0.005): 0.199*"lieb" + 0.173*"lade" + 0.056*"gegebenenfalls" + 0.040*"vergrößerung" + 0.038*"webseite" + 0.038*"platziert" + 0.037*"foto" + 0.033*"zugeschickt" + 0.023*"finden" + 0.022*"sortiment"
+2019-08-06 17:00:35,842 : INFO : topic diff=0.012092, rho=0.213201
+2019-08-06 17:00:35,906 : INFO : PROGRESS: pass 0, at document #690000/1300724
+2019-08-06 17:00:47,517 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:00:51,544 : INFO : topic #31 (0.005): 0.240*"sache" + 0.137*"ausdrucken" + 0.069*"verfügbar" + 0.042*"foto" + 0.041*"nachvollziehbar" + 0.037*"mitnehmen" + 0.035*"inklusive" + 0.032*"betrachten" + 0.030*"vermisst" + 0.025*"finden"
+2019-08-06 17:00:51,546 : INFO : topic #24 (0.005): 0.088*"support" + 0.085*"zuviel" + 0.067*"irgendwann" + 0.060*"weitergeben" + 0.057*"tools" + 0.044*"oftmals" + 0.044*"treue" + 0.034*"stil" + 0.033*"lidl" + 0.028*"finden"
+2019-08-06 17:00:51,549 : INFO : topic #180 (0.005): 0.122*"zufriedenstellen" + 0.113*"hand" + 0.090*"bestellsoftware" + 0.074*"hülle" + 0.072*"aufnehmen" + 0.063*"handyhülle" + 0.059*"gedenken" + 0.046*"unnötig" + 0.030*"halten" + 0.028*"sobald"
+2019-08-06 17:00:51,551 : INFO : topic #117 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 17:00:51,553 : INFO : topic #42 (0.005): 0.265*"sagen" + 0.118*"auflösung" + 0.070*"stets" + 0.058*"nachfrage" + 0.054*"mittlerweile" + 0.053*"nachricht" + 0.043*"umgehen" + 0.036*"zustellen" + 0.031*"qualität" + 0.030*"glücklich"
+2019-08-06 17:00:51,704 : INFO : topic diff=0.010897, rho=0.208514
+2019-08-06 17:00:51,762 : INFO : PROGRESS: pass 0, at document #720000/1300724
+2019-08-06 17:01:02,882 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:01:06,934 : INFO : topic #0 (0.005): 0.263*"diesmal" + 0.200*"handling" + 0.121*"wandbilder" + 0.093*"einfaches" + 0.089*"qualität" + 0.028*"bestellen" + 0.019*"software" + 0.017*"bezeichnung" + 0.015*"kollegin" + 0.011*"bild"
+2019-08-06 17:01:06,936 : INFO : topic #127 (0.005): 0.786*"service" + 0.051*"sofort" + 0.042*"kompetent" + 0.025*"software" + 0.020*"freundlich" + 0.019*"preis/leistung" + 0.007*"verbindung" + 0.006*"zurückgeschickt" + 0.004*"ostern" + 0.003*"tier"
+2019-08-06 17:01:06,938 : INFO : topic #174 (0.005): 0.176*"fotopapier" + 0.106*"doppeln" + 0.102*"eventuell" + 0.074*"ersichtlich" + 0.059*"ausführen" + 0.054*"anfänger" + 0.051*"zuhause" + 0.041*"sicherlich" + 0.039*"laie" + 0.038*"bestellung"
+2019-08-06 17:01:06,940 : INFO : topic #93 (0.005): 0.164*"lieferservice" + 0.111*"fertigung" + 0.082*"qualität" + 0.063*"planen" + 0.058*"demnächst" + 0.056*"eingabe" + 0.042*"zahlung" + 0.033*"fotoprogramm" + 0.032*"beurteilung" + 0.022*"browser"
+2019-08-06 17:01:06,942 : INFO : topic #111 (0.005): 0.240*"absolut" + 0.092*"qualität" + 0.088*"bearbeitungszeit" + 0.060*"bearbeitungsprogramm" + 0.060*"digital" + 0.053*"beschreibung" + 0.051*"betreffen" + 0.043*"herzlich" + 0.034*"interessant" + 0.034*"......"
+2019-08-06 17:01:07,097 : INFO : topic diff=0.010536, rho=0.204124
+2019-08-06 17:01:07,159 : INFO : PROGRESS: pass 0, at document #750000/1300724
+2019-08-06 17:01:18,995 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:01:22,972 : INFO : topic #197 (0.005): 0.250*"hausen" + 0.054*"falls" + 0.052*"11" + 0.050*"mustern" + 0.048*"kontaktieren" + 0.032*"begrüßen" + 0.029*"geschmack" + 0.029*"voraussichtlich" + 0.026*"bestellen" + 0.025*"21"
+2019-08-06 17:01:22,974 : INFO : topic #66 (0.005): 0.104*"texten" + 0.095*"din" + 0.077*"wunsch" + 0.071*"a4" + 0.044*"quadratisch" + 0.042*"schriftart" + 0.041*"code" + 0.036*"berücksichtigen" + 0.036*"farbbrillanz" + 0.035*"eingefügt"
+2019-08-06 17:01:22,976 : INFO : topic #154 (0.005): 0.373*"bekommen" + 0.190*"per" + 0.144*"mail" + 0.025*"bestellung" + 0.023*"ersatz" + 0.021*"fotobuch" + 0.015*"obwohl" + 0.013*"bestellen" + 0.013*"abholen" + 0.013*"dran"
+2019-08-06 17:01:22,978 : INFO : topic #85 (0.005): 0.284*"2" + 0.197*"1" + 0.080*"reklamieren" + 0.059*"mehrfach" + 0.042*"punkt" + 0.042*"system" + 0.030*"jeweils" + 0.026*"bild" + 0.022*"2x" + 0.020*"abstürzen"
+2019-08-06 17:01:22,980 : INFO : topic #198 (0.005): 0.679*"zufrieden" + 0.258*"produkt" + 0.030*"weiterempfehlen" + 0.008*"jed" + 0.005*"foto" + 0.004*"ersatzlieferung" + 0.004*"all" + 0.002*"diesesmal" + 0.001*"neustart" + 0.001*"m.f"
+2019-08-06 17:01:23,129 : INFO : topic diff=0.010912, rho=0.200000
+2019-08-06 17:01:23,187 : INFO : PROGRESS: pass 0, at document #780000/1300724
+2019-08-06 17:01:34,450 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:01:38,674 : INFO : topic #9 (0.005): 0.234*"eigentlich" + 0.207*"ware" + 0.106*"grüßen" + 0.075*"eintreffen" + 0.065*"telefon" + 0.039*"loben" + 0.027*"glauben" + 0.025*"freundlich" + 0.023*"lieben" + 0.018*"anmerkung"
+2019-08-06 17:01:38,676 : INFO : topic #138 (0.005): 0.503*"problem" + 0.081*"lösen" + 0.075*"kundendienst" + 0.048*"lösung" + 0.037*"leute" + 0.026*"neu" + 0.024*"schließen" + 0.015*"fehlermeldung" + 0.014*"qualität" + 0.014*"vermerken"
+2019-08-06 17:01:38,678 : INFO : topic #22 (0.005): 0.136*"legen" + 0.088*"sortieren" + 0.088*"smartphone" + 0.081*"unmöglich" + 0.068*"keinerlei" + 0.061*"bild" + 0.050*"klären" + 0.045*"verrutschen" + 0.039*"verhindern" + 0.038*"foto"
+2019-08-06 17:01:38,680 : INFO : topic #57 (0.005): 0.377*"gerne" + 0.096*"sichern" + 0.091*"müller" + 0.079*"handy" + 0.070*"bestellen" + 0.050*"geschäft" + 0.030*"hallo" + 0.019*"fotobuch" + 0.018*"geben" + 0.018*"bild"
+2019-08-06 17:01:38,682 : INFO : topic #181 (0.005): 0.269*"ok" + 0.119*"rückseite" + 0.101*"schwer" + 0.085*"art" + 0.052*"herstellung" + 0.040*"informieren" + 0.039*"empfinden" + 0.031*"vorderseite" + 0.029*"grußkarte" + 0.025*"vollkommen"
+2019-08-06 17:01:38,841 : INFO : topic diff=0.010783, rho=0.196116
+2019-08-06 17:01:38,904 : INFO : PROGRESS: pass 0, at document #810000/1300724
+2019-08-06 17:01:50,090 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:01:54,061 : INFO : topic #140 (0.005): 0.204*"gefallen" + 0.152*"antwort" + 0.117*"original" + 0.063*"....." + 0.062*"anmessen" + 0.045*"pixum" + 0.044*"qualität" + 0.033*"zukünftig" + 0.031*"fotobuch" + 0.026*"bild"
+2019-08-06 17:01:54,063 : INFO : topic #62 (0.005): 0.964*"schnellen" + 0.009*"bild" + 0.007*"foto" + 0.006*"schieben" + 0.004*"angeklickt" + 0.002*"maus" + 0.001*"bestellen" + 0.000*"rahmen" + 0.000*"jed" + 0.000*"gefallen"
+2019-08-06 17:01:54,065 : INFO : topic #73 (0.005): 0.680*"qualität" + 0.199*"top" + 0.033*"bild" + 0.024*"software" + 0.022*"foto" + 0.007*"mega" + 0.005*"schnellen" + 0.005*"fotobuch" + 0.004*"super" + 0.003*"kalenderseite"
+2019-08-06 17:01:54,067 : INFO : topic #192 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 17:01:54,069 : INFO : topic #63 (0.005): 0.428*"ergebnis" + 0.118*"verbessern" + 0.049*"fragen" + 0.048*"software" + 0.040*"reibungslos" + 0.033*"schwierigkeit" + 0.029*"bildbearbeitung" + 0.025*"lediglich" + 0.025*"zufrieden" + 0.023*"streife"
+2019-08-06 17:01:54,231 : INFO : topic diff=0.010395, rho=0.192450
+2019-08-06 17:01:54,290 : INFO : PROGRESS: pass 0, at document #840000/1300724
+2019-08-06 17:02:06,287 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:02:10,795 : INFO : topic #71 (0.005): 0.186*"voll" + 0.152*"alt" + 0.088*"unten" + 0.068*"anschauen" + 0.063*"umfangreich" + 0.052*"empfehlung" + 0.047*"links" + 0.039*"rechts" + 0.039*"bisherig" + 0.037*"fotobuch"
+2019-08-06 17:02:10,796 : INFO : topic #94 (0.005): 0.327*"bestens" + 0.223*"unkomplizierte" + 0.060*"bestellung" + 0.039*"beeindrucken" + 0.038*"kommunikation" + 0.034*"lieferadresse" + 0.025*"einarbeitung" + 0.022*"verkleben" + 0.019*"unglücklich" + 0.019*"bild-"
+2019-08-06 17:02:10,798 : INFO : topic #117 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 17:02:10,801 : INFO : topic #116 (0.005): 0.166*"fall" + 0.130*"frage" + 0.119*"verständlich" + 0.083*"helfen" + 0.075*"100" + 0.063*"jed" + 0.037*"fotobuch" + 0.037*"beantworten" + 0.031*"cewe" + 0.025*"prüfen"
+2019-08-06 17:02:10,803 : INFO : topic #159 (0.005): 0.159*"einfügen" + 0.146*"vorliegen" + 0.118*"nochmal" + 0.113*"bedienbarkeit" + 0.097*"speichern" + 0.070*"verlieren" + 0.069*"bild" + 0.064*"vorlage" + 0.041*"scheinen" + 0.037*"zb"
+2019-08-06 17:02:10,967 : INFO : topic diff=0.010298, rho=0.188982
+2019-08-06 17:02:11,029 : INFO : PROGRESS: pass 0, at document #870000/1300724
+2019-08-06 17:02:22,455 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:02:26,534 : INFO : topic #58 (0.005): 0.113*"versenden" + 0.109*"suchen" + 0.103*"einzig" + 0.096*"kurze" + 0.078*"benutzen" + 0.066*"korrekt" + 0.049*"äußern" + 0.049*"qualität" + 0.037*"selben" + 0.033*"frau"
+2019-08-06 17:02:26,536 : INFO : topic #111 (0.005): 0.242*"absolut" + 0.090*"qualität" + 0.088*"bearbeitungszeit" + 0.062*"bearbeitungsprogramm" + 0.058*"digital" + 0.056*"beschreibung" + 0.053*"betreffen" + 0.044*"herzlich" + 0.034*"......" + 0.028*"interessant"
+2019-08-06 17:02:26,538 : INFO : topic #118 (0.005): 0.203*"aufgrund" + 0.068*"fotoprodukte" + 0.061*"ihrerseits" + 0.056*"machbar" + 0.039*"kasse" + 0.038*"blicken" + 0.035*"klick" + 0.034*"verzögerung" + 0.032*"abschließen" + 0.027*"bestellung"
+2019-08-06 17:02:26,541 : INFO : topic #24 (0.005): 0.091*"support" + 0.090*"zuviel" + 0.073*"irgendwann" + 0.066*"weitergeben" + 0.059*"tools" + 0.046*"treue" + 0.043*"oftmals" + 0.042*"lidl" + 0.029*"stil" + 0.028*"favorit"
+2019-08-06 17:02:26,543 : INFO : topic #77 (0.005): 0.391*"abzug" + 0.100*"dm-markt" + 0.089*"qualität" + 0.079*"sowohl" + 0.049*"negativ" + 0.041*"beanstandung" + 0.031*"bestellen" + 0.024*"online-bestellung" + 0.022*"beanstanden" + 0.022*"bestellung"
+2019-08-06 17:02:26,707 : INFO : topic diff=0.010019, rho=0.185695
+2019-08-06 17:02:26,769 : INFO : PROGRESS: pass 0, at document #900000/1300724
+2019-08-06 17:02:37,940 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:02:41,960 : INFO : topic #41 (0.005): 0.170*"zudem" + 0.169*"leinwand" + 0.120*"geliefert" + 0.076*"bedrucken" + 0.042*"aussprechen" + 0.036*"qualität" + 0.035*"gutschrift" + 0.034*"doppelseiten" + 0.030*"bild" + 0.028*"innenseiten"
+2019-08-06 17:02:41,962 : INFO : topic #17 (0.005): 0.405*"buchen" + 0.317*"buch" + 0.041*"extra" + 0.030*"kaufen" + 0.028*"bestellen" + 0.025*"wahrscheinlich" + 0.022*"letzt" + 0.020*"finden" + 0.016*"neu" + 0.015*"ausfallen"
+2019-08-06 17:02:41,964 : INFO : topic #126 (0.005): 0.231*"10" + 0.112*"euro" + 0.084*"ärgern" + 0.078*"email" + 0.076*"porto" + 0.065*"paket" + 0.059*"bestellen" + 0.044*"zukunft" + 0.033*"bestellung" + 0.025*"portokosten"
+2019-08-06 17:02:41,966 : INFO : topic #77 (0.005): 0.388*"abzug" + 0.102*"dm-markt" + 0.086*"qualität" + 0.079*"sowohl" + 0.052*"negativ" + 0.043*"beanstandung" + 0.030*"bestellen" + 0.025*"online-bestellung" + 0.023*"bestellung" + 0.020*"beanstanden"
+2019-08-06 17:02:41,969 : INFO : topic #155 (0.005): 0.152*"dunkel" + 0.119*"bild" + 0.073*"weiße" + 0.065*"foto" + 0.060*"korrigieren" + 0.042*"heller" + 0.039*"überein" + 0.029*"müssten" + 0.029*"briefmarke" + 0.028*"farbe"
+2019-08-06 17:02:42,132 : INFO : topic diff=0.009430, rho=0.182574
+2019-08-06 17:02:42,193 : INFO : PROGRESS: pass 0, at document #930000/1300724
+2019-08-06 17:02:54,002 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:02:58,340 : INFO : topic #98 (0.005): 0.201*"stehen" + 0.163*"stellen" + 0.083*"aktuell" + 0.059*"verhältnis" + 0.057*"verfügung" + 0.044*"installieren" + 0.040*"gleichzeitig" + 0.030*"bemängeln" + 0.029*"nähe" + 0.029*"oberfläche"
+2019-08-06 17:02:58,343 : INFO : topic #32 (0.005): 0.266*"fast" + 0.112*"feststellen" + 0.052*"kopieren" + 0.034*"all" + 0.033*"bild" + 0.030*"einmalig" + 0.028*"fotobuch" + 0.028*"weihnachtsgeschenke" + 0.027*"kontrolle" + 0.026*"übersicht"
+2019-08-06 17:02:58,345 : INFO : topic #91 (0.005): 0.161*"siehe" + 0.099*"wissen" + 0.090*"9" + 0.074*"nachfragen" + 0.062*"heißen" + 0.059*"buchrücken" + 0.047*"schriftgröße" + 0.037*"kulanz" + 0.034*"gelb" + 0.033*"frage"
+2019-08-06 17:02:58,347 : INFO : topic #165 (0.005): 0.095*"produktqualität" + 0.075*"abdrucken" + 0.058*"genannt" + 0.057*"designen" + 0.051*"onlinebestellung" + 0.042*"ausrichtung" + 0.033*"rückgängig" + 0.029*"pech" + 0.027*"verweisen" + 0.026*"fotobucherstellung"
+2019-08-06 17:02:58,350 : INFO : topic #154 (0.005): 0.411*"bekommen" + 0.177*"per" + 0.146*"mail" + 0.026*"bestellung" + 0.023*"ersatz" + 0.021*"fotobuch" + 0.017*"obwohl" + 0.013*"bestellen" + 0.013*"mails" + 0.011*"dran"
+2019-08-06 17:02:58,512 : INFO : topic diff=0.010059, rho=0.179605
+2019-08-06 17:02:58,572 : INFO : PROGRESS: pass 0, at document #960000/1300724
+2019-08-06 17:03:09,742 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:03:13,707 : INFO : topic #191 (0.005): 0.269*"3" + 0.171*"4" + 0.142*"abholen" + 0.050*"bestellen" + 0.044*"2" + 0.036*"fahren" + 0.032*"dm-filiale" + 0.029*"foto" + 0.024*"fotobuch" + 0.018*"18"
+2019-08-06 17:03:13,709 : INFO : topic #183 (0.005): 0.160*"praktisch" + 0.116*"mehrmals" + 0.107*"eingeben" + 0.084*"insbesondere" + 0.045*"normale" + 0.044*"kundenfreundlich" + 0.036*"bestellen" + 0.035*"finden" + 0.035*"wort" + 0.033*"fotoabzügen"
+2019-08-06 17:03:13,711 : INFO : topic #86 (0.005): 0.334*"teuer" + 0.227*"enttäuschen" + 0.100*"unzufrieden" + 0.055*"kennen" + 0.031*"bestellen" + 0.030*"50" + 0.030*"hochglanz" + 0.029*"premium" + 0.028*"darstellung" + 0.025*"fällen"
+2019-08-06 17:03:13,712 : INFO : topic #116 (0.005): 0.168*"fall" + 0.136*"frage" + 0.124*"verständlich" + 0.085*"helfen" + 0.077*"100" + 0.061*"jed" + 0.038*"fotobuch" + 0.037*"beantworten" + 0.026*"weder" + 0.024*"prüfen"
+2019-08-06 17:03:13,714 : INFO : topic #75 (0.005): 0.089*"xxl" + 0.082*"beispielsweise" + 0.078*"s." + 0.063*"zuschnitt" + 0.063*"bild" + 0.053*"antworten" + 0.053*"intensiv" + 0.026*"buchbindung" + 0.024*"aufhänger" + 0.021*"rechnungsadresse"
+2019-08-06 17:03:13,867 : INFO : topic diff=0.009045, rho=0.176777
+2019-08-06 17:03:13,927 : INFO : PROGRESS: pass 0, at document #990000/1300724
+2019-08-06 17:03:24,826 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:03:29,179 : INFO : topic #83 (0.005): 0.168*"teilweise" + 0.106*"foto" + 0.100*"vorschau" + 0.072*"zuschneiden" + 0.070*"schwarz" + 0.066*"häufig" + 0.051*"entstehen" + 0.042*"mangel" + 0.039*"z" + 0.028*"b"
+2019-08-06 17:03:29,181 : INFO : topic #68 (0.005): 0.199*"app" + 0.142*"bild" + 0.141*"anzeigen" + 0.103*"foto" + 0.093*"hochladen" + 0.040*"obwohl" + 0.031*"hochgeladen" + 0.030*"all" + 0.028*"einarbeiten" + 0.016*"finden"
+2019-08-06 17:03:29,183 : INFO : topic #90 (0.005): 0.132*"gewünscht" + 0.130*"15" + 0.114*"verpacken" + 0.076*"bild" + 0.070*"mangelhaft" + 0.047*"klar" + 0.041*"niedrig" + 0.036*"24" + 0.036*"qualität" + 0.033*"geraten"
+2019-08-06 17:03:29,185 : INFO : topic #44 (0.005): 0.513*"gestaltungsmöglichkeiten" + 0.101*"qualität" + 0.052*"software" + 0.030*"konkurrenz" + 0.030*"probieren" + 0.028*"bieten" + 0.024*"geben" + 0.018*"enorm" + 0.015*"woran" + 0.015*"veränderung"
+2019-08-06 17:03:29,187 : INFO : topic #9 (0.005): 0.239*"eigentlich" + 0.201*"ware" + 0.101*"grüßen" + 0.082*"eintreffen" + 0.080*"telefon" + 0.043*"loben" + 0.027*"glauben" + 0.022*"lieben" + 0.018*"anmerkung" + 0.017*"freundlich"
+2019-08-06 17:03:29,341 : INFO : topic diff=0.009549, rho=0.174078
+2019-08-06 17:03:29,399 : INFO : PROGRESS: pass 0, at document #1020000/1300724
+2019-08-06 17:03:40,770 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:03:45,009 : INFO : topic #180 (0.005): 0.123*"zufriedenstellen" + 0.111*"hand" + 0.091*"bestellsoftware" + 0.075*"aufnehmen" + 0.073*"hülle" + 0.067*"handyhülle" + 0.065*"gedenken" + 0.044*"unnötig" + 0.033*"halten" + 0.030*"vorab"
+2019-08-06 17:03:45,011 : INFO : topic #21 (0.005): 0.850*"super" + 0.026*"bilder" + 0.012*"bild" + 0.011*"dünn" + 0.008*"herunterladen" + 0.008*"fotobuch" + 0.007*"wandkalender" + 0.007*"seiten" + 0.006*"bestellen" + 0.005*"software"
+2019-08-06 17:03:45,013 : INFO : topic #67 (0.005): 0.408*"erstellen" + 0.093*"pc" + 0.066*"paar" + 0.065*"bitte" + 0.059*"umständlich" + 0.036*"datei" + 0.029*"vermissen" + 0.029*"software" + 0.021*"qualität" + 0.020*"flexibel"
+2019-08-06 17:03:45,015 : INFO : topic #175 (0.005): 0.196*"grußkarten" + 0.114*"rossmann" + 0.090*"wichtig" + 0.082*"laden" + 0.058*"ansehen" + 0.054*"“" + 0.048*"„" + 0.035*"60" + 0.030*"teilweis" + 0.026*"entwurf"
+2019-08-06 17:03:45,017 : INFO : topic #85 (0.005): 0.310*"2" + 0.195*"1" + 0.075*"reklamieren" + 0.057*"mehrfach" + 0.043*"punkt" + 0.042*"system" + 0.029*"jeweils" + 0.025*"bild" + 0.022*"2x" + 0.022*"abstürzen"
+2019-08-06 17:03:45,169 : INFO : topic diff=0.008668, rho=0.171499
+2019-08-06 17:03:45,225 : INFO : PROGRESS: pass 0, at document #1050000/1300724
+2019-08-06 17:03:57,610 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:04:01,955 : INFO : topic #175 (0.005): 0.200*"grußkarten" + 0.111*"rossmann" + 0.094*"wichtig" + 0.079*"laden" + 0.057*"ansehen" + 0.053*"“" + 0.048*"„" + 0.036*"60" + 0.031*"teilweis" + 0.027*"entwurf"
+2019-08-06 17:04:01,958 : INFO : topic #4 (0.005): 0.386*"dm" + 0.223*"markt" + 0.078*"abholbereit" + 0.052*"produktion" + 0.043*"bestellung" + 0.022*"finden" + 0.019*"unternehmen" + 0.018*"verkäuferin" + 0.015*"erneute" + 0.012*"nachlieferung"
+2019-08-06 17:04:01,961 : INFO : topic #136 (0.005): 0.136*"10er" + 0.081*"blau" + 0.068*"bild" + 0.051*"bestellen" + 0.050*"aufhängen" + 0.050*"testen" + 0.044*"set" + 0.040*"wand" + 0.035*"klappkarten" + 0.032*"falz"
+2019-08-06 17:04:01,964 : INFO : topic #109 (0.005): 0.156*"letzte" + 0.118*"meist" + 0.099*"erneut" + 0.097*"nochmals" + 0.086*"komplizieren" + 0.083*"artikel" + 0.062*"bestellung" + 0.057*"bestellen" + 0.042*"knapp" + 0.021*"reaktion"
+2019-08-06 17:04:01,966 : INFO : topic #55 (0.005): 0.136*"formen" + 0.128*"mm" + 0.074*"treffen" + 0.040*"benachrichtigen" + 0.037*"sprechblase" + 0.031*"hingegen" + 0.029*"kreisen" + 0.024*"straße" + 0.022*"planung" + 0.022*"400"
+2019-08-06 17:04:02,159 : INFO : topic diff=0.008510, rho=0.169031
+2019-08-06 17:04:02,230 : INFO : PROGRESS: pass 0, at document #1080000/1300724
+2019-08-06 17:04:14,729 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:04:18,685 : INFO : topic #53 (0.005): 0.375*"fertigen" + 0.080*"komfortabel" + 0.059*"brauche" + 0.050*"z.b." + 0.049*"qualität" + 0.047*"händeln" + 0.042*"assistent" + 0.028*"produktauswahl" + 0.028*"feedback" + 0.026*"fotobuch"
+2019-08-06 17:04:18,687 : INFO : topic #175 (0.005): 0.199*"grußkarten" + 0.114*"rossmann" + 0.095*"wichtig" + 0.079*"laden" + 0.054*"ansehen" + 0.054*"“" + 0.049*"„" + 0.037*"60" + 0.033*"teilweis" + 0.027*"entwurf"
+2019-08-06 17:04:18,690 : INFO : topic #158 (0.005): 0.288*"mehrer" + 0.094*"funktion" + 0.081*"langen" + 0.061*"sodass" + 0.048*"anfang" + 0.047*"angegeben" + 0.043*"bestellen" + 0.034*"nervig" + 0.027*"heraus" + 0.024*"finden"
+2019-08-06 17:04:18,692 : INFO : topic #48 (0.005): 0.625*"bearbeitung" + 0.133*"trotzen" + 0.100*"eher" + 0.023*"hilfsbereit" + 0.014*"mühe" + 0.013*"angekündigt" + 0.013*"bild" + 0.012*"upload" + 0.008*"überwiegen" + 0.007*"aufwändig"
+2019-08-06 17:04:18,694 : INFO : topic #166 (0.005): 0.202*"version" + 0.076*"adresse" + 0.070*"gedruckt" + 0.059*"rückmeldung" + 0.055*"schatten" + 0.051*"bedanken" + 0.051*"befinden" + 0.044*"feld" + 0.037*"ausgezeichnet" + 0.036*"auftragsnummer"
+2019-08-06 17:04:18,852 : INFO : topic diff=0.009284, rho=0.166667
+2019-08-06 17:04:18,909 : INFO : PROGRESS: pass 0, at document #1110000/1300724
+2019-08-06 17:04:29,861 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:04:33,769 : INFO : topic #118 (0.005): 0.205*"aufgrund" + 0.070*"fotoprodukte" + 0.061*"ihrerseits" + 0.052*"machbar" + 0.039*"verzögerung" + 0.038*"kasse" + 0.037*"klick" + 0.036*"blicken" + 0.034*"abschließen" + 0.027*"bestellung"
+2019-08-06 17:04:33,771 : INFO : topic #90 (0.005): 0.137*"15" + 0.134*"gewünscht" + 0.113*"verpacken" + 0.075*"bild" + 0.073*"mangelhaft" + 0.045*"klar" + 0.042*"niedrig" + 0.037*"24" + 0.035*"qualität" + 0.032*"geraten"
+2019-08-06 17:04:33,773 : INFO : topic #104 (0.005): 0.477*"lieferung" + 0.252*"schnell" + 0.247*"qualität" + 0.010*"bestellung" + 0.006*"bild" + 0.001*"bestellen" + 0.001*"tracking" + 0.001*"fotobuch" + 0.001*"darauffolgend" + 0.001*"mies"
+2019-08-06 17:04:33,775 : INFO : topic #163 (0.005): 0.349*"erhalten" + 0.160*"falsch" + 0.072*"vorhanden" + 0.060*"bestellung" + 0.043*"fotobuch" + 0.042*"zweimal" + 0.039*"bestellen" + 0.033*"bild" + 0.023*"bestätigung" + 0.017*"eingehen"
+2019-08-06 17:04:33,776 : INFO : topic #0 (0.005): 0.288*"diesmal" + 0.199*"handling" + 0.127*"wandbilder" + 0.089*"einfaches" + 0.087*"qualität" + 0.029*"bestellen" + 0.019*"bezeichnung" + 0.018*"kollegin" + 0.013*"bestand" + 0.012*"bild"
+2019-08-06 17:04:33,926 : INFO : topic diff=0.009356, rho=0.164399
+2019-08-06 17:04:33,983 : INFO : PROGRESS: pass 0, at document #1140000/1300724
+2019-08-06 17:04:44,611 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:04:48,528 : INFO : topic #58 (0.005): 0.117*"versenden" + 0.105*"suchen" + 0.101*"kurze" + 0.093*"einzig" + 0.077*"benutzen" + 0.072*"korrekt" + 0.050*"qualität" + 0.048*"äußern" + 0.039*"selben" + 0.035*"frau"
+2019-08-06 17:04:48,530 : INFO : topic #176 (0.005): 0.165*"wünschen" + 0.152*"karten" + 0.118*"überzeugen" + 0.114*"genau" + 0.109*"...." + 0.067*"qualität" + 0.056*"verschicken" + 0.044*"denken" + 0.032*"vorschlag" + 0.030*"drauf"
+2019-08-06 17:04:48,531 : INFO : topic #108 (0.005): 0.000*"aneinanderhängend" + 0.000*"möglichkeit-" + 0.000*"vergessern" + 0.000*"standard-maessig" + 0.000*"komputer-laie" + 0.000*"abzüben" + 0.000*"wählen/verschieben" + 0.000*"50ten" + 0.000*"bestellt+" + 0.000*"blaiben"
+2019-08-06 17:04:48,533 : INFO : topic #134 (0.005): 0.138*"einstellen" + 0.079*"beheben" + 0.074*"schlechte" + 0.073*"eins" + 0.056*"entdecken" + 0.049*"bild" + 0.047*"fertigstellen" + 0.035*"auftauchen" + 0.031*"aufhellen" + 0.030*"telefonat"
+2019-08-06 17:04:48,535 : INFO : topic #194 (0.005): 0.189*"bequemen" + 0.170*"entscheiden" + 0.050*"glänzend" + 0.035*"bewusst" + 0.033*"xl" + 0.029*"zeile" + 0.025*"verspätung" + 0.024*"qualität" + 0.022*"bestellen" + 0.020*"riechen"
+2019-08-06 17:04:48,683 : INFO : topic diff=0.008443, rho=0.162221
+2019-08-06 17:04:48,740 : INFO : PROGRESS: pass 0, at document #1170000/1300724
+2019-08-06 17:04:59,191 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:05:03,218 : INFO : topic #0 (0.005): 0.280*"diesmal" + 0.203*"handling" + 0.132*"wandbilder" + 0.091*"einfaches" + 0.085*"qualität" + 0.032*"bestellen" + 0.019*"bezeichnung" + 0.017*"kollegin" + 0.014*"bestand" + 0.013*"bild"
+2019-08-06 17:05:03,220 : INFO : topic #188 (0.005): 0.239*"nutzen" + 0.147*"stark" + 0.129*":)" + 0.081*"gebrauchen" + 0.058*"sinnvoll" + 0.046*"soweit" + 0.035*"nachlassen" + 0.026*"qualität" + 0.020*"kleinigkeit" + 0.019*"o"
+2019-08-06 17:05:03,222 : INFO : topic #162 (0.005): 0.281*"lassen" + 0.125*"wählen" + 0.097*"einzeln" + 0.094*"foto" + 0.061*"schaden" + 0.047*"bringen" + 0.046*"verschieben" + 0.044*"person" + 0.040*"fest" + 0.039*"dick"
+2019-08-06 17:05:03,224 : INFO : topic #66 (0.005): 0.104*"din" + 0.103*"texten" + 0.078*"a4" + 0.077*"wunsch" + 0.047*"quadratisch" + 0.044*"code" + 0.041*"berücksichtigen" + 0.039*"schriftart" + 0.039*"farbbrillanz" + 0.032*"bestellprozess"
+2019-08-06 17:05:03,226 : INFO : topic #109 (0.005): 0.162*"letzte" + 0.112*"meist" + 0.099*"erneut" + 0.095*"nochmals" + 0.088*"komplizieren" + 0.082*"artikel" + 0.065*"bestellung" + 0.057*"bestellen" + 0.041*"knapp" + 0.022*"reaktion"
+2019-08-06 17:05:03,384 : INFO : topic diff=0.010176, rho=0.160128
+2019-08-06 17:05:03,444 : INFO : PROGRESS: pass 0, at document #1200000/1300724
+2019-08-06 17:05:14,184 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:05:18,236 : INFO : topic #52 (0.005): 0.288*"optimal" + 0.156*"sparen" + 0.091*"bestellt" + 0.067*"anlass" + 0.050*"bild" + 0.046*"qualität" + 0.040*"hintergrundbilder" + 0.027*"lieferkosten" + 0.025*"enkel" + 0.025*"einschätzen"
+2019-08-06 17:05:18,238 : INFO : topic #10 (0.005): 0.176*"termin" + 0.132*"kostenlos" + 0.064*"auffindbar" + 0.058*"budni" + 0.046*"kalenderblatt" + 0.034*"beraten" + 0.031*"edeka" + 0.026*"geben" + 0.025*"ansprechpartner" + 0.025*"mach"
+2019-08-06 17:05:18,240 : INFO : topic #40 (0.005): 0.296*"kosten" + 0.141*"nachbestellen" + 0.067*"fotobuch" + 0.057*"neu" + 0.042*"einbinden" + 0.035*"lästig" + 0.034*"wieso" + 0.027*"finden" + 0.024*"päckchen" + 0.023*"hierfür"
+2019-08-06 17:05:18,243 : INFO : topic #143 (0.005): 0.109*"nummer" + 0.062*"manko" + 0.061*"reagieren" + 0.057*"bearbeitungsmöglichkeiten" + 0.056*"erfüllen" + 0.053*"qualität" + 0.040*"flecken" + 0.040*"bearbeitungssoftware" + 0.037*"durchführen" + 0.037*"sorgfältig"
+2019-08-06 17:05:18,245 : INFO : topic #166 (0.005): 0.208*"version" + 0.077*"adresse" + 0.069*"gedruckt" + 0.061*"rückmeldung" + 0.060*"schatten" + 0.054*"befinden" + 0.046*"bedanken" + 0.046*"feld" + 0.037*"ausgezeichnet" + 0.035*"auftragsnummer"
+2019-08-06 17:05:18,411 : INFO : topic diff=0.008010, rho=0.158114
+2019-08-06 17:05:18,472 : INFO : PROGRESS: pass 0, at document #1230000/1300724
+2019-08-06 17:05:30,123 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:05:34,333 : INFO : topic #2 (0.005): 0.210*"beschädigen" + 0.142*"produktes" + 0.069*"qualität" + 0.036*"aktualisieren" + 0.035*"beschädigung" + 0.033*"folie" + 0.032*"seitenanzahl" + 0.030*"überschreiten" + 0.030*"punktzahl" + 0.025*"aktualisierung"
+2019-08-06 17:05:34,336 : INFO : topic #71 (0.005): 0.196*"voll" + 0.161*"alt" + 0.095*"unten" + 0.068*"anschauen" + 0.066*"umfangreich" + 0.051*"links" + 0.050*"empfehlung" + 0.045*"rechts" + 0.038*"fotobuch" + 0.036*"bisherig"
+2019-08-06 17:05:34,338 : INFO : topic #130 (0.005): 0.158*"matt" + 0.103*"fotoqualität" + 0.081*"nett" + 0.061*"wechseln" + 0.052*"bisschen" + 0.045*"überlegen" + 0.045*"ausgewählt" + 0.042*":-(" + 0.036*"glänzen" + 0.033*"abspeichern"
+2019-08-06 17:05:34,340 : INFO : topic #28 (0.005): 0.335*"papier" + 0.076*"hängen" + 0.068*"qualität" + 0.062*"stabil" + 0.041*"annehmen" + 0.033*"optisch" + 0.032*"in ordnung" + 0.025*"menüführung" + 0.024*"bild" + 0.023*"ansprechend"
+2019-08-06 17:05:34,343 : INFO : topic #77 (0.005): 0.390*"abzug" + 0.099*"dm-markt" + 0.089*"qualität" + 0.077*"sowohl" + 0.052*"negativ" + 0.045*"beanstandung" + 0.032*"bestellen" + 0.024*"online-bestellung" + 0.022*"bestellung" + 0.020*"beanstanden"
+2019-08-06 17:05:34,515 : INFO : topic diff=0.008178, rho=0.156174
+2019-08-06 17:05:34,578 : INFO : PROGRESS: pass 0, at document #1260000/1300724
+2019-08-06 17:05:45,868 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:05:50,390 : INFO : topic #100 (0.005): 0.331*"freuen" + 0.100*"frei" + 0.071*"mann" + 0.066*"froh" + 0.034*"fotobuch" + 0.029*"rollen" + 0.028*"wählbar" + 0.028*"selbe" + 0.026*"ergebniss" + 0.026*"geben"
+2019-08-06 17:05:50,393 : INFO : topic #132 (0.005): 0.457*"ander" + 0.192*"anbieter" + 0.087*"arbeiten" + 0.054*"bieten" + 0.040*"und so weiter" + 0.035*"meinung" + 0.031*"geburtstag" + 0.021*"fotobuch" + 0.016*"alternativ" + 0.015*"billig"
+2019-08-06 17:05:50,395 : INFO : topic #112 (0.005): 0.723*"software" + 0.066*"qualität" + 0.028*"intuitiv" + 0.020*"versehen" + 0.013*"bedienbar" + 0.013*"laptop" + 0.012*"überarbeiten" + 0.011*"fotobuch" + 0.008*"unverschämt" + 0.008*"finden"
+2019-08-06 17:05:50,398 : INFO : topic #155 (0.005): 0.145*"dunkel" + 0.126*"bild" + 0.070*"foto" + 0.065*"weiße" + 0.052*"korrigieren" + 0.038*"streife" + 0.038*"farbe" + 0.038*"heller" + 0.033*"überein" + 0.030*"müssten"
+2019-08-06 17:05:50,400 : INFO : topic #149 (0.005): 0.131*"inhalt" + 0.058*"wiederum" + 0.053*"jahreszahl" + 0.047*"zufällig" + 0.044*"beinhalten" + 0.031*"versetzen" + 0.031*"titelblatt" + 0.028*"vielfach" + 0.028*"vllt" + 0.023*"doppelseitig"
+2019-08-06 17:05:50,648 : INFO : topic diff=0.007659, rho=0.154303
+2019-08-06 17:05:50,725 : INFO : PROGRESS: pass 0, at document #1290000/1300724
+2019-08-06 17:06:02,644 : INFO : merging changes from 30000 documents into a model of 1300724 documents
+2019-08-06 17:06:07,003 : INFO : topic #28 (0.005): 0.331*"papier" + 0.075*"hängen" + 0.070*"qualität" + 0.061*"stabil" + 0.044*"annehmen" + 0.033*"optisch" + 0.029*"in ordnung" + 0.024*"menüführung" + 0.024*"bild" + 0.024*"ansprechend"
+2019-08-06 17:06:07,006 : INFO : topic #96 (0.005): 0.109*"erwähnen" + 0.098*"clip" + 0.090*"ansprechen" + 0.085*"zumal" + 0.075*"genial" + 0.038*"sohn" + 0.034*"nutzer" + 0.030*"überzeugend" + 0.023*"finden" + 0.022*"hoffe"
+2019-08-06 17:06:07,008 : INFO : topic #93 (0.005): 0.190*"lieferservice" + 0.110*"fertigung" + 0.085*"qualität" + 0.060*"planen" + 0.058*"demnächst" + 0.058*"eingabe" + 0.045*"zahlung" + 0.036*"fotoprogramm" + 0.035*"beurteilung" + 0.022*"browser"
+2019-08-06 17:06:07,010 : INFO : topic #131 (0.005): 0.553*"schön" + 0.162*"farbe" + 0.082*"unterschiedlich" + 0.042*"foto" + 0.041*"papierqualität" + 0.029*"geld" + 0.018*"auffallen" + 0.009*"weihnachtskarten" + 0.008*"download" + 0.008*"ausgeben"
+2019-08-06 17:06:07,012 : INFO : topic #120 (0.005): 0.210*"beid" + 0.110*"handeln" + 0.098*"knicken" + 0.085*"familie" + 0.071*"bild" + 0.068*"mitteilung" + 0.055*"verschwimmen" + 0.052*"spitz" + 0.035*"foto" + 0.027*"letzt"
+2019-08-06 17:06:07,163 : INFO : topic diff=0.007660, rho=0.152499
+2019-08-06 17:06:07,219 : INFO : PROGRESS: pass 0, at document #1300724/1300724
+2019-08-06 17:06:12,195 : INFO : merging changes from 10724 documents into a model of 1300724 documents
+2019-08-06 17:06:16,572 : INFO : topic #36 (0.005): 0.258*"telefonisch" + 0.190*"mitteilen" + 0.056*"auftreten" + 0.035*"rücksprache" + 0.033*"beschwerde" + 0.032*"hierzu" + 0.031*"23.12" + 0.028*"m." + 0.025*"e." + 0.025*"21.12"
+2019-08-06 17:06:16,574 : INFO : topic #55 (0.005): 0.152*"mm" + 0.142*"formen" + 0.074*"treffen" + 0.039*"benachrichtigen" + 0.037*"hingegen" + 0.036*"sprechblase" + 0.026*"kreisen" + 0.025*"straße" + 0.022*"verfügbarkeit" + 0.021*"planung"
+2019-08-06 17:06:16,576 : INFO : topic #86 (0.005): 0.338*"teuer" + 0.234*"enttäuschen" + 0.102*"unzufrieden" + 0.054*"kennen" + 0.033*"premium" + 0.032*"darstellung" + 0.031*"hochglanz" + 0.030*"bestellen" + 0.029*"50" + 0.027*"fällen"
+2019-08-06 17:06:16,579 : INFO : topic #109 (0.005): 0.160*"letzte" + 0.114*"meist" + 0.101*"erneut" + 0.095*"nochmals" + 0.088*"komplizieren" + 0.078*"artikel" + 0.064*"bestellung" + 0.057*"bestellen" + 0.043*"knapp" + 0.022*"reaktion"
+2019-08-06 17:06:16,581 : INFO : topic #189 (0.005): 0.300*"unkompliziert" + 0.149*"poster" + 0.107*"ziemlich" + 0.072*"tasse" + 0.039*"ordentlich" + 0.035*"blatt" + 0.030*"druck" + 0.027*"bestellen" + 0.025*"ipad" + 0.024*"gegensatz"
+2019-08-06 17:06:16,783 : INFO : topic diff=0.012637, rho=0.150756
+2019-08-06 17:06:17,559 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-06 17:06:17,568 : INFO : CorpusAccumulator accumulated stats from 2000 documents
+2019-08-06 17:06:17,578 : INFO : CorpusAccumulator accumulated stats from 3000 documents
+2019-08-06 17:06:17,586 : INFO : CorpusAccumulator accumulated stats from 4000 documents
+2019-08-06 17:06:17,593 : INFO : CorpusAccumulator accumulated stats from 5000 documents
+2019-08-06 17:06:17,601 : INFO : CorpusAccumulator accumulated stats from 6000 documents
+2019-08-06 17:06:17,610 : INFO : CorpusAccumulator accumulated stats from 7000 documents
+2019-08-06 17:06:17,619 : INFO : CorpusAccumulator accumulated stats from 8000 documents
+2019-08-06 17:06:17,628 : INFO : CorpusAccumulator accumulated stats from 9000 documents
+2019-08-06 17:06:17,635 : INFO : CorpusAccumulator accumulated stats from 10000 documents
+2019-08-06 17:06:17,643 : INFO : CorpusAccumulator accumulated stats from 11000 documents
+2019-08-06 17:06:17,651 : INFO : CorpusAccumulator accumulated stats from 12000 documents
+2019-08-06 17:06:17,659 : INFO : CorpusAccumulator accumulated stats from 13000 documents
+2019-08-06 17:06:17,669 : INFO : CorpusAccumulator accumulated stats from 14000 documents
+2019-08-06 17:06:17,680 : INFO : CorpusAccumulator accumulated stats from 15000 documents
+2019-08-06 17:06:17,693 : INFO : CorpusAccumulator accumulated stats from 16000 documents
+2019-08-06 17:06:17,705 : INFO : CorpusAccumulator accumulated stats from 17000 documents
+2019-08-06 17:06:17,721 : INFO : CorpusAccumulator accumulated stats from 18000 documents
+2019-08-06 17:06:17,733 : INFO : CorpusAccumulator accumulated stats from 19000 documents
+2019-08-06 17:06:17,744 : INFO : CorpusAccumulator accumulated stats from 20000 documents
+2019-08-06 17:06:17,764 : INFO : CorpusAccumulator accumulated stats from 21000 documents
+2019-08-06 17:06:17,776 : INFO : CorpusAccumulator accumulated stats from 22000 documents
+2019-08-06 17:06:17,791 : INFO : CorpusAccumulator accumulated stats from 23000 documents
+2019-08-06 17:06:17,809 : INFO : CorpusAccumulator accumulated stats from 24000 documents
+2019-08-06 17:06:17,828 : INFO : CorpusAccumulator accumulated stats from 25000 documents
+2019-08-06 17:06:17,841 : INFO : CorpusAccumulator accumulated stats from 26000 documents
+2019-08-06 17:06:17,853 : INFO : CorpusAccumulator accumulated stats from 27000 documents
+2019-08-06 17:06:17,864 : INFO : CorpusAccumulator accumulated stats from 28000 documents
+2019-08-06 17:06:17,874 : INFO : CorpusAccumulator accumulated stats from 29000 documents
+2019-08-06 17:06:17,883 : INFO : CorpusAccumulator accumulated stats from 30000 documents
+2019-08-06 17:06:17,892 : INFO : CorpusAccumulator accumulated stats from 31000 documents
+2019-08-06 17:06:17,901 : INFO : CorpusAccumulator accumulated stats from 32000 documents
+2019-08-06 17:06:17,910 : INFO : CorpusAccumulator accumulated stats from 33000 documents
+2019-08-06 17:06:17,922 : INFO : CorpusAccumulator accumulated stats from 34000 documents
+2019-08-06 17:06:17,935 : INFO : CorpusAccumulator accumulated stats from 35000 documents
+2019-08-06 17:06:17,945 : INFO : CorpusAccumulator accumulated stats from 36000 documents
+2019-08-06 17:06:17,955 : INFO : CorpusAccumulator accumulated stats from 37000 documents
+2019-08-06 17:06:17,965 : INFO : CorpusAccumulator accumulated stats from 38000 documents
+2019-08-06 17:06:17,976 : INFO : CorpusAccumulator accumulated stats from 39000 documents
+2019-08-06 17:06:17,988 : INFO : CorpusAccumulator accumulated stats from 40000 documents
+2019-08-06 17:06:18,001 : INFO : CorpusAccumulator accumulated stats from 41000 documents
+2019-08-06 17:06:18,012 : INFO : CorpusAccumulator accumulated stats from 42000 documents
+2019-08-06 17:06:18,021 : INFO : CorpusAccumulator accumulated stats from 43000 documents
+2019-08-06 17:06:18,029 : INFO : CorpusAccumulator accumulated stats from 44000 documents
+2019-08-06 17:06:18,037 : INFO : CorpusAccumulator accumulated stats from 45000 documents
+2019-08-06 17:06:18,047 : INFO : CorpusAccumulator accumulated stats from 46000 documents
+2019-08-06 17:06:18,059 : INFO : CorpusAccumulator accumulated stats from 47000 documents
+2019-08-06 17:06:18,070 : INFO : CorpusAccumulator accumulated stats from 48000 documents
+2019-08-06 17:06:18,079 : INFO : CorpusAccumulator accumulated stats from 49000 documents
+2019-08-06 17:06:18,088 : INFO : CorpusAccumulator accumulated stats from 50000 documents
+2019-08-06 17:06:18,097 : INFO : CorpusAccumulator accumulated stats from 51000 documents
+2019-08-06 17:06:18,107 : INFO : CorpusAccumulator accumulated stats from 52000 documents
+2019-08-06 17:06:18,116 : INFO : CorpusAccumulator accumulated stats from 53000 documents
+2019-08-06 17:06:18,127 : INFO : CorpusAccumulator accumulated stats from 54000 documents
+2019-08-06 17:06:18,139 : INFO : CorpusAccumulator accumulated stats from 55000 documents
+2019-08-06 17:06:18,149 : INFO : CorpusAccumulator accumulated stats from 56000 documents
+2019-08-06 17:06:18,159 : INFO : CorpusAccumulator accumulated stats from 57000 documents
+2019-08-06 17:06:18,169 : INFO : CorpusAccumulator accumulated stats from 58000 documents
+2019-08-06 17:06:18,178 : INFO : CorpusAccumulator accumulated stats from 59000 documents
+2019-08-06 17:06:18,190 : INFO : CorpusAccumulator accumulated stats from 60000 documents
+2019-08-06 17:06:18,200 : INFO : CorpusAccumulator accumulated stats from 61000 documents
+2019-08-06 17:06:18,217 : INFO : CorpusAccumulator accumulated stats from 62000 documents
+2019-08-06 17:06:18,229 : INFO : CorpusAccumulator accumulated stats from 63000 documents
+2019-08-06 17:06:18,240 : INFO : CorpusAccumulator accumulated stats from 64000 documents
+2019-08-06 17:06:18,248 : INFO : CorpusAccumulator accumulated stats from 65000 documents
+2019-08-06 17:06:18,264 : INFO : CorpusAccumulator accumulated stats from 66000 documents
+2019-08-06 17:06:18,278 : INFO : CorpusAccumulator accumulated stats from 67000 documents
+2019-08-06 17:06:18,290 : INFO : CorpusAccumulator accumulated stats from 68000 documents
+2019-08-06 17:06:18,298 : INFO : CorpusAccumulator accumulated stats from 69000 documents
+2019-08-06 17:06:18,318 : INFO : CorpusAccumulator accumulated stats from 70000 documents
+2019-08-06 17:06:18,328 : INFO : CorpusAccumulator accumulated stats from 71000 documents
+2019-08-06 17:06:18,338 : INFO : CorpusAccumulator accumulated stats from 72000 documents
+2019-08-06 17:06:18,348 : INFO : CorpusAccumulator accumulated stats from 73000 documents
+2019-08-06 17:06:18,359 : INFO : CorpusAccumulator accumulated stats from 74000 documents
+2019-08-06 17:06:18,368 : INFO : CorpusAccumulator accumulated stats from 75000 documents
+2019-08-06 17:06:18,377 : INFO : CorpusAccumulator accumulated stats from 76000 documents
+2019-08-06 17:06:18,386 : INFO : CorpusAccumulator accumulated stats from 77000 documents
+2019-08-06 17:06:18,394 : INFO : CorpusAccumulator accumulated stats from 78000 documents
+2019-08-06 17:06:18,403 : INFO : CorpusAccumulator accumulated stats from 79000 documents
+2019-08-06 17:06:18,412 : INFO : CorpusAccumulator accumulated stats from 80000 documents
+2019-08-06 17:06:18,424 : INFO : CorpusAccumulator accumulated stats from 81000 documents
+2019-08-06 17:06:18,432 : INFO : CorpusAccumulator accumulated stats from 82000 documents
+2019-08-06 17:06:18,442 : INFO : CorpusAccumulator accumulated stats from 83000 documents
+2019-08-06 17:06:18,450 : INFO : CorpusAccumulator accumulated stats from 84000 documents
+2019-08-06 17:06:18,458 : INFO : CorpusAccumulator accumulated stats from 85000 documents
+2019-08-06 17:06:18,468 : INFO : CorpusAccumulator accumulated stats from 86000 documents
+2019-08-06 17:06:18,477 : INFO : CorpusAccumulator accumulated stats from 87000 documents
+2019-08-06 17:06:18,487 : INFO : CorpusAccumulator accumulated stats from 88000 documents
+2019-08-06 17:06:18,495 : INFO : CorpusAccumulator accumulated stats from 89000 documents
+2019-08-06 17:06:18,504 : INFO : CorpusAccumulator accumulated stats from 90000 documents
+2019-08-06 17:06:18,513 : INFO : CorpusAccumulator accumulated stats from 91000 documents
+2019-08-06 17:06:18,523 : INFO : CorpusAccumulator accumulated stats from 92000 documents
+2019-08-06 17:06:18,533 : INFO : CorpusAccumulator accumulated stats from 93000 documents
+2019-08-06 17:06:18,542 : INFO : CorpusAccumulator accumulated stats from 94000 documents
+2019-08-06 17:06:18,551 : INFO : CorpusAccumulator accumulated stats from 95000 documents
+2019-08-06 17:06:18,559 : INFO : CorpusAccumulator accumulated stats from 96000 documents
+2019-08-06 17:06:18,567 : INFO : CorpusAccumulator accumulated stats from 97000 documents
+2019-08-06 17:06:18,575 : INFO : CorpusAccumulator accumulated stats from 98000 documents
+2019-08-06 17:06:18,586 : INFO : CorpusAccumulator accumulated stats from 99000 documents
+2019-08-06 17:06:18,595 : INFO : CorpusAccumulator accumulated stats from 100000 documents
+2019-08-06 17:06:18,603 : INFO : CorpusAccumulator accumulated stats from 101000 documents
+2019-08-06 17:06:18,611 : INFO : CorpusAccumulator accumulated stats from 102000 documents
+2019-08-06 17:06:18,619 : INFO : CorpusAccumulator accumulated stats from 103000 documents
+2019-08-06 17:06:18,627 : INFO : CorpusAccumulator accumulated stats from 104000 documents
+2019-08-06 17:06:18,638 : INFO : CorpusAccumulator accumulated stats from 105000 documents
+2019-08-06 17:06:18,648 : INFO : CorpusAccumulator accumulated stats from 106000 documents
+2019-08-06 17:06:18,657 : INFO : CorpusAccumulator accumulated stats from 107000 documents
+2019-08-06 17:06:18,665 : INFO : CorpusAccumulator accumulated stats from 108000 documents
+2019-08-06 17:06:18,674 : INFO : CorpusAccumulator accumulated stats from 109000 documents
+2019-08-06 17:06:18,682 : INFO : CorpusAccumulator accumulated stats from 110000 documents
+2019-08-06 17:06:18,691 : INFO : CorpusAccumulator accumulated stats from 111000 documents
+2019-08-06 17:06:18,701 : INFO : CorpusAccumulator accumulated stats from 112000 documents
+2019-08-06 17:06:18,710 : INFO : CorpusAccumulator accumulated stats from 113000 documents
+2019-08-06 17:06:18,719 : INFO : CorpusAccumulator accumulated stats from 114000 documents
+2019-08-06 17:06:18,726 : INFO : CorpusAccumulator accumulated stats from 115000 documents
+2019-08-06 17:06:18,735 : INFO : CorpusAccumulator accumulated stats from 116000 documents
+2019-08-06 17:06:18,743 : INFO : CorpusAccumulator accumulated stats from 117000 documents
+2019-08-06 17:06:18,752 : INFO : CorpusAccumulator accumulated stats from 118000 documents
+2019-08-06 17:06:18,761 : INFO : CorpusAccumulator accumulated stats from 119000 documents
+2019-08-06 17:06:18,769 : INFO : CorpusAccumulator accumulated stats from 120000 documents
+2019-08-06 17:06:18,776 : INFO : CorpusAccumulator accumulated stats from 121000 documents
+2019-08-06 17:06:18,784 : INFO : CorpusAccumulator accumulated stats from 122000 documents
+2019-08-06 17:06:18,791 : INFO : CorpusAccumulator accumulated stats from 123000 documents
+2019-08-06 17:06:18,798 : INFO : CorpusAccumulator accumulated stats from 124000 documents
+2019-08-06 17:06:18,807 : INFO : CorpusAccumulator accumulated stats from 125000 documents
+2019-08-06 17:06:18,816 : INFO : CorpusAccumulator accumulated stats from 126000 documents
+2019-08-06 17:06:18,823 : INFO : CorpusAccumulator accumulated stats from 127000 documents
+2019-08-06 17:06:18,830 : INFO : CorpusAccumulator accumulated stats from 128000 documents
+2019-08-06 17:06:18,838 : INFO : CorpusAccumulator accumulated stats from 129000 documents
+2019-08-06 17:06:18,845 : INFO : CorpusAccumulator accumulated stats from 130000 documents
+2019-08-06 17:06:18,854 : INFO : CorpusAccumulator accumulated stats from 131000 documents
+2019-08-06 17:06:18,863 : INFO : CorpusAccumulator accumulated stats from 132000 documents
+2019-08-06 17:06:18,872 : INFO : CorpusAccumulator accumulated stats from 133000 documents
+2019-08-06 17:06:18,880 : INFO : CorpusAccumulator accumulated stats from 134000 documents
+2019-08-06 17:06:18,888 : INFO : CorpusAccumulator accumulated stats from 135000 documents
+2019-08-06 17:06:18,895 : INFO : CorpusAccumulator accumulated stats from 136000 documents
+2019-08-06 17:06:18,904 : INFO : CorpusAccumulator accumulated stats from 137000 documents
+2019-08-06 17:06:18,913 : INFO : CorpusAccumulator accumulated stats from 138000 documents
+2019-08-06 17:06:18,922 : INFO : CorpusAccumulator accumulated stats from 139000 documents
+2019-08-06 17:06:18,930 : INFO : CorpusAccumulator accumulated stats from 140000 documents
+2019-08-06 17:06:18,937 : INFO : CorpusAccumulator accumulated stats from 141000 documents
+2019-08-06 17:06:18,944 : INFO : CorpusAccumulator accumulated stats from 142000 documents
+2019-08-06 17:06:18,952 : INFO : CorpusAccumulator accumulated stats from 143000 documents
+2019-08-06 17:06:18,961 : INFO : CorpusAccumulator accumulated stats from 144000 documents
+2019-08-06 17:06:18,971 : INFO : CorpusAccumulator accumulated stats from 145000 documents
+2019-08-06 17:06:18,978 : INFO : CorpusAccumulator accumulated stats from 146000 documents
+2019-08-06 17:06:18,986 : INFO : CorpusAccumulator accumulated stats from 147000 documents
+2019-08-06 17:06:18,994 : INFO : CorpusAccumulator accumulated stats from 148000 documents
+2019-08-06 17:06:19,002 : INFO : CorpusAccumulator accumulated stats from 149000 documents
+2019-08-06 17:06:19,009 : INFO : CorpusAccumulator accumulated stats from 150000 documents
+2019-08-06 17:06:19,018 : INFO : CorpusAccumulator accumulated stats from 151000 documents
+2019-08-06 17:06:19,027 : INFO : CorpusAccumulator accumulated stats from 152000 documents
+2019-08-06 17:06:19,035 : INFO : CorpusAccumulator accumulated stats from 153000 documents
+2019-08-06 17:06:19,042 : INFO : CorpusAccumulator accumulated stats from 154000 documents
+2019-08-06 17:06:19,049 : INFO : CorpusAccumulator accumulated stats from 155000 documents
+2019-08-06 17:06:19,057 : INFO : CorpusAccumulator accumulated stats from 156000 documents
+2019-08-06 17:06:19,064 : INFO : CorpusAccumulator accumulated stats from 157000 documents
+2019-08-06 17:06:19,073 : INFO : CorpusAccumulator accumulated stats from 158000 documents
+2019-08-06 17:06:19,081 : INFO : CorpusAccumulator accumulated stats from 159000 documents
+2019-08-06 17:06:19,091 : INFO : CorpusAccumulator accumulated stats from 160000 documents
+2019-08-06 17:06:19,098 : INFO : CorpusAccumulator accumulated stats from 161000 documents
+2019-08-06 17:06:19,105 : INFO : CorpusAccumulator accumulated stats from 162000 documents
+2019-08-06 17:06:19,113 : INFO : CorpusAccumulator accumulated stats from 163000 documents
+2019-08-06 17:06:19,122 : INFO : CorpusAccumulator accumulated stats from 164000 documents
+2019-08-06 17:06:19,130 : INFO : CorpusAccumulator accumulated stats from 165000 documents
+2019-08-06 17:06:19,138 : INFO : CorpusAccumulator accumulated stats from 166000 documents
+2019-08-06 17:06:19,147 : INFO : CorpusAccumulator accumulated stats from 167000 documents
+2019-08-06 17:06:19,155 : INFO : CorpusAccumulator accumulated stats from 168000 documents
+2019-08-06 17:06:19,162 : INFO : CorpusAccumulator accumulated stats from 169000 documents
+2019-08-06 17:06:19,173 : INFO : CorpusAccumulator accumulated stats from 170000 documents
+2019-08-06 17:06:19,181 : INFO : CorpusAccumulator accumulated stats from 171000 documents
+2019-08-06 17:06:19,190 : INFO : CorpusAccumulator accumulated stats from 172000 documents
+2019-08-06 17:06:19,198 : INFO : CorpusAccumulator accumulated stats from 173000 documents
+2019-08-06 17:06:19,215 : INFO : CorpusAccumulator accumulated stats from 174000 documents
+2019-08-06 17:06:19,225 : INFO : CorpusAccumulator accumulated stats from 175000 documents
+2019-08-06 17:06:19,234 : INFO : CorpusAccumulator accumulated stats from 176000 documents
+2019-08-06 17:06:19,243 : INFO : CorpusAccumulator accumulated stats from 177000 documents
+2019-08-06 17:06:19,253 : INFO : CorpusAccumulator accumulated stats from 178000 documents
+2019-08-06 17:06:19,262 : INFO : CorpusAccumulator accumulated stats from 179000 documents
+2019-08-06 17:06:19,269 : INFO : CorpusAccumulator accumulated stats from 180000 documents
+2019-08-06 17:06:19,276 : INFO : CorpusAccumulator accumulated stats from 181000 documents
+2019-08-06 17:06:19,284 : INFO : CorpusAccumulator accumulated stats from 182000 documents
+2019-08-06 17:06:19,293 : INFO : CorpusAccumulator accumulated stats from 183000 documents
+2019-08-06 17:06:19,302 : INFO : CorpusAccumulator accumulated stats from 184000 documents
+2019-08-06 17:06:19,310 : INFO : CorpusAccumulator accumulated stats from 185000 documents
+2019-08-06 17:06:19,317 : INFO : CorpusAccumulator accumulated stats from 186000 documents
+2019-08-06 17:06:19,325 : INFO : CorpusAccumulator accumulated stats from 187000 documents
+2019-08-06 17:06:19,332 : INFO : CorpusAccumulator accumulated stats from 188000 documents
+2019-08-06 17:06:19,340 : INFO : CorpusAccumulator accumulated stats from 189000 documents
+2019-08-06 17:06:19,348 : INFO : CorpusAccumulator accumulated stats from 190000 documents
+2019-08-06 17:06:19,357 : INFO : CorpusAccumulator accumulated stats from 191000 documents
+2019-08-06 17:06:19,365 : INFO : CorpusAccumulator accumulated stats from 192000 documents
+2019-08-06 17:06:19,373 : INFO : CorpusAccumulator accumulated stats from 193000 documents
+2019-08-06 17:06:19,384 : INFO : CorpusAccumulator accumulated stats from 194000 documents
+2019-08-06 17:06:19,393 : INFO : CorpusAccumulator accumulated stats from 195000 documents
+2019-08-06 17:06:19,404 : INFO : CorpusAccumulator accumulated stats from 196000 documents
+2019-08-06 17:06:19,413 : INFO : CorpusAccumulator accumulated stats from 197000 documents
+2019-08-06 17:06:19,421 : INFO : CorpusAccumulator accumulated stats from 198000 documents
+2019-08-06 17:06:19,428 : INFO : CorpusAccumulator accumulated stats from 199000 documents
+2019-08-06 17:06:19,436 : INFO : CorpusAccumulator accumulated stats from 200000 documents
+2019-08-06 17:06:19,444 : INFO : CorpusAccumulator accumulated stats from 201000 documents
+2019-08-06 17:06:19,452 : INFO : CorpusAccumulator accumulated stats from 202000 documents
+2019-08-06 17:06:19,462 : INFO : CorpusAccumulator accumulated stats from 203000 documents
+2019-08-06 17:06:19,470 : INFO : CorpusAccumulator accumulated stats from 204000 documents
+2019-08-06 17:06:19,477 : INFO : CorpusAccumulator accumulated stats from 205000 documents
+2019-08-06 17:06:19,484 : INFO : CorpusAccumulator accumulated stats from 206000 documents
+2019-08-06 17:06:19,491 : INFO : CorpusAccumulator accumulated stats from 207000 documents
+2019-08-06 17:06:19,498 : INFO : CorpusAccumulator accumulated stats from 208000 documents
+2019-08-06 17:06:19,507 : INFO : CorpusAccumulator accumulated stats from 209000 documents
+2019-08-06 17:06:19,515 : INFO : CorpusAccumulator accumulated stats from 210000 documents
+2019-08-06 17:06:19,522 : INFO : CorpusAccumulator accumulated stats from 211000 documents
+2019-08-06 17:06:19,531 : INFO : CorpusAccumulator accumulated stats from 212000 documents
+2019-08-06 17:06:19,538 : INFO : CorpusAccumulator accumulated stats from 213000 documents
+2019-08-06 17:06:19,544 : INFO : CorpusAccumulator accumulated stats from 214000 documents
+2019-08-06 17:06:19,552 : INFO : CorpusAccumulator accumulated stats from 215000 documents
+2019-08-06 17:06:19,561 : INFO : CorpusAccumulator accumulated stats from 216000 documents
+2019-08-06 17:06:19,568 : INFO : CorpusAccumulator accumulated stats from 217000 documents
+2019-08-06 17:06:19,575 : INFO : CorpusAccumulator accumulated stats from 218000 documents
+2019-08-06 17:06:19,582 : INFO : CorpusAccumulator accumulated stats from 219000 documents
+2019-08-06 17:06:19,588 : INFO : CorpusAccumulator accumulated stats from 220000 documents
+2019-08-06 17:06:19,594 : INFO : CorpusAccumulator accumulated stats from 221000 documents
+2019-08-06 17:06:19,603 : INFO : CorpusAccumulator accumulated stats from 222000 documents
+2019-08-06 17:06:19,611 : INFO : CorpusAccumulator accumulated stats from 223000 documents
+2019-08-06 17:06:19,618 : INFO : CorpusAccumulator accumulated stats from 224000 documents
+2019-08-06 17:06:19,624 : INFO : CorpusAccumulator accumulated stats from 225000 documents
+2019-08-06 17:06:19,630 : INFO : CorpusAccumulator accumulated stats from 226000 documents
+2019-08-06 17:06:19,637 : INFO : CorpusAccumulator accumulated stats from 227000 documents
+2019-08-06 17:06:19,644 : INFO : CorpusAccumulator accumulated stats from 228000 documents
+2019-08-06 17:06:19,653 : INFO : CorpusAccumulator accumulated stats from 229000 documents
+2019-08-06 17:06:19,660 : INFO : CorpusAccumulator accumulated stats from 230000 documents
+2019-08-06 17:06:19,667 : INFO : CorpusAccumulator accumulated stats from 231000 documents
+2019-08-06 17:06:19,673 : INFO : CorpusAccumulator accumulated stats from 232000 documents
+2019-08-06 17:06:19,680 : INFO : CorpusAccumulator accumulated stats from 233000 documents
+2019-08-06 17:06:19,687 : INFO : CorpusAccumulator accumulated stats from 234000 documents
+2019-08-06 17:06:19,696 : INFO : CorpusAccumulator accumulated stats from 235000 documents
+2019-08-06 17:06:19,704 : INFO : CorpusAccumulator accumulated stats from 236000 documents
+2019-08-06 17:06:19,711 : INFO : CorpusAccumulator accumulated stats from 237000 documents
+2019-08-06 17:06:19,718 : INFO : CorpusAccumulator accumulated stats from 238000 documents
+2019-08-06 17:06:19,725 : INFO : CorpusAccumulator accumulated stats from 239000 documents
+2019-08-06 17:06:19,733 : INFO : CorpusAccumulator accumulated stats from 240000 documents
+2019-08-06 17:06:19,740 : INFO : CorpusAccumulator accumulated stats from 241000 documents
+2019-08-06 17:06:19,748 : INFO : CorpusAccumulator accumulated stats from 242000 documents
+2019-08-06 17:06:19,756 : INFO : CorpusAccumulator accumulated stats from 243000 documents
+2019-08-06 17:06:19,762 : INFO : CorpusAccumulator accumulated stats from 244000 documents
+2019-08-06 17:06:19,769 : INFO : CorpusAccumulator accumulated stats from 245000 documents
+2019-08-06 17:06:19,776 : INFO : CorpusAccumulator accumulated stats from 246000 documents
+2019-08-06 17:06:19,782 : INFO : CorpusAccumulator accumulated stats from 247000 documents
+2019-08-06 17:06:19,791 : INFO : CorpusAccumulator accumulated stats from 248000 documents
+2019-08-06 17:06:19,798 : INFO : CorpusAccumulator accumulated stats from 249000 documents
+2019-08-06 17:06:19,805 : INFO : CorpusAccumulator accumulated stats from 250000 documents
+2019-08-06 17:06:19,812 : INFO : CorpusAccumulator accumulated stats from 251000 documents
+2019-08-06 17:06:19,818 : INFO : CorpusAccumulator accumulated stats from 252000 documents
+2019-08-06 17:06:19,825 : INFO : CorpusAccumulator accumulated stats from 253000 documents
+2019-08-06 17:06:19,831 : INFO : CorpusAccumulator accumulated stats from 254000 documents
+2019-08-06 17:06:19,839 : INFO : CorpusAccumulator accumulated stats from 255000 documents
+2019-08-06 17:06:19,848 : INFO : CorpusAccumulator accumulated stats from 256000 documents
+2019-08-06 17:06:19,855 : INFO : CorpusAccumulator accumulated stats from 257000 documents
+2019-08-06 17:06:19,863 : INFO : CorpusAccumulator accumulated stats from 258000 documents
+2019-08-06 17:06:19,871 : INFO : CorpusAccumulator accumulated stats from 259000 documents
+2019-08-06 17:06:19,879 : INFO : CorpusAccumulator accumulated stats from 260000 documents
+2019-08-06 17:06:19,888 : INFO : CorpusAccumulator accumulated stats from 261000 documents
+2019-08-06 17:06:19,896 : INFO : CorpusAccumulator accumulated stats from 262000 documents
+2019-08-06 17:06:19,905 : INFO : CorpusAccumulator accumulated stats from 263000 documents
+2019-08-06 17:06:19,913 : INFO : CorpusAccumulator accumulated stats from 264000 documents
+2019-08-06 17:06:19,930 : INFO : CorpusAccumulator accumulated stats from 265000 documents
+2019-08-06 17:06:19,939 : INFO : CorpusAccumulator accumulated stats from 266000 documents
+2019-08-06 17:06:19,948 : INFO : CorpusAccumulator accumulated stats from 267000 documents
+2019-08-06 17:06:19,960 : INFO : CorpusAccumulator accumulated stats from 268000 documents
+2019-08-06 17:06:19,970 : INFO : CorpusAccumulator accumulated stats from 269000 documents
+2019-08-06 17:06:19,978 : INFO : CorpusAccumulator accumulated stats from 270000 documents
+2019-08-06 17:06:19,987 : INFO : CorpusAccumulator accumulated stats from 271000 documents
+2019-08-06 17:06:19,997 : INFO : CorpusAccumulator accumulated stats from 272000 documents
+2019-08-06 17:06:20,010 : INFO : CorpusAccumulator accumulated stats from 273000 documents
+2019-08-06 17:06:20,024 : INFO : CorpusAccumulator accumulated stats from 274000 documents
+2019-08-06 17:06:20,034 : INFO : CorpusAccumulator accumulated stats from 275000 documents
+2019-08-06 17:06:20,042 : INFO : CorpusAccumulator accumulated stats from 276000 documents
+2019-08-06 17:06:20,049 : INFO : CorpusAccumulator accumulated stats from 277000 documents
+2019-08-06 17:06:20,061 : INFO : CorpusAccumulator accumulated stats from 278000 documents
+2019-08-06 17:06:20,069 : INFO : CorpusAccumulator accumulated stats from 279000 documents
+2019-08-06 17:06:20,078 : INFO : CorpusAccumulator accumulated stats from 280000 documents
+2019-08-06 17:06:20,086 : INFO : CorpusAccumulator accumulated stats from 281000 documents
+2019-08-06 17:06:20,096 : INFO : CorpusAccumulator accumulated stats from 282000 documents
+2019-08-06 17:06:20,103 : INFO : CorpusAccumulator accumulated stats from 283000 documents
+2019-08-06 17:06:20,110 : INFO : CorpusAccumulator accumulated stats from 284000 documents
+2019-08-06 17:06:20,118 : INFO : CorpusAccumulator accumulated stats from 285000 documents
+2019-08-06 17:06:20,126 : INFO : CorpusAccumulator accumulated stats from 286000 documents
+2019-08-06 17:06:20,136 : INFO : CorpusAccumulator accumulated stats from 287000 documents
+2019-08-06 17:06:20,144 : INFO : CorpusAccumulator accumulated stats from 288000 documents
+2019-08-06 17:06:20,153 : INFO : CorpusAccumulator accumulated stats from 289000 documents
+2019-08-06 17:06:20,161 : INFO : CorpusAccumulator accumulated stats from 290000 documents
+2019-08-06 17:06:20,169 : INFO : CorpusAccumulator accumulated stats from 291000 documents
+2019-08-06 17:06:20,176 : INFO : CorpusAccumulator accumulated stats from 292000 documents
+2019-08-06 17:06:20,185 : INFO : CorpusAccumulator accumulated stats from 293000 documents
+2019-08-06 17:06:20,196 : INFO : CorpusAccumulator accumulated stats from 294000 documents
+2019-08-06 17:06:20,204 : INFO : CorpusAccumulator accumulated stats from 295000 documents
+2019-08-06 17:06:20,211 : INFO : CorpusAccumulator accumulated stats from 296000 documents
+2019-08-06 17:06:20,219 : INFO : CorpusAccumulator accumulated stats from 297000 documents
+2019-08-06 17:06:20,225 : INFO : CorpusAccumulator accumulated stats from 298000 documents
+2019-08-06 17:06:20,233 : INFO : CorpusAccumulator accumulated stats from 299000 documents
+2019-08-06 17:06:20,243 : INFO : CorpusAccumulator accumulated stats from 300000 documents
+2019-08-06 17:06:20,251 : INFO : CorpusAccumulator accumulated stats from 301000 documents
+2019-08-06 17:06:20,259 : INFO : CorpusAccumulator accumulated stats from 302000 documents
+2019-08-06 17:06:20,267 : INFO : CorpusAccumulator accumulated stats from 303000 documents
+2019-08-06 17:06:20,274 : INFO : CorpusAccumulator accumulated stats from 304000 documents
+2019-08-06 17:06:20,281 : INFO : CorpusAccumulator accumulated stats from 305000 documents
+2019-08-06 17:06:20,289 : INFO : CorpusAccumulator accumulated stats from 306000 documents
+2019-08-06 17:06:20,298 : INFO : CorpusAccumulator accumulated stats from 307000 documents
+2019-08-06 17:06:20,306 : INFO : CorpusAccumulator accumulated stats from 308000 documents
+2019-08-06 17:06:20,313 : INFO : CorpusAccumulator accumulated stats from 309000 documents
+2019-08-06 17:06:20,321 : INFO : CorpusAccumulator accumulated stats from 310000 documents
+2019-08-06 17:06:20,328 : INFO : CorpusAccumulator accumulated stats from 311000 documents
+2019-08-06 17:06:20,335 : INFO : CorpusAccumulator accumulated stats from 312000 documents
+2019-08-06 17:06:20,344 : INFO : CorpusAccumulator accumulated stats from 313000 documents
+2019-08-06 17:06:20,353 : INFO : CorpusAccumulator accumulated stats from 314000 documents
+2019-08-06 17:06:20,361 : INFO : CorpusAccumulator accumulated stats from 315000 documents
+2019-08-06 17:06:20,369 : INFO : CorpusAccumulator accumulated stats from 316000 documents
+2019-08-06 17:06:20,378 : INFO : CorpusAccumulator accumulated stats from 317000 documents
+2019-08-06 17:06:20,389 : INFO : CorpusAccumulator accumulated stats from 318000 documents
+2019-08-06 17:06:20,401 : INFO : CorpusAccumulator accumulated stats from 319000 documents
+2019-08-06 17:06:20,420 : INFO : CorpusAccumulator accumulated stats from 320000 documents
+2019-08-06 17:06:20,430 : INFO : CorpusAccumulator accumulated stats from 321000 documents
+2019-08-06 17:06:20,442 : INFO : CorpusAccumulator accumulated stats from 322000 documents
+2019-08-06 17:06:20,451 : INFO : CorpusAccumulator accumulated stats from 323000 documents
+2019-08-06 17:06:20,459 : INFO : CorpusAccumulator accumulated stats from 324000 documents
+2019-08-06 17:06:20,468 : INFO : CorpusAccumulator accumulated stats from 325000 documents
+2019-08-06 17:06:20,478 : INFO : CorpusAccumulator accumulated stats from 326000 documents
+2019-08-06 17:06:20,490 : INFO : CorpusAccumulator accumulated stats from 327000 documents
+2019-08-06 17:06:20,501 : INFO : CorpusAccumulator accumulated stats from 328000 documents
+2019-08-06 17:06:20,510 : INFO : CorpusAccumulator accumulated stats from 329000 documents
+2019-08-06 17:06:20,519 : INFO : CorpusAccumulator accumulated stats from 330000 documents
+2019-08-06 17:06:20,529 : INFO : CorpusAccumulator accumulated stats from 331000 documents
+2019-08-06 17:06:20,540 : INFO : CorpusAccumulator accumulated stats from 332000 documents
+2019-08-06 17:06:20,551 : INFO : CorpusAccumulator accumulated stats from 333000 documents
+2019-08-06 17:06:20,560 : INFO : CorpusAccumulator accumulated stats from 334000 documents
+2019-08-06 17:06:20,568 : INFO : CorpusAccumulator accumulated stats from 335000 documents
+2019-08-06 17:06:20,577 : INFO : CorpusAccumulator accumulated stats from 336000 documents
+2019-08-06 17:06:20,586 : INFO : CorpusAccumulator accumulated stats from 337000 documents
+2019-08-06 17:06:20,596 : INFO : CorpusAccumulator accumulated stats from 338000 documents
+2019-08-06 17:06:20,607 : INFO : CorpusAccumulator accumulated stats from 339000 documents
+2019-08-06 17:06:20,618 : INFO : CorpusAccumulator accumulated stats from 340000 documents
+2019-08-06 17:06:20,626 : INFO : CorpusAccumulator accumulated stats from 341000 documents
+2019-08-06 17:06:20,634 : INFO : CorpusAccumulator accumulated stats from 342000 documents
+2019-08-06 17:06:20,643 : INFO : CorpusAccumulator accumulated stats from 343000 documents
+2019-08-06 17:06:20,652 : INFO : CorpusAccumulator accumulated stats from 344000 documents
+2019-08-06 17:06:20,663 : INFO : CorpusAccumulator accumulated stats from 345000 documents
+2019-08-06 17:06:20,673 : INFO : CorpusAccumulator accumulated stats from 346000 documents
+2019-08-06 17:06:20,683 : INFO : CorpusAccumulator accumulated stats from 347000 documents
+2019-08-06 17:06:20,691 : INFO : CorpusAccumulator accumulated stats from 348000 documents
+2019-08-06 17:06:20,701 : INFO : CorpusAccumulator accumulated stats from 349000 documents
+2019-08-06 17:06:20,709 : INFO : CorpusAccumulator accumulated stats from 350000 documents
+2019-08-06 17:06:20,717 : INFO : CorpusAccumulator accumulated stats from 351000 documents
+2019-08-06 17:06:20,728 : INFO : CorpusAccumulator accumulated stats from 352000 documents
+2019-08-06 17:06:20,740 : INFO : CorpusAccumulator accumulated stats from 353000 documents
+2019-08-06 17:06:20,749 : INFO : CorpusAccumulator accumulated stats from 354000 documents
+2019-08-06 17:06:20,758 : INFO : CorpusAccumulator accumulated stats from 355000 documents
+2019-08-06 17:06:20,766 : INFO : CorpusAccumulator accumulated stats from 356000 documents
+2019-08-06 17:06:20,774 : INFO : CorpusAccumulator accumulated stats from 357000 documents
+2019-08-06 17:06:20,784 : INFO : CorpusAccumulator accumulated stats from 358000 documents
+2019-08-06 17:06:20,794 : INFO : CorpusAccumulator accumulated stats from 359000 documents
+2019-08-06 17:06:20,805 : INFO : CorpusAccumulator accumulated stats from 360000 documents
+2019-08-06 17:06:20,814 : INFO : CorpusAccumulator accumulated stats from 361000 documents
+2019-08-06 17:06:20,823 : INFO : CorpusAccumulator accumulated stats from 362000 documents
+2019-08-06 17:06:20,832 : INFO : CorpusAccumulator accumulated stats from 363000 documents
+2019-08-06 17:06:20,841 : INFO : CorpusAccumulator accumulated stats from 364000 documents
+2019-08-06 17:06:20,852 : INFO : CorpusAccumulator accumulated stats from 365000 documents
+2019-08-06 17:06:20,862 : INFO : CorpusAccumulator accumulated stats from 366000 documents
+2019-08-06 17:06:20,872 : INFO : CorpusAccumulator accumulated stats from 367000 documents
+2019-08-06 17:06:20,880 : INFO : CorpusAccumulator accumulated stats from 368000 documents
+2019-08-06 17:06:20,888 : INFO : CorpusAccumulator accumulated stats from 369000 documents
+2019-08-06 17:06:20,897 : INFO : CorpusAccumulator accumulated stats from 370000 documents
+2019-08-06 17:06:20,911 : INFO : CorpusAccumulator accumulated stats from 371000 documents
+2019-08-06 17:06:20,926 : INFO : CorpusAccumulator accumulated stats from 372000 documents
+2019-08-06 17:06:20,938 : INFO : CorpusAccumulator accumulated stats from 373000 documents
+2019-08-06 17:06:20,946 : INFO : CorpusAccumulator accumulated stats from 374000 documents
+2019-08-06 17:06:20,954 : INFO : CorpusAccumulator accumulated stats from 375000 documents
+2019-08-06 17:06:20,961 : INFO : CorpusAccumulator accumulated stats from 376000 documents
+2019-08-06 17:06:20,970 : INFO : CorpusAccumulator accumulated stats from 377000 documents
+2019-08-06 17:06:20,980 : INFO : CorpusAccumulator accumulated stats from 378000 documents
+2019-08-06 17:06:20,988 : INFO : CorpusAccumulator accumulated stats from 379000 documents
+2019-08-06 17:06:20,997 : INFO : CorpusAccumulator accumulated stats from 380000 documents
+2019-08-06 17:06:21,005 : INFO : CorpusAccumulator accumulated stats from 381000 documents
+2019-08-06 17:06:21,013 : INFO : CorpusAccumulator accumulated stats from 382000 documents
+2019-08-06 17:06:21,022 : INFO : CorpusAccumulator accumulated stats from 383000 documents
+2019-08-06 17:06:21,031 : INFO : CorpusAccumulator accumulated stats from 384000 documents
+2019-08-06 17:06:21,040 : INFO : CorpusAccumulator accumulated stats from 385000 documents
+2019-08-06 17:06:21,048 : INFO : CorpusAccumulator accumulated stats from 386000 documents
+2019-08-06 17:06:21,056 : INFO : CorpusAccumulator accumulated stats from 387000 documents
+2019-08-06 17:06:21,064 : INFO : CorpusAccumulator accumulated stats from 388000 documents
+2019-08-06 17:06:21,072 : INFO : CorpusAccumulator accumulated stats from 389000 documents
+2019-08-06 17:06:21,080 : INFO : CorpusAccumulator accumulated stats from 390000 documents
+2019-08-06 17:06:21,089 : INFO : CorpusAccumulator accumulated stats from 391000 documents
+2019-08-06 17:06:21,101 : INFO : CorpusAccumulator accumulated stats from 392000 documents
+2019-08-06 17:06:21,108 : INFO : CorpusAccumulator accumulated stats from 393000 documents
+2019-08-06 17:06:21,116 : INFO : CorpusAccumulator accumulated stats from 394000 documents
+2019-08-06 17:06:21,126 : INFO : CorpusAccumulator accumulated stats from 395000 documents
+2019-08-06 17:06:21,134 : INFO : CorpusAccumulator accumulated stats from 396000 documents
+2019-08-06 17:06:21,145 : INFO : CorpusAccumulator accumulated stats from 397000 documents
+2019-08-06 17:06:21,155 : INFO : CorpusAccumulator accumulated stats from 398000 documents
+2019-08-06 17:06:21,163 : INFO : CorpusAccumulator accumulated stats from 399000 documents
+2019-08-06 17:06:21,174 : INFO : CorpusAccumulator accumulated stats from 400000 documents
+2019-08-06 17:06:21,183 : INFO : CorpusAccumulator accumulated stats from 401000 documents
+2019-08-06 17:06:21,191 : INFO : CorpusAccumulator accumulated stats from 402000 documents
+2019-08-06 17:06:21,200 : INFO : CorpusAccumulator accumulated stats from 403000 documents
+2019-08-06 17:06:21,209 : INFO : CorpusAccumulator accumulated stats from 404000 documents
+2019-08-06 17:06:21,219 : INFO : CorpusAccumulator accumulated stats from 405000 documents
+2019-08-06 17:06:21,226 : INFO : CorpusAccumulator accumulated stats from 406000 documents
+2019-08-06 17:06:21,233 : INFO : CorpusAccumulator accumulated stats from 407000 documents
+2019-08-06 17:06:21,240 : INFO : CorpusAccumulator accumulated stats from 408000 documents
+2019-08-06 17:06:21,247 : INFO : CorpusAccumulator accumulated stats from 409000 documents
+2019-08-06 17:06:21,257 : INFO : CorpusAccumulator accumulated stats from 410000 documents
+2019-08-06 17:06:21,264 : INFO : CorpusAccumulator accumulated stats from 411000 documents
+2019-08-06 17:06:21,272 : INFO : CorpusAccumulator accumulated stats from 412000 documents
+2019-08-06 17:06:21,279 : INFO : CorpusAccumulator accumulated stats from 413000 documents
+2019-08-06 17:06:21,286 : INFO : CorpusAccumulator accumulated stats from 414000 documents
+2019-08-06 17:06:21,293 : INFO : CorpusAccumulator accumulated stats from 415000 documents
+2019-08-06 17:06:21,301 : INFO : CorpusAccumulator accumulated stats from 416000 documents
+2019-08-06 17:06:21,310 : INFO : CorpusAccumulator accumulated stats from 417000 documents
+2019-08-06 17:06:21,317 : INFO : CorpusAccumulator accumulated stats from 418000 documents
+2019-08-06 17:06:21,324 : INFO : CorpusAccumulator accumulated stats from 419000 documents
+2019-08-06 17:06:21,332 : INFO : CorpusAccumulator accumulated stats from 420000 documents
+2019-08-06 17:06:21,339 : INFO : CorpusAccumulator accumulated stats from 421000 documents
+2019-08-06 17:06:21,346 : INFO : CorpusAccumulator accumulated stats from 422000 documents
+2019-08-06 17:06:21,355 : INFO : CorpusAccumulator accumulated stats from 423000 documents
+2019-08-06 17:06:21,363 : INFO : CorpusAccumulator accumulated stats from 424000 documents
+2019-08-06 17:06:21,370 : INFO : CorpusAccumulator accumulated stats from 425000 documents
+2019-08-06 17:06:21,377 : INFO : CorpusAccumulator accumulated stats from 426000 documents
+2019-08-06 17:06:21,383 : INFO : CorpusAccumulator accumulated stats from 427000 documents
+2019-08-06 17:06:21,391 : INFO : CorpusAccumulator accumulated stats from 428000 documents
+2019-08-06 17:06:21,398 : INFO : CorpusAccumulator accumulated stats from 429000 documents
+2019-08-06 17:06:21,406 : INFO : CorpusAccumulator accumulated stats from 430000 documents
+2019-08-06 17:06:21,414 : INFO : CorpusAccumulator accumulated stats from 431000 documents
+2019-08-06 17:06:21,421 : INFO : CorpusAccumulator accumulated stats from 432000 documents
+2019-08-06 17:06:21,427 : INFO : CorpusAccumulator accumulated stats from 433000 documents
+2019-08-06 17:06:21,434 : INFO : CorpusAccumulator accumulated stats from 434000 documents
+2019-08-06 17:06:21,441 : INFO : CorpusAccumulator accumulated stats from 435000 documents
+2019-08-06 17:06:21,448 : INFO : CorpusAccumulator accumulated stats from 436000 documents
+2019-08-06 17:06:21,456 : INFO : CorpusAccumulator accumulated stats from 437000 documents
+2019-08-06 17:06:21,462 : INFO : CorpusAccumulator accumulated stats from 438000 documents
+2019-08-06 17:06:21,469 : INFO : CorpusAccumulator accumulated stats from 439000 documents
+2019-08-06 17:06:21,476 : INFO : CorpusAccumulator accumulated stats from 440000 documents
+2019-08-06 17:06:21,482 : INFO : CorpusAccumulator accumulated stats from 441000 documents
+2019-08-06 17:06:21,489 : INFO : CorpusAccumulator accumulated stats from 442000 documents
+2019-08-06 17:06:21,496 : INFO : CorpusAccumulator accumulated stats from 443000 documents
+2019-08-06 17:06:21,504 : INFO : CorpusAccumulator accumulated stats from 444000 documents
+2019-08-06 17:06:21,511 : INFO : CorpusAccumulator accumulated stats from 445000 documents
+2019-08-06 17:06:21,518 : INFO : CorpusAccumulator accumulated stats from 446000 documents
+2019-08-06 17:06:21,524 : INFO : CorpusAccumulator accumulated stats from 447000 documents
+2019-08-06 17:06:21,531 : INFO : CorpusAccumulator accumulated stats from 448000 documents
+2019-08-06 17:06:21,539 : INFO : CorpusAccumulator accumulated stats from 449000 documents
+2019-08-06 17:06:21,547 : INFO : CorpusAccumulator accumulated stats from 450000 documents
+2019-08-06 17:06:21,555 : INFO : CorpusAccumulator accumulated stats from 451000 documents
+2019-08-06 17:06:21,562 : INFO : CorpusAccumulator accumulated stats from 452000 documents
+2019-08-06 17:06:21,568 : INFO : CorpusAccumulator accumulated stats from 453000 documents
+2019-08-06 17:06:21,575 : INFO : CorpusAccumulator accumulated stats from 454000 documents
+2019-08-06 17:06:21,583 : INFO : CorpusAccumulator accumulated stats from 455000 documents
+2019-08-06 17:06:21,591 : INFO : CorpusAccumulator accumulated stats from 456000 documents
+2019-08-06 17:06:21,598 : INFO : CorpusAccumulator accumulated stats from 457000 documents
+2019-08-06 17:06:21,605 : INFO : CorpusAccumulator accumulated stats from 458000 documents
+2019-08-06 17:06:21,611 : INFO : CorpusAccumulator accumulated stats from 459000 documents
+2019-08-06 17:06:21,618 : INFO : CorpusAccumulator accumulated stats from 460000 documents
+2019-08-06 17:06:21,625 : INFO : CorpusAccumulator accumulated stats from 461000 documents
+2019-08-06 17:06:21,634 : INFO : CorpusAccumulator accumulated stats from 462000 documents
+2019-08-06 17:06:21,642 : INFO : CorpusAccumulator accumulated stats from 463000 documents
+2019-08-06 17:06:21,649 : INFO : CorpusAccumulator accumulated stats from 464000 documents
+2019-08-06 17:06:21,656 : INFO : CorpusAccumulator accumulated stats from 465000 documents
+2019-08-06 17:06:21,663 : INFO : CorpusAccumulator accumulated stats from 466000 documents
+2019-08-06 17:06:21,671 : INFO : CorpusAccumulator accumulated stats from 467000 documents
+2019-08-06 17:06:21,678 : INFO : CorpusAccumulator accumulated stats from 468000 documents
+2019-08-06 17:06:21,687 : INFO : CorpusAccumulator accumulated stats from 469000 documents
+2019-08-06 17:06:21,695 : INFO : CorpusAccumulator accumulated stats from 470000 documents
+2019-08-06 17:06:21,702 : INFO : CorpusAccumulator accumulated stats from 471000 documents
+2019-08-06 17:06:21,709 : INFO : CorpusAccumulator accumulated stats from 472000 documents
+2019-08-06 17:06:21,717 : INFO : CorpusAccumulator accumulated stats from 473000 documents
+2019-08-06 17:06:21,725 : INFO : CorpusAccumulator accumulated stats from 474000 documents
+2019-08-06 17:06:21,733 : INFO : CorpusAccumulator accumulated stats from 475000 documents
+2019-08-06 17:06:21,742 : INFO : CorpusAccumulator accumulated stats from 476000 documents
+2019-08-06 17:06:21,749 : INFO : CorpusAccumulator accumulated stats from 477000 documents
+2019-08-06 17:06:21,756 : INFO : CorpusAccumulator accumulated stats from 478000 documents
+2019-08-06 17:06:21,763 : INFO : CorpusAccumulator accumulated stats from 479000 documents
+2019-08-06 17:06:21,770 : INFO : CorpusAccumulator accumulated stats from 480000 documents
+2019-08-06 17:06:21,778 : INFO : CorpusAccumulator accumulated stats from 481000 documents
+2019-08-06 17:06:21,787 : INFO : CorpusAccumulator accumulated stats from 482000 documents
+2019-08-06 17:06:21,795 : INFO : CorpusAccumulator accumulated stats from 483000 documents
+2019-08-06 17:06:21,803 : INFO : CorpusAccumulator accumulated stats from 484000 documents
+2019-08-06 17:06:21,809 : INFO : CorpusAccumulator accumulated stats from 485000 documents
+2019-08-06 17:06:21,815 : INFO : CorpusAccumulator accumulated stats from 486000 documents
+2019-08-06 17:06:21,822 : INFO : CorpusAccumulator accumulated stats from 487000 documents
+2019-08-06 17:06:21,829 : INFO : CorpusAccumulator accumulated stats from 488000 documents
+2019-08-06 17:06:21,837 : INFO : CorpusAccumulator accumulated stats from 489000 documents
+2019-08-06 17:06:21,844 : INFO : CorpusAccumulator accumulated stats from 490000 documents
+2019-08-06 17:06:21,850 : INFO : CorpusAccumulator accumulated stats from 491000 documents
+2019-08-06 17:06:21,857 : INFO : CorpusAccumulator accumulated stats from 492000 documents
+2019-08-06 17:06:21,863 : INFO : CorpusAccumulator accumulated stats from 493000 documents
+2019-08-06 17:06:21,870 : INFO : CorpusAccumulator accumulated stats from 494000 documents
+2019-08-06 17:06:21,878 : INFO : CorpusAccumulator accumulated stats from 495000 documents
+2019-08-06 17:06:21,886 : INFO : CorpusAccumulator accumulated stats from 496000 documents
+2019-08-06 17:06:21,892 : INFO : CorpusAccumulator accumulated stats from 497000 documents
+2019-08-06 17:06:21,899 : INFO : CorpusAccumulator accumulated stats from 498000 documents
+2019-08-06 17:06:21,905 : INFO : CorpusAccumulator accumulated stats from 499000 documents
+2019-08-06 17:06:21,911 : INFO : CorpusAccumulator accumulated stats from 500000 documents
+2019-08-06 17:06:21,920 : INFO : CorpusAccumulator accumulated stats from 501000 documents
+2019-08-06 17:06:21,928 : INFO : CorpusAccumulator accumulated stats from 502000 documents
+2019-08-06 17:06:21,935 : INFO : CorpusAccumulator accumulated stats from 503000 documents
+2019-08-06 17:06:21,941 : INFO : CorpusAccumulator accumulated stats from 504000 documents
+2019-08-06 17:06:21,948 : INFO : CorpusAccumulator accumulated stats from 505000 documents
+2019-08-06 17:06:21,955 : INFO : CorpusAccumulator accumulated stats from 506000 documents
+2019-08-06 17:06:21,962 : INFO : CorpusAccumulator accumulated stats from 507000 documents
+2019-08-06 17:06:21,970 : INFO : CorpusAccumulator accumulated stats from 508000 documents
+2019-08-06 17:06:21,977 : INFO : CorpusAccumulator accumulated stats from 509000 documents
+2019-08-06 17:06:21,984 : INFO : CorpusAccumulator accumulated stats from 510000 documents
+2019-08-06 17:06:21,990 : INFO : CorpusAccumulator accumulated stats from 511000 documents
+2019-08-06 17:06:21,996 : INFO : CorpusAccumulator accumulated stats from 512000 documents
+2019-08-06 17:06:22,003 : INFO : CorpusAccumulator accumulated stats from 513000 documents
+2019-08-06 17:06:22,010 : INFO : CorpusAccumulator accumulated stats from 514000 documents
+2019-08-06 17:06:22,017 : INFO : CorpusAccumulator accumulated stats from 515000 documents
+2019-08-06 17:06:22,024 : INFO : CorpusAccumulator accumulated stats from 516000 documents
+2019-08-06 17:06:22,031 : INFO : CorpusAccumulator accumulated stats from 517000 documents
+2019-08-06 17:06:22,037 : INFO : CorpusAccumulator accumulated stats from 518000 documents
+2019-08-06 17:06:22,045 : INFO : CorpusAccumulator accumulated stats from 519000 documents
+2019-08-06 17:06:22,052 : INFO : CorpusAccumulator accumulated stats from 520000 documents
+2019-08-06 17:06:22,059 : INFO : CorpusAccumulator accumulated stats from 521000 documents
+2019-08-06 17:06:22,067 : INFO : CorpusAccumulator accumulated stats from 522000 documents
+2019-08-06 17:06:22,077 : INFO : CorpusAccumulator accumulated stats from 523000 documents
+2019-08-06 17:06:22,084 : INFO : CorpusAccumulator accumulated stats from 524000 documents
+2019-08-06 17:06:22,091 : INFO : CorpusAccumulator accumulated stats from 525000 documents
+2019-08-06 17:06:22,098 : INFO : CorpusAccumulator accumulated stats from 526000 documents
+2019-08-06 17:06:22,106 : INFO : CorpusAccumulator accumulated stats from 527000 documents
+2019-08-06 17:06:22,115 : INFO : CorpusAccumulator accumulated stats from 528000 documents
+2019-08-06 17:06:22,123 : INFO : CorpusAccumulator accumulated stats from 529000 documents
+2019-08-06 17:06:22,130 : INFO : CorpusAccumulator accumulated stats from 530000 documents
+2019-08-06 17:06:22,137 : INFO : CorpusAccumulator accumulated stats from 531000 documents
+2019-08-06 17:06:22,144 : INFO : CorpusAccumulator accumulated stats from 532000 documents
+2019-08-06 17:06:22,151 : INFO : CorpusAccumulator accumulated stats from 533000 documents
+2019-08-06 17:06:22,160 : INFO : CorpusAccumulator accumulated stats from 534000 documents
+2019-08-06 17:06:22,168 : INFO : CorpusAccumulator accumulated stats from 535000 documents
+2019-08-06 17:06:22,175 : INFO : CorpusAccumulator accumulated stats from 536000 documents
+2019-08-06 17:06:22,182 : INFO : CorpusAccumulator accumulated stats from 537000 documents
+2019-08-06 17:06:22,189 : INFO : CorpusAccumulator accumulated stats from 538000 documents
+2019-08-06 17:06:22,196 : INFO : CorpusAccumulator accumulated stats from 539000 documents
+2019-08-06 17:06:22,204 : INFO : CorpusAccumulator accumulated stats from 540000 documents
+2019-08-06 17:06:22,212 : INFO : CorpusAccumulator accumulated stats from 541000 documents
+2019-08-06 17:06:22,223 : INFO : CorpusAccumulator accumulated stats from 542000 documents
+2019-08-06 17:06:22,230 : INFO : CorpusAccumulator accumulated stats from 543000 documents
+2019-08-06 17:06:22,237 : INFO : CorpusAccumulator accumulated stats from 544000 documents
+2019-08-06 17:06:22,245 : INFO : CorpusAccumulator accumulated stats from 545000 documents
+2019-08-06 17:06:22,252 : INFO : CorpusAccumulator accumulated stats from 546000 documents
+2019-08-06 17:06:22,261 : INFO : CorpusAccumulator accumulated stats from 547000 documents
+2019-08-06 17:06:22,270 : INFO : CorpusAccumulator accumulated stats from 548000 documents
+2019-08-06 17:06:22,277 : INFO : CorpusAccumulator accumulated stats from 549000 documents
+2019-08-06 17:06:22,284 : INFO : CorpusAccumulator accumulated stats from 550000 documents
+2019-08-06 17:06:22,291 : INFO : CorpusAccumulator accumulated stats from 551000 documents
+2019-08-06 17:06:22,298 : INFO : CorpusAccumulator accumulated stats from 552000 documents
+2019-08-06 17:06:22,305 : INFO : CorpusAccumulator accumulated stats from 553000 documents
+2019-08-06 17:06:22,314 : INFO : CorpusAccumulator accumulated stats from 554000 documents
+2019-08-06 17:06:22,322 : INFO : CorpusAccumulator accumulated stats from 555000 documents
+2019-08-06 17:06:22,329 : INFO : CorpusAccumulator accumulated stats from 556000 documents
+2019-08-06 17:06:22,336 : INFO : CorpusAccumulator accumulated stats from 557000 documents
+2019-08-06 17:06:22,343 : INFO : CorpusAccumulator accumulated stats from 558000 documents
+2019-08-06 17:06:22,350 : INFO : CorpusAccumulator accumulated stats from 559000 documents
+2019-08-06 17:06:22,359 : INFO : CorpusAccumulator accumulated stats from 560000 documents
+2019-08-06 17:06:22,367 : INFO : CorpusAccumulator accumulated stats from 561000 documents
+2019-08-06 17:06:22,375 : INFO : CorpusAccumulator accumulated stats from 562000 documents
+2019-08-06 17:06:22,381 : INFO : CorpusAccumulator accumulated stats from 563000 documents
+2019-08-06 17:06:22,387 : INFO : CorpusAccumulator accumulated stats from 564000 documents
+2019-08-06 17:06:22,394 : INFO : CorpusAccumulator accumulated stats from 565000 documents
+2019-08-06 17:06:22,400 : INFO : CorpusAccumulator accumulated stats from 566000 documents
+2019-08-06 17:06:22,409 : INFO : CorpusAccumulator accumulated stats from 567000 documents
+2019-08-06 17:06:22,416 : INFO : CorpusAccumulator accumulated stats from 568000 documents
+2019-08-06 17:06:22,423 : INFO : CorpusAccumulator accumulated stats from 569000 documents
+2019-08-06 17:06:22,429 : INFO : CorpusAccumulator accumulated stats from 570000 documents
+2019-08-06 17:06:22,437 : INFO : CorpusAccumulator accumulated stats from 571000 documents
+2019-08-06 17:06:22,443 : INFO : CorpusAccumulator accumulated stats from 572000 documents
+2019-08-06 17:06:22,450 : INFO : CorpusAccumulator accumulated stats from 573000 documents
+2019-08-06 17:06:22,459 : INFO : CorpusAccumulator accumulated stats from 574000 documents
+2019-08-06 17:06:22,466 : INFO : CorpusAccumulator accumulated stats from 575000 documents
+2019-08-06 17:06:22,474 : INFO : CorpusAccumulator accumulated stats from 576000 documents
+2019-08-06 17:06:22,480 : INFO : CorpusAccumulator accumulated stats from 577000 documents
+2019-08-06 17:06:22,487 : INFO : CorpusAccumulator accumulated stats from 578000 documents
+2019-08-06 17:06:22,494 : INFO : CorpusAccumulator accumulated stats from 579000 documents
+2019-08-06 17:06:22,502 : INFO : CorpusAccumulator accumulated stats from 580000 documents
+2019-08-06 17:06:22,509 : INFO : CorpusAccumulator accumulated stats from 581000 documents
+2019-08-06 17:06:22,516 : INFO : CorpusAccumulator accumulated stats from 582000 documents
+2019-08-06 17:06:22,522 : INFO : CorpusAccumulator accumulated stats from 583000 documents
+2019-08-06 17:06:22,528 : INFO : CorpusAccumulator accumulated stats from 584000 documents
+2019-08-06 17:06:22,534 : INFO : CorpusAccumulator accumulated stats from 585000 documents
+2019-08-06 17:06:22,542 : INFO : CorpusAccumulator accumulated stats from 586000 documents
+2019-08-06 17:06:22,550 : INFO : CorpusAccumulator accumulated stats from 587000 documents
+2019-08-06 17:06:22,557 : INFO : CorpusAccumulator accumulated stats from 588000 documents
+2019-08-06 17:06:22,564 : INFO : CorpusAccumulator accumulated stats from 589000 documents
+2019-08-06 17:06:22,571 : INFO : CorpusAccumulator accumulated stats from 590000 documents
+2019-08-06 17:06:22,579 : INFO : CorpusAccumulator accumulated stats from 591000 documents
+2019-08-06 17:06:22,587 : INFO : CorpusAccumulator accumulated stats from 592000 documents
+2019-08-06 17:06:22,595 : INFO : CorpusAccumulator accumulated stats from 593000 documents
+2019-08-06 17:06:22,603 : INFO : CorpusAccumulator accumulated stats from 594000 documents
+2019-08-06 17:06:22,610 : INFO : CorpusAccumulator accumulated stats from 595000 documents
+2019-08-06 17:06:22,617 : INFO : CorpusAccumulator accumulated stats from 596000 documents
+2019-08-06 17:06:22,624 : INFO : CorpusAccumulator accumulated stats from 597000 documents
+2019-08-06 17:06:22,631 : INFO : CorpusAccumulator accumulated stats from 598000 documents
+2019-08-06 17:06:22,639 : INFO : CorpusAccumulator accumulated stats from 599000 documents
+2019-08-06 17:06:22,646 : INFO : CorpusAccumulator accumulated stats from 600000 documents
+2019-08-06 17:06:22,655 : INFO : CorpusAccumulator accumulated stats from 601000 documents
+2019-08-06 17:06:22,661 : INFO : CorpusAccumulator accumulated stats from 602000 documents
+2019-08-06 17:06:22,670 : INFO : CorpusAccumulator accumulated stats from 603000 documents
+2019-08-06 17:06:22,676 : INFO : CorpusAccumulator accumulated stats from 604000 documents
+2019-08-06 17:06:22,683 : INFO : CorpusAccumulator accumulated stats from 605000 documents
+2019-08-06 17:06:22,692 : INFO : CorpusAccumulator accumulated stats from 606000 documents
+2019-08-06 17:06:22,701 : INFO : CorpusAccumulator accumulated stats from 607000 documents
+2019-08-06 17:06:22,708 : INFO : CorpusAccumulator accumulated stats from 608000 documents
+2019-08-06 17:06:22,714 : INFO : CorpusAccumulator accumulated stats from 609000 documents
+2019-08-06 17:06:22,722 : INFO : CorpusAccumulator accumulated stats from 610000 documents
+2019-08-06 17:06:22,729 : INFO : CorpusAccumulator accumulated stats from 611000 documents
+2019-08-06 17:06:22,737 : INFO : CorpusAccumulator accumulated stats from 612000 documents
+2019-08-06 17:06:22,745 : INFO : CorpusAccumulator accumulated stats from 613000 documents
+2019-08-06 17:06:22,753 : INFO : CorpusAccumulator accumulated stats from 614000 documents
+2019-08-06 17:06:22,760 : INFO : CorpusAccumulator accumulated stats from 615000 documents
+2019-08-06 17:06:22,768 : INFO : CorpusAccumulator accumulated stats from 616000 documents
+2019-08-06 17:06:22,776 : INFO : CorpusAccumulator accumulated stats from 617000 documents
+2019-08-06 17:06:22,783 : INFO : CorpusAccumulator accumulated stats from 618000 documents
+2019-08-06 17:06:22,794 : INFO : CorpusAccumulator accumulated stats from 619000 documents
+2019-08-06 17:06:22,803 : INFO : CorpusAccumulator accumulated stats from 620000 documents
+2019-08-06 17:06:22,811 : INFO : CorpusAccumulator accumulated stats from 621000 documents
+2019-08-06 17:06:22,818 : INFO : CorpusAccumulator accumulated stats from 622000 documents
+2019-08-06 17:06:22,826 : INFO : CorpusAccumulator accumulated stats from 623000 documents
+2019-08-06 17:06:22,834 : INFO : CorpusAccumulator accumulated stats from 624000 documents
+2019-08-06 17:06:22,843 : INFO : CorpusAccumulator accumulated stats from 625000 documents
+2019-08-06 17:06:22,851 : INFO : CorpusAccumulator accumulated stats from 626000 documents
+2019-08-06 17:06:22,859 : INFO : CorpusAccumulator accumulated stats from 627000 documents
+2019-08-06 17:06:22,867 : INFO : CorpusAccumulator accumulated stats from 628000 documents
+2019-08-06 17:06:22,874 : INFO : CorpusAccumulator accumulated stats from 629000 documents
+2019-08-06 17:06:22,881 : INFO : CorpusAccumulator accumulated stats from 630000 documents
+2019-08-06 17:06:22,888 : INFO : CorpusAccumulator accumulated stats from 631000 documents
+2019-08-06 17:06:22,897 : INFO : CorpusAccumulator accumulated stats from 632000 documents
+2019-08-06 17:06:22,906 : INFO : CorpusAccumulator accumulated stats from 633000 documents
+2019-08-06 17:06:22,914 : INFO : CorpusAccumulator accumulated stats from 634000 documents
+2019-08-06 17:06:22,921 : INFO : CorpusAccumulator accumulated stats from 635000 documents
+2019-08-06 17:06:22,928 : INFO : CorpusAccumulator accumulated stats from 636000 documents
+2019-08-06 17:06:22,935 : INFO : CorpusAccumulator accumulated stats from 637000 documents
+2019-08-06 17:06:22,942 : INFO : CorpusAccumulator accumulated stats from 638000 documents
+2019-08-06 17:06:22,956 : INFO : CorpusAccumulator accumulated stats from 639000 documents
+2019-08-06 17:06:22,964 : INFO : CorpusAccumulator accumulated stats from 640000 documents
+2019-08-06 17:06:22,973 : INFO : CorpusAccumulator accumulated stats from 641000 documents
+2019-08-06 17:06:22,980 : INFO : CorpusAccumulator accumulated stats from 642000 documents
+2019-08-06 17:06:22,988 : INFO : CorpusAccumulator accumulated stats from 643000 documents
+2019-08-06 17:06:22,995 : INFO : CorpusAccumulator accumulated stats from 644000 documents
+2019-08-06 17:06:23,004 : INFO : CorpusAccumulator accumulated stats from 645000 documents
+2019-08-06 17:06:23,013 : INFO : CorpusAccumulator accumulated stats from 646000 documents
+2019-08-06 17:06:23,021 : INFO : CorpusAccumulator accumulated stats from 647000 documents
+2019-08-06 17:06:23,028 : INFO : CorpusAccumulator accumulated stats from 648000 documents
+2019-08-06 17:06:23,034 : INFO : CorpusAccumulator accumulated stats from 649000 documents
+2019-08-06 17:06:23,041 : INFO : CorpusAccumulator accumulated stats from 650000 documents
+2019-08-06 17:06:23,048 : INFO : CorpusAccumulator accumulated stats from 651000 documents
+2019-08-06 17:06:23,057 : INFO : CorpusAccumulator accumulated stats from 652000 documents
+2019-08-06 17:06:23,064 : INFO : CorpusAccumulator accumulated stats from 653000 documents
+2019-08-06 17:06:23,071 : INFO : CorpusAccumulator accumulated stats from 654000 documents
+2019-08-06 17:06:23,077 : INFO : CorpusAccumulator accumulated stats from 655000 documents
+2019-08-06 17:06:23,084 : INFO : CorpusAccumulator accumulated stats from 656000 documents
+2019-08-06 17:06:23,091 : INFO : CorpusAccumulator accumulated stats from 657000 documents
+2019-08-06 17:06:23,100 : INFO : CorpusAccumulator accumulated stats from 658000 documents
+2019-08-06 17:06:23,107 : INFO : CorpusAccumulator accumulated stats from 659000 documents
+2019-08-06 17:06:23,118 : INFO : CorpusAccumulator accumulated stats from 660000 documents
+2019-08-06 17:06:23,124 : INFO : CorpusAccumulator accumulated stats from 661000 documents
+2019-08-06 17:06:23,132 : INFO : CorpusAccumulator accumulated stats from 662000 documents
+2019-08-06 17:06:23,140 : INFO : CorpusAccumulator accumulated stats from 663000 documents
+2019-08-06 17:06:23,147 : INFO : CorpusAccumulator accumulated stats from 664000 documents
+2019-08-06 17:06:23,157 : INFO : CorpusAccumulator accumulated stats from 665000 documents
+2019-08-06 17:06:23,165 : INFO : CorpusAccumulator accumulated stats from 666000 documents
+2019-08-06 17:06:23,174 : INFO : CorpusAccumulator accumulated stats from 667000 documents
+2019-08-06 17:06:23,181 : INFO : CorpusAccumulator accumulated stats from 668000 documents
+2019-08-06 17:06:23,190 : INFO : CorpusAccumulator accumulated stats from 669000 documents
+2019-08-06 17:06:23,198 : INFO : CorpusAccumulator accumulated stats from 670000 documents
+2019-08-06 17:06:23,208 : INFO : CorpusAccumulator accumulated stats from 671000 documents
+2019-08-06 17:06:23,218 : INFO : CorpusAccumulator accumulated stats from 672000 documents
+2019-08-06 17:06:23,227 : INFO : CorpusAccumulator accumulated stats from 673000 documents
+2019-08-06 17:06:23,236 : INFO : CorpusAccumulator accumulated stats from 674000 documents
+2019-08-06 17:06:23,244 : INFO : CorpusAccumulator accumulated stats from 675000 documents
+2019-08-06 17:06:23,253 : INFO : CorpusAccumulator accumulated stats from 676000 documents
+2019-08-06 17:06:23,261 : INFO : CorpusAccumulator accumulated stats from 677000 documents
+2019-08-06 17:06:23,271 : INFO : CorpusAccumulator accumulated stats from 678000 documents
+2019-08-06 17:06:23,280 : INFO : CorpusAccumulator accumulated stats from 679000 documents
+2019-08-06 17:06:23,288 : INFO : CorpusAccumulator accumulated stats from 680000 documents
+2019-08-06 17:06:23,295 : INFO : CorpusAccumulator accumulated stats from 681000 documents
+2019-08-06 17:06:23,304 : INFO : CorpusAccumulator accumulated stats from 682000 documents
+2019-08-06 17:06:23,311 : INFO : CorpusAccumulator accumulated stats from 683000 documents
+2019-08-06 17:06:23,320 : INFO : CorpusAccumulator accumulated stats from 684000 documents
+2019-08-06 17:06:23,328 : INFO : CorpusAccumulator accumulated stats from 685000 documents
+2019-08-06 17:06:23,336 : INFO : CorpusAccumulator accumulated stats from 686000 documents
+2019-08-06 17:06:23,343 : INFO : CorpusAccumulator accumulated stats from 687000 documents
+2019-08-06 17:06:23,351 : INFO : CorpusAccumulator accumulated stats from 688000 documents
+2019-08-06 17:06:23,357 : INFO : CorpusAccumulator accumulated stats from 689000 documents
+2019-08-06 17:06:23,364 : INFO : CorpusAccumulator accumulated stats from 690000 documents
+2019-08-06 17:06:23,373 : INFO : CorpusAccumulator accumulated stats from 691000 documents
+2019-08-06 17:06:23,381 : INFO : CorpusAccumulator accumulated stats from 692000 documents
+2019-08-06 17:06:23,389 : INFO : CorpusAccumulator accumulated stats from 693000 documents
+2019-08-06 17:06:23,395 : INFO : CorpusAccumulator accumulated stats from 694000 documents
+2019-08-06 17:06:23,402 : INFO : CorpusAccumulator accumulated stats from 695000 documents
+2019-08-06 17:06:23,409 : INFO : CorpusAccumulator accumulated stats from 696000 documents
+2019-08-06 17:06:23,419 : INFO : CorpusAccumulator accumulated stats from 697000 documents
+2019-08-06 17:06:23,427 : INFO : CorpusAccumulator accumulated stats from 698000 documents
+2019-08-06 17:06:23,434 : INFO : CorpusAccumulator accumulated stats from 699000 documents
+2019-08-06 17:06:23,441 : INFO : CorpusAccumulator accumulated stats from 700000 documents
+2019-08-06 17:06:23,448 : INFO : CorpusAccumulator accumulated stats from 701000 documents
+2019-08-06 17:06:23,455 : INFO : CorpusAccumulator accumulated stats from 702000 documents
+2019-08-06 17:06:23,462 : INFO : CorpusAccumulator accumulated stats from 703000 documents
+2019-08-06 17:06:23,470 : INFO : CorpusAccumulator accumulated stats from 704000 documents
+2019-08-06 17:06:23,478 : INFO : CorpusAccumulator accumulated stats from 705000 documents
+2019-08-06 17:06:23,485 : INFO : CorpusAccumulator accumulated stats from 706000 documents
+2019-08-06 17:06:23,491 : INFO : CorpusAccumulator accumulated stats from 707000 documents
+2019-08-06 17:06:23,498 : INFO : CorpusAccumulator accumulated stats from 708000 documents
+2019-08-06 17:06:23,505 : INFO : CorpusAccumulator accumulated stats from 709000 documents
+2019-08-06 17:06:23,513 : INFO : CorpusAccumulator accumulated stats from 710000 documents
+2019-08-06 17:06:23,524 : INFO : CorpusAccumulator accumulated stats from 711000 documents
+2019-08-06 17:06:23,531 : INFO : CorpusAccumulator accumulated stats from 712000 documents
+2019-08-06 17:06:23,538 : INFO : CorpusAccumulator accumulated stats from 713000 documents
+2019-08-06 17:06:23,544 : INFO : CorpusAccumulator accumulated stats from 714000 documents
+2019-08-06 17:06:23,551 : INFO : CorpusAccumulator accumulated stats from 715000 documents
+2019-08-06 17:06:23,559 : INFO : CorpusAccumulator accumulated stats from 716000 documents
+2019-08-06 17:06:23,567 : INFO : CorpusAccumulator accumulated stats from 717000 documents
+2019-08-06 17:06:23,577 : INFO : CorpusAccumulator accumulated stats from 718000 documents
+2019-08-06 17:06:23,583 : INFO : CorpusAccumulator accumulated stats from 719000 documents
+2019-08-06 17:06:23,590 : INFO : CorpusAccumulator accumulated stats from 720000 documents
+2019-08-06 17:06:23,597 : INFO : CorpusAccumulator accumulated stats from 721000 documents
+2019-08-06 17:06:23,603 : INFO : CorpusAccumulator accumulated stats from 722000 documents
+2019-08-06 17:06:23,611 : INFO : CorpusAccumulator accumulated stats from 723000 documents
+2019-08-06 17:06:23,621 : INFO : CorpusAccumulator accumulated stats from 724000 documents
+2019-08-06 17:06:23,630 : INFO : CorpusAccumulator accumulated stats from 725000 documents
+2019-08-06 17:06:23,637 : INFO : CorpusAccumulator accumulated stats from 726000 documents
+2019-08-06 17:06:23,644 : INFO : CorpusAccumulator accumulated stats from 727000 documents
+2019-08-06 17:06:23,650 : INFO : CorpusAccumulator accumulated stats from 728000 documents
+2019-08-06 17:06:23,659 : INFO : CorpusAccumulator accumulated stats from 729000 documents
+2019-08-06 17:06:23,668 : INFO : CorpusAccumulator accumulated stats from 730000 documents
+2019-08-06 17:06:23,676 : INFO : CorpusAccumulator accumulated stats from 731000 documents
+2019-08-06 17:06:23,683 : INFO : CorpusAccumulator accumulated stats from 732000 documents
+2019-08-06 17:06:23,690 : INFO : CorpusAccumulator accumulated stats from 733000 documents
+2019-08-06 17:06:23,697 : INFO : CorpusAccumulator accumulated stats from 734000 documents
+2019-08-06 17:06:23,704 : INFO : CorpusAccumulator accumulated stats from 735000 documents
+2019-08-06 17:06:23,712 : INFO : CorpusAccumulator accumulated stats from 736000 documents
+2019-08-06 17:06:23,720 : INFO : CorpusAccumulator accumulated stats from 737000 documents
+2019-08-06 17:06:23,727 : INFO : CorpusAccumulator accumulated stats from 738000 documents
+2019-08-06 17:06:23,734 : INFO : CorpusAccumulator accumulated stats from 739000 documents
+2019-08-06 17:06:23,741 : INFO : CorpusAccumulator accumulated stats from 740000 documents
+2019-08-06 17:06:23,747 : INFO : CorpusAccumulator accumulated stats from 741000 documents
+2019-08-06 17:06:23,755 : INFO : CorpusAccumulator accumulated stats from 742000 documents
+2019-08-06 17:06:23,763 : INFO : CorpusAccumulator accumulated stats from 743000 documents
+2019-08-06 17:06:23,771 : INFO : CorpusAccumulator accumulated stats from 744000 documents
+2019-08-06 17:06:23,778 : INFO : CorpusAccumulator accumulated stats from 745000 documents
+2019-08-06 17:06:23,784 : INFO : CorpusAccumulator accumulated stats from 746000 documents
+2019-08-06 17:06:23,791 : INFO : CorpusAccumulator accumulated stats from 747000 documents
+2019-08-06 17:06:23,799 : INFO : CorpusAccumulator accumulated stats from 748000 documents
+2019-08-06 17:06:23,807 : INFO : CorpusAccumulator accumulated stats from 749000 documents
+2019-08-06 17:06:23,815 : INFO : CorpusAccumulator accumulated stats from 750000 documents
+2019-08-06 17:06:23,822 : INFO : CorpusAccumulator accumulated stats from 751000 documents
+2019-08-06 17:06:23,829 : INFO : CorpusAccumulator accumulated stats from 752000 documents
+2019-08-06 17:06:23,837 : INFO : CorpusAccumulator accumulated stats from 753000 documents
+2019-08-06 17:06:23,844 : INFO : CorpusAccumulator accumulated stats from 754000 documents
+2019-08-06 17:06:23,851 : INFO : CorpusAccumulator accumulated stats from 755000 documents
+2019-08-06 17:06:23,860 : INFO : CorpusAccumulator accumulated stats from 756000 documents
+2019-08-06 17:06:23,867 : INFO : CorpusAccumulator accumulated stats from 757000 documents
+2019-08-06 17:06:23,873 : INFO : CorpusAccumulator accumulated stats from 758000 documents
+2019-08-06 17:06:23,879 : INFO : CorpusAccumulator accumulated stats from 759000 documents
+2019-08-06 17:06:23,886 : INFO : CorpusAccumulator accumulated stats from 760000 documents
+2019-08-06 17:06:23,893 : INFO : CorpusAccumulator accumulated stats from 761000 documents
+2019-08-06 17:06:23,901 : INFO : CorpusAccumulator accumulated stats from 762000 documents
+2019-08-06 17:06:23,908 : INFO : CorpusAccumulator accumulated stats from 763000 documents
+2019-08-06 17:06:23,915 : INFO : CorpusAccumulator accumulated stats from 764000 documents
+2019-08-06 17:06:23,921 : INFO : CorpusAccumulator accumulated stats from 765000 documents
+2019-08-06 17:06:23,927 : INFO : CorpusAccumulator accumulated stats from 766000 documents
+2019-08-06 17:06:23,934 : INFO : CorpusAccumulator accumulated stats from 767000 documents
+2019-08-06 17:06:23,941 : INFO : CorpusAccumulator accumulated stats from 768000 documents
+2019-08-06 17:06:23,949 : INFO : CorpusAccumulator accumulated stats from 769000 documents
+2019-08-06 17:06:23,957 : INFO : CorpusAccumulator accumulated stats from 770000 documents
+2019-08-06 17:06:23,966 : INFO : CorpusAccumulator accumulated stats from 771000 documents
+2019-08-06 17:06:23,976 : INFO : CorpusAccumulator accumulated stats from 772000 documents
+2019-08-06 17:06:23,984 : INFO : CorpusAccumulator accumulated stats from 773000 documents
+2019-08-06 17:06:23,991 : INFO : CorpusAccumulator accumulated stats from 774000 documents
+2019-08-06 17:06:24,000 : INFO : CorpusAccumulator accumulated stats from 775000 documents
+2019-08-06 17:06:24,008 : INFO : CorpusAccumulator accumulated stats from 776000 documents
+2019-08-06 17:06:24,015 : INFO : CorpusAccumulator accumulated stats from 777000 documents
+2019-08-06 17:06:24,022 : INFO : CorpusAccumulator accumulated stats from 778000 documents
+2019-08-06 17:06:24,029 : INFO : CorpusAccumulator accumulated stats from 779000 documents
+2019-08-06 17:06:24,037 : INFO : CorpusAccumulator accumulated stats from 780000 documents
+2019-08-06 17:06:24,044 : INFO : CorpusAccumulator accumulated stats from 781000 documents
+2019-08-06 17:06:24,052 : INFO : CorpusAccumulator accumulated stats from 782000 documents
+2019-08-06 17:06:24,065 : INFO : CorpusAccumulator accumulated stats from 783000 documents
+2019-08-06 17:06:24,071 : INFO : CorpusAccumulator accumulated stats from 784000 documents
+2019-08-06 17:06:24,078 : INFO : CorpusAccumulator accumulated stats from 785000 documents
+2019-08-06 17:06:24,084 : INFO : CorpusAccumulator accumulated stats from 786000 documents
+2019-08-06 17:06:24,090 : INFO : CorpusAccumulator accumulated stats from 787000 documents
+2019-08-06 17:06:24,097 : INFO : CorpusAccumulator accumulated stats from 788000 documents
+2019-08-06 17:06:24,104 : INFO : CorpusAccumulator accumulated stats from 789000 documents
+2019-08-06 17:06:24,111 : INFO : CorpusAccumulator accumulated stats from 790000 documents
+2019-08-06 17:06:24,117 : INFO : CorpusAccumulator accumulated stats from 791000 documents
+2019-08-06 17:06:24,123 : INFO : CorpusAccumulator accumulated stats from 792000 documents
+2019-08-06 17:06:24,130 : INFO : CorpusAccumulator accumulated stats from 793000 documents
+2019-08-06 17:06:24,138 : INFO : CorpusAccumulator accumulated stats from 794000 documents
+2019-08-06 17:06:24,146 : INFO : CorpusAccumulator accumulated stats from 795000 documents
+2019-08-06 17:06:24,153 : INFO : CorpusAccumulator accumulated stats from 796000 documents
+2019-08-06 17:06:24,160 : INFO : CorpusAccumulator accumulated stats from 797000 documents
+2019-08-06 17:06:24,167 : INFO : CorpusAccumulator accumulated stats from 798000 documents
+2019-08-06 17:06:24,173 : INFO : CorpusAccumulator accumulated stats from 799000 documents
+2019-08-06 17:06:24,180 : INFO : CorpusAccumulator accumulated stats from 800000 documents
+2019-08-06 17:06:24,188 : INFO : CorpusAccumulator accumulated stats from 801000 documents
+2019-08-06 17:06:24,195 : INFO : CorpusAccumulator accumulated stats from 802000 documents
+2019-08-06 17:06:24,202 : INFO : CorpusAccumulator accumulated stats from 803000 documents
+2019-08-06 17:06:24,208 : INFO : CorpusAccumulator accumulated stats from 804000 documents
+2019-08-06 17:06:24,215 : INFO : CorpusAccumulator accumulated stats from 805000 documents
+2019-08-06 17:06:24,223 : INFO : CorpusAccumulator accumulated stats from 806000 documents
+2019-08-06 17:06:24,231 : INFO : CorpusAccumulator accumulated stats from 807000 documents
+2019-08-06 17:06:24,239 : INFO : CorpusAccumulator accumulated stats from 808000 documents
+2019-08-06 17:06:24,246 : INFO : CorpusAccumulator accumulated stats from 809000 documents
+2019-08-06 17:06:24,252 : INFO : CorpusAccumulator accumulated stats from 810000 documents
+2019-08-06 17:06:24,259 : INFO : CorpusAccumulator accumulated stats from 811000 documents
+2019-08-06 17:06:24,266 : INFO : CorpusAccumulator accumulated stats from 812000 documents
+2019-08-06 17:06:24,273 : INFO : CorpusAccumulator accumulated stats from 813000 documents
+2019-08-06 17:06:24,280 : INFO : CorpusAccumulator accumulated stats from 814000 documents
+2019-08-06 17:06:24,287 : INFO : CorpusAccumulator accumulated stats from 815000 documents
+2019-08-06 17:06:24,294 : INFO : CorpusAccumulator accumulated stats from 816000 documents
+2019-08-06 17:06:24,300 : INFO : CorpusAccumulator accumulated stats from 817000 documents
+2019-08-06 17:06:24,307 : INFO : CorpusAccumulator accumulated stats from 818000 documents
+2019-08-06 17:06:24,313 : INFO : CorpusAccumulator accumulated stats from 819000 documents
+2019-08-06 17:06:24,320 : INFO : CorpusAccumulator accumulated stats from 820000 documents
+2019-08-06 17:06:24,328 : INFO : CorpusAccumulator accumulated stats from 821000 documents
+2019-08-06 17:06:24,336 : INFO : CorpusAccumulator accumulated stats from 822000 documents
+2019-08-06 17:06:24,343 : INFO : CorpusAccumulator accumulated stats from 823000 documents
+2019-08-06 17:06:24,349 : INFO : CorpusAccumulator accumulated stats from 824000 documents
+2019-08-06 17:06:24,356 : INFO : CorpusAccumulator accumulated stats from 825000 documents
+2019-08-06 17:06:24,362 : INFO : CorpusAccumulator accumulated stats from 826000 documents
+2019-08-06 17:06:24,370 : INFO : CorpusAccumulator accumulated stats from 827000 documents
+2019-08-06 17:06:24,377 : INFO : CorpusAccumulator accumulated stats from 828000 documents
+2019-08-06 17:06:24,384 : INFO : CorpusAccumulator accumulated stats from 829000 documents
+2019-08-06 17:06:24,391 : INFO : CorpusAccumulator accumulated stats from 830000 documents
+2019-08-06 17:06:24,397 : INFO : CorpusAccumulator accumulated stats from 831000 documents
+2019-08-06 17:06:24,404 : INFO : CorpusAccumulator accumulated stats from 832000 documents
+2019-08-06 17:06:24,411 : INFO : CorpusAccumulator accumulated stats from 833000 documents
+2019-08-06 17:06:24,418 : INFO : CorpusAccumulator accumulated stats from 834000 documents
+2019-08-06 17:06:24,426 : INFO : CorpusAccumulator accumulated stats from 835000 documents
+2019-08-06 17:06:24,433 : INFO : CorpusAccumulator accumulated stats from 836000 documents
+2019-08-06 17:06:24,439 : INFO : CorpusAccumulator accumulated stats from 837000 documents
+2019-08-06 17:06:24,446 : INFO : CorpusAccumulator accumulated stats from 838000 documents
+2019-08-06 17:06:24,452 : INFO : CorpusAccumulator accumulated stats from 839000 documents
+2019-08-06 17:06:24,461 : INFO : CorpusAccumulator accumulated stats from 840000 documents
+2019-08-06 17:06:24,468 : INFO : CorpusAccumulator accumulated stats from 841000 documents
+2019-08-06 17:06:24,475 : INFO : CorpusAccumulator accumulated stats from 842000 documents
+2019-08-06 17:06:24,481 : INFO : CorpusAccumulator accumulated stats from 843000 documents
+2019-08-06 17:06:24,487 : INFO : CorpusAccumulator accumulated stats from 844000 documents
+2019-08-06 17:06:24,494 : INFO : CorpusAccumulator accumulated stats from 845000 documents
+2019-08-06 17:06:24,500 : INFO : CorpusAccumulator accumulated stats from 846000 documents
+2019-08-06 17:06:24,508 : INFO : CorpusAccumulator accumulated stats from 847000 documents
+2019-08-06 17:06:24,515 : INFO : CorpusAccumulator accumulated stats from 848000 documents
+2019-08-06 17:06:24,524 : INFO : CorpusAccumulator accumulated stats from 849000 documents
+2019-08-06 17:06:24,530 : INFO : CorpusAccumulator accumulated stats from 850000 documents
+2019-08-06 17:06:24,537 : INFO : CorpusAccumulator accumulated stats from 851000 documents
+2019-08-06 17:06:24,543 : INFO : CorpusAccumulator accumulated stats from 852000 documents
+2019-08-06 17:06:24,551 : INFO : CorpusAccumulator accumulated stats from 853000 documents
+2019-08-06 17:06:24,559 : INFO : CorpusAccumulator accumulated stats from 854000 documents
+2019-08-06 17:06:24,565 : INFO : CorpusAccumulator accumulated stats from 855000 documents
+2019-08-06 17:06:24,572 : INFO : CorpusAccumulator accumulated stats from 856000 documents
+2019-08-06 17:06:24,578 : INFO : CorpusAccumulator accumulated stats from 857000 documents
+2019-08-06 17:06:24,584 : INFO : CorpusAccumulator accumulated stats from 858000 documents
+2019-08-06 17:06:24,590 : INFO : CorpusAccumulator accumulated stats from 859000 documents
+2019-08-06 17:06:24,601 : INFO : CorpusAccumulator accumulated stats from 860000 documents
+2019-08-06 17:06:24,608 : INFO : CorpusAccumulator accumulated stats from 861000 documents
+2019-08-06 17:06:24,614 : INFO : CorpusAccumulator accumulated stats from 862000 documents
+2019-08-06 17:06:24,621 : INFO : CorpusAccumulator accumulated stats from 863000 documents
+2019-08-06 17:06:24,627 : INFO : CorpusAccumulator accumulated stats from 864000 documents
+2019-08-06 17:06:24,633 : INFO : CorpusAccumulator accumulated stats from 865000 documents
+2019-08-06 17:06:24,640 : INFO : CorpusAccumulator accumulated stats from 866000 documents
+2019-08-06 17:06:24,648 : INFO : CorpusAccumulator accumulated stats from 867000 documents
+2019-08-06 17:06:24,654 : INFO : CorpusAccumulator accumulated stats from 868000 documents
+2019-08-06 17:06:24,660 : INFO : CorpusAccumulator accumulated stats from 869000 documents
+2019-08-06 17:06:24,672 : INFO : CorpusAccumulator accumulated stats from 870000 documents
+2019-08-06 17:06:24,679 : INFO : CorpusAccumulator accumulated stats from 871000 documents
+2019-08-06 17:06:24,686 : INFO : CorpusAccumulator accumulated stats from 872000 documents
+2019-08-06 17:06:24,694 : INFO : CorpusAccumulator accumulated stats from 873000 documents
+2019-08-06 17:06:24,702 : INFO : CorpusAccumulator accumulated stats from 874000 documents
+2019-08-06 17:06:24,708 : INFO : CorpusAccumulator accumulated stats from 875000 documents
+2019-08-06 17:06:24,714 : INFO : CorpusAccumulator accumulated stats from 876000 documents
+2019-08-06 17:06:24,720 : INFO : CorpusAccumulator accumulated stats from 877000 documents
+2019-08-06 17:06:24,726 : INFO : CorpusAccumulator accumulated stats from 878000 documents
+2019-08-06 17:06:24,735 : INFO : CorpusAccumulator accumulated stats from 879000 documents
+2019-08-06 17:06:24,743 : INFO : CorpusAccumulator accumulated stats from 880000 documents
+2019-08-06 17:06:24,749 : INFO : CorpusAccumulator accumulated stats from 881000 documents
+2019-08-06 17:06:24,756 : INFO : CorpusAccumulator accumulated stats from 882000 documents
+2019-08-06 17:06:24,762 : INFO : CorpusAccumulator accumulated stats from 883000 documents
+2019-08-06 17:06:24,769 : INFO : CorpusAccumulator accumulated stats from 884000 documents
+2019-08-06 17:06:24,777 : INFO : CorpusAccumulator accumulated stats from 885000 documents
+2019-08-06 17:06:24,785 : INFO : CorpusAccumulator accumulated stats from 886000 documents
+2019-08-06 17:06:24,792 : INFO : CorpusAccumulator accumulated stats from 887000 documents
+2019-08-06 17:06:24,798 : INFO : CorpusAccumulator accumulated stats from 888000 documents
+2019-08-06 17:06:24,805 : INFO : CorpusAccumulator accumulated stats from 889000 documents
+2019-08-06 17:06:24,811 : INFO : CorpusAccumulator accumulated stats from 890000 documents
+2019-08-06 17:06:24,817 : INFO : CorpusAccumulator accumulated stats from 891000 documents
+2019-08-06 17:06:24,825 : INFO : CorpusAccumulator accumulated stats from 892000 documents
+2019-08-06 17:06:24,832 : INFO : CorpusAccumulator accumulated stats from 893000 documents
+2019-08-06 17:06:24,838 : INFO : CorpusAccumulator accumulated stats from 894000 documents
+2019-08-06 17:06:24,845 : INFO : CorpusAccumulator accumulated stats from 895000 documents
+2019-08-06 17:06:24,851 : INFO : CorpusAccumulator accumulated stats from 896000 documents
+2019-08-06 17:06:24,857 : INFO : CorpusAccumulator accumulated stats from 897000 documents
+2019-08-06 17:06:24,865 : INFO : CorpusAccumulator accumulated stats from 898000 documents
+2019-08-06 17:06:24,873 : INFO : CorpusAccumulator accumulated stats from 899000 documents
+2019-08-06 17:06:24,880 : INFO : CorpusAccumulator accumulated stats from 900000 documents
+2019-08-06 17:06:24,886 : INFO : CorpusAccumulator accumulated stats from 901000 documents
+2019-08-06 17:06:24,892 : INFO : CorpusAccumulator accumulated stats from 902000 documents
+2019-08-06 17:06:24,898 : INFO : CorpusAccumulator accumulated stats from 903000 documents
+2019-08-06 17:06:24,904 : INFO : CorpusAccumulator accumulated stats from 904000 documents
+2019-08-06 17:06:24,912 : INFO : CorpusAccumulator accumulated stats from 905000 documents
+2019-08-06 17:06:24,919 : INFO : CorpusAccumulator accumulated stats from 906000 documents
+2019-08-06 17:06:24,926 : INFO : CorpusAccumulator accumulated stats from 907000 documents
+2019-08-06 17:06:24,932 : INFO : CorpusAccumulator accumulated stats from 908000 documents
+2019-08-06 17:06:24,939 : INFO : CorpusAccumulator accumulated stats from 909000 documents
+2019-08-06 17:06:24,946 : INFO : CorpusAccumulator accumulated stats from 910000 documents
+2019-08-06 17:06:24,953 : INFO : CorpusAccumulator accumulated stats from 911000 documents
+2019-08-06 17:06:24,961 : INFO : CorpusAccumulator accumulated stats from 912000 documents
+2019-08-06 17:06:24,967 : INFO : CorpusAccumulator accumulated stats from 913000 documents
+2019-08-06 17:06:24,974 : INFO : CorpusAccumulator accumulated stats from 914000 documents
+2019-08-06 17:06:24,980 : INFO : CorpusAccumulator accumulated stats from 915000 documents
+2019-08-06 17:06:24,987 : INFO : CorpusAccumulator accumulated stats from 916000 documents
+2019-08-06 17:06:24,995 : INFO : CorpusAccumulator accumulated stats from 917000 documents
+2019-08-06 17:06:25,002 : INFO : CorpusAccumulator accumulated stats from 918000 documents
+2019-08-06 17:06:25,011 : INFO : CorpusAccumulator accumulated stats from 919000 documents
+2019-08-06 17:06:25,018 : INFO : CorpusAccumulator accumulated stats from 920000 documents
+2019-08-06 17:06:25,024 : INFO : CorpusAccumulator accumulated stats from 921000 documents
+2019-08-06 17:06:25,030 : INFO : CorpusAccumulator accumulated stats from 922000 documents
+2019-08-06 17:06:25,036 : INFO : CorpusAccumulator accumulated stats from 923000 documents
+2019-08-06 17:06:25,043 : INFO : CorpusAccumulator accumulated stats from 924000 documents
+2019-08-06 17:06:25,051 : INFO : CorpusAccumulator accumulated stats from 925000 documents
+2019-08-06 17:06:25,058 : INFO : CorpusAccumulator accumulated stats from 926000 documents
+2019-08-06 17:06:25,065 : INFO : CorpusAccumulator accumulated stats from 927000 documents
+2019-08-06 17:06:25,071 : INFO : CorpusAccumulator accumulated stats from 928000 documents
+2019-08-06 17:06:25,077 : INFO : CorpusAccumulator accumulated stats from 929000 documents
+2019-08-06 17:06:25,083 : INFO : CorpusAccumulator accumulated stats from 930000 documents
+2019-08-06 17:06:25,091 : INFO : CorpusAccumulator accumulated stats from 931000 documents
+2019-08-06 17:06:25,098 : INFO : CorpusAccumulator accumulated stats from 932000 documents
+2019-08-06 17:06:25,105 : INFO : CorpusAccumulator accumulated stats from 933000 documents
+2019-08-06 17:06:25,111 : INFO : CorpusAccumulator accumulated stats from 934000 documents
+2019-08-06 17:06:25,118 : INFO : CorpusAccumulator accumulated stats from 935000 documents
+2019-08-06 17:06:25,124 : INFO : CorpusAccumulator accumulated stats from 936000 documents
+2019-08-06 17:06:25,131 : INFO : CorpusAccumulator accumulated stats from 937000 documents
+2019-08-06 17:06:25,139 : INFO : CorpusAccumulator accumulated stats from 938000 documents
+2019-08-06 17:06:25,145 : INFO : CorpusAccumulator accumulated stats from 939000 documents
+2019-08-06 17:06:25,152 : INFO : CorpusAccumulator accumulated stats from 940000 documents
+2019-08-06 17:06:25,158 : INFO : CorpusAccumulator accumulated stats from 941000 documents
+2019-08-06 17:06:25,165 : INFO : CorpusAccumulator accumulated stats from 942000 documents
+2019-08-06 17:06:25,171 : INFO : CorpusAccumulator accumulated stats from 943000 documents
+2019-08-06 17:06:25,178 : INFO : CorpusAccumulator accumulated stats from 944000 documents
+2019-08-06 17:06:25,186 : INFO : CorpusAccumulator accumulated stats from 945000 documents
+2019-08-06 17:06:25,193 : INFO : CorpusAccumulator accumulated stats from 946000 documents
+2019-08-06 17:06:25,199 : INFO : CorpusAccumulator accumulated stats from 947000 documents
+2019-08-06 17:06:25,206 : INFO : CorpusAccumulator accumulated stats from 948000 documents
+2019-08-06 17:06:25,212 : INFO : CorpusAccumulator accumulated stats from 949000 documents
+2019-08-06 17:06:25,218 : INFO : CorpusAccumulator accumulated stats from 950000 documents
+2019-08-06 17:06:25,226 : INFO : CorpusAccumulator accumulated stats from 951000 documents
+2019-08-06 17:06:25,233 : INFO : CorpusAccumulator accumulated stats from 952000 documents
+2019-08-06 17:06:25,240 : INFO : CorpusAccumulator accumulated stats from 953000 documents
+2019-08-06 17:06:25,246 : INFO : CorpusAccumulator accumulated stats from 954000 documents
+2019-08-06 17:06:25,252 : INFO : CorpusAccumulator accumulated stats from 955000 documents
+2019-08-06 17:06:25,259 : INFO : CorpusAccumulator accumulated stats from 956000 documents
+2019-08-06 17:06:25,267 : INFO : CorpusAccumulator accumulated stats from 957000 documents
+2019-08-06 17:06:25,275 : INFO : CorpusAccumulator accumulated stats from 958000 documents
+2019-08-06 17:06:25,282 : INFO : CorpusAccumulator accumulated stats from 959000 documents
+2019-08-06 17:06:25,289 : INFO : CorpusAccumulator accumulated stats from 960000 documents
+2019-08-06 17:06:25,295 : INFO : CorpusAccumulator accumulated stats from 961000 documents
+2019-08-06 17:06:25,300 : INFO : CorpusAccumulator accumulated stats from 962000 documents
+2019-08-06 17:06:25,307 : INFO : CorpusAccumulator accumulated stats from 963000 documents
+2019-08-06 17:06:25,316 : INFO : CorpusAccumulator accumulated stats from 964000 documents
+2019-08-06 17:06:25,323 : INFO : CorpusAccumulator accumulated stats from 965000 documents
+2019-08-06 17:06:25,329 : INFO : CorpusAccumulator accumulated stats from 966000 documents
+2019-08-06 17:06:25,336 : INFO : CorpusAccumulator accumulated stats from 967000 documents
+2019-08-06 17:06:25,342 : INFO : CorpusAccumulator accumulated stats from 968000 documents
+2019-08-06 17:06:25,348 : INFO : CorpusAccumulator accumulated stats from 969000 documents
+2019-08-06 17:06:25,355 : INFO : CorpusAccumulator accumulated stats from 970000 documents
+2019-08-06 17:06:25,365 : INFO : CorpusAccumulator accumulated stats from 971000 documents
+2019-08-06 17:06:25,372 : INFO : CorpusAccumulator accumulated stats from 972000 documents
+2019-08-06 17:06:25,378 : INFO : CorpusAccumulator accumulated stats from 973000 documents
+2019-08-06 17:06:25,385 : INFO : CorpusAccumulator accumulated stats from 974000 documents
+2019-08-06 17:06:25,391 : INFO : CorpusAccumulator accumulated stats from 975000 documents
+2019-08-06 17:06:25,397 : INFO : CorpusAccumulator accumulated stats from 976000 documents
+2019-08-06 17:06:25,404 : INFO : CorpusAccumulator accumulated stats from 977000 documents
+2019-08-06 17:06:25,411 : INFO : CorpusAccumulator accumulated stats from 978000 documents
+2019-08-06 17:06:25,418 : INFO : CorpusAccumulator accumulated stats from 979000 documents
+2019-08-06 17:06:25,424 : INFO : CorpusAccumulator accumulated stats from 980000 documents
+2019-08-06 17:06:25,430 : INFO : CorpusAccumulator accumulated stats from 981000 documents
+2019-08-06 17:06:25,436 : INFO : CorpusAccumulator accumulated stats from 982000 documents
+2019-08-06 17:06:25,443 : INFO : CorpusAccumulator accumulated stats from 983000 documents
+2019-08-06 17:06:25,451 : INFO : CorpusAccumulator accumulated stats from 984000 documents
+2019-08-06 17:06:25,458 : INFO : CorpusAccumulator accumulated stats from 985000 documents
+2019-08-06 17:06:25,464 : INFO : CorpusAccumulator accumulated stats from 986000 documents
+2019-08-06 17:06:25,470 : INFO : CorpusAccumulator accumulated stats from 987000 documents
+2019-08-06 17:06:25,477 : INFO : CorpusAccumulator accumulated stats from 988000 documents
+2019-08-06 17:06:25,483 : INFO : CorpusAccumulator accumulated stats from 989000 documents
+2019-08-06 17:06:25,490 : INFO : CorpusAccumulator accumulated stats from 990000 documents
+2019-08-06 17:06:25,497 : INFO : CorpusAccumulator accumulated stats from 991000 documents
+2019-08-06 17:06:25,503 : INFO : CorpusAccumulator accumulated stats from 992000 documents
+2019-08-06 17:06:25,509 : INFO : CorpusAccumulator accumulated stats from 993000 documents
+2019-08-06 17:06:25,515 : INFO : CorpusAccumulator accumulated stats from 994000 documents
+2019-08-06 17:06:25,521 : INFO : CorpusAccumulator accumulated stats from 995000 documents
+2019-08-06 17:06:25,528 : INFO : CorpusAccumulator accumulated stats from 996000 documents
+2019-08-06 17:06:25,535 : INFO : CorpusAccumulator accumulated stats from 997000 documents
+2019-08-06 17:06:25,542 : INFO : CorpusAccumulator accumulated stats from 998000 documents
+2019-08-06 17:06:25,548 : INFO : CorpusAccumulator accumulated stats from 999000 documents
+2019-08-06 17:06:25,555 : INFO : CorpusAccumulator accumulated stats from 1000000 documents
+2019-08-06 17:06:25,561 : INFO : CorpusAccumulator accumulated stats from 1001000 documents
+2019-08-06 17:06:25,567 : INFO : CorpusAccumulator accumulated stats from 1002000 documents
+2019-08-06 17:06:25,574 : INFO : CorpusAccumulator accumulated stats from 1003000 documents
+2019-08-06 17:06:25,582 : INFO : CorpusAccumulator accumulated stats from 1004000 documents
+2019-08-06 17:06:25,588 : INFO : CorpusAccumulator accumulated stats from 1005000 documents
+2019-08-06 17:06:25,594 : INFO : CorpusAccumulator accumulated stats from 1006000 documents
+2019-08-06 17:06:25,600 : INFO : CorpusAccumulator accumulated stats from 1007000 documents
+2019-08-06 17:06:25,606 : INFO : CorpusAccumulator accumulated stats from 1008000 documents
+2019-08-06 17:06:25,614 : INFO : CorpusAccumulator accumulated stats from 1009000 documents
+2019-08-06 17:06:25,621 : INFO : CorpusAccumulator accumulated stats from 1010000 documents
+2019-08-06 17:06:25,628 : INFO : CorpusAccumulator accumulated stats from 1011000 documents
+2019-08-06 17:06:25,634 : INFO : CorpusAccumulator accumulated stats from 1012000 documents
+2019-08-06 17:06:25,640 : INFO : CorpusAccumulator accumulated stats from 1013000 documents
+2019-08-06 17:06:25,646 : INFO : CorpusAccumulator accumulated stats from 1014000 documents
+2019-08-06 17:06:25,652 : INFO : CorpusAccumulator accumulated stats from 1015000 documents
+2019-08-06 17:06:25,660 : INFO : CorpusAccumulator accumulated stats from 1016000 documents
+2019-08-06 17:06:25,667 : INFO : CorpusAccumulator accumulated stats from 1017000 documents
+2019-08-06 17:06:25,673 : INFO : CorpusAccumulator accumulated stats from 1018000 documents
+2019-08-06 17:06:25,679 : INFO : CorpusAccumulator accumulated stats from 1019000 documents
+2019-08-06 17:06:25,685 : INFO : CorpusAccumulator accumulated stats from 1020000 documents
+2019-08-06 17:06:25,691 : INFO : CorpusAccumulator accumulated stats from 1021000 documents
+2019-08-06 17:06:25,697 : INFO : CorpusAccumulator accumulated stats from 1022000 documents
+2019-08-06 17:06:25,704 : INFO : CorpusAccumulator accumulated stats from 1023000 documents
+2019-08-06 17:06:25,711 : INFO : CorpusAccumulator accumulated stats from 1024000 documents
+2019-08-06 17:06:25,717 : INFO : CorpusAccumulator accumulated stats from 1025000 documents
+2019-08-06 17:06:25,723 : INFO : CorpusAccumulator accumulated stats from 1026000 documents
+2019-08-06 17:06:25,729 : INFO : CorpusAccumulator accumulated stats from 1027000 documents
+2019-08-06 17:06:25,736 : INFO : CorpusAccumulator accumulated stats from 1028000 documents
+2019-08-06 17:06:25,745 : INFO : CorpusAccumulator accumulated stats from 1029000 documents
+2019-08-06 17:06:25,752 : INFO : CorpusAccumulator accumulated stats from 1030000 documents
+2019-08-06 17:06:25,759 : INFO : CorpusAccumulator accumulated stats from 1031000 documents
+2019-08-06 17:06:25,765 : INFO : CorpusAccumulator accumulated stats from 1032000 documents
+2019-08-06 17:06:25,771 : INFO : CorpusAccumulator accumulated stats from 1033000 documents
+2019-08-06 17:06:25,778 : INFO : CorpusAccumulator accumulated stats from 1034000 documents
+2019-08-06 17:06:25,786 : INFO : CorpusAccumulator accumulated stats from 1035000 documents
+2019-08-06 17:06:25,794 : INFO : CorpusAccumulator accumulated stats from 1036000 documents
+2019-08-06 17:06:25,802 : INFO : CorpusAccumulator accumulated stats from 1037000 documents
+2019-08-06 17:06:25,809 : INFO : CorpusAccumulator accumulated stats from 1038000 documents
+2019-08-06 17:06:25,815 : INFO : CorpusAccumulator accumulated stats from 1039000 documents
+2019-08-06 17:06:25,822 : INFO : CorpusAccumulator accumulated stats from 1040000 documents
+2019-08-06 17:06:25,828 : INFO : CorpusAccumulator accumulated stats from 1041000 documents
+2019-08-06 17:06:25,837 : INFO : CorpusAccumulator accumulated stats from 1042000 documents
+2019-08-06 17:06:25,844 : INFO : CorpusAccumulator accumulated stats from 1043000 documents
+2019-08-06 17:06:25,850 : INFO : CorpusAccumulator accumulated stats from 1044000 documents
+2019-08-06 17:06:25,857 : INFO : CorpusAccumulator accumulated stats from 1045000 documents
+2019-08-06 17:06:25,863 : INFO : CorpusAccumulator accumulated stats from 1046000 documents
+2019-08-06 17:06:25,870 : INFO : CorpusAccumulator accumulated stats from 1047000 documents
+2019-08-06 17:06:25,876 : INFO : CorpusAccumulator accumulated stats from 1048000 documents
+2019-08-06 17:06:25,884 : INFO : CorpusAccumulator accumulated stats from 1049000 documents
+2019-08-06 17:06:25,891 : INFO : CorpusAccumulator accumulated stats from 1050000 documents
+2019-08-06 17:06:25,897 : INFO : CorpusAccumulator accumulated stats from 1051000 documents
+2019-08-06 17:06:25,904 : INFO : CorpusAccumulator accumulated stats from 1052000 documents
+2019-08-06 17:06:25,910 : INFO : CorpusAccumulator accumulated stats from 1053000 documents
+2019-08-06 17:06:25,918 : INFO : CorpusAccumulator accumulated stats from 1054000 documents
+2019-08-06 17:06:25,927 : INFO : CorpusAccumulator accumulated stats from 1055000 documents
+2019-08-06 17:06:25,936 : INFO : CorpusAccumulator accumulated stats from 1056000 documents
+2019-08-06 17:06:25,943 : INFO : CorpusAccumulator accumulated stats from 1057000 documents
+2019-08-06 17:06:25,951 : INFO : CorpusAccumulator accumulated stats from 1058000 documents
+2019-08-06 17:06:25,958 : INFO : CorpusAccumulator accumulated stats from 1059000 documents
+2019-08-06 17:06:25,965 : INFO : CorpusAccumulator accumulated stats from 1060000 documents
+2019-08-06 17:06:25,973 : INFO : CorpusAccumulator accumulated stats from 1061000 documents
+2019-08-06 17:06:25,981 : INFO : CorpusAccumulator accumulated stats from 1062000 documents
+2019-08-06 17:06:25,989 : INFO : CorpusAccumulator accumulated stats from 1063000 documents
+2019-08-06 17:06:25,997 : INFO : CorpusAccumulator accumulated stats from 1064000 documents
+2019-08-06 17:06:26,004 : INFO : CorpusAccumulator accumulated stats from 1065000 documents
+2019-08-06 17:06:26,012 : INFO : CorpusAccumulator accumulated stats from 1066000 documents
+2019-08-06 17:06:26,019 : INFO : CorpusAccumulator accumulated stats from 1067000 documents
+2019-08-06 17:06:26,027 : INFO : CorpusAccumulator accumulated stats from 1068000 documents
+2019-08-06 17:06:26,036 : INFO : CorpusAccumulator accumulated stats from 1069000 documents
+2019-08-06 17:06:26,043 : INFO : CorpusAccumulator accumulated stats from 1070000 documents
+2019-08-06 17:06:26,050 : INFO : CorpusAccumulator accumulated stats from 1071000 documents
+2019-08-06 17:06:26,057 : INFO : CorpusAccumulator accumulated stats from 1072000 documents
+2019-08-06 17:06:26,065 : INFO : CorpusAccumulator accumulated stats from 1073000 documents
+2019-08-06 17:06:26,072 : INFO : CorpusAccumulator accumulated stats from 1074000 documents
+2019-08-06 17:06:26,081 : INFO : CorpusAccumulator accumulated stats from 1075000 documents
+2019-08-06 17:06:26,088 : INFO : CorpusAccumulator accumulated stats from 1076000 documents
+2019-08-06 17:06:26,095 : INFO : CorpusAccumulator accumulated stats from 1077000 documents
+2019-08-06 17:06:26,102 : INFO : CorpusAccumulator accumulated stats from 1078000 documents
+2019-08-06 17:06:26,109 : INFO : CorpusAccumulator accumulated stats from 1079000 documents
+2019-08-06 17:06:26,116 : INFO : CorpusAccumulator accumulated stats from 1080000 documents
+2019-08-06 17:06:26,124 : INFO : CorpusAccumulator accumulated stats from 1081000 documents
+2019-08-06 17:06:26,133 : INFO : CorpusAccumulator accumulated stats from 1082000 documents
+2019-08-06 17:06:26,142 : INFO : CorpusAccumulator accumulated stats from 1083000 documents
+2019-08-06 17:06:26,150 : INFO : CorpusAccumulator accumulated stats from 1084000 documents
+2019-08-06 17:06:26,156 : INFO : CorpusAccumulator accumulated stats from 1085000 documents
+2019-08-06 17:06:26,164 : INFO : CorpusAccumulator accumulated stats from 1086000 documents
+2019-08-06 17:06:26,171 : INFO : CorpusAccumulator accumulated stats from 1087000 documents
+2019-08-06 17:06:26,179 : INFO : CorpusAccumulator accumulated stats from 1088000 documents
+2019-08-06 17:06:26,186 : INFO : CorpusAccumulator accumulated stats from 1089000 documents
+2019-08-06 17:06:26,192 : INFO : CorpusAccumulator accumulated stats from 1090000 documents
+2019-08-06 17:06:26,199 : INFO : CorpusAccumulator accumulated stats from 1091000 documents
+2019-08-06 17:06:26,208 : INFO : CorpusAccumulator accumulated stats from 1092000 documents
+2019-08-06 17:06:26,215 : INFO : CorpusAccumulator accumulated stats from 1093000 documents
+2019-08-06 17:06:26,223 : INFO : CorpusAccumulator accumulated stats from 1094000 documents
+2019-08-06 17:06:26,231 : INFO : CorpusAccumulator accumulated stats from 1095000 documents
+2019-08-06 17:06:26,238 : INFO : CorpusAccumulator accumulated stats from 1096000 documents
+2019-08-06 17:06:26,244 : INFO : CorpusAccumulator accumulated stats from 1097000 documents
+2019-08-06 17:06:26,251 : INFO : CorpusAccumulator accumulated stats from 1098000 documents
+2019-08-06 17:06:26,257 : INFO : CorpusAccumulator accumulated stats from 1099000 documents
+2019-08-06 17:06:26,265 : INFO : CorpusAccumulator accumulated stats from 1100000 documents
+2019-08-06 17:06:26,273 : INFO : CorpusAccumulator accumulated stats from 1101000 documents
+2019-08-06 17:06:26,281 : INFO : CorpusAccumulator accumulated stats from 1102000 documents
+2019-08-06 17:06:26,290 : INFO : CorpusAccumulator accumulated stats from 1103000 documents
+2019-08-06 17:06:26,297 : INFO : CorpusAccumulator accumulated stats from 1104000 documents
+2019-08-06 17:06:26,303 : INFO : CorpusAccumulator accumulated stats from 1105000 documents
+2019-08-06 17:06:26,310 : INFO : CorpusAccumulator accumulated stats from 1106000 documents
+2019-08-06 17:06:26,318 : INFO : CorpusAccumulator accumulated stats from 1107000 documents
+2019-08-06 17:06:26,326 : INFO : CorpusAccumulator accumulated stats from 1108000 documents
+2019-08-06 17:06:26,332 : INFO : CorpusAccumulator accumulated stats from 1109000 documents
+2019-08-06 17:06:26,339 : INFO : CorpusAccumulator accumulated stats from 1110000 documents
+2019-08-06 17:06:26,345 : INFO : CorpusAccumulator accumulated stats from 1111000 documents
+2019-08-06 17:06:26,352 : INFO : CorpusAccumulator accumulated stats from 1112000 documents
+2019-08-06 17:06:26,359 : INFO : CorpusAccumulator accumulated stats from 1113000 documents
+2019-08-06 17:06:26,368 : INFO : CorpusAccumulator accumulated stats from 1114000 documents
+2019-08-06 17:06:26,376 : INFO : CorpusAccumulator accumulated stats from 1115000 documents
+2019-08-06 17:06:26,384 : INFO : CorpusAccumulator accumulated stats from 1116000 documents
+2019-08-06 17:06:26,392 : INFO : CorpusAccumulator accumulated stats from 1117000 documents
+2019-08-06 17:06:26,400 : INFO : CorpusAccumulator accumulated stats from 1118000 documents
+2019-08-06 17:06:26,409 : INFO : CorpusAccumulator accumulated stats from 1119000 documents
+2019-08-06 17:06:26,422 : INFO : CorpusAccumulator accumulated stats from 1120000 documents
+2019-08-06 17:06:26,431 : INFO : CorpusAccumulator accumulated stats from 1121000 documents
+2019-08-06 17:06:26,440 : INFO : CorpusAccumulator accumulated stats from 1122000 documents
+2019-08-06 17:06:26,447 : INFO : CorpusAccumulator accumulated stats from 1123000 documents
+2019-08-06 17:06:26,454 : INFO : CorpusAccumulator accumulated stats from 1124000 documents
+2019-08-06 17:06:26,462 : INFO : CorpusAccumulator accumulated stats from 1125000 documents
+2019-08-06 17:06:26,472 : INFO : CorpusAccumulator accumulated stats from 1126000 documents
+2019-08-06 17:06:26,481 : INFO : CorpusAccumulator accumulated stats from 1127000 documents
+2019-08-06 17:06:26,489 : INFO : CorpusAccumulator accumulated stats from 1128000 documents
+2019-08-06 17:06:26,496 : INFO : CorpusAccumulator accumulated stats from 1129000 documents
+2019-08-06 17:06:26,503 : INFO : CorpusAccumulator accumulated stats from 1130000 documents
+2019-08-06 17:06:26,509 : INFO : CorpusAccumulator accumulated stats from 1131000 documents
+2019-08-06 17:06:26,517 : INFO : CorpusAccumulator accumulated stats from 1132000 documents
+2019-08-06 17:06:26,525 : INFO : CorpusAccumulator accumulated stats from 1133000 documents
+2019-08-06 17:06:26,533 : INFO : CorpusAccumulator accumulated stats from 1134000 documents
+2019-08-06 17:06:26,540 : INFO : CorpusAccumulator accumulated stats from 1135000 documents
+2019-08-06 17:06:26,548 : INFO : CorpusAccumulator accumulated stats from 1136000 documents
+2019-08-06 17:06:26,556 : INFO : CorpusAccumulator accumulated stats from 1137000 documents
+2019-08-06 17:06:26,563 : INFO : CorpusAccumulator accumulated stats from 1138000 documents
+2019-08-06 17:06:26,571 : INFO : CorpusAccumulator accumulated stats from 1139000 documents
+2019-08-06 17:06:26,579 : INFO : CorpusAccumulator accumulated stats from 1140000 documents
+2019-08-06 17:06:26,586 : INFO : CorpusAccumulator accumulated stats from 1141000 documents
+2019-08-06 17:06:26,594 : INFO : CorpusAccumulator accumulated stats from 1142000 documents
+2019-08-06 17:06:26,601 : INFO : CorpusAccumulator accumulated stats from 1143000 documents
+2019-08-06 17:06:26,608 : INFO : CorpusAccumulator accumulated stats from 1144000 documents
+2019-08-06 17:06:26,614 : INFO : CorpusAccumulator accumulated stats from 1145000 documents
+2019-08-06 17:06:26,623 : INFO : CorpusAccumulator accumulated stats from 1146000 documents
+2019-08-06 17:06:26,630 : INFO : CorpusAccumulator accumulated stats from 1147000 documents
+2019-08-06 17:06:26,637 : INFO : CorpusAccumulator accumulated stats from 1148000 documents
+2019-08-06 17:06:26,643 : INFO : CorpusAccumulator accumulated stats from 1149000 documents
+2019-08-06 17:06:26,650 : INFO : CorpusAccumulator accumulated stats from 1150000 documents
+2019-08-06 17:06:26,656 : INFO : CorpusAccumulator accumulated stats from 1151000 documents
+2019-08-06 17:06:26,664 : INFO : CorpusAccumulator accumulated stats from 1152000 documents
+2019-08-06 17:06:26,672 : INFO : CorpusAccumulator accumulated stats from 1153000 documents
+2019-08-06 17:06:26,679 : INFO : CorpusAccumulator accumulated stats from 1154000 documents
+2019-08-06 17:06:26,686 : INFO : CorpusAccumulator accumulated stats from 1155000 documents
+2019-08-06 17:06:26,693 : INFO : CorpusAccumulator accumulated stats from 1156000 documents
+2019-08-06 17:06:26,701 : INFO : CorpusAccumulator accumulated stats from 1157000 documents
+2019-08-06 17:06:26,709 : INFO : CorpusAccumulator accumulated stats from 1158000 documents
+2019-08-06 17:06:26,718 : INFO : CorpusAccumulator accumulated stats from 1159000 documents
+2019-08-06 17:06:26,727 : INFO : CorpusAccumulator accumulated stats from 1160000 documents
+2019-08-06 17:06:26,735 : INFO : CorpusAccumulator accumulated stats from 1161000 documents
+2019-08-06 17:06:26,742 : INFO : CorpusAccumulator accumulated stats from 1162000 documents
+2019-08-06 17:06:26,750 : INFO : CorpusAccumulator accumulated stats from 1163000 documents
+2019-08-06 17:06:26,758 : INFO : CorpusAccumulator accumulated stats from 1164000 documents
+2019-08-06 17:06:26,767 : INFO : CorpusAccumulator accumulated stats from 1165000 documents
+2019-08-06 17:06:26,775 : INFO : CorpusAccumulator accumulated stats from 1166000 documents
+2019-08-06 17:06:26,783 : INFO : CorpusAccumulator accumulated stats from 1167000 documents
+2019-08-06 17:06:26,791 : INFO : CorpusAccumulator accumulated stats from 1168000 documents
+2019-08-06 17:06:26,797 : INFO : CorpusAccumulator accumulated stats from 1169000 documents
+2019-08-06 17:06:26,805 : INFO : CorpusAccumulator accumulated stats from 1170000 documents
+2019-08-06 17:06:26,813 : INFO : CorpusAccumulator accumulated stats from 1171000 documents
+2019-08-06 17:06:26,823 : INFO : CorpusAccumulator accumulated stats from 1172000 documents
+2019-08-06 17:06:26,831 : INFO : CorpusAccumulator accumulated stats from 1173000 documents
+2019-08-06 17:06:26,839 : INFO : CorpusAccumulator accumulated stats from 1174000 documents
+2019-08-06 17:06:26,845 : INFO : CorpusAccumulator accumulated stats from 1175000 documents
+2019-08-06 17:06:26,852 : INFO : CorpusAccumulator accumulated stats from 1176000 documents
+2019-08-06 17:06:26,858 : INFO : CorpusAccumulator accumulated stats from 1177000 documents
+2019-08-06 17:06:26,866 : INFO : CorpusAccumulator accumulated stats from 1178000 documents
+2019-08-06 17:06:26,874 : INFO : CorpusAccumulator accumulated stats from 1179000 documents
+2019-08-06 17:06:26,881 : INFO : CorpusAccumulator accumulated stats from 1180000 documents
+2019-08-06 17:06:26,888 : INFO : CorpusAccumulator accumulated stats from 1181000 documents
+2019-08-06 17:06:26,896 : INFO : CorpusAccumulator accumulated stats from 1182000 documents
+2019-08-06 17:06:26,903 : INFO : CorpusAccumulator accumulated stats from 1183000 documents
+2019-08-06 17:06:26,910 : INFO : CorpusAccumulator accumulated stats from 1184000 documents
+2019-08-06 17:06:26,918 : INFO : CorpusAccumulator accumulated stats from 1185000 documents
+2019-08-06 17:06:26,925 : INFO : CorpusAccumulator accumulated stats from 1186000 documents
+2019-08-06 17:06:26,932 : INFO : CorpusAccumulator accumulated stats from 1187000 documents
+2019-08-06 17:06:26,939 : INFO : CorpusAccumulator accumulated stats from 1188000 documents
+2019-08-06 17:06:26,945 : INFO : CorpusAccumulator accumulated stats from 1189000 documents
+2019-08-06 17:06:26,952 : INFO : CorpusAccumulator accumulated stats from 1190000 documents
+2019-08-06 17:06:26,959 : INFO : CorpusAccumulator accumulated stats from 1191000 documents
+2019-08-06 17:06:26,967 : INFO : CorpusAccumulator accumulated stats from 1192000 documents
+2019-08-06 17:06:26,973 : INFO : CorpusAccumulator accumulated stats from 1193000 documents
+2019-08-06 17:06:26,980 : INFO : CorpusAccumulator accumulated stats from 1194000 documents
+2019-08-06 17:06:26,987 : INFO : CorpusAccumulator accumulated stats from 1195000 documents
+2019-08-06 17:06:26,993 : INFO : CorpusAccumulator accumulated stats from 1196000 documents
+2019-08-06 17:06:27,000 : INFO : CorpusAccumulator accumulated stats from 1197000 documents
+2019-08-06 17:06:27,008 : INFO : CorpusAccumulator accumulated stats from 1198000 documents
+2019-08-06 17:06:27,018 : INFO : CorpusAccumulator accumulated stats from 1199000 documents
+2019-08-06 17:06:27,024 : INFO : CorpusAccumulator accumulated stats from 1200000 documents
+2019-08-06 17:06:27,031 : INFO : CorpusAccumulator accumulated stats from 1201000 documents
+2019-08-06 17:06:27,037 : INFO : CorpusAccumulator accumulated stats from 1202000 documents
+2019-08-06 17:06:27,044 : INFO : CorpusAccumulator accumulated stats from 1203000 documents
+2019-08-06 17:06:27,051 : INFO : CorpusAccumulator accumulated stats from 1204000 documents
+2019-08-06 17:06:27,059 : INFO : CorpusAccumulator accumulated stats from 1205000 documents
+2019-08-06 17:06:27,066 : INFO : CorpusAccumulator accumulated stats from 1206000 documents
+2019-08-06 17:06:27,073 : INFO : CorpusAccumulator accumulated stats from 1207000 documents
+2019-08-06 17:06:27,079 : INFO : CorpusAccumulator accumulated stats from 1208000 documents
+2019-08-06 17:06:27,085 : INFO : CorpusAccumulator accumulated stats from 1209000 documents
+2019-08-06 17:06:27,092 : INFO : CorpusAccumulator accumulated stats from 1210000 documents
+2019-08-06 17:06:27,101 : INFO : CorpusAccumulator accumulated stats from 1211000 documents
+2019-08-06 17:06:27,108 : INFO : CorpusAccumulator accumulated stats from 1212000 documents
+2019-08-06 17:06:27,115 : INFO : CorpusAccumulator accumulated stats from 1213000 documents
+2019-08-06 17:06:27,122 : INFO : CorpusAccumulator accumulated stats from 1214000 documents
+2019-08-06 17:06:27,128 : INFO : CorpusAccumulator accumulated stats from 1215000 documents
+2019-08-06 17:06:27,135 : INFO : CorpusAccumulator accumulated stats from 1216000 documents
+2019-08-06 17:06:27,142 : INFO : CorpusAccumulator accumulated stats from 1217000 documents
+2019-08-06 17:06:27,150 : INFO : CorpusAccumulator accumulated stats from 1218000 documents
+2019-08-06 17:06:27,157 : INFO : CorpusAccumulator accumulated stats from 1219000 documents
+2019-08-06 17:06:27,165 : INFO : CorpusAccumulator accumulated stats from 1220000 documents
+2019-08-06 17:06:27,171 : INFO : CorpusAccumulator accumulated stats from 1221000 documents
+2019-08-06 17:06:27,178 : INFO : CorpusAccumulator accumulated stats from 1222000 documents
+2019-08-06 17:06:27,185 : INFO : CorpusAccumulator accumulated stats from 1223000 documents
+2019-08-06 17:06:27,193 : INFO : CorpusAccumulator accumulated stats from 1224000 documents
+2019-08-06 17:06:27,201 : INFO : CorpusAccumulator accumulated stats from 1225000 documents
+2019-08-06 17:06:27,207 : INFO : CorpusAccumulator accumulated stats from 1226000 documents
+2019-08-06 17:06:27,214 : INFO : CorpusAccumulator accumulated stats from 1227000 documents
+2019-08-06 17:06:27,221 : INFO : CorpusAccumulator accumulated stats from 1228000 documents
+2019-08-06 17:06:27,227 : INFO : CorpusAccumulator accumulated stats from 1229000 documents
+2019-08-06 17:06:27,235 : INFO : CorpusAccumulator accumulated stats from 1230000 documents
+2019-08-06 17:06:27,242 : INFO : CorpusAccumulator accumulated stats from 1231000 documents
+2019-08-06 17:06:27,249 : INFO : CorpusAccumulator accumulated stats from 1232000 documents
+2019-08-06 17:06:27,255 : INFO : CorpusAccumulator accumulated stats from 1233000 documents
+2019-08-06 17:06:27,261 : INFO : CorpusAccumulator accumulated stats from 1234000 documents
+2019-08-06 17:06:27,268 : INFO : CorpusAccumulator accumulated stats from 1235000 documents
+2019-08-06 17:06:27,275 : INFO : CorpusAccumulator accumulated stats from 1236000 documents
+2019-08-06 17:06:27,282 : INFO : CorpusAccumulator accumulated stats from 1237000 documents
+2019-08-06 17:06:27,289 : INFO : CorpusAccumulator accumulated stats from 1238000 documents
+2019-08-06 17:06:27,296 : INFO : CorpusAccumulator accumulated stats from 1239000 documents
+2019-08-06 17:06:27,303 : INFO : CorpusAccumulator accumulated stats from 1240000 documents
+2019-08-06 17:06:27,309 : INFO : CorpusAccumulator accumulated stats from 1241000 documents
+2019-08-06 17:06:27,316 : INFO : CorpusAccumulator accumulated stats from 1242000 documents
+2019-08-06 17:06:27,324 : INFO : CorpusAccumulator accumulated stats from 1243000 documents
+2019-08-06 17:06:27,331 : INFO : CorpusAccumulator accumulated stats from 1244000 documents
+2019-08-06 17:06:27,338 : INFO : CorpusAccumulator accumulated stats from 1245000 documents
+2019-08-06 17:06:27,344 : INFO : CorpusAccumulator accumulated stats from 1246000 documents
+2019-08-06 17:06:27,352 : INFO : CorpusAccumulator accumulated stats from 1247000 documents
+2019-08-06 17:06:27,360 : INFO : CorpusAccumulator accumulated stats from 1248000 documents
+2019-08-06 17:06:27,368 : INFO : CorpusAccumulator accumulated stats from 1249000 documents
+2019-08-06 17:06:27,375 : INFO : CorpusAccumulator accumulated stats from 1250000 documents
+2019-08-06 17:06:27,382 : INFO : CorpusAccumulator accumulated stats from 1251000 documents
+2019-08-06 17:06:27,390 : INFO : CorpusAccumulator accumulated stats from 1252000 documents
+2019-08-06 17:06:27,396 : INFO : CorpusAccumulator accumulated stats from 1253000 documents
+2019-08-06 17:06:27,403 : INFO : CorpusAccumulator accumulated stats from 1254000 documents
+2019-08-06 17:06:27,409 : INFO : CorpusAccumulator accumulated stats from 1255000 documents
+2019-08-06 17:06:27,418 : INFO : CorpusAccumulator accumulated stats from 1256000 documents
+2019-08-06 17:06:27,425 : INFO : CorpusAccumulator accumulated stats from 1257000 documents
+2019-08-06 17:06:27,431 : INFO : CorpusAccumulator accumulated stats from 1258000 documents
+2019-08-06 17:06:27,438 : INFO : CorpusAccumulator accumulated stats from 1259000 documents
+2019-08-06 17:06:27,444 : INFO : CorpusAccumulator accumulated stats from 1260000 documents
+2019-08-06 17:06:27,451 : INFO : CorpusAccumulator accumulated stats from 1261000 documents
+2019-08-06 17:06:27,458 : INFO : CorpusAccumulator accumulated stats from 1262000 documents
+2019-08-06 17:06:27,466 : INFO : CorpusAccumulator accumulated stats from 1263000 documents
+2019-08-06 17:06:27,473 : INFO : CorpusAccumulator accumulated stats from 1264000 documents
+2019-08-06 17:06:27,479 : INFO : CorpusAccumulator accumulated stats from 1265000 documents
+2019-08-06 17:06:27,486 : INFO : CorpusAccumulator accumulated stats from 1266000 documents
+2019-08-06 17:06:27,492 : INFO : CorpusAccumulator accumulated stats from 1267000 documents
+2019-08-06 17:06:27,499 : INFO : CorpusAccumulator accumulated stats from 1268000 documents
+2019-08-06 17:06:27,507 : INFO : CorpusAccumulator accumulated stats from 1269000 documents
+2019-08-06 17:06:27,513 : INFO : CorpusAccumulator accumulated stats from 1270000 documents
+2019-08-06 17:06:27,520 : INFO : CorpusAccumulator accumulated stats from 1271000 documents
+2019-08-06 17:06:27,526 : INFO : CorpusAccumulator accumulated stats from 1272000 documents
+2019-08-06 17:06:27,532 : INFO : CorpusAccumulator accumulated stats from 1273000 documents
+2019-08-06 17:06:27,539 : INFO : CorpusAccumulator accumulated stats from 1274000 documents
+2019-08-06 17:06:27,546 : INFO : CorpusAccumulator accumulated stats from 1275000 documents
+2019-08-06 17:06:27,554 : INFO : CorpusAccumulator accumulated stats from 1276000 documents
+2019-08-06 17:06:27,560 : INFO : CorpusAccumulator accumulated stats from 1277000 documents
+2019-08-06 17:06:27,567 : INFO : CorpusAccumulator accumulated stats from 1278000 documents
+2019-08-06 17:06:27,585 : INFO : CorpusAccumulator accumulated stats from 1279000 documents
+2019-08-06 17:06:27,592 : INFO : CorpusAccumulator accumulated stats from 1280000 documents
+2019-08-06 17:06:27,599 : INFO : CorpusAccumulator accumulated stats from 1281000 documents
+2019-08-06 17:06:27,606 : INFO : CorpusAccumulator accumulated stats from 1282000 documents
+2019-08-06 17:06:27,614 : INFO : CorpusAccumulator accumulated stats from 1283000 documents
+2019-08-06 17:06:27,621 : INFO : CorpusAccumulator accumulated stats from 1284000 documents
+2019-08-06 17:06:27,627 : INFO : CorpusAccumulator accumulated stats from 1285000 documents
+2019-08-06 17:06:27,634 : INFO : CorpusAccumulator accumulated stats from 1286000 documents
+2019-08-06 17:06:27,641 : INFO : CorpusAccumulator accumulated stats from 1287000 documents
+2019-08-06 17:06:27,648 : INFO : CorpusAccumulator accumulated stats from 1288000 documents
+2019-08-06 17:06:27,656 : INFO : CorpusAccumulator accumulated stats from 1289000 documents
+2019-08-06 17:06:27,663 : INFO : CorpusAccumulator accumulated stats from 1290000 documents
+2019-08-06 17:06:27,670 : INFO : CorpusAccumulator accumulated stats from 1291000 documents
+2019-08-06 17:06:27,677 : INFO : CorpusAccumulator accumulated stats from 1292000 documents
+2019-08-06 17:06:27,683 : INFO : CorpusAccumulator accumulated stats from 1293000 documents
+2019-08-06 17:06:27,690 : INFO : CorpusAccumulator accumulated stats from 1294000 documents
+2019-08-06 17:06:27,697 : INFO : CorpusAccumulator accumulated stats from 1295000 documents
+2019-08-06 17:06:27,705 : INFO : CorpusAccumulator accumulated stats from 1296000 documents
+2019-08-06 17:06:27,712 : INFO : CorpusAccumulator accumulated stats from 1297000 documents
+2019-08-06 17:06:27,719 : INFO : CorpusAccumulator accumulated stats from 1298000 documents
+2019-08-06 17:06:27,725 : INFO : CorpusAccumulator accumulated stats from 1299000 documents
+2019-08-06 17:06:27,731 : INFO : CorpusAccumulator accumulated stats from 1300000 documents
