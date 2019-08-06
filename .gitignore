@@ -8,5 +8,5 @@ tmp/
 
 # Only track diliverables
 doc/*
-!doc/Customer Feedback Topic Modeling*
+!doc/Customer Feedback Topic Modeling*.pdf
 
