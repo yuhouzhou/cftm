@@ -5,7 +5,8 @@ output/archive/
 
 # Only track diliverables
 doc/*
-!doc/Customer Feedback Topic Modeling*
+!doc/Customer Feedback Topic Modeling*.pdf
+!doc/Customer Feedback Topic Modeling*.tex
 
 # Others
 *.ipynb
@@ -16,4 +17,4 @@ spark-warehouse/
 tmp/
 
 # Include
-*.sty
+!*.sty
