@@ -1,12 +1,15 @@
+# Exclude big files
 data*/
-.ipynb_checkpoints/
-.idea/
-spark-warehouse/
-*.pickle
 output/archive/
-tmp/
 
 # Only track diliverables
 doc/*
 !doc/Customer Feedback Topic Modeling*.pdf
+
+# Others
+*.pickle
+.ipynb_checkpoints/
+.idea/
+spark-warehouse/
+tmp/
 
