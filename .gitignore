@@ -8,6 +8,7 @@ doc/*
 !doc/Customer Feedback Topic Modeling*.pdf
 
 # Others
+*.ipynb
 __pycache__/
 .ipynb_checkpoints/
 .idea/
