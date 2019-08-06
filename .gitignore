@@ -1,13 +1,14 @@
 # Exclude big files
 data*/
 output/archive/
+*.pickle
 
 # Only track diliverables
 doc/*
 !doc/Customer Feedback Topic Modeling*.pdf
 
 # Others
-*.pickle
+__pycache__/
 .ipynb_checkpoints/
 .idea/
 spark-warehouse/
