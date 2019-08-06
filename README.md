@@ -17,9 +17,12 @@ By using `spark.sql()` we get the columns of interests, such as "Date", "Sentime
 
 * Drop duplicates (transform the spark dataframe to pandas dataframe)
 * Aggregate short feedback to long documents by specified aggregation strategy
-* Create preprocessing function
-  * Apply standard nlp process to every feedback. Tokenize, part-of-speech tagging, parsing and named entity recognition. 
-  * Change words to lower cases; remove stopwords
+* preprocessing pipeline
+  * Tokenization
+  * lemmatization
+  * Lowercasing
+  * Strip white space
+  * remove stop words and punctuation
 * Call gensim methods to transform string texts to gensim dictionary, and gensim corpus. 
 
 ## Data Modeling and Selection
