@@ -95,8 +95,14 @@ if args.pipeline[1]:
     try:
         for i in tqdm(range(n_topic_min, n_topics_max + 1)):
             # Data Modelling
-            lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, update_every=1, distributed=False,
-                           passes=1, iterations=400, random_state=args.seed, eval_every=1)
+            # Gensim LDA model set update_every=1 by default, meaning it uses Online LDA;
+            # The algorithm update the model after read every chunk-size number of documents.
+            # If you set passes > 1, then
+            # the algorithm will read through the whole corpus multiple times.
+            # It is a similar parameter with 'epoch' in neural networks.
+            lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
+                           update_every=1, chunksize=2000, passes=1, iterations=400,
+                           random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
             # Data Evaluation
