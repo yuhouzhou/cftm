@@ -1,0 +1,14 @@
+2019-08-05 13:47:45,828 : INFO : using symmetric alpha at 0.1
+2019-08-05 13:47:45,829 : INFO : using symmetric eta at 0.1
+2019-08-05 13:47:45,829 : INFO : using serial LDA version on this node
+2019-08-05 13:47:45,834 : INFO : running online (single-pass) LDA training, 10 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:47:45,834 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:47:47,209 : INFO : -11.060 per-word bound, 2134.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:47:47,209 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:47:48,372 : INFO : topic #2 (0.100): 0.025*"fotobuch" + 0.018*"seite" + 0.015*"zufrieden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"preisen" + 0.011*"cewe" + 0.009*"geben" + 0.008*"qualität" + 0.008*"erstellen"
+2019-08-05 13:47:48,372 : INFO : topic #6 (0.100): 0.038*"einfach" + 0.035*"qualität" + 0.025*"schnellen" + 0.019*"fotobuch" + 0.012*"foto" + 0.011*"seite" + 0.010*"bestellen" + 0.010*"super" + 0.008*"finden" + 0.008*"erstellen"
+2019-08-05 13:47:48,372 : INFO : topic #4 (0.100): 0.016*"zufrieden" + 0.016*"software" + 0.013*"buchen" + 0.013*"bild" + 0.012*"buch" + 0.011*"schnellen" + 0.010*"finden" + 0.010*"einfach" + 0.008*"seite" + 0.008*"programm"
+2019-08-05 13:47:48,373 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.019*"zufrieden" + 0.018*"bild" + 0.017*"einfach" + 0.013*"seite" + 0.011*"foto" + 0.011*"qualität" + 0.010*"handhabung" + 0.010*"fotobücher" + 0.009*"bestellung"
+2019-08-05 13:47:48,373 : INFO : topic #5 (0.100): 0.025*"qualität" + 0.017*"bild" + 0.017*"fotobuch" + 0.016*"toll" + 0.013*"zufrieden" + 0.010*"foto" + 0.010*"möglichkeit" + 0.009*"fotobuches" + 0.008*"einfach" + 0.007*"schnellen"
+2019-08-05 13:47:48,373 : INFO : topic diff=7.519739, rho=1.000000
+2019-08-05 13:47:48,378 : INFO : CorpusAccumulator accumulated stats from 1000 documents

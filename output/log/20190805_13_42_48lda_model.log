@@ -1,0 +1,154 @@
+2019-08-05 13:42:48,076 : INFO : using symmetric alpha at 0.1
+2019-08-05 13:42:48,076 : INFO : using symmetric eta at 0.1
+2019-08-05 13:42:48,077 : INFO : using serial LDA version on this node
+2019-08-05 13:42:48,082 : INFO : running online (single-pass) LDA training, 10 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:42:48,082 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:42:49,481 : INFO : -11.060 per-word bound, 2134.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:42:49,481 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:42:50,636 : INFO : topic #2 (0.100): 0.025*"fotobuch" + 0.018*"seite" + 0.015*"zufrieden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"preisen" + 0.011*"cewe" + 0.009*"geben" + 0.008*"qualität" + 0.008*"erstellen"
+2019-08-05 13:42:50,636 : INFO : topic #6 (0.100): 0.038*"einfach" + 0.035*"qualität" + 0.025*"schnellen" + 0.019*"fotobuch" + 0.012*"foto" + 0.011*"seite" + 0.010*"bestellen" + 0.010*"super" + 0.008*"finden" + 0.008*"erstellen"
+2019-08-05 13:42:50,637 : INFO : topic #4 (0.100): 0.016*"zufrieden" + 0.016*"software" + 0.013*"buchen" + 0.013*"bild" + 0.012*"buch" + 0.011*"schnellen" + 0.010*"finden" + 0.010*"einfach" + 0.008*"seite" + 0.008*"programm"
+2019-08-05 13:42:50,637 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.019*"zufrieden" + 0.018*"bild" + 0.017*"einfach" + 0.013*"seite" + 0.011*"foto" + 0.011*"qualität" + 0.010*"handhabung" + 0.010*"fotobücher" + 0.009*"bestellung"
+2019-08-05 13:42:50,637 : INFO : topic #5 (0.100): 0.025*"qualität" + 0.017*"bild" + 0.017*"fotobuch" + 0.016*"toll" + 0.013*"zufrieden" + 0.010*"foto" + 0.010*"möglichkeit" + 0.009*"fotobuches" + 0.008*"einfach" + 0.007*"schnellen"
+2019-08-05 13:42:50,637 : INFO : topic diff=7.519739, rho=1.000000
+2019-08-05 13:42:50,643 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:42:50,654 : INFO : using symmetric alpha at 0.09090909090909091
+2019-08-05 13:42:50,654 : INFO : using symmetric eta at 0.09090909090909091
+2019-08-05 13:42:50,654 : INFO : using serial LDA version on this node
+2019-08-05 13:42:50,657 : INFO : running online (single-pass) LDA training, 11 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:42:50,657 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:42:52,012 : INFO : -11.449 per-word bound, 2795.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:42:52,012 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:42:53,089 : INFO : topic #0 (0.091): 0.023*"zufrieden" + 0.018*"einfach" + 0.017*"qualität" + 0.015*"software" + 0.014*"fotobücher" + 0.014*"cewe" + 0.013*"übersichtlich" + 0.013*"schnell" + 0.010*"programm" + 0.009*"möglichkeit"
+2019-08-05 13:42:53,089 : INFO : topic #6 (0.091): 0.038*"einfach" + 0.035*"qualität" + 0.031*"schnellen" + 0.017*"fotobuch" + 0.012*"super" + 0.011*"foto" + 0.009*"geben" + 0.009*"programm" + 0.008*"bestellen" + 0.008*"buchen"
+2019-08-05 13:42:53,089 : INFO : topic #9 (0.091): 0.020*"einfach" + 0.020*"zufrieden" + 0.019*"fotobuch" + 0.016*"bild" + 0.013*"seite" + 0.011*"bestellung" + 0.011*"handhabung" + 0.011*"schnellen" + 0.010*"fotobücher" + 0.010*"ergebnis"
+2019-08-05 13:42:53,090 : INFO : topic #2 (0.091): 0.022*"fotobuch" + 0.019*"seite" + 0.013*"bild" + 0.013*"qualität" + 0.012*"zufrieden" + 0.011*"preisen" + 0.011*"buch" + 0.010*"cewe" + 0.010*"fotobücher" + 0.009*"buchen"
+2019-08-05 13:42:53,090 : INFO : topic #1 (0.091): 0.017*"qualität" + 0.015*"zufrieden" + 0.013*"bild" + 0.012*"schön" + 0.011*"müller" + 0.011*"fotobücher" + 0.010*"fotobuch" + 0.010*"cewe" + 0.010*"einfach" + 0.010*"bestellen"
+2019-08-05 13:42:53,090 : INFO : topic diff=8.338954, rho=1.000000
+2019-08-05 13:42:53,095 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:42:53,107 : INFO : using symmetric alpha at 0.08333333333333333
+2019-08-05 13:42:53,108 : INFO : using symmetric eta at 0.08333333333333333
+2019-08-05 13:42:53,108 : INFO : using serial LDA version on this node
+2019-08-05 13:42:53,111 : INFO : running online (single-pass) LDA training, 12 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:42:53,111 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:42:54,482 : INFO : -11.855 per-word bound, 3704.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:42:54,482 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:42:55,650 : INFO : topic #3 (0.083): 0.024*"qualität" + 0.019*"super" + 0.014*"zufrieden" + 0.014*"schnellen" + 0.012*"finden" + 0.012*"einfach" + 0.011*"software" + 0.011*"foto" + 0.011*"jed" + 0.011*"seite"
+2019-08-05 13:42:55,651 : INFO : topic #2 (0.083): 0.026*"fotobuch" + 0.018*"seite" + 0.015*"preisen" + 0.015*"cewe" + 0.013*"bild" + 0.011*"zufrieden" + 0.010*"buchen" + 0.009*"qualität" + 0.009*"foto" + 0.009*"geben"
+2019-08-05 13:42:55,651 : INFO : topic #0 (0.083): 0.026*"zufrieden" + 0.022*"einfach" + 0.016*"software" + 0.014*"qualität" + 0.013*"fotobücher" + 0.013*"cewe" + 0.012*"schnell" + 0.011*"möglichkeit" + 0.011*"programm" + 0.010*"übersichtlich"
+2019-08-05 13:42:55,651 : INFO : topic #8 (0.083): 0.041*"qualität" + 0.029*"einfach" + 0.020*"schnellen" + 0.016*"fotobuch" + 0.010*"buchen" + 0.009*"foto" + 0.009*"cewe" + 0.008*"schwarz" + 0.008*"fotobücher" + 0.008*"lieferung"
+2019-08-05 13:42:55,651 : INFO : topic #7 (0.083): 0.024*"qualität" + 0.016*"foto" + 0.015*"bild" + 0.013*"bestellen" + 0.012*"buchen" + 0.010*"müller" + 0.009*"zufrieden" + 0.008*"einfach" + 0.008*"fotobuch" + 0.008*"enttäuschen"
+2019-08-05 13:42:55,651 : INFO : topic diff=9.273833, rho=1.000000
+2019-08-05 13:42:55,657 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:42:55,670 : INFO : using symmetric alpha at 0.07692307692307693
+2019-08-05 13:42:55,670 : INFO : using symmetric eta at 0.07692307692307693
+2019-08-05 13:42:55,670 : INFO : using serial LDA version on this node
+2019-08-05 13:42:55,673 : INFO : running online (single-pass) LDA training, 13 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:42:55,673 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:42:57,074 : INFO : -12.276 per-word bound, 4959.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:42:57,074 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:42:58,213 : INFO : topic #1 (0.077): 0.025*"qualität" + 0.013*"zufrieden" + 0.010*"fotobücher" + 0.008*"fotobuch" + 0.008*"..." + 0.008*"müller" + 0.008*"bild" + 0.008*"cewe" + 0.008*"produkt" + 0.007*"letzt"
+2019-08-05 13:42:58,213 : INFO : topic #7 (0.077): 0.030*"qualität" + 0.015*"foto" + 0.015*"bild" + 0.014*"buch" + 0.011*"buchen" + 0.009*"bestellen" + 0.008*"arbeiten" + 0.008*"schnellen" + 0.008*"service" + 0.008*"zufrieden"
+2019-08-05 13:42:58,213 : INFO : topic #2 (0.077): 0.026*"fotobuch" + 0.018*"preisen" + 0.016*"seite" + 0.014*"bild" + 0.012*"cewe" + 0.009*"geben" + 0.008*"qualität" + 0.008*"zufrieden" + 0.008*"foto" + 0.006*"fotobücher"
+2019-08-05 13:42:58,213 : INFO : topic #4 (0.077): 0.023*"software" + 0.018*"zufrieden" + 0.012*"buch" + 0.011*"buchen" + 0.011*"finden" + 0.011*"bild" + 0.011*"schnellen" + 0.009*"möglichkeit" + 0.009*"einfach" + 0.009*"programm"
+2019-08-05 13:42:58,213 : INFO : topic #0 (0.077): 0.025*"einfach" + 0.022*"zufrieden" + 0.019*"qualität" + 0.018*"software" + 0.017*"programm" + 0.017*"cewe" + 0.015*"fotobücher" + 0.013*"übersichtlich" + 0.012*"schnell" + 0.011*"möglichkeit"
+2019-08-05 13:42:58,213 : INFO : topic diff=10.144215, rho=1.000000
+2019-08-05 13:42:58,219 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:42:58,234 : INFO : using symmetric alpha at 0.07142857142857142
+2019-08-05 13:42:58,234 : INFO : using symmetric eta at 0.07142857142857142
+2019-08-05 13:42:58,235 : INFO : using serial LDA version on this node
+2019-08-05 13:42:58,238 : INFO : running online (single-pass) LDA training, 14 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:42:58,238 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:42:59,607 : INFO : -12.708 per-word bound, 6690.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:42:59,607 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:00,730 : INFO : topic #2 (0.071): 0.024*"fotobuch" + 0.020*"seite" + 0.017*"preisen" + 0.014*"cewe" + 0.014*"bild" + 0.011*"buchen" + 0.009*"foto" + 0.009*"buch" + 0.008*"qualität" + 0.007*"ander"
+2019-08-05 13:43:00,730 : INFO : topic #13 (0.071): 0.032*"zufrieden" + 0.017*"schnellen" + 0.017*"qualität" + 0.014*"fotobücher" + 0.013*"cewe" + 0.011*"lieferung" + 0.011*"einfach" + 0.011*"mal" + 0.011*"bild" + 0.010*"schön"
+2019-08-05 13:43:00,730 : INFO : topic #0 (0.071): 0.023*"einfach" + 0.021*"zufrieden" + 0.019*"software" + 0.016*"qualität" + 0.014*"cewe" + 0.013*"programm" + 0.011*"erstellen" + 0.011*"schnell" + 0.010*"übersichtlich" + 0.010*"seite"
+2019-08-05 13:43:00,730 : INFO : topic #8 (0.071): 0.031*"qualität" + 0.029*"buchen" + 0.018*"schnellen" + 0.013*"einfach" + 0.011*"gestalten" + 0.010*"schwarz" + 0.010*"fotobuch" + 0.010*"zufrieden" + 0.009*"letzt" + 0.009*"foto"
+2019-08-05 13:43:00,730 : INFO : topic #9 (0.071): 0.023*"bild" + 0.019*"einfach" + 0.015*"fotobuch" + 0.015*"zufrieden" + 0.014*"seite" + 0.012*"bestellung" + 0.011*"foto" + 0.011*"letzt" + 0.011*"qualität" + 0.010*"bestellen"
+2019-08-05 13:43:00,730 : INFO : topic diff=11.013065, rho=1.000000
+2019-08-05 13:43:00,736 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:00,751 : INFO : using symmetric alpha at 0.06666666666666667
+2019-08-05 13:43:00,751 : INFO : using symmetric eta at 0.06666666666666667
+2019-08-05 13:43:00,751 : INFO : using serial LDA version on this node
+2019-08-05 13:43:00,754 : INFO : running online (single-pass) LDA training, 15 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:00,754 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:02,165 : INFO : -13.152 per-word bound, 9104.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:02,166 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:03,323 : INFO : topic #12 (0.067): 0.027*"qualität" + 0.022*"zufrieden" + 0.019*"schnellen" + 0.018*"einfach" + 0.017*"müller" + 0.017*"fotobuch" + 0.013*"bild" + 0.013*"lieferung" + 0.012*"seite" + 0.009*"software"
+2019-08-05 13:43:03,323 : INFO : topic #14 (0.067): 0.042*"qualität" + 0.036*"zufrieden" + 0.017*"software" + 0.016*"preisen" + 0.012*"gestalten" + 0.011*"einfach" + 0.011*"schnellen" + 0.009*"tollen" + 0.009*"handhabung" + 0.009*"buch"
+2019-08-05 13:43:03,323 : INFO : topic #8 (0.067): 0.044*"qualität" + 0.022*"einfach" + 0.019*"foto" + 0.018*"schnellen" + 0.013*"buchen" + 0.012*"fotobuch" + 0.010*"schön" + 0.009*"letzt" + 0.009*"bearbeitung" + 0.008*"software"
+2019-08-05 13:43:03,323 : INFO : topic #0 (0.067): 0.023*"qualität" + 0.017*"zufrieden" + 0.014*"software" + 0.014*"programm" + 0.014*"einfach" + 0.014*"cewe" + 0.013*"erstellen" + 0.012*"fotobücher" + 0.012*"foto" + 0.012*"fotobuch"
+2019-08-05 13:43:03,323 : INFO : topic #2 (0.067): 0.024*"fotobuch" + 0.020*"seite" + 0.019*"preisen" + 0.015*"buchen" + 0.011*"einfach" + 0.010*"cewe" + 0.010*"qualität" + 0.009*"bild" + 0.009*"geben" + 0.009*"teuer"
+2019-08-05 13:43:03,323 : INFO : topic diff=11.900581, rho=1.000000
+2019-08-05 13:43:03,332 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:03,352 : INFO : using symmetric alpha at 0.0625
+2019-08-05 13:43:03,353 : INFO : using symmetric eta at 0.0625
+2019-08-05 13:43:03,353 : INFO : using serial LDA version on this node
+2019-08-05 13:43:03,356 : INFO : running online (single-pass) LDA training, 16 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:03,356 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:04,648 : INFO : -13.611 per-word bound, 12511.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:04,649 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:05,644 : INFO : topic #14 (0.062): 0.043*"qualität" + 0.039*"zufrieden" + 0.016*"super" + 0.012*"buch" + 0.012*"geben" + 0.011*"preisen" + 0.011*"software" + 0.010*"anbieter" + 0.008*"tollen" + 0.008*"produkt"
+2019-08-05 13:43:05,644 : INFO : topic #8 (0.062): 0.043*"qualität" + 0.025*"schnellen" + 0.019*"einfach" + 0.016*"buchen" + 0.012*"schwarz" + 0.012*"lieferung" + 0.010*"fotobuch" + 0.009*"kaste" + 0.009*"bearbeitung" + 0.007*"letzt"
+2019-08-05 13:43:05,644 : INFO : topic #10 (0.062): 0.023*"fotobuch" + 0.016*"schnellen" + 0.014*"einfach" + 0.014*"zufrieden" + 0.014*"lieferung" + 0.010*"bestellung" + 0.010*"bild" + 0.010*"buchen" + 0.010*"seite" + 0.010*"buch"
+2019-08-05 13:43:05,644 : INFO : topic #2 (0.062): 0.022*"fotobuch" + 0.015*"seite" + 0.014*"cewe" + 0.014*"qualität" + 0.014*"zufrieden" + 0.013*"bild" + 0.012*"buchen" + 0.011*"preisen" + 0.010*"geben" + 0.010*"erstellen"
+2019-08-05 13:43:05,644 : INFO : topic #11 (0.062): 0.023*"qualität" + 0.017*"buchen" + 0.015*"foto" + 0.012*"seite" + 0.012*"fotobücher" + 0.011*"fotobuch" + 0.010*"schön" + 0.009*"bild" + 0.009*"drucken" + 0.009*"bestellen"
+2019-08-05 13:43:05,644 : INFO : topic diff=12.762507, rho=1.000000
+2019-08-05 13:43:05,650 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:05,666 : INFO : using symmetric alpha at 0.058823529411764705
+2019-08-05 13:43:05,666 : INFO : using symmetric eta at 0.058823529411764705
+2019-08-05 13:43:05,667 : INFO : using serial LDA version on this node
+2019-08-05 13:43:05,670 : INFO : running online (single-pass) LDA training, 17 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:05,670 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:06,925 : INFO : -14.079 per-word bound, 17301.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:06,925 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:07,908 : INFO : topic #1 (0.059): 0.016*"zufrieden" + 0.015*"fotobuch" + 0.014*"bild" + 0.014*"qualität" + 0.012*"fotobücher" + 0.010*"bestellen" + 0.010*"seite" + 0.010*"einfach" + 0.008*"schade" + 0.008*"letzt"
+2019-08-05 13:43:07,909 : INFO : topic #15 (0.059): 0.021*"bild" + 0.020*"foto" + 0.014*"fotobuch" + 0.013*"qualität" + 0.011*"finden" + 0.010*"seite" + 0.009*"datei" + 0.009*"buch" + 0.008*"gestaltung" + 0.008*"super"
+2019-08-05 13:43:07,909 : INFO : topic #8 (0.059): 0.051*"qualität" + 0.015*"buchen" + 0.015*"einfach" + 0.013*"service" + 0.012*"gestalten" + 0.012*"programm" + 0.012*"schnellen" + 0.010*"letzt" + 0.010*"foto" + 0.009*"fotobuch"
+2019-08-05 13:43:07,909 : INFO : topic #11 (0.059): 0.022*"qualität" + 0.018*"buchen" + 0.017*"fotobücher" + 0.012*"seite" + 0.010*"foto" + 0.010*"software" + 0.010*"service" + 0.010*"zufrieden" + 0.009*"einfach" + 0.008*"drucken"
+2019-08-05 13:43:07,909 : INFO : topic #13 (0.059): 0.030*"zufrieden" + 0.015*"einfach" + 0.015*"toll" + 0.012*"lieferung" + 0.012*"cewe" + 0.012*"schnellen" + 0.011*"fotobuch" + 0.011*"jed" + 0.010*"qualität" + 0.009*"schön"
+2019-08-05 13:43:07,909 : INFO : topic diff=13.676544, rho=1.000000
+2019-08-05 13:43:07,917 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:07,936 : INFO : using symmetric alpha at 0.05555555555555555
+2019-08-05 13:43:07,936 : INFO : using symmetric eta at 0.05555555555555555
+2019-08-05 13:43:07,936 : INFO : using serial LDA version on this node
+2019-08-05 13:43:07,940 : INFO : running online (single-pass) LDA training, 18 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:07,940 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:09,204 : INFO : -14.556 per-word bound, 24093.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:09,204 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:10,256 : INFO : topic #6 (0.056): 0.036*"einfach" + 0.027*"schnellen" + 0.027*"qualität" + 0.016*"fotobuch" + 0.015*"super" + 0.011*"seite" + 0.010*"auftrag" + 0.010*"erstellen" + 0.010*"lieferung" + 0.009*"software"
+2019-08-05 13:43:10,256 : INFO : topic #1 (0.056): 0.022*"fotobücher" + 0.022*"qualität" + 0.020*"zufrieden" + 0.014*"müller" + 0.013*"erstellen" + 0.013*"seite" + 0.013*"fotobuch" + 0.010*"schön" + 0.010*"cewe" + 0.009*"..."
+2019-08-05 13:43:10,256 : INFO : topic #8 (0.056): 0.032*"qualität" + 0.019*"einfach" + 0.018*"schnellen" + 0.015*"buchen" + 0.012*"fotobuch" + 0.011*"gestalten" + 0.010*"programm" + 0.010*"lieferung" + 0.010*"schön" + 0.008*"erhalten"
+2019-08-05 13:43:10,256 : INFO : topic #7 (0.056): 0.022*"qualität" + 0.015*"bestellen" + 0.014*"bild" + 0.014*"buchen" + 0.013*"service" + 0.012*"müller" + 0.011*"foto" + 0.010*"buch" + 0.009*"zufrieden" + 0.008*"sehen"
+2019-08-05 13:43:10,256 : INFO : topic #15 (0.056): 0.019*"foto" + 0.018*"bild" + 0.018*"qualität" + 0.016*"fotobuch" + 0.010*"datei" + 0.009*"seite" + 0.008*"ergebnis" + 0.008*"auftragsnummer" + 0.008*"fotobuches" + 0.008*"fehler"
+2019-08-05 13:43:10,256 : INFO : topic diff=14.571967, rho=1.000000
+2019-08-05 13:43:10,263 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:10,281 : INFO : using symmetric alpha at 0.05263157894736842
+2019-08-05 13:43:10,281 : INFO : using symmetric eta at 0.05263157894736842
+2019-08-05 13:43:10,282 : INFO : using serial LDA version on this node
+2019-08-05 13:43:10,286 : INFO : running online (single-pass) LDA training, 19 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:10,286 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:11,611 : INFO : -15.046 per-word bound, 33828.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:11,611 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:12,738 : INFO : topic #6 (0.053): 0.031*"einfach" + 0.023*"qualität" + 0.022*"schnellen" + 0.019*"fotobuch" + 0.014*"foto" + 0.012*"seite" + 0.011*"buchen" + 0.010*"super" + 0.010*"geben" + 0.007*"bestellen"
+2019-08-05 13:43:12,738 : INFO : topic #12 (0.053): 0.024*"qualität" + 0.019*"müller" + 0.018*"schnellen" + 0.018*"zufrieden" + 0.016*"fotobuch" + 0.016*"seite" + 0.015*"lieferung" + 0.012*"einfach" + 0.010*"bestellen" + 0.009*"software"
+2019-08-05 13:43:12,738 : INFO : topic #8 (0.053): 0.031*"qualität" + 0.021*"schnellen" + 0.017*"fotobuch" + 0.016*"einfach" + 0.012*"buchen" + 0.010*"gestalten" + 0.010*"bestellen" + 0.007*"letzt" + 0.007*"service" + 0.007*"seite"
+2019-08-05 13:43:12,738 : INFO : topic #10 (0.053): 0.025*"bild" + 0.020*"fotobuch" + 0.016*"schnellen" + 0.015*"zufrieden" + 0.014*"lieferung" + 0.013*"qualität" + 0.013*"buchen" + 0.012*"seite" + 0.010*"tollen" + 0.010*"programm"
+2019-08-05 13:43:12,738 : INFO : topic #11 (0.053): 0.022*"qualität" + 0.016*"foto" + 0.015*"fotobücher" + 0.015*"seite" + 0.014*"buchen" + 0.013*"fotobuch" + 0.009*"möglichkeit" + 0.009*"bild" + 0.009*"zufrieden" + 0.008*"einfach"
+2019-08-05 13:43:12,738 : INFO : topic diff=15.487407, rho=1.000000
+2019-08-05 13:43:12,746 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:43:12,767 : INFO : using symmetric alpha at 0.05
+2019-08-05 13:43:12,767 : INFO : using symmetric eta at 0.05
+2019-08-05 13:43:12,768 : INFO : using serial LDA version on this node
+2019-08-05 13:43:12,772 : INFO : running online (single-pass) LDA training, 20 topics, 1 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:43:12,772 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-05 13:43:14,118 : INFO : -15.544 per-word bound, 47785.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:43:14,119 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:43:15,138 : INFO : topic #12 (0.050): 0.031*"qualität" + 0.030*"zufrieden" + 0.021*"fotobuch" + 0.020*"müller" + 0.020*"schnellen" + 0.016*"einfach" + 0.014*"lieferung" + 0.014*"bestellen" + 0.011*"seite" + 0.010*"software"
+2019-08-05 13:43:15,138 : INFO : topic #18 (0.050): 0.016*"fotobücher" + 0.014*"software" + 0.014*"buchen" + 0.014*"cewe" + 0.013*"bestellen" + 0.013*"geben" + 0.011*"foto" + 0.009*"all" + 0.009*"ander" + 0.007*"fehler"
+2019-08-05 13:43:15,138 : INFO : topic #0 (0.050): 0.022*"einfach" + 0.020*"zufrieden" + 0.018*"programm" + 0.017*"erstellen" + 0.016*"übersichtlich" + 0.015*"qualität" + 0.014*"fotobücher" + 0.013*"foto" + 0.011*"seite" + 0.011*"schnell"
+2019-08-05 13:43:15,138 : INFO : topic #11 (0.050): 0.022*"qualität" + 0.018*"foto" + 0.018*"buchen" + 0.013*"schön" + 0.010*"seite" + 0.009*"drucken" + 0.009*"fotobücher" + 0.009*"bild" + 0.008*"alt" + 0.008*"finden"
+2019-08-05 13:43:15,138 : INFO : topic #6 (0.050): 0.040*"einfach" + 0.035*"qualität" + 0.029*"schnellen" + 0.017*"fotobuch" + 0.015*"super" + 0.011*"foto" + 0.011*"bearbeitung" + 0.009*"seite" + 0.008*"erstellen" + 0.008*"ander"
+2019-08-05 13:43:15,139 : INFO : topic diff=16.425915, rho=1.000000
+2019-08-05 13:43:15,149 : INFO : CorpusAccumulator accumulated stats from 1000 documents

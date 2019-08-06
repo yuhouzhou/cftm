@@ -1,0 +1,935 @@
+2019-08-05 13:15:54,406 : INFO : using symmetric alpha at 0.1
+2019-08-05 13:15:54,406 : INFO : using symmetric eta at 0.1
+2019-08-05 13:15:54,407 : INFO : using serial LDA version on this node
+2019-08-05 13:15:54,411 : INFO : running online (multi-pass) LDA training, 10 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:15:55,868 : INFO : -11.060 per-word bound, 2134.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:15:55,869 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:15:57,198 : INFO : topic #2 (0.100): 0.025*"fotobuch" + 0.018*"seite" + 0.015*"zufrieden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"preisen" + 0.011*"cewe" + 0.009*"geben" + 0.008*"qualität" + 0.008*"erstellen"
+2019-08-05 13:15:57,199 : INFO : topic #6 (0.100): 0.038*"einfach" + 0.035*"qualität" + 0.025*"schnellen" + 0.019*"fotobuch" + 0.012*"foto" + 0.011*"seite" + 0.010*"bestellen" + 0.010*"super" + 0.008*"finden" + 0.008*"erstellen"
+2019-08-05 13:15:57,199 : INFO : topic #4 (0.100): 0.016*"zufrieden" + 0.016*"software" + 0.013*"buchen" + 0.013*"bild" + 0.012*"buch" + 0.011*"schnellen" + 0.010*"finden" + 0.010*"einfach" + 0.008*"seite" + 0.008*"programm"
+2019-08-05 13:15:57,199 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.019*"zufrieden" + 0.018*"bild" + 0.017*"einfach" + 0.013*"seite" + 0.011*"foto" + 0.011*"qualität" + 0.010*"handhabung" + 0.010*"fotobücher" + 0.009*"bestellung"
+2019-08-05 13:15:57,199 : INFO : topic #5 (0.100): 0.025*"qualität" + 0.017*"bild" + 0.017*"fotobuch" + 0.016*"toll" + 0.013*"zufrieden" + 0.010*"foto" + 0.010*"möglichkeit" + 0.009*"fotobuches" + 0.008*"einfach" + 0.007*"schnellen"
+2019-08-05 13:15:57,199 : INFO : topic diff=7.519739, rho=1.000000
+2019-08-05 13:15:57,962 : INFO : -7.469 per-word bound, 177.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:15:57,962 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:15:58,486 : INFO : topic #1 (0.100): 0.019*"qualität" + 0.015*"bild" + 0.013*"fotobücher" + 0.011*"zufrieden" + 0.011*"buchen" + 0.010*"seite" + 0.010*"schön" + 0.009*"pc" + 0.008*"bestellen" + 0.008*"spaßen"
+2019-08-05 13:15:58,486 : INFO : topic #4 (0.100): 0.015*"software" + 0.013*"bild" + 0.013*"buchen" + 0.013*"zufrieden" + 0.012*"finden" + 0.011*"buch" + 0.009*"möglichkeit" + 0.008*"geben" + 0.008*"schnellen" + 0.008*"seite"
+2019-08-05 13:15:58,486 : INFO : topic #3 (0.100): 0.033*"qualität" + 0.023*"super" + 0.016*"zufrieden" + 0.016*"schnellen" + 0.012*"buch" + 0.012*"einfach" + 0.010*"software" + 0.010*"tollen" + 0.009*"bearbeitung" + 0.009*"fotobücher"
+2019-08-05 13:15:58,486 : INFO : topic #7 (0.100): 0.030*"qualität" + 0.017*"müller" + 0.014*"bestellen" + 0.014*"bild" + 0.014*"zufrieden" + 0.013*"buchen" + 0.012*"service" + 0.010*"enttäuschen" + 0.010*"buch" + 0.010*"foto"
+2019-08-05 13:15:58,486 : INFO : topic #5 (0.100): 0.022*"qualität" + 0.018*"bild" + 0.017*"toll" + 0.016*"fotobuch" + 0.012*"zufrieden" + 0.011*"foto" + 0.010*"fotobuches" + 0.009*"möglichkeit" + 0.007*"einfach" + 0.006*"lassen"
+2019-08-05 13:15:58,486 : INFO : topic diff=0.126037, rho=0.577350
+2019-08-05 13:15:59,163 : INFO : -7.341 per-word bound, 162.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:15:59,163 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:15:59,563 : INFO : topic #4 (0.100): 0.014*"software" + 0.013*"bild" + 0.013*"finden" + 0.013*"buchen" + 0.011*"zufrieden" + 0.011*"buch" + 0.009*"geben" + 0.009*"möglichkeit" + 0.008*"jed" + 0.008*"seite"
+2019-08-05 13:15:59,564 : INFO : topic #5 (0.100): 0.019*"qualität" + 0.018*"toll" + 0.018*"bild" + 0.016*"fotobuch" + 0.011*"foto" + 0.011*"zufrieden" + 0.010*"fotobuches" + 0.009*"möglichkeit" + 0.006*"speichern" + 0.006*"lassen"
+2019-08-05 13:15:59,564 : INFO : topic #1 (0.100): 0.018*"qualität" + 0.015*"bild" + 0.011*"buchen" + 0.011*"fotobücher" + 0.011*"schön" + 0.010*"seite" + 0.009*"zufrieden" + 0.009*"spaßen" + 0.009*"einfach" + 0.009*"pc"
+2019-08-05 13:15:59,564 : INFO : topic #7 (0.100): 0.030*"qualität" + 0.017*"müller" + 0.015*"bestellen" + 0.015*"bild" + 0.014*"zufrieden" + 0.013*"buchen" + 0.012*"service" + 0.011*"enttäuschen" + 0.010*"foto" + 0.010*"buch"
+2019-08-05 13:15:59,564 : INFO : topic #3 (0.100): 0.034*"qualität" + 0.025*"super" + 0.016*"zufrieden" + 0.016*"schnellen" + 0.012*"buch" + 0.012*"einfach" + 0.011*"tollen" + 0.010*"software" + 0.010*"bearbeitung" + 0.009*"fotobücher"
+2019-08-05 13:15:59,564 : INFO : topic diff=0.101584, rho=0.500000
+2019-08-05 13:16:00,226 : INFO : -7.282 per-word bound, 155.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:00,226 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:16:00,626 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.022*"bild" + 0.016*"zufrieden" + 0.016*"seite" + 0.011*"letzt" + 0.011*"fotobücher" + 0.010*"bestellung" + 0.010*"foto" + 0.010*"geben" + 0.009*"gutschein"
+2019-08-05 13:16:00,626 : INFO : topic #6 (0.100): 0.048*"einfach" + 0.039*"qualität" + 0.028*"schnellen" + 0.018*"fotobuch" + 0.015*"foto" + 0.013*"super" + 0.012*"bedienung" + 0.010*"handhabung" + 0.009*"seite" + 0.009*"erstellen"
+2019-08-05 13:16:00,627 : INFO : topic #2 (0.100): 0.029*"fotobuch" + 0.023*"seite" + 0.017*"buchen" + 0.017*"bild" + 0.013*"preisen" + 0.012*"zufrieden" + 0.009*"erstellen" + 0.009*"cewe" + 0.008*"buch" + 0.008*"drucken"
+2019-08-05 13:16:00,627 : INFO : topic #8 (0.100): 0.065*"qualität" + 0.047*"schnellen" + 0.021*"einfach" + 0.018*"lieferung" + 0.016*"service" + 0.011*"foto" + 0.011*"buchen" + 0.010*"bearbeitung" + 0.010*"software" + 0.009*"gestaltung"
+2019-08-05 13:16:00,627 : INFO : topic #3 (0.100): 0.033*"qualität" + 0.027*"super" + 0.016*"schnellen" + 0.016*"zufrieden" + 0.013*"buch" + 0.011*"einfach" + 0.011*"tollen" + 0.010*"..." + 0.010*"bearbeitung" + 0.009*"fotobücher"
+2019-08-05 13:16:00,627 : INFO : topic diff=0.087989, rho=0.447214
+2019-08-05 13:16:01,293 : INFO : -7.249 per-word bound, 152.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:01,293 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:16:01,689 : INFO : topic #2 (0.100): 0.029*"fotobuch" + 0.024*"seite" + 0.018*"buchen" + 0.017*"bild" + 0.013*"preisen" + 0.012*"zufrieden" + 0.009*"erstellen" + 0.009*"cewe" + 0.008*"buch" + 0.008*"drucken"
+2019-08-05 13:16:01,689 : INFO : topic #4 (0.100): 0.014*"finden" + 0.014*"bild" + 0.013*"software" + 0.013*"buchen" + 0.011*"buch" + 0.010*"zufrieden" + 0.010*"geben" + 0.009*"jed" + 0.008*"möglichkeit" + 0.008*"seite"
+2019-08-05 13:16:01,689 : INFO : topic #0 (0.100): 0.047*"zufrieden" + 0.032*"einfach" + 0.026*"fotobücher" + 0.025*"software" + 0.021*"cewe" + 0.020*"programm" + 0.016*"qualität" + 0.013*"schnell" + 0.013*"gestalten" + 0.012*"bedienen"
+2019-08-05 13:16:01,689 : INFO : topic #1 (0.100): 0.016*"qualität" + 0.016*"bild" + 0.011*"buchen" + 0.011*"schön" + 0.010*"seite" + 0.010*"einfach" + 0.010*"fotobücher" + 0.010*"spaßen" + 0.009*"pc" + 0.009*"bestellen"
+2019-08-05 13:16:01,689 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.022*"bild" + 0.016*"seite" + 0.015*"zufrieden" + 0.012*"fotobücher" + 0.011*"letzt" + 0.011*"bestellung" + 0.010*"foto" + 0.010*"geben" + 0.009*"gutschein"
+2019-08-05 13:16:01,689 : INFO : topic diff=0.076817, rho=0.408248
+2019-08-05 13:16:02,335 : INFO : -7.230 per-word bound, 150.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:02,336 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:16:02,733 : INFO : topic #4 (0.100): 0.015*"finden" + 0.014*"bild" + 0.013*"buchen" + 0.013*"software" + 0.010*"buch" + 0.010*"geben" + 0.009*"zufrieden" + 0.009*"jed" + 0.008*"möglichkeit" + 0.008*"seite"
+2019-08-05 13:16:02,733 : INFO : topic #2 (0.100): 0.029*"fotobuch" + 0.024*"seite" + 0.018*"buchen" + 0.017*"bild" + 0.013*"preisen" + 0.011*"zufrieden" + 0.009*"erstellen" + 0.009*"cewe" + 0.009*"drucken" + 0.008*"buch"
+2019-08-05 13:16:02,733 : INFO : topic #7 (0.100): 0.027*"qualität" + 0.019*"müller" + 0.017*"bestellen" + 0.015*"bild" + 0.014*"buchen" + 0.014*"zufrieden" + 0.012*"enttäuschen" + 0.011*"foto" + 0.011*"buch" + 0.009*"software"
+2019-08-05 13:16:02,733 : INFO : topic #8 (0.100): 0.076*"qualität" + 0.053*"schnellen" + 0.022*"lieferung" + 0.021*"einfach" + 0.020*"service" + 0.013*"bearbeitung" + 0.010*"foto" + 0.010*"gestaltung" + 0.010*"software" + 0.010*"buchen"
+2019-08-05 13:16:02,734 : INFO : topic #0 (0.100): 0.049*"zufrieden" + 0.032*"einfach" + 0.027*"fotobücher" + 0.025*"software" + 0.022*"cewe" + 0.021*"programm" + 0.015*"qualität" + 0.013*"schnell" + 0.013*"gestalten" + 0.012*"bedienen"
+2019-08-05 13:16:02,734 : INFO : topic diff=0.064282, rho=0.377964
+2019-08-05 13:16:03,449 : INFO : -7.218 per-word bound, 148.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:03,449 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:16:03,842 : INFO : topic #5 (0.100): 0.020*"toll" + 0.019*"bild" + 0.016*"qualität" + 0.015*"fotobuch" + 0.012*"foto" + 0.010*"fotobuches" + 0.009*"zufrieden" + 0.008*"möglichkeit" + 0.007*"speichern" + 0.007*"lassen"
+2019-08-05 13:16:03,842 : INFO : topic #2 (0.100): 0.030*"fotobuch" + 0.025*"seite" + 0.019*"buchen" + 0.017*"bild" + 0.013*"preisen" + 0.011*"zufrieden" + 0.010*"erstellen" + 0.009*"drucken" + 0.009*"cewe" + 0.008*"buch"
+2019-08-05 13:16:03,842 : INFO : topic #1 (0.100): 0.016*"bild" + 0.016*"qualität" + 0.012*"buchen" + 0.011*"schön" + 0.011*"einfach" + 0.011*"seite" + 0.010*"spaßen" + 0.009*"fotobücher" + 0.009*"klasse" + 0.009*"gerne"
+2019-08-05 13:16:03,842 : INFO : topic #4 (0.100): 0.015*"finden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"software" + 0.010*"buch" + 0.010*"geben" + 0.009*"jed" + 0.009*"zufrieden" + 0.008*"seite" + 0.008*"möglichkeit"
+2019-08-05 13:16:03,842 : INFO : topic #6 (0.100): 0.050*"einfach" + 0.037*"qualität" + 0.028*"schnellen" + 0.018*"fotobuch" + 0.015*"foto" + 0.014*"bedienung" + 0.014*"super" + 0.010*"ergebnis" + 0.010*"cliparts" + 0.010*"handhabung"
+2019-08-05 13:16:03,842 : INFO : topic diff=0.052251, rho=0.353553
+2019-08-05 13:16:04,503 : INFO : -7.210 per-word bound, 148.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:04,503 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:16:04,899 : INFO : topic #4 (0.100): 0.015*"finden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"software" + 0.010*"buch" + 0.010*"geben" + 0.009*"jed" + 0.008*"zufrieden" + 0.008*"seite" + 0.008*"möglichkeit"
+2019-08-05 13:16:04,900 : INFO : topic #5 (0.100): 0.020*"toll" + 0.019*"bild" + 0.016*"qualität" + 0.015*"fotobuch" + 0.012*"foto" + 0.010*"fotobuches" + 0.009*"zufrieden" + 0.008*"möglichkeit" + 0.007*"speichern" + 0.007*"lassen"
+2019-08-05 13:16:04,900 : INFO : topic #8 (0.100): 0.084*"qualität" + 0.060*"schnellen" + 0.025*"lieferung" + 0.022*"service" + 0.022*"einfach" + 0.016*"bearbeitung" + 0.011*"gestaltung" + 0.011*"software" + 0.010*"foto" + 0.010*"buchen"
+2019-08-05 13:16:04,900 : INFO : topic #6 (0.100): 0.050*"einfach" + 0.037*"qualität" + 0.027*"schnellen" + 0.018*"fotobuch" + 0.015*"bedienung" + 0.014*"foto" + 0.014*"super" + 0.011*"ergebnis" + 0.010*"cliparts" + 0.010*"handhabung"
+2019-08-05 13:16:04,900 : INFO : topic #7 (0.100): 0.025*"qualität" + 0.019*"bestellen" + 0.019*"müller" + 0.015*"bild" + 0.014*"buchen" + 0.014*"zufrieden" + 0.012*"enttäuschen" + 0.011*"buch" + 0.011*"foto" + 0.009*"produkt"
+2019-08-05 13:16:04,900 : INFO : topic diff=0.042161, rho=0.333333
+2019-08-05 13:16:05,556 : INFO : -7.204 per-word bound, 147.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:05,556 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:16:06,113 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.024*"bild" + 0.016*"seite" + 0.015*"zufrieden" + 0.012*"fotobücher" + 0.011*"letzt" + 0.011*"bestellung" + 0.010*"geben" + 0.010*"foto" + 0.009*"gutschein"
+2019-08-05 13:16:06,113 : INFO : topic #0 (0.100): 0.052*"zufrieden" + 0.034*"einfach" + 0.027*"fotobücher" + 0.025*"software" + 0.023*"cewe" + 0.022*"programm" + 0.014*"schnell" + 0.013*"qualität" + 0.013*"gestalten" + 0.012*"bedienen"
+2019-08-05 13:16:06,113 : INFO : topic #1 (0.100): 0.016*"bild" + 0.015*"qualität" + 0.013*"buchen" + 0.011*"schön" + 0.011*"einfach" + 0.011*"seite" + 0.010*"spaßen" + 0.010*"klasse" + 0.010*"gerne" + 0.009*"fotobücher"
+2019-08-05 13:16:06,114 : INFO : topic #7 (0.100): 0.025*"qualität" + 0.020*"bestellen" + 0.019*"müller" + 0.015*"bild" + 0.014*"zufrieden" + 0.014*"buchen" + 0.012*"enttäuschen" + 0.011*"buch" + 0.011*"foto" + 0.009*"produkt"
+2019-08-05 13:16:06,114 : INFO : topic #3 (0.100): 0.031*"super" + 0.030*"qualität" + 0.016*"zufrieden" + 0.014*"buch" + 0.012*"schnellen" + 0.011*"tollen" + 0.010*"..." + 0.009*"müller" + 0.009*"einfach" + 0.009*"fotobücher"
+2019-08-05 13:16:06,114 : INFO : topic diff=0.033766, rho=0.316228
+2019-08-05 13:16:06,763 : INFO : -7.200 per-word bound, 147.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:06,763 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:16:07,155 : INFO : topic #7 (0.100): 0.025*"qualität" + 0.020*"bestellen" + 0.019*"müller" + 0.015*"bild" + 0.014*"zufrieden" + 0.014*"buchen" + 0.012*"enttäuschen" + 0.011*"buch" + 0.011*"foto" + 0.009*"produkt"
+2019-08-05 13:16:07,155 : INFO : topic #4 (0.100): 0.016*"finden" + 0.014*"bild" + 0.013*"buchen" + 0.012*"software" + 0.010*"buch" + 0.010*"geben" + 0.009*"jed" + 0.008*"seite" + 0.008*"möglichkeit" + 0.008*"ander"
+2019-08-05 13:16:07,155 : INFO : topic #0 (0.100): 0.053*"zufrieden" + 0.035*"einfach" + 0.027*"fotobücher" + 0.025*"software" + 0.023*"cewe" + 0.022*"programm" + 0.014*"schnell" + 0.013*"gestalten" + 0.012*"qualität" + 0.012*"bedienen"
+2019-08-05 13:16:07,155 : INFO : topic #6 (0.100): 0.051*"einfach" + 0.036*"qualität" + 0.026*"schnellen" + 0.018*"fotobuch" + 0.015*"bedienung" + 0.015*"super" + 0.014*"foto" + 0.012*"ergebnis" + 0.011*"cliparts" + 0.010*"handhabung"
+2019-08-05 13:16:07,155 : INFO : topic #9 (0.100): 0.025*"fotobuch" + 0.024*"bild" + 0.016*"seite" + 0.015*"zufrieden" + 0.012*"fotobücher" + 0.011*"letzt" + 0.011*"bestellung" + 0.010*"geben" + 0.010*"foto" + 0.009*"gutschein"
+2019-08-05 13:16:07,155 : INFO : topic diff=0.027079, rho=0.301511
+2019-08-05 13:16:07,161 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:16:07,171 : INFO : using symmetric alpha at 0.09090909090909091
+2019-08-05 13:16:07,171 : INFO : using symmetric eta at 0.09090909090909091
+2019-08-05 13:16:07,172 : INFO : using serial LDA version on this node
+2019-08-05 13:16:07,174 : INFO : running online (multi-pass) LDA training, 11 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:16:08,517 : INFO : -11.449 per-word bound, 2795.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:08,517 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:16:09,704 : INFO : topic #0 (0.091): 0.023*"zufrieden" + 0.018*"einfach" + 0.017*"qualität" + 0.015*"software" + 0.014*"fotobücher" + 0.014*"cewe" + 0.013*"übersichtlich" + 0.013*"schnell" + 0.010*"programm" + 0.009*"möglichkeit"
+2019-08-05 13:16:09,705 : INFO : topic #6 (0.091): 0.038*"einfach" + 0.035*"qualität" + 0.031*"schnellen" + 0.017*"fotobuch" + 0.012*"super" + 0.011*"foto" + 0.009*"geben" + 0.009*"programm" + 0.008*"bestellen" + 0.008*"buchen"
+2019-08-05 13:16:09,705 : INFO : topic #9 (0.091): 0.020*"einfach" + 0.020*"zufrieden" + 0.019*"fotobuch" + 0.016*"bild" + 0.013*"seite" + 0.011*"bestellung" + 0.011*"handhabung" + 0.011*"schnellen" + 0.010*"fotobücher" + 0.010*"ergebnis"
+2019-08-05 13:16:09,705 : INFO : topic #2 (0.091): 0.022*"fotobuch" + 0.019*"seite" + 0.013*"bild" + 0.013*"qualität" + 0.012*"zufrieden" + 0.011*"preisen" + 0.011*"buch" + 0.010*"cewe" + 0.010*"fotobücher" + 0.009*"buchen"
+2019-08-05 13:16:09,705 : INFO : topic #1 (0.091): 0.017*"qualität" + 0.015*"zufrieden" + 0.013*"bild" + 0.012*"schön" + 0.011*"müller" + 0.011*"fotobücher" + 0.010*"fotobuch" + 0.010*"cewe" + 0.010*"einfach" + 0.010*"bestellen"
+2019-08-05 13:16:09,705 : INFO : topic diff=8.338954, rho=1.000000
+2019-08-05 13:16:10,493 : INFO : -7.529 per-word bound, 184.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:10,493 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:16:11,021 : INFO : topic #8 (0.091): 0.034*"qualität" + 0.018*"foto" + 0.016*"einfach" + 0.010*"buchen" + 0.009*"schnellen" + 0.008*"fotobuch" + 0.008*"lieferung" + 0.008*"fotobücher" + 0.007*"service" + 0.007*"software"
+2019-08-05 13:16:11,021 : INFO : topic #4 (0.091): 0.023*"software" + 0.018*"buchen" + 0.014*"zufrieden" + 0.014*"finden" + 0.013*"bild" + 0.011*"buch" + 0.010*"cewe" + 0.009*"seite" + 0.009*"schnellen" + 0.009*"jed"
+2019-08-05 13:16:11,021 : INFO : topic #3 (0.091): 0.034*"qualität" + 0.016*"foto" + 0.013*"zufrieden" + 0.013*"super" + 0.013*"software" + 0.012*"finden" + 0.011*"einfach" + 0.010*"schnellen" + 0.010*"tollen" + 0.010*"fotobücher"
+2019-08-05 13:16:11,022 : INFO : topic #10 (0.091): 0.021*"fotobuch" + 0.018*"bild" + 0.016*"schnellen" + 0.015*"lieferung" + 0.014*"qualität" + 0.013*"zufrieden" + 0.011*"buchen" + 0.010*"tollen" + 0.009*"bestellung" + 0.009*"seite"
+2019-08-05 13:16:11,022 : INFO : topic #6 (0.091): 0.046*"einfach" + 0.045*"qualität" + 0.045*"schnellen" + 0.016*"fotobuch" + 0.015*"super" + 0.013*"bearbeitung" + 0.011*"programm" + 0.010*"geben" + 0.009*"foto" + 0.009*"erstellen"
+2019-08-05 13:16:11,022 : INFO : topic diff=0.145819, rho=0.577350
+2019-08-05 13:16:11,706 : INFO : -7.374 per-word bound, 165.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:11,706 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:16:12,114 : INFO : topic #6 (0.091): 0.055*"schnellen" + 0.054*"qualität" + 0.050*"einfach" + 0.019*"super" + 0.016*"bearbeitung" + 0.016*"fotobuch" + 0.013*"lieferung" + 0.012*"programm" + 0.010*"handhabung" + 0.009*"geben"
+2019-08-05 13:16:12,114 : INFO : topic #0 (0.091): 0.041*"zufrieden" + 0.021*"qualität" + 0.021*"einfach" + 0.020*"fotobücher" + 0.018*"software" + 0.017*"cewe" + 0.014*"programm" + 0.013*"gestalten" + 0.013*"übersichtlich" + 0.012*"möglichkeit"
+2019-08-05 13:16:12,114 : INFO : topic #10 (0.091): 0.021*"fotobuch" + 0.017*"bild" + 0.015*"lieferung" + 0.014*"schnellen" + 0.012*"qualität" + 0.012*"buchen" + 0.011*"zufrieden" + 0.009*"tollen" + 0.009*"gutschein" + 0.009*"bestellung"
+2019-08-05 13:16:12,114 : INFO : topic #3 (0.091): 0.034*"qualität" + 0.017*"foto" + 0.012*"software" + 0.012*"super" + 0.012*"finden" + 0.011*"tollen" + 0.011*"zufrieden" + 0.010*"fotobücher" + 0.010*"einfach" + 0.010*"buchen"
+2019-08-05 13:16:12,114 : INFO : topic #4 (0.091): 0.023*"software" + 0.018*"buchen" + 0.015*"finden" + 0.013*"zufrieden" + 0.013*"bild" + 0.011*"cewe" + 0.010*"buch" + 0.010*"seite" + 0.010*"jed" + 0.008*"möglichkeit"
+2019-08-05 13:16:12,115 : INFO : topic diff=0.110451, rho=0.500000
+2019-08-05 13:16:12,789 : INFO : -7.304 per-word bound, 158.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:12,789 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:16:13,178 : INFO : topic #2 (0.091): 0.024*"fotobuch" + 0.022*"seite" + 0.016*"bild" + 0.014*"preisen" + 0.014*"buch" + 0.011*"zufrieden" + 0.010*"foto" + 0.010*"cewe" + 0.009*"fotobücher" + 0.009*"qualität"
+2019-08-05 13:16:13,178 : INFO : topic #5 (0.091): 0.017*"fotobuch" + 0.015*"toll" + 0.013*"qualität" + 0.012*"bild" + 0.011*"anbieter" + 0.009*"foto" + 0.009*"lassen" + 0.008*"ander" + 0.008*"fotobuches" + 0.008*"pc"
+2019-08-05 13:16:13,178 : INFO : topic #4 (0.091): 0.022*"software" + 0.018*"buchen" + 0.016*"finden" + 0.014*"bild" + 0.013*"zufrieden" + 0.011*"cewe" + 0.011*"seite" + 0.010*"jed" + 0.010*"buch" + 0.008*"früh"
+2019-08-05 13:16:13,179 : INFO : topic #9 (0.091): 0.023*"zufrieden" + 0.019*"fotobuch" + 0.017*"einfach" + 0.014*"bild" + 0.014*"bestellung" + 0.013*"letzt" + 0.013*"ergebnis" + 0.011*"seite" + 0.011*"fotobücher" + 0.011*"buch"
+2019-08-05 13:16:13,179 : INFO : topic #0 (0.091): 0.047*"zufrieden" + 0.022*"einfach" + 0.021*"fotobücher" + 0.021*"qualität" + 0.019*"software" + 0.019*"cewe" + 0.015*"programm" + 0.015*"gestalten" + 0.013*"übersichtlich" + 0.013*"möglichkeit"
+2019-08-05 13:16:13,179 : INFO : topic diff=0.098597, rho=0.447214
+2019-08-05 13:16:13,827 : INFO : -7.262 per-word bound, 153.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:13,827 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:16:14,214 : INFO : topic #8 (0.091): 0.022*"foto" + 0.021*"qualität" + 0.011*"buchen" + 0.008*"einfach" + 0.007*"schwarz" + 0.007*"alt" + 0.007*"fotobuch" + 0.007*"software" + 0.007*"schnelligkeit" + 0.007*"letzt"
+2019-08-05 13:16:14,214 : INFO : topic #0 (0.091): 0.051*"zufrieden" + 0.024*"einfach" + 0.022*"fotobücher" + 0.022*"qualität" + 0.020*"software" + 0.019*"cewe" + 0.015*"gestalten" + 0.015*"programm" + 0.013*"möglichkeit" + 0.013*"übersichtlich"
+2019-08-05 13:16:14,214 : INFO : topic #5 (0.091): 0.017*"fotobuch" + 0.015*"toll" + 0.012*"qualität" + 0.012*"bild" + 0.011*"anbieter" + 0.009*"lassen" + 0.009*"foto" + 0.008*"ander" + 0.008*"pc" + 0.008*"speichern"
+2019-08-05 13:16:14,214 : INFO : topic #4 (0.091): 0.022*"software" + 0.018*"buchen" + 0.016*"finden" + 0.014*"bild" + 0.012*"zufrieden" + 0.011*"seite" + 0.011*"cewe" + 0.011*"jed" + 0.009*"früh" + 0.009*"buch"
+2019-08-05 13:16:14,215 : INFO : topic #7 (0.091): 0.027*"qualität" + 0.020*"bestellen" + 0.018*"bild" + 0.017*"service" + 0.017*"zufrieden" + 0.013*"müller" + 0.013*"buchen" + 0.012*"produkt" + 0.010*"foto" + 0.010*"enttäuschen"
+2019-08-05 13:16:14,215 : INFO : topic diff=0.089201, rho=0.408248
+2019-08-05 13:16:14,862 : INFO : -7.235 per-word bound, 150.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:14,862 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:16:15,246 : INFO : topic #8 (0.091): 0.022*"foto" + 0.018*"qualität" + 0.011*"buchen" + 0.007*"alt" + 0.007*"schwarz" + 0.007*"schnelligkeit" + 0.007*"software" + 0.007*"letzt" + 0.007*"fotobuch" + 0.007*"einfach"
+2019-08-05 13:16:15,246 : INFO : topic #9 (0.091): 0.023*"zufrieden" + 0.019*"fotobuch" + 0.015*"einfach" + 0.014*"bild" + 0.014*"letzt" + 0.014*"bestellung" + 0.012*"fotobücher" + 0.011*"ergebnis" + 0.011*"buch" + 0.011*"seite"
+2019-08-05 13:16:15,246 : INFO : topic #6 (0.091): 0.069*"qualität" + 0.069*"schnellen" + 0.056*"einfach" + 0.026*"super" + 0.024*"lieferung" + 0.022*"bearbeitung" + 0.014*"handhabung" + 0.014*"fotobuch" + 0.012*"programm" + 0.009*"erstellen"
+2019-08-05 13:16:15,246 : INFO : topic #0 (0.091): 0.054*"zufrieden" + 0.025*"einfach" + 0.023*"qualität" + 0.023*"fotobücher" + 0.021*"software" + 0.020*"cewe" + 0.016*"gestalten" + 0.015*"programm" + 0.014*"möglichkeit" + 0.013*"übersichtlich"
+2019-08-05 13:16:15,246 : INFO : topic #2 (0.091): 0.025*"fotobuch" + 0.023*"seite" + 0.016*"bild" + 0.016*"preisen" + 0.014*"buch" + 0.011*"zufrieden" + 0.010*"foto" + 0.010*"cewe" + 0.009*"ander" + 0.009*"fotobücher"
+2019-08-05 13:16:15,246 : INFO : topic diff=0.076121, rho=0.377964
+2019-08-05 13:16:15,887 : INFO : -7.217 per-word bound, 148.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:15,887 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:16:16,273 : INFO : topic #5 (0.091): 0.017*"fotobuch" + 0.013*"toll" + 0.012*"bild" + 0.011*"qualität" + 0.011*"anbieter" + 0.009*"lassen" + 0.009*"foto" + 0.009*"pc" + 0.008*"ander" + 0.008*"speichern"
+2019-08-05 13:16:16,273 : INFO : topic #7 (0.091): 0.025*"qualität" + 0.021*"bestellen" + 0.018*"bild" + 0.017*"service" + 0.016*"zufrieden" + 0.013*"müller" + 0.013*"buchen" + 0.012*"produkt" + 0.010*"enttäuschen" + 0.010*"foto"
+2019-08-05 13:16:16,273 : INFO : topic #2 (0.091): 0.025*"fotobuch" + 0.024*"seite" + 0.016*"bild" + 0.016*"preisen" + 0.014*"buch" + 0.011*"zufrieden" + 0.010*"foto" + 0.010*"ander" + 0.010*"cewe" + 0.009*"fotobücher"
+2019-08-05 13:16:16,273 : INFO : topic #3 (0.091): 0.030*"qualität" + 0.018*"foto" + 0.013*"tollen" + 0.012*"finden" + 0.012*"buchen" + 0.011*"schön" + 0.011*"fotobücher" + 0.011*"software" + 0.010*"super" + 0.010*"bild"
+2019-08-05 13:16:16,273 : INFO : topic #9 (0.091): 0.022*"zufrieden" + 0.019*"fotobuch" + 0.015*"letzt" + 0.014*"bild" + 0.014*"bestellung" + 0.013*"einfach" + 0.012*"buch" + 0.012*"fotobücher" + 0.011*"seite" + 0.010*"ergebnis"
+2019-08-05 13:16:16,274 : INFO : topic diff=0.062647, rho=0.353553
+2019-08-05 13:16:16,898 : INFO : -7.206 per-word bound, 147.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:16,898 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:16:17,270 : INFO : topic #3 (0.091): 0.029*"qualität" + 0.018*"foto" + 0.013*"tollen" + 0.012*"finden" + 0.012*"buchen" + 0.011*"schön" + 0.011*"fotobücher" + 0.011*"software" + 0.010*"bild" + 0.009*"super"
+2019-08-05 13:16:17,270 : INFO : topic #2 (0.091): 0.025*"fotobuch" + 0.025*"seite" + 0.016*"bild" + 0.016*"preisen" + 0.014*"buch" + 0.011*"zufrieden" + 0.010*"foto" + 0.010*"ander" + 0.010*"fotobücher" + 0.009*"cewe"
+2019-08-05 13:16:17,270 : INFO : topic #7 (0.091): 0.025*"qualität" + 0.022*"bestellen" + 0.018*"bild" + 0.017*"service" + 0.016*"zufrieden" + 0.013*"müller" + 0.013*"buchen" + 0.012*"produkt" + 0.010*"enttäuschen" + 0.010*"foto"
+2019-08-05 13:16:17,270 : INFO : topic #10 (0.091): 0.021*"fotobuch" + 0.017*"bild" + 0.013*"buchen" + 0.012*"gutschein" + 0.011*"lieferung" + 0.011*"buch" + 0.010*"bestellung" + 0.010*"all" + 0.009*"schnellen" + 0.009*"tollen"
+2019-08-05 13:16:17,270 : INFO : topic #4 (0.091): 0.020*"software" + 0.018*"buchen" + 0.017*"finden" + 0.014*"bild" + 0.012*"seite" + 0.011*"jed" + 0.011*"zufrieden" + 0.011*"cewe" + 0.010*"früh" + 0.009*"ander"
+2019-08-05 13:16:17,271 : INFO : topic diff=0.050216, rho=0.333333
+2019-08-05 13:16:17,908 : INFO : -7.198 per-word bound, 146.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:17,908 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:16:18,285 : INFO : topic #3 (0.091): 0.028*"qualität" + 0.018*"foto" + 0.013*"tollen" + 0.012*"finden" + 0.012*"buchen" + 0.012*"schön" + 0.011*"fotobücher" + 0.010*"software" + 0.010*"bild" + 0.009*"super"
+2019-08-05 13:16:18,285 : INFO : topic #10 (0.091): 0.021*"fotobuch" + 0.017*"bild" + 0.013*"buchen" + 0.012*"gutschein" + 0.011*"lieferung" + 0.011*"buch" + 0.010*"bestellung" + 0.010*"all" + 0.009*"euro" + 0.009*"tollen"
+2019-08-05 13:16:18,285 : INFO : topic #4 (0.091): 0.020*"software" + 0.018*"buchen" + 0.017*"finden" + 0.014*"bild" + 0.012*"seite" + 0.011*"jed" + 0.011*"zufrieden" + 0.011*"früh" + 0.011*"cewe" + 0.009*"ander"
+2019-08-05 13:16:18,286 : INFO : topic #7 (0.091): 0.024*"qualität" + 0.022*"bestellen" + 0.018*"bild" + 0.016*"service" + 0.016*"zufrieden" + 0.013*"müller" + 0.013*"buchen" + 0.012*"produkt" + 0.010*"enttäuschen" + 0.010*"foto"
+2019-08-05 13:16:18,286 : INFO : topic #2 (0.091): 0.026*"seite" + 0.026*"fotobuch" + 0.016*"preisen" + 0.016*"bild" + 0.014*"buch" + 0.011*"zufrieden" + 0.010*"foto" + 0.010*"ander" + 0.010*"fotobücher" + 0.009*"cewe"
+2019-08-05 13:16:18,286 : INFO : topic diff=0.040230, rho=0.316228
+2019-08-05 13:16:18,918 : INFO : -7.192 per-word bound, 146.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:18,918 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:16:19,292 : INFO : topic #3 (0.091): 0.028*"qualität" + 0.018*"foto" + 0.013*"tollen" + 0.012*"schön" + 0.012*"buchen" + 0.012*"finden" + 0.010*"fotobücher" + 0.010*"software" + 0.010*"bild" + 0.009*"top"
+2019-08-05 13:16:19,292 : INFO : topic #6 (0.091): 0.074*"qualität" + 0.072*"schnellen" + 0.059*"einfach" + 0.030*"super" + 0.028*"lieferung" + 0.025*"bearbeitung" + 0.017*"handhabung" + 0.012*"fotobuch" + 0.012*"programm" + 0.009*"foto"
+2019-08-05 13:16:19,292 : INFO : topic #0 (0.091): 0.063*"zufrieden" + 0.027*"einfach" + 0.026*"qualität" + 0.025*"fotobücher" + 0.023*"software" + 0.021*"cewe" + 0.017*"gestalten" + 0.016*"programm" + 0.014*"service" + 0.014*"möglichkeit"
+2019-08-05 13:16:19,292 : INFO : topic #4 (0.091): 0.020*"software" + 0.018*"buchen" + 0.017*"finden" + 0.014*"bild" + 0.012*"seite" + 0.012*"jed" + 0.011*"früh" + 0.010*"cewe" + 0.010*"zufrieden" + 0.009*"ander"
+2019-08-05 13:16:19,292 : INFO : topic #2 (0.091): 0.027*"seite" + 0.026*"fotobuch" + 0.017*"preisen" + 0.016*"bild" + 0.014*"buch" + 0.011*"foto" + 0.010*"zufrieden" + 0.010*"ander" + 0.009*"cewe" + 0.009*"fotobücher"
+2019-08-05 13:16:19,293 : INFO : topic diff=0.032716, rho=0.301511
+2019-08-05 13:16:19,298 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:16:19,309 : INFO : using symmetric alpha at 0.08333333333333333
+2019-08-05 13:16:19,309 : INFO : using symmetric eta at 0.08333333333333333
+2019-08-05 13:16:19,310 : INFO : using serial LDA version on this node
+2019-08-05 13:16:19,312 : INFO : running online (multi-pass) LDA training, 12 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:16:20,673 : INFO : -11.855 per-word bound, 3704.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:20,674 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:16:21,733 : INFO : topic #3 (0.083): 0.024*"qualität" + 0.019*"super" + 0.014*"zufrieden" + 0.014*"schnellen" + 0.012*"finden" + 0.012*"einfach" + 0.011*"software" + 0.011*"foto" + 0.011*"jed" + 0.011*"seite"
+2019-08-05 13:16:21,733 : INFO : topic #2 (0.083): 0.026*"fotobuch" + 0.018*"seite" + 0.015*"preisen" + 0.015*"cewe" + 0.013*"bild" + 0.011*"zufrieden" + 0.010*"buchen" + 0.009*"qualität" + 0.009*"foto" + 0.009*"geben"
+2019-08-05 13:16:21,734 : INFO : topic #0 (0.083): 0.026*"zufrieden" + 0.022*"einfach" + 0.016*"software" + 0.014*"qualität" + 0.013*"fotobücher" + 0.013*"cewe" + 0.012*"schnell" + 0.011*"möglichkeit" + 0.011*"programm" + 0.010*"übersichtlich"
+2019-08-05 13:16:21,734 : INFO : topic #8 (0.083): 0.041*"qualität" + 0.029*"einfach" + 0.020*"schnellen" + 0.016*"fotobuch" + 0.010*"buchen" + 0.009*"foto" + 0.009*"cewe" + 0.008*"schwarz" + 0.008*"fotobücher" + 0.008*"lieferung"
+2019-08-05 13:16:21,734 : INFO : topic #7 (0.083): 0.024*"qualität" + 0.016*"foto" + 0.015*"bild" + 0.013*"bestellen" + 0.012*"buchen" + 0.010*"müller" + 0.009*"zufrieden" + 0.008*"einfach" + 0.008*"fotobuch" + 0.008*"enttäuschen"
+2019-08-05 13:16:21,734 : INFO : topic diff=9.273833, rho=1.000000
+2019-08-05 13:16:22,520 : INFO : -7.513 per-word bound, 182.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:22,521 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:16:23,121 : INFO : topic #6 (0.083): 0.048*"qualität" + 0.042*"einfach" + 0.039*"schnellen" + 0.023*"super" + 0.012*"fotobuch" + 0.011*"foto" + 0.010*"handhabung" + 0.010*"erstellen" + 0.010*"bearbeitung" + 0.009*"programm"
+2019-08-05 13:16:23,121 : INFO : topic #8 (0.083): 0.041*"qualität" + 0.029*"einfach" + 0.020*"schnellen" + 0.017*"fotobuch" + 0.012*"buchen" + 0.010*"lieferung" + 0.009*"cewe" + 0.009*"foto" + 0.009*"schön" + 0.008*"schwarz"
+2019-08-05 13:16:23,121 : INFO : topic #3 (0.083): 0.024*"qualität" + 0.020*"super" + 0.015*"finden" + 0.013*"schnellen" + 0.012*"jed" + 0.012*"software" + 0.012*"seite" + 0.011*"tollen" + 0.011*"zufrieden" + 0.011*"foto"
+2019-08-05 13:16:23,122 : INFO : topic #4 (0.083): 0.024*"software" + 0.016*"buch" + 0.015*"zufrieden" + 0.014*"programm" + 0.011*"schnellen" + 0.011*"bestellung" + 0.011*"buchen" + 0.010*"gestalten" + 0.010*"erstellen" + 0.009*"möglichkeit"
+2019-08-05 13:16:23,122 : INFO : topic #11 (0.083): 0.023*"qualität" + 0.016*"buchen" + 0.016*"foto" + 0.012*"zufrieden" + 0.012*"fotobücher" + 0.010*"seite" + 0.010*"software" + 0.010*"drucken" + 0.009*"service" + 0.009*"schön"
+2019-08-05 13:16:23,122 : INFO : topic diff=0.121884, rho=0.577350
+2019-08-05 13:16:23,776 : INFO : -7.368 per-word bound, 165.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:23,776 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:16:24,168 : INFO : topic #11 (0.083): 0.019*"qualität" + 0.017*"buchen" + 0.016*"foto" + 0.011*"zufrieden" + 0.011*"drucken" + 0.010*"fotobücher" + 0.010*"seite" + 0.009*"software" + 0.008*"schön" + 0.008*"bild"
+2019-08-05 13:16:24,169 : INFO : topic #2 (0.083): 0.030*"fotobuch" + 0.021*"seite" + 0.019*"preisen" + 0.015*"cewe" + 0.014*"bild" + 0.011*"zufrieden" + 0.010*"buchen" + 0.010*"teuer" + 0.009*"geben" + 0.007*"erstellen"
+2019-08-05 13:16:24,169 : INFO : topic #7 (0.083): 0.023*"qualität" + 0.017*"bild" + 0.016*"foto" + 0.015*"bestellen" + 0.013*"müller" + 0.012*"buchen" + 0.010*"enttäuschen" + 0.010*"zufrieden" + 0.009*"fotobuch" + 0.008*"unfreundlich"
+2019-08-05 13:16:24,169 : INFO : topic #5 (0.083): 0.021*"fotobuch" + 0.020*"qualität" + 0.019*"toll" + 0.014*"bild" + 0.011*"foto" + 0.009*"fotobuches" + 0.008*"speichern" + 0.007*"lassen" + 0.007*"sache" + 0.007*"ander"
+2019-08-05 13:16:24,169 : INFO : topic #3 (0.083): 0.023*"qualität" + 0.018*"super" + 0.016*"finden" + 0.013*"jed" + 0.013*"tollen" + 0.013*"software" + 0.012*"schnellen" + 0.012*"seite" + 0.011*"foto" + 0.010*"einfach"
+2019-08-05 13:16:24,169 : INFO : topic diff=0.096962, rho=0.500000
+2019-08-05 13:16:24,871 : INFO : -7.299 per-word bound, 157.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:24,871 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:16:25,252 : INFO : topic #2 (0.083): 0.030*"fotobuch" + 0.021*"seite" + 0.020*"preisen" + 0.015*"cewe" + 0.014*"bild" + 0.012*"zufrieden" + 0.010*"buchen" + 0.010*"teuer" + 0.009*"geben" + 0.007*"weiterempfehlen"
+2019-08-05 13:16:25,252 : INFO : topic #9 (0.083): 0.018*"bild" + 0.017*"zufrieden" + 0.014*"bestellung" + 0.012*"qualität" + 0.012*"einfach" + 0.012*"letzt" + 0.011*"seite" + 0.010*"fotobücher" + 0.010*"geben" + 0.010*"fotobuch"
+2019-08-05 13:16:25,252 : INFO : topic #1 (0.083): 0.027*"zufrieden" + 0.026*"qualität" + 0.016*"müller" + 0.014*"..." + 0.013*"fotobücher" + 0.013*"fotobuch" + 0.012*"cewe" + 0.010*"empfehlen" + 0.009*"bild" + 0.009*"cliparts"
+2019-08-05 13:16:25,252 : INFO : topic #10 (0.083): 0.026*"fotobuch" + 0.021*"bild" + 0.016*"seite" + 0.015*"all" + 0.014*"zufrieden" + 0.012*"qualität" + 0.012*"lieferung" + 0.012*"buchen" + 0.011*"fotobücher" + 0.010*"buch"
+2019-08-05 13:16:25,252 : INFO : topic #8 (0.083): 0.038*"qualität" + 0.027*"einfach" + 0.018*"schnellen" + 0.018*"fotobuch" + 0.013*"buchen" + 0.011*"lieferung" + 0.009*"schwarz" + 0.009*"cewe" + 0.008*"schön" + 0.008*"fertig"
+2019-08-05 13:16:25,252 : INFO : topic diff=0.091908, rho=0.447214
+2019-08-05 13:16:25,921 : INFO : -7.258 per-word bound, 153.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:25,921 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:16:26,333 : INFO : topic #0 (0.083): 0.055*"zufrieden" + 0.025*"einfach" + 0.023*"fotobücher" + 0.021*"qualität" + 0.020*"software" + 0.018*"service" + 0.017*"cewe" + 0.017*"schnell" + 0.015*"programm" + 0.014*"möglichkeit"
+2019-08-05 13:16:26,333 : INFO : topic #1 (0.083): 0.026*"zufrieden" + 0.026*"qualität" + 0.016*"müller" + 0.015*"..." + 0.013*"fotobuch" + 0.012*"fotobücher" + 0.011*"cewe" + 0.010*"empfehlen" + 0.009*"einig" + 0.009*"bild"
+2019-08-05 13:16:26,333 : INFO : topic #2 (0.083): 0.031*"fotobuch" + 0.022*"seite" + 0.020*"preisen" + 0.015*"cewe" + 0.014*"bild" + 0.012*"zufrieden" + 0.011*"teuer" + 0.010*"buchen" + 0.009*"geben" + 0.008*"weiterempfehlen"
+2019-08-05 13:16:26,333 : INFO : topic #7 (0.083): 0.023*"qualität" + 0.018*"bild" + 0.016*"foto" + 0.015*"bestellen" + 0.013*"müller" + 0.012*"buchen" + 0.011*"enttäuschen" + 0.010*"zufrieden" + 0.009*"fotobuch" + 0.009*"unfreundlich"
+2019-08-05 13:16:26,333 : INFO : topic #8 (0.083): 0.037*"qualität" + 0.027*"einfach" + 0.018*"fotobuch" + 0.018*"schnellen" + 0.014*"buchen" + 0.011*"lieferung" + 0.009*"schwarz" + 0.008*"fertig" + 0.008*"cewe" + 0.008*"schön"
+2019-08-05 13:16:26,333 : INFO : topic diff=0.083583, rho=0.408248
+2019-08-05 13:16:27,065 : INFO : -7.233 per-word bound, 150.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:27,065 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:16:27,460 : INFO : topic #10 (0.083): 0.027*"fotobuch" + 0.021*"bild" + 0.017*"all" + 0.016*"seite" + 0.012*"fotobücher" + 0.011*"buchen" + 0.011*"zufrieden" + 0.011*"lieferung" + 0.010*"buch" + 0.010*"gestalten"
+2019-08-05 13:16:27,460 : INFO : topic #4 (0.083): 0.025*"software" + 0.016*"buch" + 0.014*"programm" + 0.012*"bestellung" + 0.012*"zufrieden" + 0.012*"gestalten" + 0.011*"buchen" + 0.011*"erstellen" + 0.010*"möglichkeit" + 0.010*"bild"
+2019-08-05 13:16:27,460 : INFO : topic #0 (0.083): 0.057*"zufrieden" + 0.025*"einfach" + 0.024*"fotobücher" + 0.022*"qualität" + 0.021*"software" + 0.020*"service" + 0.018*"cewe" + 0.016*"schnell" + 0.015*"programm" + 0.014*"möglichkeit"
+2019-08-05 13:16:27,460 : INFO : topic #11 (0.083): 0.019*"buchen" + 0.016*"foto" + 0.012*"drucken" + 0.011*"qualität" + 0.011*"seite" + 0.009*"zufrieden" + 0.009*"fotobücher" + 0.008*"software" + 0.008*"finden" + 0.008*"schön"
+2019-08-05 13:16:27,460 : INFO : topic #3 (0.083): 0.019*"qualität" + 0.018*"finden" + 0.017*"tollen" + 0.015*"jed" + 0.013*"super" + 0.012*"software" + 0.012*"seite" + 0.011*"foto" + 0.010*"klappen" + 0.010*"buch"
+2019-08-05 13:16:27,460 : INFO : topic diff=0.072328, rho=0.377964
+2019-08-05 13:16:28,151 : INFO : -7.217 per-word bound, 148.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:28,151 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:16:28,549 : INFO : topic #2 (0.083): 0.030*"fotobuch" + 0.023*"seite" + 0.020*"preisen" + 0.014*"cewe" + 0.014*"bild" + 0.012*"zufrieden" + 0.011*"teuer" + 0.010*"buchen" + 0.009*"geben" + 0.008*"weiterempfehlen"
+2019-08-05 13:16:28,549 : INFO : topic #10 (0.083): 0.027*"fotobuch" + 0.021*"bild" + 0.017*"all" + 0.016*"seite" + 0.011*"fotobücher" + 0.011*"buchen" + 0.010*"buch" + 0.010*"lieferung" + 0.010*"zufrieden" + 0.010*"gestalten"
+2019-08-05 13:16:28,550 : INFO : topic #3 (0.083): 0.019*"qualität" + 0.019*"finden" + 0.018*"tollen" + 0.015*"jed" + 0.012*"software" + 0.012*"seite" + 0.012*"super" + 0.011*"foto" + 0.011*"klappen" + 0.010*"buch"
+2019-08-05 13:16:28,550 : INFO : topic #6 (0.083): 0.073*"qualität" + 0.061*"schnellen" + 0.057*"einfach" + 0.035*"super" + 0.022*"bearbeitung" + 0.020*"lieferung" + 0.017*"handhabung" + 0.013*"ergebnis" + 0.011*"bedienung" + 0.010*"zufrieden"
+2019-08-05 13:16:28,550 : INFO : topic #8 (0.083): 0.034*"qualität" + 0.027*"einfach" + 0.019*"fotobuch" + 0.016*"schnellen" + 0.015*"buchen" + 0.010*"schwarz" + 0.009*"lieferung" + 0.009*"fertig" + 0.009*"ok" + 0.009*"schön"
+2019-08-05 13:16:28,550 : INFO : topic diff=0.060458, rho=0.353553
+2019-08-05 13:16:29,204 : INFO : -7.206 per-word bound, 147.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:29,204 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:16:29,642 : INFO : topic #9 (0.083): 0.019*"bild" + 0.016*"zufrieden" + 0.015*"bestellung" + 0.013*"letzt" + 0.011*"seite" + 0.011*"qualität" + 0.011*"geben" + 0.010*"fotobücher" + 0.010*"fotobuch" + 0.010*"bestellen"
+2019-08-05 13:16:29,643 : INFO : topic #0 (0.083): 0.061*"zufrieden" + 0.027*"fotobücher" + 0.025*"einfach" + 0.024*"qualität" + 0.022*"software" + 0.022*"service" + 0.019*"cewe" + 0.016*"schnell" + 0.015*"programm" + 0.015*"möglichkeit"
+2019-08-05 13:16:29,643 : INFO : topic #2 (0.083): 0.030*"fotobuch" + 0.024*"seite" + 0.020*"preisen" + 0.014*"cewe" + 0.014*"bild" + 0.012*"zufrieden" + 0.011*"teuer" + 0.010*"buchen" + 0.009*"geben" + 0.008*"weiterempfehlen"
+2019-08-05 13:16:29,643 : INFO : topic #7 (0.083): 0.022*"qualität" + 0.017*"bild" + 0.016*"foto" + 0.016*"bestellen" + 0.014*"müller" + 0.012*"buchen" + 0.011*"enttäuschen" + 0.010*"zufrieden" + 0.009*"unfreundlich" + 0.009*"fotobuch"
+2019-08-05 13:16:29,643 : INFO : topic #3 (0.083): 0.019*"tollen" + 0.019*"finden" + 0.019*"qualität" + 0.015*"jed" + 0.012*"seite" + 0.012*"software" + 0.011*"super" + 0.011*"foto" + 0.011*"klappen" + 0.010*"buch"
+2019-08-05 13:16:29,643 : INFO : topic diff=0.048926, rho=0.333333
+2019-08-05 13:16:30,303 : INFO : -7.198 per-word bound, 146.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:30,303 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:16:30,704 : INFO : topic #2 (0.083): 0.030*"fotobuch" + 0.025*"seite" + 0.020*"preisen" + 0.014*"cewe" + 0.014*"bild" + 0.012*"zufrieden" + 0.011*"teuer" + 0.010*"buchen" + 0.009*"geben" + 0.008*"weiterempfehlen"
+2019-08-05 13:16:30,705 : INFO : topic #9 (0.083): 0.019*"bild" + 0.016*"zufrieden" + 0.015*"bestellung" + 0.013*"letzt" + 0.011*"seite" + 0.011*"qualität" + 0.011*"geben" + 0.010*"fotobücher" + 0.010*"fotobuch" + 0.010*"bestellen"
+2019-08-05 13:16:30,705 : INFO : topic #6 (0.083): 0.076*"qualität" + 0.064*"schnellen" + 0.058*"einfach" + 0.036*"super" + 0.024*"bearbeitung" + 0.023*"lieferung" + 0.018*"handhabung" + 0.014*"ergebnis" + 0.011*"bedienung" + 0.010*"foto"
+2019-08-05 13:16:30,705 : INFO : topic #0 (0.083): 0.063*"zufrieden" + 0.027*"fotobücher" + 0.025*"einfach" + 0.024*"qualität" + 0.023*"software" + 0.022*"service" + 0.019*"cewe" + 0.016*"schnell" + 0.015*"programm" + 0.015*"möglichkeit"
+2019-08-05 13:16:30,705 : INFO : topic #11 (0.083): 0.019*"buchen" + 0.016*"foto" + 0.013*"drucken" + 0.011*"seite" + 0.009*"finden" + 0.009*"zufrieden" + 0.008*"fehler" + 0.008*"bestellen" + 0.008*"schön" + 0.008*"buch"
+2019-08-05 13:16:30,705 : INFO : topic diff=0.039412, rho=0.316228
+2019-08-05 13:16:31,449 : INFO : -7.192 per-word bound, 146.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:31,450 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:16:31,840 : INFO : topic #11 (0.083): 0.019*"buchen" + 0.016*"foto" + 0.013*"drucken" + 0.011*"seite" + 0.009*"finden" + 0.008*"zufrieden" + 0.008*"fehler" + 0.008*"bestellen" + 0.008*"schön" + 0.008*"buch"
+2019-08-05 13:16:31,840 : INFO : topic #1 (0.083): 0.026*"zufrieden" + 0.024*"qualität" + 0.017*"müller" + 0.017*"..." + 0.013*"fotobuch" + 0.012*"empfehlen" + 0.011*"cewe" + 0.010*"fotobücher" + 0.009*"einig" + 0.008*"cliparts"
+2019-08-05 13:16:31,840 : INFO : topic #6 (0.083): 0.078*"qualität" + 0.066*"schnellen" + 0.058*"einfach" + 0.036*"super" + 0.024*"bearbeitung" + 0.024*"lieferung" + 0.019*"handhabung" + 0.015*"ergebnis" + 0.012*"bedienung" + 0.010*"schnell"
+2019-08-05 13:16:31,840 : INFO : topic #8 (0.083): 0.032*"qualität" + 0.028*"einfach" + 0.019*"fotobuch" + 0.017*"buchen" + 0.015*"schnellen" + 0.010*"ok" + 0.010*"schwarz" + 0.010*"fertig" + 0.009*"schön" + 0.009*"gestalten"
+2019-08-05 13:16:31,840 : INFO : topic #7 (0.083): 0.021*"qualität" + 0.017*"bild" + 0.016*"foto" + 0.016*"bestellen" + 0.014*"müller" + 0.012*"enttäuschen" + 0.012*"buchen" + 0.010*"fotobuch" + 0.010*"unfreundlich" + 0.010*"zufrieden"
+2019-08-05 13:16:31,840 : INFO : topic diff=0.032020, rho=0.301511
+2019-08-05 13:16:31,846 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:16:31,858 : INFO : using symmetric alpha at 0.07692307692307693
+2019-08-05 13:16:31,859 : INFO : using symmetric eta at 0.07692307692307693
+2019-08-05 13:16:31,859 : INFO : using serial LDA version on this node
+2019-08-05 13:16:31,862 : INFO : running online (multi-pass) LDA training, 13 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:16:33,182 : INFO : -12.276 per-word bound, 4959.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:33,183 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:16:34,262 : INFO : topic #1 (0.077): 0.025*"qualität" + 0.013*"zufrieden" + 0.010*"fotobücher" + 0.008*"fotobuch" + 0.008*"..." + 0.008*"müller" + 0.008*"bild" + 0.008*"cewe" + 0.008*"produkt" + 0.007*"letzt"
+2019-08-05 13:16:34,262 : INFO : topic #7 (0.077): 0.030*"qualität" + 0.015*"foto" + 0.015*"bild" + 0.014*"buch" + 0.011*"buchen" + 0.009*"bestellen" + 0.008*"arbeiten" + 0.008*"schnellen" + 0.008*"service" + 0.008*"zufrieden"
+2019-08-05 13:16:34,262 : INFO : topic #2 (0.077): 0.026*"fotobuch" + 0.018*"preisen" + 0.016*"seite" + 0.014*"bild" + 0.012*"cewe" + 0.009*"geben" + 0.008*"qualität" + 0.008*"zufrieden" + 0.008*"foto" + 0.006*"fotobücher"
+2019-08-05 13:16:34,262 : INFO : topic #4 (0.077): 0.023*"software" + 0.018*"zufrieden" + 0.012*"buch" + 0.011*"buchen" + 0.011*"finden" + 0.011*"bild" + 0.011*"schnellen" + 0.009*"möglichkeit" + 0.009*"einfach" + 0.009*"programm"
+2019-08-05 13:16:34,262 : INFO : topic #0 (0.077): 0.025*"einfach" + 0.022*"zufrieden" + 0.019*"qualität" + 0.018*"software" + 0.017*"programm" + 0.017*"cewe" + 0.015*"fotobücher" + 0.013*"übersichtlich" + 0.012*"schnell" + 0.011*"möglichkeit"
+2019-08-05 13:16:34,262 : INFO : topic diff=10.144215, rho=1.000000
+2019-08-05 13:16:35,086 : INFO : -7.540 per-word bound, 186.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:35,086 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:16:35,668 : INFO : topic #1 (0.077): 0.022*"qualität" + 0.014*"zufrieden" + 0.013*"..." + 0.012*"müller" + 0.008*"cliparts" + 0.008*"fotobuch" + 0.008*"bild" + 0.008*"fotobücher" + 0.008*"produkt" + 0.007*"cewe"
+2019-08-05 13:16:35,668 : INFO : topic #2 (0.077): 0.028*"fotobuch" + 0.020*"preisen" + 0.018*"seite" + 0.014*"bild" + 0.012*"cewe" + 0.009*"geben" + 0.008*"weiterempfehlen" + 0.007*"buch" + 0.007*"foto" + 0.007*"teuer"
+2019-08-05 13:16:35,668 : INFO : topic #7 (0.077): 0.032*"qualität" + 0.016*"foto" + 0.015*"bild" + 0.014*"buch" + 0.013*"buchen" + 0.010*"bestellen" + 0.009*"software" + 0.009*"arbeiten" + 0.009*"zufrieden" + 0.009*"tollen"
+2019-08-05 13:16:35,668 : INFO : topic #12 (0.077): 0.051*"qualität" + 0.040*"zufrieden" + 0.030*"schnellen" + 0.022*"lieferung" + 0.017*"service" + 0.017*"software" + 0.016*"bild" + 0.015*"müller" + 0.015*"einfach" + 0.015*"fotobuch"
+2019-08-05 13:16:35,669 : INFO : topic #11 (0.077): 0.020*"buchen" + 0.018*"foto" + 0.017*"qualität" + 0.013*"fotobücher" + 0.013*"schön" + 0.011*"seite" + 0.009*"bild" + 0.009*"fehler" + 0.009*"zufrieden" + 0.009*"bestellen"
+2019-08-05 13:16:35,669 : INFO : topic diff=0.136949, rho=0.577350
+2019-08-05 13:16:36,412 : INFO : -7.392 per-word bound, 167.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:36,412 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:16:36,854 : INFO : topic #2 (0.077): 0.029*"fotobuch" + 0.020*"preisen" + 0.018*"seite" + 0.014*"bild" + 0.012*"cewe" + 0.009*"geben" + 0.008*"weiterempfehlen" + 0.007*"buch" + 0.007*"teuer" + 0.007*"auftrag"
+2019-08-05 13:16:36,855 : INFO : topic #9 (0.077): 0.022*"einfach" + 0.021*"zufrieden" + 0.019*"fotobuch" + 0.017*"bild" + 0.017*"handhabung" + 0.015*"qualität" + 0.014*"bestellung" + 0.014*"super" + 0.012*"fotobücher" + 0.010*"seite"
+2019-08-05 13:16:36,855 : INFO : topic #0 (0.077): 0.036*"einfach" + 0.025*"cewe" + 0.024*"fotobücher" + 0.023*"qualität" + 0.023*"programm" + 0.021*"software" + 0.020*"zufrieden" + 0.014*"gestalten" + 0.013*"schnell" + 0.013*"übersichtlich"
+2019-08-05 13:16:36,855 : INFO : topic #10 (0.077): 0.026*"fotobuch" + 0.020*"bild" + 0.014*"seite" + 0.013*"schnellen" + 0.013*"lieferung" + 0.013*"zufrieden" + 0.012*"buchen" + 0.011*"bearbeitung" + 0.010*"qualität" + 0.009*"all"
+2019-08-05 13:16:36,855 : INFO : topic #11 (0.077): 0.021*"buchen" + 0.018*"foto" + 0.013*"schön" + 0.013*"fotobücher" + 0.011*"seite" + 0.011*"qualität" + 0.010*"bild" + 0.010*"fehler" + 0.009*"bestellen" + 0.009*"zufrieden"
+2019-08-05 13:16:36,855 : INFO : topic diff=0.106408, rho=0.500000
+2019-08-05 13:16:37,543 : INFO : -7.315 per-word bound, 159.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:37,544 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:16:37,928 : INFO : topic #4 (0.077): 0.027*"software" + 0.015*"zufrieden" + 0.014*"gestalten" + 0.012*"buchen" + 0.011*"buch" + 0.010*"ander" + 0.010*"anbieter" + 0.010*"möglichkeit" + 0.009*"programm" + 0.008*"bild"
+2019-08-05 13:16:37,929 : INFO : topic #1 (0.077): 0.018*"qualität" + 0.018*"..." + 0.015*"müller" + 0.014*"zufrieden" + 0.009*"cliparts" + 0.009*"fotobuch" + 0.008*"bild" + 0.008*"produkt" + 0.007*"preis" + 0.007*"freunde"
+2019-08-05 13:16:37,929 : INFO : topic #3 (0.077): 0.034*"qualität" + 0.029*"super" + 0.019*"finden" + 0.019*"bearbeitung" + 0.019*"einfach" + 0.018*"schnellen" + 0.013*"preisen" + 0.013*"zufrieden" + 0.013*"jed" + 0.012*"bild"
+2019-08-05 13:16:37,929 : INFO : topic #8 (0.077): 0.022*"qualität" + 0.018*"buchen" + 0.013*"einfach" + 0.011*"ander" + 0.010*"foto" + 0.010*"schwarz" + 0.010*"letzt" + 0.007*"kaste" + 0.007*"schön" + 0.007*"software"
+2019-08-05 13:16:37,929 : INFO : topic #5 (0.077): 0.019*"fotobuch" + 0.013*"qualität" + 0.010*"erstellen" + 0.010*"toll" + 0.010*"bild" + 0.009*"pc" + 0.009*"speichern" + 0.009*"fotobuches" + 0.008*"möglichkeit" + 0.008*"zufrieden"
+2019-08-05 13:16:37,929 : INFO : topic diff=0.092193, rho=0.447214
+2019-08-05 13:16:38,590 : INFO : -7.271 per-word bound, 154.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:38,590 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:16:38,972 : INFO : topic #2 (0.077): 0.028*"fotobuch" + 0.020*"preisen" + 0.019*"seite" + 0.014*"bild" + 0.012*"cewe" + 0.009*"weiterempfehlen" + 0.008*"geben" + 0.008*"ordnung" + 0.008*"buch" + 0.007*"auftrag"
+2019-08-05 13:16:38,972 : INFO : topic #6 (0.077): 0.029*"einfach" + 0.029*"qualität" + 0.015*"fotobuch" + 0.014*"foto" + 0.013*"schnellen" + 0.012*"geben" + 0.011*"finden" + 0.010*"programm" + 0.009*"mal" + 0.008*"auftrag"
+2019-08-05 13:16:38,972 : INFO : topic #5 (0.077): 0.019*"fotobuch" + 0.012*"qualität" + 0.010*"erstellen" + 0.010*"bild" + 0.009*"toll" + 0.009*"pc" + 0.009*"fotobuches" + 0.009*"speichern" + 0.009*"möglichkeit" + 0.008*"zufrieden"
+2019-08-05 13:16:38,972 : INFO : topic #0 (0.077): 0.044*"einfach" + 0.027*"cewe" + 0.026*"programm" + 0.026*"qualität" + 0.024*"fotobücher" + 0.021*"software" + 0.018*"zufrieden" + 0.015*"gestalten" + 0.014*"erstellen" + 0.014*"fotobuch"
+2019-08-05 13:16:38,972 : INFO : topic #7 (0.077): 0.034*"qualität" + 0.017*"foto" + 0.015*"bild" + 0.015*"buch" + 0.014*"buchen" + 0.010*"bestellen" + 0.009*"software" + 0.009*"tollen" + 0.009*"arbeiten" + 0.009*"top"
+2019-08-05 13:16:38,972 : INFO : topic diff=0.084293, rho=0.408248
+2019-08-05 13:16:39,643 : INFO : -7.243 per-word bound, 151.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:39,643 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:16:40,034 : INFO : topic #8 (0.077): 0.020*"qualität" + 0.017*"buchen" + 0.012*"einfach" + 0.011*"ander" + 0.010*"foto" + 0.010*"schwarz" + 0.010*"letzt" + 0.010*"abwicklung" + 0.008*"kaste" + 0.008*"software"
+2019-08-05 13:16:40,035 : INFO : topic #7 (0.077): 0.034*"qualität" + 0.017*"foto" + 0.015*"bild" + 0.015*"buch" + 0.014*"buchen" + 0.010*"bestellen" + 0.009*"software" + 0.009*"tollen" + 0.009*"arbeiten" + 0.009*"top"
+2019-08-05 13:16:40,035 : INFO : topic #2 (0.077): 0.029*"fotobuch" + 0.020*"preisen" + 0.019*"seite" + 0.014*"bild" + 0.011*"cewe" + 0.009*"weiterempfehlen" + 0.009*"ordnung" + 0.008*"geben" + 0.008*"buch" + 0.007*"einfach"
+2019-08-05 13:16:40,035 : INFO : topic #3 (0.077): 0.035*"qualität" + 0.030*"super" + 0.021*"bearbeitung" + 0.021*"schnellen" + 0.020*"finden" + 0.020*"einfach" + 0.014*"preisen" + 0.014*"jed" + 0.012*"bild" + 0.012*"zufrieden"
+2019-08-05 13:16:40,035 : INFO : topic #5 (0.077): 0.019*"fotobuch" + 0.011*"qualität" + 0.010*"erstellen" + 0.010*"bild" + 0.009*"pc" + 0.009*"fotobuches" + 0.009*"speichern" + 0.009*"möglichkeit" + 0.009*"toll" + 0.008*"datei"
+2019-08-05 13:16:40,035 : INFO : topic diff=0.074627, rho=0.377964
+2019-08-05 13:16:40,687 : INFO : -7.226 per-word bound, 149.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:40,687 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:16:41,072 : INFO : topic #8 (0.077): 0.019*"qualität" + 0.017*"buchen" + 0.011*"ander" + 0.011*"einfach" + 0.010*"abwicklung" + 0.010*"foto" + 0.010*"schwarz" + 0.010*"letzt" + 0.008*"software" + 0.008*"kaste"
+2019-08-05 13:16:41,073 : INFO : topic #9 (0.077): 0.019*"fotobuch" + 0.019*"zufrieden" + 0.018*"bild" + 0.014*"bestellung" + 0.013*"qualität" + 0.013*"fotobücher" + 0.012*"handhabung" + 0.012*"einfach" + 0.011*"super" + 0.011*"seite"
+2019-08-05 13:16:41,073 : INFO : topic #2 (0.077): 0.029*"fotobuch" + 0.020*"preisen" + 0.020*"seite" + 0.014*"bild" + 0.011*"cewe" + 0.009*"ordnung" + 0.009*"weiterempfehlen" + 0.008*"geben" + 0.008*"buch" + 0.007*"auftrag"
+2019-08-05 13:16:41,073 : INFO : topic #0 (0.077): 0.050*"einfach" + 0.028*"cewe" + 0.027*"qualität" + 0.027*"programm" + 0.025*"fotobücher" + 0.021*"software" + 0.018*"zufrieden" + 0.015*"gestalten" + 0.014*"fotobuch" + 0.014*"erstellen"
+2019-08-05 13:16:41,073 : INFO : topic #12 (0.077): 0.068*"qualität" + 0.057*"zufrieden" + 0.056*"schnellen" + 0.035*"lieferung" + 0.020*"service" + 0.018*"einfach" + 0.018*"software" + 0.015*"bild" + 0.015*"müller" + 0.013*"fotobuch"
+2019-08-05 13:16:41,073 : INFO : topic diff=0.063439, rho=0.353553
+2019-08-05 13:16:41,761 : INFO : -7.214 per-word bound, 148.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:41,761 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:16:42,146 : INFO : topic #11 (0.077): 0.023*"buchen" + 0.017*"foto" + 0.014*"schön" + 0.013*"fotobücher" + 0.012*"seite" + 0.011*"fehler" + 0.010*"bestellen" + 0.009*"drucken" + 0.009*"bild" + 0.009*"zufrieden"
+2019-08-05 13:16:42,147 : INFO : topic #6 (0.077): 0.030*"qualität" + 0.027*"einfach" + 0.015*"fotobuch" + 0.014*"foto" + 0.013*"geben" + 0.012*"schnellen" + 0.011*"finden" + 0.010*"programm" + 0.009*"mal" + 0.008*"gestaltungsmöglichkeiten"
+2019-08-05 13:16:42,147 : INFO : topic #1 (0.077): 0.021*"..." + 0.016*"qualität" + 0.016*"müller" + 0.014*"zufrieden" + 0.009*"cliparts" + 0.009*"fotobuch" + 0.008*"teuer" + 0.008*"bild" + 0.008*"trotzen" + 0.008*"preis"
+2019-08-05 13:16:42,147 : INFO : topic #12 (0.077): 0.070*"qualität" + 0.059*"zufrieden" + 0.059*"schnellen" + 0.036*"lieferung" + 0.020*"service" + 0.019*"einfach" + 0.019*"software" + 0.016*"bild" + 0.015*"müller" + 0.013*"fotobuch"
+2019-08-05 13:16:42,147 : INFO : topic #3 (0.077): 0.034*"qualität" + 0.030*"super" + 0.022*"bearbeitung" + 0.020*"schnellen" + 0.020*"finden" + 0.020*"einfach" + 0.015*"preisen" + 0.014*"jed" + 0.013*"bild" + 0.012*"schön"
+2019-08-05 13:16:42,147 : INFO : topic diff=0.052248, rho=0.333333
+2019-08-05 13:16:42,846 : INFO : -7.205 per-word bound, 147.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:42,847 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:16:43,266 : INFO : topic #10 (0.077): 0.025*"fotobuch" + 0.021*"bild" + 0.015*"seite" + 0.013*"buchen" + 0.011*"all" + 0.010*"buch" + 0.010*"bestellung" + 0.009*"tollen" + 0.009*"lieferung" + 0.009*"zufrieden"
+2019-08-05 13:16:43,266 : INFO : topic #0 (0.077): 0.053*"einfach" + 0.028*"cewe" + 0.027*"qualität" + 0.027*"programm" + 0.025*"fotobücher" + 0.021*"software" + 0.018*"zufrieden" + 0.015*"erstellen" + 0.015*"gestalten" + 0.015*"handhabung"
+2019-08-05 13:16:43,266 : INFO : topic #11 (0.077): 0.023*"buchen" + 0.017*"foto" + 0.014*"schön" + 0.012*"fotobücher" + 0.012*"seite" + 0.011*"fehler" + 0.010*"bestellen" + 0.009*"drucken" + 0.009*"bild" + 0.009*"zufrieden"
+2019-08-05 13:16:43,266 : INFO : topic #9 (0.077): 0.019*"fotobuch" + 0.018*"bild" + 0.018*"zufrieden" + 0.014*"bestellung" + 0.013*"fotobücher" + 0.012*"qualität" + 0.012*"seite" + 0.011*"handhabung" + 0.010*"super" + 0.010*"farbe"
+2019-08-05 13:16:43,266 : INFO : topic #7 (0.077): 0.034*"qualität" + 0.017*"foto" + 0.016*"bild" + 0.015*"buch" + 0.015*"buchen" + 0.009*"software" + 0.009*"bestellen" + 0.009*"hintergrund" + 0.009*"tollen" + 0.009*"arbeiten"
+2019-08-05 13:16:43,267 : INFO : topic diff=0.042637, rho=0.316228
+2019-08-05 13:16:43,921 : INFO : -7.199 per-word bound, 146.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:43,921 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:16:44,291 : INFO : topic #6 (0.077): 0.030*"qualität" + 0.027*"einfach" + 0.015*"fotobuch" + 0.015*"foto" + 0.013*"geben" + 0.011*"schnellen" + 0.011*"finden" + 0.010*"programm" + 0.009*"mal" + 0.008*"gestaltungsmöglichkeiten"
+2019-08-05 13:16:44,292 : INFO : topic #3 (0.077): 0.032*"qualität" + 0.030*"super" + 0.022*"bearbeitung" + 0.020*"finden" + 0.020*"einfach" + 0.019*"schnellen" + 0.016*"preisen" + 0.015*"jed" + 0.014*"schön" + 0.013*"bild"
+2019-08-05 13:16:44,292 : INFO : topic #1 (0.077): 0.021*"..." + 0.016*"müller" + 0.015*"qualität" + 0.014*"zufrieden" + 0.009*"cliparts" + 0.009*"fotobuch" + 0.009*"teuer" + 0.008*"bild" + 0.008*"trotzen" + 0.008*"preis"
+2019-08-05 13:16:44,292 : INFO : topic #9 (0.077): 0.019*"fotobuch" + 0.018*"bild" + 0.018*"zufrieden" + 0.015*"bestellung" + 0.013*"fotobücher" + 0.012*"qualität" + 0.012*"seite" + 0.010*"farbe" + 0.010*"buchen" + 0.010*"letzt"
+2019-08-05 13:16:44,292 : INFO : topic #0 (0.077): 0.055*"einfach" + 0.028*"cewe" + 0.028*"qualität" + 0.027*"programm" + 0.025*"fotobücher" + 0.021*"software" + 0.018*"zufrieden" + 0.016*"handhabung" + 0.016*"erstellen" + 0.015*"gestalten"
+2019-08-05 13:16:44,292 : INFO : topic diff=0.035145, rho=0.301511
+2019-08-05 13:16:44,299 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:16:44,311 : INFO : using symmetric alpha at 0.07142857142857142
+2019-08-05 13:16:44,311 : INFO : using symmetric eta at 0.07142857142857142
+2019-08-05 13:16:44,312 : INFO : using serial LDA version on this node
+2019-08-05 13:16:44,315 : INFO : running online (multi-pass) LDA training, 14 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:16:45,589 : INFO : -12.708 per-word bound, 6690.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:45,590 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:16:46,667 : INFO : topic #2 (0.071): 0.024*"fotobuch" + 0.020*"seite" + 0.017*"preisen" + 0.014*"cewe" + 0.014*"bild" + 0.011*"buchen" + 0.009*"foto" + 0.009*"buch" + 0.008*"qualität" + 0.007*"ander"
+2019-08-05 13:16:46,668 : INFO : topic #13 (0.071): 0.032*"zufrieden" + 0.017*"schnellen" + 0.017*"qualität" + 0.014*"fotobücher" + 0.013*"cewe" + 0.011*"lieferung" + 0.011*"einfach" + 0.011*"mal" + 0.011*"bild" + 0.010*"schön"
+2019-08-05 13:16:46,668 : INFO : topic #0 (0.071): 0.023*"einfach" + 0.021*"zufrieden" + 0.019*"software" + 0.016*"qualität" + 0.014*"cewe" + 0.013*"programm" + 0.011*"erstellen" + 0.011*"schnell" + 0.010*"übersichtlich" + 0.010*"seite"
+2019-08-05 13:16:46,668 : INFO : topic #8 (0.071): 0.031*"qualität" + 0.029*"buchen" + 0.018*"schnellen" + 0.013*"einfach" + 0.011*"gestalten" + 0.010*"schwarz" + 0.010*"fotobuch" + 0.010*"zufrieden" + 0.009*"letzt" + 0.009*"foto"
+2019-08-05 13:16:46,668 : INFO : topic #9 (0.071): 0.023*"bild" + 0.019*"einfach" + 0.015*"fotobuch" + 0.015*"zufrieden" + 0.014*"seite" + 0.012*"bestellung" + 0.011*"foto" + 0.011*"letzt" + 0.011*"qualität" + 0.010*"bestellen"
+2019-08-05 13:16:46,668 : INFO : topic diff=11.013065, rho=1.000000
+2019-08-05 13:16:47,452 : INFO : -7.564 per-word bound, 189.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:47,452 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:16:47,985 : INFO : topic #0 (0.071): 0.029*"einfach" + 0.023*"software" + 0.019*"zufrieden" + 0.018*"qualität" + 0.017*"cewe" + 0.015*"programm" + 0.012*"schnell" + 0.012*"erstellen" + 0.011*"übersichtlich" + 0.010*"gestalten"
+2019-08-05 13:16:47,986 : INFO : topic #6 (0.071): 0.052*"einfach" + 0.037*"qualität" + 0.027*"schnellen" + 0.025*"super" + 0.024*"foto" + 0.016*"fotobuch" + 0.011*"geben" + 0.010*"programm" + 0.009*"erstellen" + 0.009*"schön"
+2019-08-05 13:16:47,986 : INFO : topic #9 (0.071): 0.024*"bild" + 0.017*"fotobuch" + 0.015*"zufrieden" + 0.014*"seite" + 0.014*"einfach" + 0.014*"bestellung" + 0.013*"letzt" + 0.011*"foto" + 0.011*"bestellen" + 0.010*"einfache"
+2019-08-05 13:16:47,986 : INFO : topic #2 (0.071): 0.024*"fotobuch" + 0.022*"seite" + 0.020*"preisen" + 0.014*"bild" + 0.014*"cewe" + 0.010*"buchen" + 0.010*"foto" + 0.009*"buch" + 0.008*"ander" + 0.008*"teuer"
+2019-08-05 13:16:47,986 : INFO : topic #7 (0.071): 0.032*"qualität" + 0.014*"foto" + 0.014*"service" + 0.014*"bild" + 0.012*"schnell" + 0.011*"software" + 0.010*"möglichkeit" + 0.009*"einfach" + 0.009*"buch" + 0.008*"zufrieden"
+2019-08-05 13:16:47,986 : INFO : topic diff=0.129826, rho=0.577350
+2019-08-05 13:16:48,676 : INFO : -7.399 per-word bound, 168.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:48,676 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:16:49,119 : INFO : topic #3 (0.071): 0.025*"qualität" + 0.017*"finden" + 0.014*"software" + 0.014*"buch" + 0.013*"jed" + 0.012*"tollen" + 0.012*"super" + 0.011*"einfach" + 0.011*"preisen" + 0.011*"bild"
+2019-08-05 13:16:49,120 : INFO : topic #11 (0.071): 0.018*"buchen" + 0.018*"qualität" + 0.014*"foto" + 0.012*"fotobücher" + 0.012*"drucken" + 0.011*"seite" + 0.010*"fehler" + 0.010*"schön" + 0.009*"bild" + 0.009*"software"
+2019-08-05 13:16:49,120 : INFO : topic #1 (0.071): 0.031*"qualität" + 0.014*"müller" + 0.014*"..." + 0.013*"zufrieden" + 0.012*"fotobücher" + 0.011*"fotobuch" + 0.009*"cliparts" + 0.008*"schön" + 0.008*"bild" + 0.007*"möglichkeit"
+2019-08-05 13:16:49,120 : INFO : topic #8 (0.071): 0.040*"buchen" + 0.032*"qualität" + 0.014*"schnellen" + 0.013*"einfach" + 0.013*"letzt" + 0.012*"service" + 0.011*"erhalten" + 0.011*"gestalten" + 0.011*"fotobuch" + 0.010*"fotobüchern"
+2019-08-05 13:16:49,120 : INFO : topic #12 (0.071): 0.050*"qualität" + 0.042*"zufrieden" + 0.036*"schnellen" + 0.020*"müller" + 0.019*"lieferung" + 0.017*"service" + 0.015*"einfach" + 0.015*"software" + 0.014*"fotobücher" + 0.013*"fotobuch"
+2019-08-05 13:16:49,120 : INFO : topic diff=0.104230, rho=0.500000
+2019-08-05 13:16:49,790 : INFO : -7.319 per-word bound, 159.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:49,790 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:16:50,168 : INFO : topic #0 (0.071): 0.036*"einfach" + 0.027*"software" + 0.020*"programm" + 0.019*"qualität" + 0.018*"cewe" + 0.017*"zufrieden" + 0.015*"schnell" + 0.014*"erstellen" + 0.012*"ergebnis" + 0.011*"super"
+2019-08-05 13:16:50,168 : INFO : topic #12 (0.071): 0.054*"qualität" + 0.044*"zufrieden" + 0.040*"schnellen" + 0.021*"lieferung" + 0.021*"service" + 0.020*"müller" + 0.016*"software" + 0.015*"fotobücher" + 0.015*"einfach" + 0.012*"fotobuch"
+2019-08-05 13:16:50,168 : INFO : topic #4 (0.071): 0.018*"software" + 0.016*"zufrieden" + 0.014*"buch" + 0.013*"finden" + 0.012*"buchen" + 0.011*"bearbeitung" + 0.011*"geben" + 0.010*"schnellen" + 0.009*"bild" + 0.008*"problem"
+2019-08-05 13:16:50,168 : INFO : topic #6 (0.071): 0.062*"einfach" + 0.041*"qualität" + 0.034*"super" + 0.031*"schnellen" + 0.025*"foto" + 0.016*"fotobuch" + 0.013*"programm" + 0.012*"schön" + 0.010*"geben" + 0.010*"bedienung"
+2019-08-05 13:16:50,169 : INFO : topic #10 (0.071): 0.030*"fotobuch" + 0.021*"bild" + 0.015*"seite" + 0.014*"all" + 0.013*"buch" + 0.011*"bestellung" + 0.011*"tollen" + 0.011*"qualität" + 0.009*"lieferung" + 0.009*"schnellen"
+2019-08-05 13:16:50,169 : INFO : topic diff=0.095606, rho=0.447214
+2019-08-05 13:16:50,827 : INFO : -7.274 per-word bound, 154.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:50,827 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:16:51,276 : INFO : topic #6 (0.071): 0.065*"einfach" + 0.044*"qualität" + 0.038*"super" + 0.033*"schnellen" + 0.025*"foto" + 0.016*"fotobuch" + 0.014*"programm" + 0.013*"schön" + 0.011*"handhabung" + 0.011*"bedienung"
+2019-08-05 13:16:51,277 : INFO : topic #1 (0.071): 0.030*"qualität" + 0.015*"müller" + 0.014*"..." + 0.012*"zufrieden" + 0.012*"fotobücher" + 0.012*"fotobuch" + 0.010*"cliparts" + 0.008*"schön" + 0.008*"möglichkeit" + 0.008*"gestaltung"
+2019-08-05 13:16:51,277 : INFO : topic #8 (0.071): 0.045*"buchen" + 0.030*"qualität" + 0.014*"letzt" + 0.013*"schnellen" + 0.012*"einfach" + 0.012*"erhalten" + 0.012*"gestalten" + 0.012*"fotobüchern" + 0.011*"service" + 0.011*"fotobuch"
+2019-08-05 13:16:51,277 : INFO : topic #9 (0.071): 0.025*"bild" + 0.019*"fotobuch" + 0.017*"bestellung" + 0.016*"zufrieden" + 0.015*"seite" + 0.015*"letzt" + 0.012*"bestellen" + 0.012*"foto" + 0.010*"fotobücher" + 0.009*"weiß"
+2019-08-05 13:16:51,277 : INFO : topic #5 (0.071): 0.023*"fotobuch" + 0.016*"toll" + 0.011*"foto" + 0.008*"fotobuches" + 0.008*"speichern" + 0.008*"bestellen" + 0.008*"bild" + 0.008*"qualität" + 0.008*"datei" + 0.007*"seite"
+2019-08-05 13:16:51,277 : INFO : topic diff=0.088660, rho=0.408248
+2019-08-05 13:16:52,061 : INFO : -7.244 per-word bound, 151.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:52,062 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:16:52,468 : INFO : topic #2 (0.071): 0.025*"fotobuch" + 0.025*"preisen" + 0.025*"seite" + 0.015*"cewe" + 0.013*"bild" + 0.010*"foto" + 0.010*"teuer" + 0.010*"ander" + 0.009*"buch" + 0.009*"buchen"
+2019-08-05 13:16:52,468 : INFO : topic #7 (0.071): 0.030*"qualität" + 0.017*"schnell" + 0.016*"bild" + 0.014*"foto" + 0.014*"möglichkeit" + 0.013*"service" + 0.010*"software" + 0.009*"buch" + 0.009*"zufrieden" + 0.009*"geben"
+2019-08-05 13:16:52,468 : INFO : topic #5 (0.071): 0.022*"fotobuch" + 0.015*"toll" + 0.011*"foto" + 0.009*"fotobuches" + 0.008*"speichern" + 0.008*"bestellen" + 0.008*"datei" + 0.007*"bild" + 0.007*"seite" + 0.007*"öffnen"
+2019-08-05 13:16:52,468 : INFO : topic #4 (0.071): 0.018*"software" + 0.016*"zufrieden" + 0.014*"buch" + 0.013*"finden" + 0.012*"buchen" + 0.011*"bearbeitung" + 0.010*"geben" + 0.010*"schnellen" + 0.009*"bild" + 0.009*"arbeit"
+2019-08-05 13:16:52,468 : INFO : topic #13 (0.071): 0.038*"zufrieden" + 0.020*"fotobücher" + 0.017*"toll" + 0.017*"schnellen" + 0.016*"qualität" + 0.014*"cewe" + 0.013*"lieferung" + 0.012*"mal" + 0.011*"bild" + 0.011*"schön"
+2019-08-05 13:16:52,469 : INFO : topic diff=0.079182, rho=0.377964
+2019-08-05 13:16:53,129 : INFO : -7.225 per-word bound, 149.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:53,129 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:16:53,527 : INFO : topic #12 (0.071): 0.058*"qualität" + 0.056*"zufrieden" + 0.046*"schnellen" + 0.024*"service" + 0.022*"lieferung" + 0.019*"müller" + 0.017*"fotobücher" + 0.017*"software" + 0.014*"einfach" + 0.013*"bearbeitung"
+2019-08-05 13:16:53,528 : INFO : topic #13 (0.071): 0.034*"zufrieden" + 0.019*"fotobücher" + 0.018*"toll" + 0.016*"schnellen" + 0.016*"qualität" + 0.015*"cewe" + 0.013*"lieferung" + 0.013*"mal" + 0.012*"bild" + 0.011*"preisen"
+2019-08-05 13:16:53,528 : INFO : topic #7 (0.071): 0.030*"qualität" + 0.018*"schnell" + 0.016*"bild" + 0.014*"foto" + 0.014*"möglichkeit" + 0.012*"service" + 0.010*"software" + 0.009*"zufrieden" + 0.009*"buch" + 0.009*"geben"
+2019-08-05 13:16:53,528 : INFO : topic #0 (0.071): 0.043*"einfach" + 0.027*"software" + 0.023*"programm" + 0.019*"qualität" + 0.018*"cewe" + 0.016*"schnell" + 0.016*"erstellen" + 0.015*"zufrieden" + 0.014*"ergebnis" + 0.012*"super"
+2019-08-05 13:16:53,528 : INFO : topic #9 (0.071): 0.025*"bild" + 0.019*"fotobuch" + 0.016*"bestellung" + 0.016*"zufrieden" + 0.015*"letzt" + 0.015*"seite" + 0.013*"bestellen" + 0.012*"foto" + 0.011*"fotobücher" + 0.010*"weiß"
+2019-08-05 13:16:53,528 : INFO : topic diff=0.067795, rho=0.353553
+2019-08-05 13:16:54,212 : INFO : -7.213 per-word bound, 148.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:54,212 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:16:54,627 : INFO : topic #13 (0.071): 0.031*"zufrieden" + 0.019*"toll" + 0.019*"fotobücher" + 0.016*"qualität" + 0.016*"schnellen" + 0.015*"cewe" + 0.013*"mal" + 0.012*"lieferung" + 0.012*"bild" + 0.011*"preisen"
+2019-08-05 13:16:54,627 : INFO : topic #0 (0.071): 0.044*"einfach" + 0.027*"software" + 0.023*"programm" + 0.019*"qualität" + 0.018*"cewe" + 0.017*"erstellen" + 0.016*"schnell" + 0.015*"zufrieden" + 0.014*"ergebnis" + 0.012*"bedienen"
+2019-08-05 13:16:54,628 : INFO : topic #11 (0.071): 0.019*"buchen" + 0.014*"foto" + 0.013*"drucken" + 0.012*"qualität" + 0.012*"seite" + 0.011*"schön" + 0.011*"fotobücher" + 0.011*"fehler" + 0.010*"bestellen" + 0.009*"bild"
+2019-08-05 13:16:54,628 : INFO : topic #10 (0.071): 0.031*"fotobuch" + 0.023*"bild" + 0.017*"seite" + 0.015*"all" + 0.014*"buch" + 0.013*"bestellung" + 0.010*"tollen" + 0.010*"qualität" + 0.009*"anschauen" + 0.008*"lieferung"
+2019-08-05 13:16:54,628 : INFO : topic #8 (0.071): 0.049*"buchen" + 0.027*"qualität" + 0.015*"letzt" + 0.013*"erhalten" + 0.012*"fotobüchern" + 0.012*"gestalten" + 0.012*"schnellen" + 0.011*"einfach" + 0.010*"fotobuch" + 0.010*"service"
+2019-08-05 13:16:54,628 : INFO : topic diff=0.056132, rho=0.333333
+2019-08-05 13:16:55,345 : INFO : -7.205 per-word bound, 147.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:55,346 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:16:55,791 : INFO : topic #1 (0.071): 0.027*"qualität" + 0.017*"müller" + 0.016*"..." + 0.012*"fotobuch" + 0.012*"fotobücher" + 0.011*"zufrieden" + 0.010*"cliparts" + 0.009*"auswahl" + 0.008*"schön" + 0.008*"begeistern"
+2019-08-05 13:16:55,792 : INFO : topic #3 (0.071): 0.022*"qualität" + 0.021*"finden" + 0.016*"jed" + 0.014*"software" + 0.014*"tollen" + 0.013*"bild" + 0.013*"buch" + 0.012*"top" + 0.011*"preisen" + 0.010*"buchen"
+2019-08-05 13:16:55,792 : INFO : topic #9 (0.071): 0.026*"bild" + 0.019*"fotobuch" + 0.016*"bestellung" + 0.016*"zufrieden" + 0.016*"letzt" + 0.015*"seite" + 0.013*"bestellen" + 0.012*"foto" + 0.011*"fotobücher" + 0.010*"weiß"
+2019-08-05 13:16:55,792 : INFO : topic #0 (0.071): 0.045*"einfach" + 0.027*"software" + 0.023*"programm" + 0.019*"qualität" + 0.018*"cewe" + 0.018*"erstellen" + 0.016*"schnell" + 0.015*"zufrieden" + 0.015*"ergebnis" + 0.013*"bedienen"
+2019-08-05 13:16:55,792 : INFO : topic #8 (0.071): 0.050*"buchen" + 0.025*"qualität" + 0.015*"letzt" + 0.013*"erhalten" + 0.013*"fotobüchern" + 0.011*"gestalten" + 0.011*"einfach" + 0.011*"schnellen" + 0.010*"fotobuch" + 0.010*"schön"
+2019-08-05 13:16:55,792 : INFO : topic diff=0.045235, rho=0.316228
+2019-08-05 13:16:56,586 : INFO : -7.199 per-word bound, 146.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:56,587 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:16:57,004 : INFO : topic #1 (0.071): 0.027*"qualität" + 0.017*"müller" + 0.016*"..." + 0.012*"fotobuch" + 0.012*"fotobücher" + 0.011*"zufrieden" + 0.010*"cliparts" + 0.009*"auswahl" + 0.008*"schön" + 0.008*"begeistern"
+2019-08-05 13:16:57,005 : INFO : topic #0 (0.071): 0.045*"einfach" + 0.027*"software" + 0.024*"programm" + 0.018*"qualität" + 0.018*"erstellen" + 0.018*"cewe" + 0.016*"schnell" + 0.015*"zufrieden" + 0.015*"ergebnis" + 0.013*"bedienen"
+2019-08-05 13:16:57,005 : INFO : topic #9 (0.071): 0.026*"bild" + 0.019*"fotobuch" + 0.016*"zufrieden" + 0.016*"bestellung" + 0.016*"letzt" + 0.015*"seite" + 0.013*"bestellen" + 0.012*"foto" + 0.010*"fotobücher" + 0.010*"weiß"
+2019-08-05 13:16:57,005 : INFO : topic #2 (0.071): 0.027*"preisen" + 0.026*"fotobuch" + 0.024*"seite" + 0.015*"cewe" + 0.012*"bild" + 0.011*"teuer" + 0.011*"ander" + 0.010*"foto" + 0.009*"buch" + 0.009*"buchen"
+2019-08-05 13:16:57,005 : INFO : topic #13 (0.071): 0.028*"zufrieden" + 0.021*"toll" + 0.018*"fotobücher" + 0.016*"cewe" + 0.015*"qualität" + 0.015*"schnellen" + 0.013*"mal" + 0.012*"bild" + 0.011*"lieferung" + 0.011*"farbe"
+2019-08-05 13:16:57,005 : INFO : topic diff=0.036238, rho=0.301511
+2019-08-05 13:16:57,013 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:16:57,030 : INFO : using symmetric alpha at 0.06666666666666667
+2019-08-05 13:16:57,030 : INFO : using symmetric eta at 0.06666666666666667
+2019-08-05 13:16:57,031 : INFO : using serial LDA version on this node
+2019-08-05 13:16:57,035 : INFO : running online (multi-pass) LDA training, 15 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:16:58,644 : INFO : -13.152 per-word bound, 9104.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:16:58,644 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:16:59,732 : INFO : topic #12 (0.067): 0.027*"qualität" + 0.022*"zufrieden" + 0.019*"schnellen" + 0.018*"einfach" + 0.017*"müller" + 0.017*"fotobuch" + 0.013*"bild" + 0.013*"lieferung" + 0.012*"seite" + 0.009*"software"
+2019-08-05 13:16:59,732 : INFO : topic #14 (0.067): 0.042*"qualität" + 0.036*"zufrieden" + 0.017*"software" + 0.016*"preisen" + 0.012*"gestalten" + 0.011*"einfach" + 0.011*"schnellen" + 0.009*"tollen" + 0.009*"handhabung" + 0.009*"buch"
+2019-08-05 13:16:59,732 : INFO : topic #8 (0.067): 0.044*"qualität" + 0.022*"einfach" + 0.019*"foto" + 0.018*"schnellen" + 0.013*"buchen" + 0.012*"fotobuch" + 0.010*"schön" + 0.009*"letzt" + 0.009*"bearbeitung" + 0.008*"software"
+2019-08-05 13:16:59,732 : INFO : topic #0 (0.067): 0.023*"qualität" + 0.017*"zufrieden" + 0.014*"software" + 0.014*"programm" + 0.014*"einfach" + 0.014*"cewe" + 0.013*"erstellen" + 0.012*"fotobücher" + 0.012*"foto" + 0.012*"fotobuch"
+2019-08-05 13:16:59,732 : INFO : topic #2 (0.067): 0.024*"fotobuch" + 0.020*"seite" + 0.019*"preisen" + 0.015*"buchen" + 0.011*"einfach" + 0.010*"cewe" + 0.010*"qualität" + 0.009*"bild" + 0.009*"geben" + 0.009*"teuer"
+2019-08-05 13:16:59,732 : INFO : topic diff=11.900581, rho=1.000000
+2019-08-05 13:17:00,526 : INFO : -7.589 per-word bound, 192.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:00,526 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:17:01,053 : INFO : topic #1 (0.067): 0.018*"qualität" + 0.017*"fotobücher" + 0.014*"fotobuch" + 0.012*"müller" + 0.011*"cewe" + 0.011*"gestalten" + 0.011*"all" + 0.010*"hintergrund" + 0.010*"zufrieden" + 0.010*"seite"
+2019-08-05 13:17:01,053 : INFO : topic #8 (0.067): 0.046*"qualität" + 0.024*"schnellen" + 0.022*"foto" + 0.021*"buchen" + 0.021*"einfach" + 0.012*"schön" + 0.012*"fotobuch" + 0.011*"bearbeitung" + 0.010*"letzt" + 0.008*"schwarz"
+2019-08-05 13:17:01,054 : INFO : topic #13 (0.067): 0.026*"zufrieden" + 0.021*"cewe" + 0.015*"gutschein" + 0.014*"toll" + 0.013*"einfach" + 0.013*"mal" + 0.012*"bild" + 0.012*"schön" + 0.011*"..." + 0.011*"lieferung"
+2019-08-05 13:17:01,054 : INFO : topic #9 (0.067): 0.022*"bild" + 0.019*"zufrieden" + 0.018*"ergebnis" + 0.017*"einfach" + 0.014*"seite" + 0.014*"fotobuch" + 0.014*"fotobücher" + 0.012*"handhabung" + 0.011*"einfache" + 0.010*"bestellung"
+2019-08-05 13:17:01,054 : INFO : topic #6 (0.067): 0.044*"einfach" + 0.029*"schnellen" + 0.024*"qualität" + 0.019*"fotobuch" + 0.017*"super" + 0.009*"programm" + 0.009*"foto" + 0.009*"software" + 0.008*"ergebnis" + 0.008*"buchen"
+2019-08-05 13:17:01,054 : INFO : topic diff=0.151710, rho=0.577350
+2019-08-05 13:17:01,753 : INFO : -7.413 per-word bound, 170.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:01,754 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:17:02,165 : INFO : topic #12 (0.067): 0.028*"qualität" + 0.024*"müller" + 0.024*"schnellen" + 0.023*"zufrieden" + 0.021*"lieferung" + 0.017*"einfach" + 0.015*"bild" + 0.014*"fotobuch" + 0.013*"bestellen" + 0.012*"seite"
+2019-08-05 13:17:02,165 : INFO : topic #7 (0.067): 0.030*"qualität" + 0.019*"bild" + 0.014*"geben" + 0.011*"service" + 0.011*"zufrieden" + 0.010*"bestellen" + 0.010*"buchen" + 0.010*"top" + 0.009*"super" + 0.008*"produkt"
+2019-08-05 13:17:02,165 : INFO : topic #3 (0.067): 0.026*"qualität" + 0.019*"buch" + 0.017*"super" + 0.014*"zufrieden" + 0.013*"finden" + 0.013*"foto" + 0.011*"einfach" + 0.011*"erstellen" + 0.011*"seite" + 0.010*"schnellen"
+2019-08-05 13:17:02,165 : INFO : topic #9 (0.067): 0.021*"bild" + 0.020*"ergebnis" + 0.018*"zufrieden" + 0.015*"einfach" + 0.015*"seite" + 0.014*"fotobuch" + 0.013*"einfache" + 0.012*"fotobücher" + 0.012*"handhabung" + 0.011*"geben"
+2019-08-05 13:17:02,166 : INFO : topic #8 (0.067): 0.044*"qualität" + 0.026*"schnellen" + 0.024*"buchen" + 0.023*"foto" + 0.020*"einfach" + 0.013*"schön" + 0.013*"bearbeitung" + 0.012*"fotobuch" + 0.010*"letzt" + 0.008*"schwarz"
+2019-08-05 13:17:02,166 : INFO : topic diff=0.107881, rho=0.500000
+2019-08-05 13:17:02,855 : INFO : -7.333 per-word bound, 161.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:02,855 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:17:03,236 : INFO : topic #5 (0.067): 0.014*"qualität" + 0.012*"foto" + 0.011*"fotobuch" + 0.010*"toll" + 0.010*"anbieter" + 0.010*"fotobuches" + 0.010*"speichern" + 0.009*"datei" + 0.008*"öffnen" + 0.008*"seite"
+2019-08-05 13:17:03,236 : INFO : topic #10 (0.067): 0.031*"fotobuch" + 0.020*"bild" + 0.019*"tollen" + 0.014*"qualität" + 0.013*"lieferung" + 0.012*"buch" + 0.011*"schnellen" + 0.011*"einfach" + 0.011*"pc" + 0.011*"all"
+2019-08-05 13:17:03,236 : INFO : topic #7 (0.067): 0.030*"qualität" + 0.020*"bild" + 0.014*"geben" + 0.011*"top" + 0.011*"zufrieden" + 0.011*"bestellen" + 0.010*"buchen" + 0.009*"super" + 0.009*"service" + 0.008*"produkt"
+2019-08-05 13:17:03,236 : INFO : topic #14 (0.067): 0.072*"zufrieden" + 0.067*"qualität" + 0.028*"software" + 0.020*"einfach" + 0.018*"schnellen" + 0.017*"handhabung" + 0.017*"preisen" + 0.015*"lieferung" + 0.011*"gestalten" + 0.011*"fotobücher"
+2019-08-05 13:17:03,237 : INFO : topic #2 (0.067): 0.029*"fotobuch" + 0.021*"seite" + 0.017*"buchen" + 0.016*"preisen" + 0.012*"cewe" + 0.011*"teuer" + 0.010*"bild" + 0.010*"einfach" + 0.009*"drucken" + 0.008*"euro"
+2019-08-05 13:17:03,237 : INFO : topic diff=0.097533, rho=0.447214
+2019-08-05 13:17:03,913 : INFO : -7.284 per-word bound, 155.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:03,913 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:17:04,303 : INFO : topic #7 (0.067): 0.030*"qualität" + 0.020*"bild" + 0.014*"geben" + 0.012*"top" + 0.011*"zufrieden" + 0.011*"bestellen" + 0.009*"buchen" + 0.009*"super" + 0.009*"produkt" + 0.008*"lieferung"
+2019-08-05 13:17:04,303 : INFO : topic #8 (0.067): 0.041*"qualität" + 0.028*"buchen" + 0.028*"schnellen" + 0.024*"foto" + 0.017*"einfach" + 0.013*"bearbeitung" + 0.012*"fotobuch" + 0.012*"schön" + 0.011*"letzt" + 0.009*"schwarz"
+2019-08-05 13:17:04,303 : INFO : topic #0 (0.067): 0.040*"qualität" + 0.024*"service" + 0.020*"programm" + 0.019*"erstellen" + 0.019*"einfach" + 0.018*"schnell" + 0.018*"software" + 0.017*"zufrieden" + 0.017*"foto" + 0.017*"fotobücher"
+2019-08-05 13:17:04,304 : INFO : topic #13 (0.067): 0.021*"cewe" + 0.020*"gutschein" + 0.017*"zufrieden" + 0.017*"toll" + 0.016*"schön" + 0.015*"mal" + 0.012*"bild" + 0.012*"preisen" + 0.012*"..." + 0.011*"2"
+2019-08-05 13:17:04,304 : INFO : topic #4 (0.067): 0.023*"finden" + 0.023*"software" + 0.017*"bild" + 0.015*"geben" + 0.015*"jed" + 0.014*"bearbeitung" + 0.012*"buch" + 0.012*"zufrieden" + 0.011*"früh" + 0.011*"preisen"
+2019-08-05 13:17:04,304 : INFO : topic diff=0.091531, rho=0.408248
+2019-08-05 13:17:04,971 : INFO : -7.253 per-word bound, 152.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:04,971 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:17:05,361 : INFO : topic #8 (0.067): 0.038*"qualität" + 0.029*"buchen" + 0.025*"schnellen" + 0.024*"foto" + 0.016*"einfach" + 0.013*"fotobuch" + 0.012*"schön" + 0.012*"bearbeitung" + 0.011*"letzt" + 0.009*"schwarz"
+2019-08-05 13:17:05,361 : INFO : topic #3 (0.067): 0.020*"buch" + 0.018*"qualität" + 0.013*"foto" + 0.012*"finden" + 0.012*"zufrieden" + 0.011*"seite" + 0.011*"text" + 0.010*"erstellen" + 0.010*"bestellung" + 0.010*"buchen"
+2019-08-05 13:17:05,361 : INFO : topic #1 (0.067): 0.020*"fotobücher" + 0.016*"fotobuch" + 0.015*"qualität" + 0.015*"hintergrund" + 0.014*"gestalten" + 0.013*"müller" + 0.012*"cewe" + 0.012*"all" + 0.010*"möglichkeit" + 0.010*"seite"
+2019-08-05 13:17:05,362 : INFO : topic #2 (0.067): 0.029*"fotobuch" + 0.022*"seite" + 0.017*"buchen" + 0.017*"preisen" + 0.011*"teuer" + 0.011*"cewe" + 0.010*"bild" + 0.009*"einfach" + 0.009*"drucken" + 0.008*"euro"
+2019-08-05 13:17:05,362 : INFO : topic #10 (0.067): 0.033*"fotobuch" + 0.021*"tollen" + 0.021*"bild" + 0.015*"qualität" + 0.013*"lieferung" + 0.012*"buch" + 0.011*"pc" + 0.011*"all" + 0.010*"schnellen" + 0.010*"buchen"
+2019-08-05 13:17:05,362 : INFO : topic diff=0.083900, rho=0.377964
+2019-08-05 13:17:06,057 : INFO : -7.233 per-word bound, 150.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:06,057 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:17:06,451 : INFO : topic #10 (0.067): 0.034*"fotobuch" + 0.022*"tollen" + 0.021*"bild" + 0.015*"qualität" + 0.012*"lieferung" + 0.012*"buch" + 0.012*"pc" + 0.011*"all" + 0.010*"buchen" + 0.010*"einfach"
+2019-08-05 13:17:06,451 : INFO : topic #4 (0.067): 0.025*"finden" + 0.022*"software" + 0.018*"bild" + 0.016*"geben" + 0.016*"jed" + 0.013*"bearbeitung" + 0.012*"früh" + 0.012*"buch" + 0.011*"preisen" + 0.011*"zufrieden"
+2019-08-05 13:17:06,451 : INFO : topic #11 (0.067): 0.018*"foto" + 0.015*"fotobücher" + 0.013*"seite" + 0.011*"möglichkeit" + 0.011*"buchen" + 0.010*"bild" + 0.010*"buch" + 0.009*"farbe" + 0.008*"schön" + 0.008*"alt"
+2019-08-05 13:17:06,451 : INFO : topic #13 (0.067): 0.023*"cewe" + 0.021*"gutschein" + 0.017*"schön" + 0.017*"toll" + 0.016*"mal" + 0.015*"zufrieden" + 0.012*"preisen" + 0.012*"bild" + 0.012*"schöne" + 0.012*"2"
+2019-08-05 13:17:06,451 : INFO : topic #0 (0.067): 0.044*"qualität" + 0.029*"service" + 0.021*"programm" + 0.020*"erstellen" + 0.020*"einfach" + 0.019*"software" + 0.019*"schnell" + 0.019*"foto" + 0.018*"fotobücher" + 0.017*"zufrieden"
+2019-08-05 13:17:06,451 : INFO : topic diff=0.072958, rho=0.353553
+2019-08-05 13:17:07,147 : INFO : -7.220 per-word bound, 149.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:07,147 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:17:07,533 : INFO : topic #4 (0.067): 0.026*"finden" + 0.021*"software" + 0.019*"bild" + 0.016*"geben" + 0.016*"jed" + 0.013*"bearbeitung" + 0.012*"früh" + 0.012*"buch" + 0.011*"preisen" + 0.011*"zufrieden"
+2019-08-05 13:17:07,534 : INFO : topic #3 (0.067): 0.020*"buch" + 0.016*"qualität" + 0.013*"foto" + 0.012*"zufrieden" + 0.012*"text" + 0.012*"finden" + 0.011*"seite" + 0.010*"bestellung" + 0.010*"buchen" + 0.009*"erstellen"
+2019-08-05 13:17:07,534 : INFO : topic #0 (0.067): 0.045*"qualität" + 0.031*"service" + 0.021*"programm" + 0.020*"erstellen" + 0.020*"einfach" + 0.020*"software" + 0.019*"foto" + 0.019*"fotobücher" + 0.019*"schnell" + 0.017*"zufrieden"
+2019-08-05 13:17:07,534 : INFO : topic #7 (0.067): 0.028*"qualität" + 0.020*"bild" + 0.015*"geben" + 0.013*"top" + 0.012*"bestellen" + 0.011*"zufrieden" + 0.009*"buchen" + 0.009*"produkt" + 0.009*"super" + 0.008*"ok"
+2019-08-05 13:17:07,534 : INFO : topic #8 (0.067): 0.032*"qualität" + 0.031*"buchen" + 0.025*"foto" + 0.018*"schnellen" + 0.015*"einfach" + 0.013*"fotobuch" + 0.012*"schön" + 0.012*"letzt" + 0.009*"schwarz" + 0.009*"liefern"
+2019-08-05 13:17:07,534 : INFO : topic diff=0.059956, rho=0.333333
+2019-08-05 13:17:08,239 : INFO : -7.211 per-word bound, 148.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:08,239 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:17:08,644 : INFO : topic #12 (0.067): 0.029*"müller" + 0.022*"qualität" + 0.021*"zufrieden" + 0.016*"lieferung" + 0.016*"bild" + 0.015*"schnellen" + 0.015*"bestellen" + 0.015*"fotobuch" + 0.014*"seite" + 0.011*"einfach"
+2019-08-05 13:17:08,645 : INFO : topic #2 (0.067): 0.029*"fotobuch" + 0.022*"seite" + 0.018*"buchen" + 0.018*"preisen" + 0.012*"teuer" + 0.011*"cewe" + 0.011*"bild" + 0.009*"drucken" + 0.009*"ordnung" + 0.009*"einfach"
+2019-08-05 13:17:08,645 : INFO : topic #6 (0.067): 0.067*"einfach" + 0.051*"schnellen" + 0.034*"qualität" + 0.033*"super" + 0.026*"bearbeitung" + 0.018*"fotobuch" + 0.017*"toll" + 0.013*"programm" + 0.013*"ergebnis" + 0.011*"erstellen"
+2019-08-05 13:17:08,645 : INFO : topic #0 (0.067): 0.046*"qualität" + 0.032*"service" + 0.021*"programm" + 0.021*"einfach" + 0.021*"erstellen" + 0.020*"software" + 0.019*"foto" + 0.019*"fotobücher" + 0.019*"schnell" + 0.017*"zufrieden"
+2019-08-05 13:17:08,645 : INFO : topic #13 (0.067): 0.023*"cewe" + 0.022*"gutschein" + 0.017*"schön" + 0.016*"toll" + 0.016*"mal" + 0.013*"zufrieden" + 0.013*"schöne" + 0.013*"preisen" + 0.012*"bild" + 0.012*"2"
+2019-08-05 13:17:08,645 : INFO : topic diff=0.049288, rho=0.316228
+2019-08-05 13:17:09,309 : INFO : -7.204 per-word bound, 147.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:09,309 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:17:09,697 : INFO : topic #10 (0.067): 0.036*"fotobuch" + 0.023*"tollen" + 0.022*"bild" + 0.014*"qualität" + 0.013*"buch" + 0.012*"pc" + 0.011*"all" + 0.011*"lieferung" + 0.011*"anschauen" + 0.011*"buchen"
+2019-08-05 13:17:09,697 : INFO : topic #11 (0.067): 0.018*"foto" + 0.015*"fotobücher" + 0.013*"seite" + 0.011*"buchen" + 0.011*"bild" + 0.011*"möglichkeit" + 0.010*"buch" + 0.010*"farbe" + 0.008*"schön" + 0.008*"alt"
+2019-08-05 13:17:09,697 : INFO : topic #5 (0.067): 0.012*"foto" + 0.011*"qualität" + 0.011*"anbieter" + 0.010*"fotobuches" + 0.010*"speichern" + 0.010*"fotobuch" + 0.009*"datei" + 0.009*"lassen" + 0.008*"öffnen" + 0.008*"seite"
+2019-08-05 13:17:09,697 : INFO : topic #3 (0.067): 0.020*"buch" + 0.014*"qualität" + 0.013*"text" + 0.012*"foto" + 0.012*"zufrieden" + 0.012*"seite" + 0.011*"finden" + 0.010*"bestellung" + 0.010*"buchen" + 0.009*"erstellen"
+2019-08-05 13:17:09,698 : INFO : topic #1 (0.067): 0.020*"fotobücher" + 0.016*"hintergrund" + 0.016*"fotobuch" + 0.015*"qualität" + 0.014*"gestalten" + 0.013*"müller" + 0.012*"cewe" + 0.012*"all" + 0.012*"möglichkeit" + 0.010*"spaßen"
+2019-08-05 13:17:09,698 : INFO : topic diff=0.040077, rho=0.301511
+2019-08-05 13:17:09,705 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:17:09,723 : INFO : using symmetric alpha at 0.0625
+2019-08-05 13:17:09,723 : INFO : using symmetric eta at 0.0625
+2019-08-05 13:17:09,723 : INFO : using serial LDA version on this node
+2019-08-05 13:17:09,727 : INFO : running online (multi-pass) LDA training, 16 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:17:11,196 : INFO : -13.611 per-word bound, 12511.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:11,196 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:17:12,266 : INFO : topic #14 (0.062): 0.043*"qualität" + 0.039*"zufrieden" + 0.016*"super" + 0.012*"buch" + 0.012*"geben" + 0.011*"preisen" + 0.011*"software" + 0.010*"anbieter" + 0.008*"tollen" + 0.008*"produkt"
+2019-08-05 13:17:12,266 : INFO : topic #8 (0.062): 0.043*"qualität" + 0.025*"schnellen" + 0.019*"einfach" + 0.016*"buchen" + 0.012*"schwarz" + 0.012*"lieferung" + 0.010*"fotobuch" + 0.009*"kaste" + 0.009*"bearbeitung" + 0.007*"letzt"
+2019-08-05 13:17:12,266 : INFO : topic #10 (0.062): 0.023*"fotobuch" + 0.016*"schnellen" + 0.014*"einfach" + 0.014*"zufrieden" + 0.014*"lieferung" + 0.010*"bestellung" + 0.010*"bild" + 0.010*"buchen" + 0.010*"seite" + 0.010*"buch"
+2019-08-05 13:17:12,267 : INFO : topic #2 (0.062): 0.022*"fotobuch" + 0.015*"seite" + 0.014*"cewe" + 0.014*"qualität" + 0.014*"zufrieden" + 0.013*"bild" + 0.012*"buchen" + 0.011*"preisen" + 0.010*"geben" + 0.010*"erstellen"
+2019-08-05 13:17:12,267 : INFO : topic #11 (0.062): 0.023*"qualität" + 0.017*"buchen" + 0.015*"foto" + 0.012*"seite" + 0.012*"fotobücher" + 0.011*"fotobuch" + 0.010*"schön" + 0.009*"bild" + 0.009*"drucken" + 0.009*"bestellen"
+2019-08-05 13:17:12,267 : INFO : topic diff=12.762507, rho=1.000000
+2019-08-05 13:17:13,149 : INFO : -7.626 per-word bound, 197.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:13,149 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:17:13,699 : INFO : topic #13 (0.062): 0.020*"zufrieden" + 0.017*"cewe" + 0.016*"toll" + 0.013*"fotobuch" + 0.013*"schnellen" + 0.011*"qualität" + 0.010*"jed" + 0.010*"mal" + 0.010*"farbe" + 0.010*"einfach"
+2019-08-05 13:17:13,699 : INFO : topic #8 (0.062): 0.043*"qualität" + 0.036*"schnellen" + 0.024*"buchen" + 0.019*"einfach" + 0.014*"lieferung" + 0.013*"bearbeitung" + 0.011*"schwarz" + 0.011*"fotobuch" + 0.009*"bestellen" + 0.008*"letzt"
+2019-08-05 13:17:13,699 : INFO : topic #15 (0.062): 0.017*"bild" + 0.017*"qualität" + 0.013*"foto" + 0.013*"fotobuch" + 0.013*"seite" + 0.012*"buch" + 0.011*"finden" + 0.010*"datei" + 0.010*"gestaltung" + 0.007*"fehler"
+2019-08-05 13:17:13,699 : INFO : topic #10 (0.062): 0.025*"fotobuch" + 0.013*"lieferung" + 0.012*"bestellung" + 0.012*"schnellen" + 0.012*"einfach" + 0.012*"buch" + 0.011*"seite" + 0.010*"bild" + 0.010*"anschauen" + 0.009*"programm"
+2019-08-05 13:17:13,700 : INFO : topic #7 (0.062): 0.036*"qualität" + 0.019*"bild" + 0.019*"foto" + 0.018*"service" + 0.014*"top" + 0.013*"bestellen" + 0.011*"software" + 0.010*"müller" + 0.009*"arbeiten" + 0.009*"buchen"
+2019-08-05 13:17:13,700 : INFO : topic diff=0.137998, rho=0.577350
+2019-08-05 13:17:14,436 : INFO : -7.438 per-word bound, 173.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:14,436 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:17:14,840 : INFO : topic #11 (0.062): 0.021*"buchen" + 0.016*"foto" + 0.013*"seite" + 0.012*"drucken" + 0.012*"schön" + 0.011*"fotobuch" + 0.010*"fehler" + 0.010*"fotobücher" + 0.010*"qualität" + 0.009*"bestellen"
+2019-08-05 13:17:14,840 : INFO : topic #6 (0.062): 0.052*"einfach" + 0.038*"qualität" + 0.028*"schnellen" + 0.019*"fotobuch" + 0.018*"programm" + 0.016*"foto" + 0.013*"seite" + 0.010*"bedienung" + 0.009*"erstellen" + 0.009*"mal"
+2019-08-05 13:17:14,840 : INFO : topic #0 (0.062): 0.037*"einfach" + 0.025*"software" + 0.023*"zufrieden" + 0.019*"fotobücher" + 0.018*"qualität" + 0.018*"programm" + 0.017*"schnell" + 0.015*"bedienen" + 0.014*"übersichtlich" + 0.012*"cewe"
+2019-08-05 13:17:14,841 : INFO : topic #13 (0.062): 0.018*"toll" + 0.017*"zufrieden" + 0.017*"cewe" + 0.013*"schnellen" + 0.013*"fotobuch" + 0.011*"qualität" + 0.011*"farbe" + 0.011*"mal" + 0.010*"jed" + 0.010*"schön"
+2019-08-05 13:17:14,841 : INFO : topic #1 (0.062): 0.023*"qualität" + 0.016*"müller" + 0.016*"..." + 0.014*"fotobücher" + 0.013*"bild" + 0.011*"möglichkeit" + 0.010*"seite" + 0.010*"all" + 0.009*"zufrieden" + 0.008*"bestellen"
+2019-08-05 13:17:14,841 : INFO : topic diff=0.106429, rho=0.500000
+2019-08-05 13:17:15,521 : INFO : -7.351 per-word bound, 163.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:15,521 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:17:15,931 : INFO : topic #2 (0.062): 0.021*"fotobuch" + 0.019*"seite" + 0.015*"cewe" + 0.015*"geben" + 0.012*"ander" + 0.011*"bild" + 0.010*"buch" + 0.010*"zufrieden" + 0.009*"buchen" + 0.009*"preisen"
+2019-08-05 13:17:15,932 : INFO : topic #7 (0.062): 0.046*"qualität" + 0.024*"foto" + 0.020*"bild" + 0.019*"service" + 0.016*"top" + 0.015*"bestellen" + 0.014*"software" + 0.010*"buch" + 0.010*"arbeiten" + 0.010*"müller"
+2019-08-05 13:17:15,932 : INFO : topic #5 (0.062): 0.021*"fotobuch" + 0.013*"toll" + 0.013*"zufrieden" + 0.012*"2" + 0.011*"erstellen" + 0.010*"speichern" + 0.010*"pc" + 0.009*"bild" + 0.009*"öffnen" + 0.009*"sache"
+2019-08-05 13:17:15,932 : INFO : topic #8 (0.062): 0.048*"schnellen" + 0.043*"qualität" + 0.028*"buchen" + 0.020*"einfach" + 0.017*"bearbeitung" + 0.016*"lieferung" + 0.010*"fotobuch" + 0.010*"schwarz" + 0.009*"bestellen" + 0.009*"filiale"
+2019-08-05 13:17:15,932 : INFO : topic #3 (0.062): 0.036*"super" + 0.034*"qualität" + 0.022*"einfach" + 0.019*"finden" + 0.019*"bearbeitung" + 0.019*"schnellen" + 0.017*"tollen" + 0.017*"lieferung" + 0.015*"jed" + 0.015*"preisen"
+2019-08-05 13:17:15,932 : INFO : topic diff=0.098263, rho=0.447214
+2019-08-05 13:17:16,610 : INFO : -7.301 per-word bound, 157.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:16,610 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:17:17,019 : INFO : topic #1 (0.062): 0.022*"qualität" + 0.018*"..." + 0.016*"müller" + 0.014*"bild" + 0.014*"fotobücher" + 0.011*"möglichkeit" + 0.010*"seite" + 0.010*"all" + 0.009*"bestellen" + 0.009*"buchen"
+2019-08-05 13:17:17,020 : INFO : topic #6 (0.062): 0.056*"einfach" + 0.038*"qualität" + 0.028*"schnellen" + 0.021*"programm" + 0.020*"fotobuch" + 0.017*"foto" + 0.014*"seite" + 0.013*"bedienung" + 0.010*"erstellen" + 0.010*"handhabung"
+2019-08-05 13:17:17,020 : INFO : topic #11 (0.062): 0.023*"buchen" + 0.015*"foto" + 0.013*"seite" + 0.013*"schön" + 0.012*"drucken" + 0.011*"fotobuch" + 0.010*"fehler" + 0.009*"fotobücher" + 0.009*"bestellen" + 0.008*"finden"
+2019-08-05 13:17:17,020 : INFO : topic #5 (0.062): 0.021*"fotobuch" + 0.013*"toll" + 0.012*"zufrieden" + 0.012*"2" + 0.011*"speichern" + 0.011*"erstellen" + 0.010*"pc" + 0.009*"öffnen" + 0.009*"sache" + 0.009*"bild"
+2019-08-05 13:17:17,020 : INFO : topic #8 (0.062): 0.053*"schnellen" + 0.044*"qualität" + 0.029*"buchen" + 0.021*"einfach" + 0.018*"bearbeitung" + 0.018*"lieferung" + 0.010*"fotobuch" + 0.010*"schwarz" + 0.010*"bestellen" + 0.009*"filiale"
+2019-08-05 13:17:17,020 : INFO : topic diff=0.093728, rho=0.408248
+2019-08-05 13:17:17,681 : INFO : -7.268 per-word bound, 154.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:17,681 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:17:18,061 : INFO : topic #4 (0.062): 0.028*"software" + 0.021*"buch" + 0.015*"gutschein" + 0.015*"zufrieden" + 0.014*"erstellen" + 0.014*"buchen" + 0.014*"bild" + 0.011*"möglichkeit" + 0.011*"programm" + 0.010*"finden"
+2019-08-05 13:17:18,061 : INFO : topic #2 (0.062): 0.021*"fotobuch" + 0.019*"seite" + 0.015*"geben" + 0.015*"cewe" + 0.012*"ander" + 0.011*"bild" + 0.011*"buch" + 0.009*"teuer" + 0.009*"preisen" + 0.009*"buchen"
+2019-08-05 13:17:18,061 : INFO : topic #5 (0.062): 0.021*"fotobuch" + 0.013*"toll" + 0.012*"2" + 0.012*"zufrieden" + 0.011*"speichern" + 0.011*"erstellen" + 0.010*"pc" + 0.009*"öffnen" + 0.009*"sache" + 0.009*"bild"
+2019-08-05 13:17:18,061 : INFO : topic #15 (0.062): 0.019*"bild" + 0.013*"seite" + 0.013*"qualität" + 0.013*"foto" + 0.013*"fotobuch" + 0.012*"finden" + 0.011*"buch" + 0.010*"datei" + 0.010*"gestaltung" + 0.009*"gedruckt"
+2019-08-05 13:17:18,061 : INFO : topic #13 (0.062): 0.023*"toll" + 0.016*"cewe" + 0.014*"zufrieden" + 0.012*"schnellen" + 0.012*"farbe" + 0.012*"schöne" + 0.011*"fotobuch" + 0.011*"qualität" + 0.011*"schön" + 0.011*"mal"
+2019-08-05 13:17:18,062 : INFO : topic diff=0.085659, rho=0.377964
+2019-08-05 13:17:18,703 : INFO : -7.247 per-word bound, 151.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:18,704 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:17:19,084 : INFO : topic #4 (0.062): 0.028*"software" + 0.021*"buch" + 0.016*"gutschein" + 0.014*"erstellen" + 0.014*"bild" + 0.014*"buchen" + 0.014*"zufrieden" + 0.012*"möglichkeit" + 0.011*"programm" + 0.010*"finden"
+2019-08-05 13:17:19,085 : INFO : topic #6 (0.062): 0.059*"einfach" + 0.037*"qualität" + 0.026*"schnellen" + 0.021*"programm" + 0.020*"fotobuch" + 0.017*"foto" + 0.016*"bedienung" + 0.014*"seite" + 0.011*"handhabung" + 0.010*"ergebnis"
+2019-08-05 13:17:19,085 : INFO : topic #11 (0.062): 0.024*"buchen" + 0.015*"foto" + 0.013*"schön" + 0.013*"seite" + 0.013*"drucken" + 0.012*"fotobuch" + 0.010*"fehler" + 0.009*"bestellen" + 0.008*"fotobücher" + 0.008*"finden"
+2019-08-05 13:17:19,085 : INFO : topic #2 (0.062): 0.021*"fotobuch" + 0.020*"seite" + 0.015*"geben" + 0.015*"cewe" + 0.012*"ander" + 0.011*"bild" + 0.011*"buch" + 0.009*"teuer" + 0.009*"preisen" + 0.009*"buchen"
+2019-08-05 13:17:19,085 : INFO : topic #15 (0.062): 0.019*"bild" + 0.013*"seite" + 0.013*"qualität" + 0.013*"foto" + 0.013*"fotobuch" + 0.012*"finden" + 0.011*"buch" + 0.010*"datei" + 0.010*"gestaltung" + 0.009*"gedruckt"
+2019-08-05 13:17:19,085 : INFO : topic diff=0.074333, rho=0.353553
+2019-08-05 13:17:19,770 : INFO : -7.232 per-word bound, 150.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:19,770 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:17:20,226 : INFO : topic #8 (0.062): 0.067*"schnellen" + 0.045*"qualität" + 0.030*"buchen" + 0.025*"lieferung" + 0.024*"einfach" + 0.021*"bearbeitung" + 0.011*"filiale" + 0.010*"fotobuch" + 0.010*"bestellen" + 0.010*"schwarz"
+2019-08-05 13:17:20,226 : INFO : topic #4 (0.062): 0.028*"software" + 0.021*"buch" + 0.016*"gutschein" + 0.014*"bild" + 0.014*"buchen" + 0.014*"erstellen" + 0.014*"zufrieden" + 0.012*"möglichkeit" + 0.011*"programm" + 0.010*"finden"
+2019-08-05 13:17:20,227 : INFO : topic #13 (0.062): 0.024*"toll" + 0.016*"cewe" + 0.014*"zufrieden" + 0.013*"farbe" + 0.013*"schöne" + 0.012*"schnellen" + 0.011*"schön" + 0.011*"qualität" + 0.011*"fotobuch" + 0.011*"mal"
+2019-08-05 13:17:20,227 : INFO : topic #2 (0.062): 0.021*"fotobuch" + 0.020*"seite" + 0.015*"cewe" + 0.015*"geben" + 0.012*"ander" + 0.011*"bild" + 0.011*"buch" + 0.009*"teuer" + 0.009*"preisen" + 0.008*"buchen"
+2019-08-05 13:17:20,227 : INFO : topic #9 (0.062): 0.028*"bild" + 0.026*"seite" + 0.025*"fotobuch" + 0.019*"zufrieden" + 0.015*"letzt" + 0.013*"buchen" + 0.012*"qualität" + 0.012*"drucken" + 0.011*"software" + 0.011*"anzeigen"
+2019-08-05 13:17:20,227 : INFO : topic diff=0.062241, rho=0.333333
+2019-08-05 13:17:20,952 : INFO : -7.222 per-word bound, 149.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:20,952 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:17:21,337 : INFO : topic #11 (0.062): 0.024*"buchen" + 0.015*"foto" + 0.013*"schön" + 0.013*"drucken" + 0.013*"seite" + 0.012*"fotobuch" + 0.011*"fehler" + 0.009*"bestellen" + 0.008*"fotobücher" + 0.008*"finden"
+2019-08-05 13:17:21,337 : INFO : topic #5 (0.062): 0.021*"fotobuch" + 0.012*"2" + 0.012*"toll" + 0.011*"speichern" + 0.011*"zufrieden" + 0.010*"erstellen" + 0.010*"pc" + 0.009*"öffnen" + 0.009*"sache" + 0.009*"bild"
+2019-08-05 13:17:21,337 : INFO : topic #3 (0.062): 0.045*"super" + 0.035*"qualität" + 0.022*"bearbeitung" + 0.022*"finden" + 0.020*"einfach" + 0.019*"tollen" + 0.018*"schnellen" + 0.018*"lieferung" + 0.017*"preisen" + 0.017*"jed"
+2019-08-05 13:17:21,337 : INFO : topic #1 (0.062): 0.021*"qualität" + 0.019*"..." + 0.016*"müller" + 0.015*"bild" + 0.014*"fotobücher" + 0.010*"möglichkeit" + 0.010*"seite" + 0.010*"all" + 0.009*"bestellen" + 0.009*"buchen"
+2019-08-05 13:17:21,337 : INFO : topic #9 (0.062): 0.028*"bild" + 0.026*"seite" + 0.025*"fotobuch" + 0.018*"zufrieden" + 0.015*"letzt" + 0.013*"buchen" + 0.012*"qualität" + 0.012*"drucken" + 0.011*"software" + 0.011*"anzeigen"
+2019-08-05 13:17:21,337 : INFO : topic diff=0.050656, rho=0.316228
+2019-08-05 13:17:22,012 : INFO : -7.214 per-word bound, 148.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:22,012 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:17:22,389 : INFO : topic #5 (0.062): 0.020*"fotobuch" + 0.012*"2" + 0.012*"toll" + 0.011*"speichern" + 0.011*"zufrieden" + 0.010*"pc" + 0.010*"erstellen" + 0.009*"öffnen" + 0.009*"sache" + 0.009*"bild"
+2019-08-05 13:17:22,390 : INFO : topic #12 (0.062): 0.032*"qualität" + 0.028*"müller" + 0.027*"zufrieden" + 0.019*"einfach" + 0.017*"schnellen" + 0.016*"ausführung" + 0.015*"bild" + 0.013*"fotobuch" + 0.013*"lieferung" + 0.013*"service"
+2019-08-05 13:17:22,390 : INFO : topic #15 (0.062): 0.019*"bild" + 0.014*"seite" + 0.013*"qualität" + 0.013*"foto" + 0.013*"fotobuch" + 0.012*"finden" + 0.011*"buch" + 0.010*"datei" + 0.010*"gestaltung" + 0.009*"gedruckt"
+2019-08-05 13:17:22,390 : INFO : topic #10 (0.062): 0.028*"fotobuch" + 0.016*"buch" + 0.016*"bestellung" + 0.013*"lieferung" + 0.013*"seite" + 0.013*"anschauen" + 0.012*"all" + 0.012*"bild" + 0.009*"erscheinen" + 0.007*"geben"
+2019-08-05 13:17:22,390 : INFO : topic #14 (0.062): 0.095*"zufrieden" + 0.060*"qualität" + 0.019*"super" + 0.017*"anbieter" + 0.016*"software" + 0.015*"preisen" + 0.013*"service" + 0.013*"fotobücher" + 0.011*"buch" + 0.009*"ander"
+2019-08-05 13:17:22,390 : INFO : topic diff=0.040919, rho=0.301511
+2019-08-05 13:17:22,396 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:17:22,412 : INFO : using symmetric alpha at 0.058823529411764705
+2019-08-05 13:17:22,413 : INFO : using symmetric eta at 0.058823529411764705
+2019-08-05 13:17:22,414 : INFO : using serial LDA version on this node
+2019-08-05 13:17:22,417 : INFO : running online (multi-pass) LDA training, 17 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:17:23,892 : INFO : -14.079 per-word bound, 17301.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:23,893 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:17:25,000 : INFO : topic #1 (0.059): 0.016*"zufrieden" + 0.015*"fotobuch" + 0.014*"bild" + 0.014*"qualität" + 0.012*"fotobücher" + 0.010*"bestellen" + 0.010*"seite" + 0.010*"einfach" + 0.008*"schade" + 0.008*"letzt"
+2019-08-05 13:17:25,000 : INFO : topic #15 (0.059): 0.021*"bild" + 0.020*"foto" + 0.014*"fotobuch" + 0.013*"qualität" + 0.011*"finden" + 0.010*"seite" + 0.009*"datei" + 0.009*"buch" + 0.008*"gestaltung" + 0.008*"super"
+2019-08-05 13:17:25,001 : INFO : topic #8 (0.059): 0.051*"qualität" + 0.015*"buchen" + 0.015*"einfach" + 0.013*"service" + 0.012*"gestalten" + 0.012*"programm" + 0.012*"schnellen" + 0.010*"letzt" + 0.010*"foto" + 0.009*"fotobuch"
+2019-08-05 13:17:25,001 : INFO : topic #11 (0.059): 0.022*"qualität" + 0.018*"buchen" + 0.017*"fotobücher" + 0.012*"seite" + 0.010*"foto" + 0.010*"software" + 0.010*"service" + 0.010*"zufrieden" + 0.009*"einfach" + 0.008*"drucken"
+2019-08-05 13:17:25,001 : INFO : topic #13 (0.059): 0.030*"zufrieden" + 0.015*"einfach" + 0.015*"toll" + 0.012*"lieferung" + 0.012*"cewe" + 0.012*"schnellen" + 0.011*"fotobuch" + 0.011*"jed" + 0.010*"qualität" + 0.009*"schön"
+2019-08-05 13:17:25,001 : INFO : topic diff=13.676544, rho=1.000000
+2019-08-05 13:17:25,851 : INFO : -7.640 per-word bound, 199.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:25,852 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:17:26,380 : INFO : topic #8 (0.059): 0.053*"qualität" + 0.021*"service" + 0.015*"buchen" + 0.014*"einfach" + 0.014*"schnellen" + 0.014*"programm" + 0.012*"letzt" + 0.012*"foto" + 0.010*"fotobuch" + 0.010*"gestalten"
+2019-08-05 13:17:26,380 : INFO : topic #16 (0.059): 0.024*"einfach" + 0.022*"qualität" + 0.022*"buch" + 0.014*"cewe" + 0.012*"cliparts" + 0.012*"finden" + 0.012*"möglichkeit" + 0.011*"erstellen" + 0.011*"programm" + 0.011*"ander"
+2019-08-05 13:17:26,381 : INFO : topic #3 (0.059): 0.033*"qualität" + 0.023*"super" + 0.019*"einfach" + 0.014*"fotobuch" + 0.014*"tollen" + 0.014*"bearbeitung" + 0.013*"zufrieden" + 0.012*"software" + 0.011*"seite" + 0.010*"buch"
+2019-08-05 13:17:26,381 : INFO : topic #12 (0.059): 0.036*"qualität" + 0.032*"schnellen" + 0.027*"zufrieden" + 0.020*"lieferung" + 0.019*"müller" + 0.014*"einfach" + 0.014*"fotobuch" + 0.012*"cewe" + 0.010*"ausführung" + 0.010*"super"
+2019-08-05 13:17:26,381 : INFO : topic #13 (0.059): 0.035*"zufrieden" + 0.018*"toll" + 0.014*"einfach" + 0.013*"cewe" + 0.011*"jed" + 0.010*"fotobuch" + 0.009*"schön" + 0.009*"farbe" + 0.008*"schnellen" + 0.008*"geben"
+2019-08-05 13:17:26,381 : INFO : topic diff=0.123565, rho=0.577350
+2019-08-05 13:17:27,108 : INFO : -7.460 per-word bound, 176.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:27,108 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:17:27,511 : INFO : topic #15 (0.059): 0.023*"bild" + 0.023*"foto" + 0.014*"fotobuch" + 0.011*"qualität" + 0.011*"seite" + 0.010*"finden" + 0.010*"datei" + 0.010*"fotobuches" + 0.009*"gestaltung" + 0.009*"fehler"
+2019-08-05 13:17:27,511 : INFO : topic #2 (0.059): 0.025*"fotobuch" + 0.020*"seite" + 0.016*"preisen" + 0.013*"buchen" + 0.012*"bild" + 0.010*"obwohl" + 0.010*"foto" + 0.008*"teuer" + 0.008*"cewe" + 0.008*"geben"
+2019-08-05 13:17:27,511 : INFO : topic #3 (0.059): 0.035*"qualität" + 0.028*"super" + 0.022*"einfach" + 0.017*"tollen" + 0.016*"bearbeitung" + 0.014*"fotobuch" + 0.013*"zufrieden" + 0.011*"software" + 0.011*"seite" + 0.010*"müller"
+2019-08-05 13:17:27,511 : INFO : topic #4 (0.059): 0.028*"software" + 0.018*"finden" + 0.017*"programm" + 0.016*"jed" + 0.014*"cewe" + 0.013*"schnellen" + 0.013*"bild" + 0.013*"preisen" + 0.011*"zufrieden" + 0.009*"früh"
+2019-08-05 13:17:27,511 : INFO : topic #14 (0.059): 0.059*"qualität" + 0.039*"zufrieden" + 0.023*"preisen" + 0.017*"einfach" + 0.014*"lieferzeit" + 0.013*"super" + 0.013*"schnellen" + 0.012*"software" + 0.011*"lieferung" + 0.009*"letzte"
+2019-08-05 13:17:27,511 : INFO : topic diff=0.098261, rho=0.500000
+2019-08-05 13:17:28,224 : INFO : -7.372 per-word bound, 165.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:28,225 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:17:28,634 : INFO : topic #10 (0.059): 0.027*"fotobuch" + 0.018*"bild" + 0.015*"bestellung" + 0.015*"buch" + 0.012*"all" + 0.010*"seite" + 0.009*"zufrieden" + 0.009*"geben" + 0.009*"mal" + 0.009*"lieferung"
+2019-08-05 13:17:28,634 : INFO : topic #2 (0.059): 0.025*"fotobuch" + 0.020*"seite" + 0.015*"preisen" + 0.012*"buchen" + 0.012*"bild" + 0.010*"obwohl" + 0.010*"foto" + 0.008*"cewe" + 0.008*"teuer" + 0.008*"geben"
+2019-08-05 13:17:28,635 : INFO : topic #15 (0.059): 0.023*"foto" + 0.023*"bild" + 0.014*"fotobuch" + 0.011*"seite" + 0.011*"fotobuches" + 0.010*"datei" + 0.010*"qualität" + 0.010*"fehler" + 0.009*"finden" + 0.009*"gestaltung"
+2019-08-05 13:17:28,635 : INFO : topic #14 (0.059): 0.063*"qualität" + 0.045*"zufrieden" + 0.024*"preisen" + 0.018*"einfach" + 0.015*"lieferzeit" + 0.014*"super" + 0.012*"software" + 0.011*"schnellen" + 0.010*"lieferung" + 0.009*"letzte"
+2019-08-05 13:17:28,635 : INFO : topic #1 (0.059): 0.020*"bild" + 0.015*"fotobuch" + 0.015*"lassen" + 0.013*"buchen" + 0.011*"bestellen" + 0.011*"empfehlen" + 0.011*"fotobücher" + 0.009*"sehen" + 0.009*"einfach" + 0.009*"seite"
+2019-08-05 13:17:28,635 : INFO : topic diff=0.096488, rho=0.447214
+2019-08-05 13:17:29,332 : INFO : -7.318 per-word bound, 159.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:29,332 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:17:29,746 : INFO : topic #8 (0.059): 0.050*"qualität" + 0.028*"service" + 0.015*"programm" + 0.015*"buchen" + 0.015*"letzt" + 0.014*"einfach" + 0.014*"schnellen" + 0.012*"foto" + 0.012*"fotobuch" + 0.010*"reklamation"
+2019-08-05 13:17:29,746 : INFO : topic #3 (0.059): 0.035*"qualität" + 0.034*"super" + 0.026*"einfach" + 0.020*"tollen" + 0.015*"bearbeitung" + 0.015*"fotobuch" + 0.012*"zufrieden" + 0.011*"seite" + 0.011*"software" + 0.010*"müller"
+2019-08-05 13:17:29,746 : INFO : topic #10 (0.059): 0.027*"fotobuch" + 0.017*"bild" + 0.015*"bestellung" + 0.015*"buch" + 0.012*"all" + 0.010*"seite" + 0.009*"mal" + 0.009*"geben" + 0.009*"lieferung" + 0.009*"zufrieden"
+2019-08-05 13:17:29,746 : INFO : topic #15 (0.059): 0.024*"foto" + 0.023*"bild" + 0.014*"fotobuch" + 0.011*"fotobuches" + 0.011*"seite" + 0.011*"datei" + 0.010*"qualität" + 0.010*"fehler" + 0.010*"gestaltung" + 0.009*"reklamieren"
+2019-08-05 13:17:29,747 : INFO : topic #1 (0.059): 0.021*"bild" + 0.015*"fotobuch" + 0.015*"lassen" + 0.014*"buchen" + 0.012*"empfehlen" + 0.011*"bestellen" + 0.010*"fotobücher" + 0.010*"sehen" + 0.009*"einfach" + 0.008*"seite"
+2019-08-05 13:17:29,747 : INFO : topic diff=0.092666, rho=0.408248
+2019-08-05 13:17:30,412 : INFO : -7.283 per-word bound, 155.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:30,412 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:17:30,803 : INFO : topic #12 (0.059): 0.068*"schnellen" + 0.045*"qualität" + 0.036*"lieferung" + 0.025*"zufrieden" + 0.022*"bearbeitung" + 0.022*"einfach" + 0.015*"müller" + 0.013*"fotobuch" + 0.012*"software" + 0.012*"ausführung"
+2019-08-05 13:17:30,803 : INFO : topic #7 (0.059): 0.038*"qualität" + 0.022*"buchen" + 0.022*"bild" + 0.018*"bestellen" + 0.016*"zufrieden" + 0.015*"produkt" + 0.011*"foto" + 0.010*"service" + 0.009*"müller" + 0.009*"schnellen"
+2019-08-05 13:17:30,803 : INFO : topic #1 (0.059): 0.022*"bild" + 0.015*"fotobuch" + 0.015*"lassen" + 0.014*"buchen" + 0.013*"empfehlen" + 0.011*"bestellen" + 0.011*"sehen" + 0.010*"fotobücher" + 0.009*"einfach" + 0.008*"schade"
+2019-08-05 13:17:30,804 : INFO : topic #0 (0.059): 0.031*"zufrieden" + 0.030*"fotobücher" + 0.030*"software" + 0.024*"einfach" + 0.021*"qualität" + 0.019*"ergebnis" + 0.019*"möglichkeit" + 0.018*"gestalten" + 0.016*"übersichtlich" + 0.014*"schnell"
+2019-08-05 13:17:30,804 : INFO : topic #9 (0.059): 0.030*"einfach" + 0.024*"bild" + 0.022*"handhabung" + 0.021*"zufrieden" + 0.016*"bestellung" + 0.013*"qualität" + 0.013*"fotobuch" + 0.012*"seite" + 0.011*"geben" + 0.010*"fotobücher"
+2019-08-05 13:17:30,804 : INFO : topic diff=0.086177, rho=0.377964
+2019-08-05 13:17:31,462 : INFO : -7.259 per-word bound, 153.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:31,462 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:17:31,881 : INFO : topic #14 (0.059): 0.071*"qualität" + 0.060*"zufrieden" + 0.026*"preisen" + 0.019*"einfach" + 0.016*"lieferzeit" + 0.015*"super" + 0.014*"service" + 0.013*"software" + 0.009*"letzte" + 0.009*"erinnerung"
+2019-08-05 13:17:31,882 : INFO : topic #15 (0.059): 0.024*"foto" + 0.023*"bild" + 0.014*"fotobuch" + 0.012*"fotobuches" + 0.011*"seite" + 0.011*"datei" + 0.011*"fehler" + 0.010*"qualität" + 0.010*"gestaltung" + 0.010*"reklamieren"
+2019-08-05 13:17:31,882 : INFO : topic #0 (0.059): 0.031*"fotobücher" + 0.031*"software" + 0.031*"zufrieden" + 0.024*"einfach" + 0.022*"qualität" + 0.019*"ergebnis" + 0.019*"möglichkeit" + 0.018*"gestalten" + 0.016*"übersichtlich" + 0.015*"schnell"
+2019-08-05 13:17:31,882 : INFO : topic #7 (0.059): 0.038*"qualität" + 0.023*"buchen" + 0.022*"bild" + 0.018*"bestellen" + 0.017*"zufrieden" + 0.015*"produkt" + 0.010*"foto" + 0.010*"service" + 0.009*"müller" + 0.009*"geben"
+2019-08-05 13:17:31,882 : INFO : topic #13 (0.059): 0.031*"zufrieden" + 0.024*"toll" + 0.011*"jed" + 0.011*"cewe" + 0.011*"schöne" + 0.010*"farbe" + 0.009*"einfach" + 0.009*"buch" + 0.009*"speichern" + 0.009*"geben"
+2019-08-05 13:17:31,882 : INFO : topic diff=0.074904, rho=0.353553
+2019-08-05 13:17:32,617 : INFO : -7.243 per-word bound, 151.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:32,617 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:17:33,093 : INFO : topic #0 (0.059): 0.032*"fotobücher" + 0.031*"software" + 0.030*"zufrieden" + 0.025*"einfach" + 0.023*"qualität" + 0.020*"ergebnis" + 0.019*"möglichkeit" + 0.018*"gestalten" + 0.016*"übersichtlich" + 0.015*"schnell"
+2019-08-05 13:17:33,093 : INFO : topic #14 (0.059): 0.072*"qualität" + 0.063*"zufrieden" + 0.027*"preisen" + 0.019*"einfach" + 0.016*"lieferzeit" + 0.015*"super" + 0.014*"service" + 0.013*"software" + 0.009*"letzte" + 0.009*"erinnerung"
+2019-08-05 13:17:33,093 : INFO : topic #3 (0.059): 0.039*"super" + 0.036*"qualität" + 0.029*"einfach" + 0.021*"tollen" + 0.015*"fotobuch" + 0.013*"zufrieden" + 0.012*"bearbeitung" + 0.011*"seite" + 0.011*"software" + 0.011*"müller"
+2019-08-05 13:17:33,093 : INFO : topic #16 (0.059): 0.035*"einfach" + 0.026*"buch" + 0.020*"qualität" + 0.019*"cewe" + 0.019*"erstellen" + 0.015*"schön" + 0.014*"funktionieren" + 0.013*"finden" + 0.013*"ander" + 0.012*"programm"
+2019-08-05 13:17:33,093 : INFO : topic #12 (0.059): 0.079*"schnellen" + 0.047*"qualität" + 0.041*"lieferung" + 0.026*"bearbeitung" + 0.025*"zufrieden" + 0.025*"einfach" + 0.014*"müller" + 0.013*"software" + 0.013*"ausführung" + 0.012*"fotobuch"
+2019-08-05 13:17:33,093 : INFO : topic diff=0.062757, rho=0.333333
+2019-08-05 13:17:33,793 : INFO : -7.234 per-word bound, 150.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:33,793 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:17:34,186 : INFO : topic #15 (0.059): 0.025*"foto" + 0.023*"bild" + 0.014*"fotobuch" + 0.012*"fotobuches" + 0.011*"seite" + 0.011*"datei" + 0.011*"fehler" + 0.011*"teuer" + 0.010*"gestaltung" + 0.010*"qualität"
+2019-08-05 13:17:34,187 : INFO : topic #8 (0.059): 0.045*"qualität" + 0.029*"service" + 0.017*"letzt" + 0.015*"buchen" + 0.015*"programm" + 0.014*"einfach" + 0.013*"foto" + 0.013*"fotobuch" + 0.012*"schnellen" + 0.010*"reklamation"
+2019-08-05 13:17:34,187 : INFO : topic #14 (0.059): 0.072*"qualität" + 0.065*"zufrieden" + 0.028*"preisen" + 0.018*"einfach" + 0.016*"lieferzeit" + 0.015*"super" + 0.014*"service" + 0.013*"software" + 0.009*"letzte" + 0.009*"erinnerung"
+2019-08-05 13:17:34,187 : INFO : topic #4 (0.059): 0.024*"software" + 0.022*"finden" + 0.020*"jed" + 0.017*"programm" + 0.015*"cewe" + 0.014*"bild" + 0.013*"preisen" + 0.012*"schaden" + 0.012*"früh" + 0.012*"text"
+2019-08-05 13:17:34,187 : INFO : topic #10 (0.059): 0.026*"fotobuch" + 0.017*"bild" + 0.016*"buch" + 0.016*"bestellung" + 0.012*"all" + 0.010*"seite" + 0.009*"geben" + 0.009*"mal" + 0.008*"programm" + 0.008*"anschauen"
+2019-08-05 13:17:34,187 : INFO : topic diff=0.052108, rho=0.316228
+2019-08-05 13:17:34,867 : INFO : -7.227 per-word bound, 149.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:34,867 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:17:35,247 : INFO : topic #14 (0.059): 0.073*"qualität" + 0.067*"zufrieden" + 0.028*"preisen" + 0.018*"einfach" + 0.016*"lieferzeit" + 0.015*"service" + 0.015*"super" + 0.013*"software" + 0.009*"letzte" + 0.009*"erinnerung"
+2019-08-05 13:17:35,247 : INFO : topic #5 (0.059): 0.032*"fotobuch" + 0.016*"möglichkeit" + 0.015*"ander" + 0.015*"foto" + 0.015*"bild" + 0.014*"qualität" + 0.012*"anbieter" + 0.012*"toll" + 0.009*"seite" + 0.009*"erstellen"
+2019-08-05 13:17:35,248 : INFO : topic #3 (0.059): 0.041*"super" + 0.035*"qualität" + 0.029*"einfach" + 0.021*"tollen" + 0.015*"fotobuch" + 0.014*"zufrieden" + 0.011*"seite" + 0.011*"bearbeitung" + 0.011*"software" + 0.011*"müller"
+2019-08-05 13:17:35,248 : INFO : topic #4 (0.059): 0.023*"software" + 0.023*"finden" + 0.020*"jed" + 0.017*"programm" + 0.015*"cewe" + 0.014*"bild" + 0.013*"preisen" + 0.012*"schaden" + 0.012*"früh" + 0.012*"text"
+2019-08-05 13:17:35,248 : INFO : topic #6 (0.059): 0.024*"qualität" + 0.019*"fotobuch" + 0.018*"einfach" + 0.014*"seite" + 0.013*"foto" + 0.010*"programm" + 0.010*"..." + 0.010*"erstellung" + 0.009*"geben" + 0.008*"sehen"
+2019-08-05 13:17:35,248 : INFO : topic diff=0.042767, rho=0.301511
+2019-08-05 13:17:35,255 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:17:35,273 : INFO : using symmetric alpha at 0.05555555555555555
+2019-08-05 13:17:35,273 : INFO : using symmetric eta at 0.05555555555555555
+2019-08-05 13:17:35,274 : INFO : using serial LDA version on this node
+2019-08-05 13:17:35,278 : INFO : running online (multi-pass) LDA training, 18 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:17:36,621 : INFO : -14.556 per-word bound, 24093.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:36,621 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:17:37,659 : INFO : topic #6 (0.056): 0.036*"einfach" + 0.027*"schnellen" + 0.027*"qualität" + 0.016*"fotobuch" + 0.015*"super" + 0.011*"seite" + 0.010*"auftrag" + 0.010*"erstellen" + 0.010*"lieferung" + 0.009*"software"
+2019-08-05 13:17:37,659 : INFO : topic #1 (0.056): 0.022*"fotobücher" + 0.022*"qualität" + 0.020*"zufrieden" + 0.014*"müller" + 0.013*"erstellen" + 0.013*"seite" + 0.013*"fotobuch" + 0.010*"schön" + 0.010*"cewe" + 0.009*"..."
+2019-08-05 13:17:37,659 : INFO : topic #8 (0.056): 0.032*"qualität" + 0.019*"einfach" + 0.018*"schnellen" + 0.015*"buchen" + 0.012*"fotobuch" + 0.011*"gestalten" + 0.010*"programm" + 0.010*"lieferung" + 0.010*"schön" + 0.008*"erhalten"
+2019-08-05 13:17:37,660 : INFO : topic #7 (0.056): 0.022*"qualität" + 0.015*"bestellen" + 0.014*"bild" + 0.014*"buchen" + 0.013*"service" + 0.012*"müller" + 0.011*"foto" + 0.010*"buch" + 0.009*"zufrieden" + 0.008*"sehen"
+2019-08-05 13:17:37,660 : INFO : topic #15 (0.056): 0.019*"foto" + 0.018*"bild" + 0.018*"qualität" + 0.016*"fotobuch" + 0.010*"datei" + 0.009*"seite" + 0.008*"ergebnis" + 0.008*"auftragsnummer" + 0.008*"fotobuches" + 0.008*"fehler"
+2019-08-05 13:17:37,660 : INFO : topic diff=14.571967, rho=1.000000
+2019-08-05 13:17:38,611 : INFO : -7.665 per-word bound, 203.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:38,612 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:17:39,218 : INFO : topic #8 (0.056): 0.031*"qualität" + 0.024*"einfach" + 0.021*"schnellen" + 0.017*"buchen" + 0.014*"schön" + 0.012*"fotobuch" + 0.012*"programm" + 0.010*"gestalten" + 0.010*"bildqualität" + 0.009*"erhalten"
+2019-08-05 13:17:39,218 : INFO : topic #6 (0.056): 0.048*"einfach" + 0.039*"schnellen" + 0.032*"qualität" + 0.020*"super" + 0.015*"fotobuch" + 0.014*"bedienung" + 0.011*"seite" + 0.011*"auftrag" + 0.010*"lieferung" + 0.009*"erstellen"
+2019-08-05 13:17:39,218 : INFO : topic #1 (0.056): 0.027*"fotobücher" + 0.021*"qualität" + 0.020*"zufrieden" + 0.016*"müller" + 0.015*"..." + 0.014*"fotobuch" + 0.012*"erstellen" + 0.012*"seite" + 0.010*"lassen" + 0.009*"freunde"
+2019-08-05 13:17:39,218 : INFO : topic #12 (0.056): 0.033*"qualität" + 0.025*"lieferung" + 0.024*"zufrieden" + 0.021*"software" + 0.021*"schnellen" + 0.018*"einfach" + 0.015*"müller" + 0.015*"bestellung" + 0.013*"fotobuch" + 0.010*"enttäuschen"
+2019-08-05 13:17:39,218 : INFO : topic #14 (0.056): 0.047*"qualität" + 0.045*"zufrieden" + 0.018*"preisen" + 0.016*"software" + 0.013*"super" + 0.010*"tollen" + 0.010*"einfach" + 0.009*"schnellen" + 0.009*"letzte" + 0.009*"bild"
+2019-08-05 13:17:39,219 : INFO : topic diff=0.134836, rho=0.577350
+2019-08-05 13:17:40,060 : INFO : -7.471 per-word bound, 177.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:40,060 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:17:40,496 : INFO : topic #5 (0.056): 0.025*"toll" + 0.019*"fotobuch" + 0.015*"ander" + 0.015*"zufrieden" + 0.013*"qualität" + 0.011*"sache" + 0.011*"speichern" + 0.010*"anbieter" + 0.010*"öffnen" + 0.009*"foto"
+2019-08-05 13:17:40,496 : INFO : topic #13 (0.056): 0.021*"einfach" + 0.020*"cewe" + 0.018*"toll" + 0.015*"zufrieden" + 0.013*"bild" + 0.012*"farbe" + 0.011*"fotobuch" + 0.011*"foto" + 0.010*"fotobücher" + 0.010*"schöne"
+2019-08-05 13:17:40,497 : INFO : topic #7 (0.056): 0.019*"buchen" + 0.018*"qualität" + 0.016*"bild" + 0.015*"bestellen" + 0.014*"foto" + 0.013*"buch" + 0.010*"müller" + 0.009*"produkt" + 0.008*"service" + 0.008*"arbeiten"
+2019-08-05 13:17:40,497 : INFO : topic #4 (0.056): 0.024*"software" + 0.020*"möglichkeit" + 0.020*"finden" + 0.015*"jed" + 0.015*"bild" + 0.013*"programm" + 0.013*"geben" + 0.012*"cewe" + 0.012*"preisen" + 0.011*"zufrieden"
+2019-08-05 13:17:40,497 : INFO : topic #0 (0.056): 0.035*"einfach" + 0.022*"fotobücher" + 0.021*"zufrieden" + 0.015*"programm" + 0.015*"foto" + 0.015*"erstellen" + 0.014*"fotobüchern" + 0.013*"bedienen" + 0.013*"schnell" + 0.013*"übersichtlich"
+2019-08-05 13:17:40,497 : INFO : topic diff=0.102500, rho=0.500000
+2019-08-05 13:17:41,305 : INFO : -7.367 per-word bound, 165.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:41,305 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:17:41,696 : INFO : topic #3 (0.056): 0.031*"qualität" + 0.029*"super" + 0.014*"foto" + 0.014*"tollen" + 0.012*"software" + 0.012*"sehen" + 0.011*"einfach" + 0.011*"drucken" + 0.010*"bearbeitung" + 0.009*"fotobuch"
+2019-08-05 13:17:41,696 : INFO : topic #0 (0.056): 0.037*"einfach" + 0.022*"fotobücher" + 0.022*"zufrieden" + 0.016*"programm" + 0.016*"foto" + 0.015*"erstellen" + 0.015*"bedienen" + 0.015*"fotobüchern" + 0.013*"übersichtlich" + 0.012*"schnell"
+2019-08-05 13:17:41,696 : INFO : topic #13 (0.056): 0.022*"einfach" + 0.020*"cewe" + 0.019*"toll" + 0.013*"zufrieden" + 0.012*"bild" + 0.012*"farbe" + 0.011*"foto" + 0.011*"fotobuch" + 0.010*"fotobücher" + 0.010*"schöne"
+2019-08-05 13:17:41,696 : INFO : topic #9 (0.056): 0.020*"seite" + 0.020*"fotobuch" + 0.018*"letzt" + 0.016*"bestellung" + 0.016*"bild" + 0.013*"foto" + 0.013*"gutschein" + 0.011*"geben" + 0.011*"software" + 0.011*"buchen"
+2019-08-05 13:17:41,696 : INFO : topic #10 (0.056): 0.037*"bild" + 0.028*"seite" + 0.022*"fotobuch" + 0.016*"schnellen" + 0.013*"lieferung" + 0.013*"buchen" + 0.011*"buch" + 0.011*"zufrieden" + 0.011*"bestellung" + 0.010*"all"
+2019-08-05 13:17:41,697 : INFO : topic diff=0.097552, rho=0.447214
+2019-08-05 13:17:42,427 : INFO : -7.303 per-word bound, 157.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:42,427 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:17:42,854 : INFO : topic #4 (0.056): 0.024*"software" + 0.022*"finden" + 0.021*"möglichkeit" + 0.017*"jed" + 0.016*"bild" + 0.013*"geben" + 0.013*"gestalten" + 0.013*"preisen" + 0.012*"hintergrund" + 0.012*"cewe"
+2019-08-05 13:17:42,854 : INFO : topic #3 (0.056): 0.030*"qualität" + 0.026*"super" + 0.015*"tollen" + 0.015*"foto" + 0.012*"software" + 0.012*"sehen" + 0.012*"drucken" + 0.011*"einfach" + 0.010*"bearbeitung" + 0.009*"fotobuch"
+2019-08-05 13:17:42,854 : INFO : topic #12 (0.056): 0.033*"qualität" + 0.030*"lieferung" + 0.026*"zufrieden" + 0.025*"software" + 0.019*"bestellung" + 0.019*"müller" + 0.018*"schnellen" + 0.014*"fotobuch" + 0.013*"einfach" + 0.011*"enttäuschen"
+2019-08-05 13:17:42,854 : INFO : topic #8 (0.056): 0.033*"qualität" + 0.026*"einfach" + 0.022*"schnellen" + 0.019*"buchen" + 0.016*"schön" + 0.014*"fotobuch" + 0.012*"programm" + 0.011*"bildqualität" + 0.010*"zufriedenheit" + 0.010*"erhalten"
+2019-08-05 13:17:42,854 : INFO : topic #2 (0.056): 0.039*"fotobuch" + 0.023*"cewe" + 0.017*"seite" + 0.011*"erstellen" + 0.010*"geben" + 0.009*"erfahrung" + 0.009*"bild" + 0.009*"buch" + 0.008*"bearbeiten" + 0.008*"antwort"
+2019-08-05 13:17:42,855 : INFO : topic diff=0.094967, rho=0.408248
+2019-08-05 13:17:43,535 : INFO : -7.262 per-word bound, 153.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:43,535 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:17:43,929 : INFO : topic #8 (0.056): 0.033*"qualität" + 0.026*"einfach" + 0.022*"schnellen" + 0.019*"buchen" + 0.016*"schön" + 0.015*"fotobuch" + 0.012*"programm" + 0.011*"bildqualität" + 0.010*"zufriedenheit" + 0.010*"erhalten"
+2019-08-05 13:17:43,930 : INFO : topic #2 (0.056): 0.039*"fotobuch" + 0.023*"cewe" + 0.017*"seite" + 0.011*"erstellen" + 0.010*"erfahrung" + 0.010*"geben" + 0.009*"bild" + 0.009*"buch" + 0.009*"bearbeiten" + 0.008*"antwort"
+2019-08-05 13:17:43,930 : INFO : topic #10 (0.056): 0.040*"bild" + 0.029*"seite" + 0.023*"fotobuch" + 0.014*"schnellen" + 0.014*"buchen" + 0.012*"buch" + 0.011*"lieferung" + 0.011*"pc" + 0.011*"bestellung" + 0.011*"all"
+2019-08-05 13:17:43,930 : INFO : topic #15 (0.056): 0.020*"bild" + 0.019*"fotobuch" + 0.018*"foto" + 0.013*"datei" + 0.012*"fehler" + 0.012*"qualität" + 0.011*"fotobuches" + 0.010*"seite" + 0.010*"auftragsnummer" + 0.010*"malen"
+2019-08-05 13:17:43,930 : INFO : topic #0 (0.056): 0.038*"einfach" + 0.023*"zufrieden" + 0.022*"fotobücher" + 0.016*"bedienen" + 0.016*"programm" + 0.016*"erstellen" + 0.015*"foto" + 0.015*"fotobüchern" + 0.013*"gestalten" + 0.012*"cewe"
+2019-08-05 13:17:43,930 : INFO : topic diff=0.091324, rho=0.377964
+2019-08-05 13:17:44,644 : INFO : -7.233 per-word bound, 150.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:44,645 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:17:45,023 : INFO : topic #9 (0.056): 0.022*"seite" + 0.021*"letzt" + 0.020*"fotobuch" + 0.016*"bestellung" + 0.016*"bild" + 0.014*"gutschein" + 0.013*"foto" + 0.012*"buchen" + 0.011*"geben" + 0.011*"software"
+2019-08-05 13:17:45,024 : INFO : topic #10 (0.056): 0.041*"bild" + 0.029*"seite" + 0.023*"fotobuch" + 0.014*"buchen" + 0.013*"schnellen" + 0.012*"buch" + 0.011*"pc" + 0.011*"bestellung" + 0.011*"all" + 0.010*"lieferung"
+2019-08-05 13:17:45,024 : INFO : topic #16 (0.056): 0.028*"einfach" + 0.021*"cliparts" + 0.016*"qualität" + 0.015*"geben" + 0.015*"bild" + 0.014*"auswahl" + 0.013*"einfügen" + 0.013*"programm" + 0.012*"schön" + 0.012*"cewe"
+2019-08-05 13:17:45,024 : INFO : topic #6 (0.056): 0.078*"schnellen" + 0.076*"einfach" + 0.050*"qualität" + 0.037*"super" + 0.028*"bearbeitung" + 0.022*"bedienung" + 0.021*"lieferung" + 0.019*"ergebnis" + 0.014*"schön" + 0.014*"handhabung"
+2019-08-05 13:17:45,024 : INFO : topic #13 (0.056): 0.021*"cewe" + 0.021*"einfach" + 0.019*"toll" + 0.013*"farbe" + 0.011*"bild" + 0.011*"foto" + 0.010*"fotobücher" + 0.010*"schöne" + 0.010*"klasse" + 0.010*"zufrieden"
+2019-08-05 13:17:45,024 : INFO : topic diff=0.082085, rho=0.353553
+2019-08-05 13:17:45,779 : INFO : -7.214 per-word bound, 148.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:45,780 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:17:46,242 : INFO : topic #0 (0.056): 0.039*"einfach" + 0.024*"zufrieden" + 0.023*"fotobücher" + 0.018*"bedienen" + 0.017*"erstellen" + 0.016*"programm" + 0.016*"fotobüchern" + 0.015*"foto" + 0.014*"gestalten" + 0.013*"cewe"
+2019-08-05 13:17:46,242 : INFO : topic #1 (0.056): 0.038*"fotobücher" + 0.023*"..." + 0.020*"qualität" + 0.018*"zufrieden" + 0.017*"müller" + 0.015*"fotobuch" + 0.013*"erstellen" + 0.012*"seite" + 0.011*"lassen" + 0.010*"freunde"
+2019-08-05 13:17:46,242 : INFO : topic #15 (0.056): 0.020*"bild" + 0.019*"fotobuch" + 0.017*"foto" + 0.013*"datei" + 0.012*"fehler" + 0.011*"qualität" + 0.011*"malen" + 0.011*"fotobuches" + 0.010*"seite" + 0.010*"auftragsnummer"
+2019-08-05 13:17:46,242 : INFO : topic #13 (0.056): 0.022*"cewe" + 0.021*"einfach" + 0.018*"toll" + 0.013*"farbe" + 0.011*"bild" + 0.011*"foto" + 0.010*"fotobücher" + 0.010*"schöne" + 0.010*"klasse" + 0.009*"zufrieden"
+2019-08-05 13:17:46,242 : INFO : topic #3 (0.056): 0.024*"qualität" + 0.022*"super" + 0.017*"tollen" + 0.013*"sehen" + 0.013*"foto" + 0.013*"drucken" + 0.012*"software" + 0.011*"klappen" + 0.010*"perfekt" + 0.010*"einfach"
+2019-08-05 13:17:46,243 : INFO : topic diff=0.071062, rho=0.333333
+2019-08-05 13:17:46,918 : INFO : -7.200 per-word bound, 147.1 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:46,918 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:17:47,299 : INFO : topic #0 (0.056): 0.040*"einfach" + 0.024*"zufrieden" + 0.023*"fotobücher" + 0.018*"bedienen" + 0.017*"erstellen" + 0.016*"programm" + 0.016*"fotobüchern" + 0.015*"foto" + 0.014*"gestalten" + 0.013*"cewe"
+2019-08-05 13:17:47,299 : INFO : topic #7 (0.056): 0.024*"buchen" + 0.018*"foto" + 0.017*"bild" + 0.014*"qualität" + 0.013*"bestellen" + 0.012*"buch" + 0.010*"müller" + 0.010*"produkt" + 0.009*"arbeiten" + 0.008*"sehen"
+2019-08-05 13:17:47,300 : INFO : topic #13 (0.056): 0.022*"cewe" + 0.020*"einfach" + 0.018*"toll" + 0.013*"farbe" + 0.011*"bild" + 0.011*"foto" + 0.010*"schöne" + 0.010*"fotobücher" + 0.010*"klasse" + 0.009*"zufrieden"
+2019-08-05 13:17:47,300 : INFO : topic #16 (0.056): 0.028*"einfach" + 0.022*"cliparts" + 0.016*"qualität" + 0.015*"geben" + 0.015*"bild" + 0.014*"auswahl" + 0.013*"einfügen" + 0.013*"programm" + 0.012*"schön" + 0.012*"cewe"
+2019-08-05 13:17:47,300 : INFO : topic #1 (0.056): 0.039*"fotobücher" + 0.023*"..." + 0.020*"qualität" + 0.018*"zufrieden" + 0.017*"müller" + 0.015*"fotobuch" + 0.014*"erstellen" + 0.012*"seite" + 0.012*"lassen" + 0.010*"freunde"
+2019-08-05 13:17:47,301 : INFO : topic diff=0.059557, rho=0.316228
+2019-08-05 13:17:48,052 : INFO : -7.190 per-word bound, 146.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:48,053 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:17:48,440 : INFO : topic #15 (0.056): 0.020*"bild" + 0.019*"fotobuch" + 0.017*"foto" + 0.013*"datei" + 0.012*"fehler" + 0.012*"fotobuches" + 0.011*"malen" + 0.011*"qualität" + 0.010*"seite" + 0.010*"auftragsnummer"
+2019-08-05 13:17:48,440 : INFO : topic #2 (0.056): 0.040*"fotobuch" + 0.024*"cewe" + 0.015*"seite" + 0.012*"erstellen" + 0.012*"erfahrung" + 0.009*"geben" + 0.009*"buch" + 0.009*"bearbeiten" + 0.009*"antwort" + 0.008*"bild"
+2019-08-05 13:17:48,440 : INFO : topic #0 (0.056): 0.040*"einfach" + 0.025*"zufrieden" + 0.023*"fotobücher" + 0.018*"bedienen" + 0.017*"erstellen" + 0.016*"fotobüchern" + 0.016*"programm" + 0.015*"foto" + 0.014*"gestalten" + 0.013*"cewe"
+2019-08-05 13:17:48,440 : INFO : topic #6 (0.056): 0.089*"schnellen" + 0.081*"einfach" + 0.056*"qualität" + 0.040*"super" + 0.031*"bearbeitung" + 0.027*"lieferung" + 0.021*"bedienung" + 0.021*"ergebnis" + 0.016*"handhabung" + 0.015*"schön"
+2019-08-05 13:17:48,441 : INFO : topic #5 (0.056): 0.031*"toll" + 0.016*"ander" + 0.016*"zufrieden" + 0.016*"fotobuch" + 0.012*"anbieter" + 0.012*"sache" + 0.011*"speichern" + 0.011*"fotobuches" + 0.011*"2" + 0.010*"öffnen"
+2019-08-05 13:17:48,441 : INFO : topic diff=0.049522, rho=0.301511
+2019-08-05 13:17:48,448 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:17:48,466 : INFO : using symmetric alpha at 0.05263157894736842
+2019-08-05 13:17:48,466 : INFO : using symmetric eta at 0.05263157894736842
+2019-08-05 13:17:48,467 : INFO : using serial LDA version on this node
+2019-08-05 13:17:48,471 : INFO : running online (multi-pass) LDA training, 19 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:17:49,797 : INFO : -15.046 per-word bound, 33828.2 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:49,797 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:17:50,960 : INFO : topic #6 (0.053): 0.031*"einfach" + 0.023*"qualität" + 0.022*"schnellen" + 0.019*"fotobuch" + 0.014*"foto" + 0.012*"seite" + 0.011*"buchen" + 0.010*"super" + 0.010*"geben" + 0.007*"bestellen"
+2019-08-05 13:17:50,961 : INFO : topic #12 (0.053): 0.024*"qualität" + 0.019*"müller" + 0.018*"schnellen" + 0.018*"zufrieden" + 0.016*"fotobuch" + 0.016*"seite" + 0.015*"lieferung" + 0.012*"einfach" + 0.010*"bestellen" + 0.009*"software"
+2019-08-05 13:17:50,961 : INFO : topic #8 (0.053): 0.031*"qualität" + 0.021*"schnellen" + 0.017*"fotobuch" + 0.016*"einfach" + 0.012*"buchen" + 0.010*"gestalten" + 0.010*"bestellen" + 0.007*"letzt" + 0.007*"service" + 0.007*"seite"
+2019-08-05 13:17:50,961 : INFO : topic #10 (0.053): 0.025*"bild" + 0.020*"fotobuch" + 0.016*"schnellen" + 0.015*"zufrieden" + 0.014*"lieferung" + 0.013*"qualität" + 0.013*"buchen" + 0.012*"seite" + 0.010*"tollen" + 0.010*"programm"
+2019-08-05 13:17:50,961 : INFO : topic #11 (0.053): 0.022*"qualität" + 0.016*"foto" + 0.015*"fotobücher" + 0.015*"seite" + 0.014*"buchen" + 0.013*"fotobuch" + 0.009*"möglichkeit" + 0.009*"bild" + 0.009*"zufrieden" + 0.008*"einfach"
+2019-08-05 13:17:50,961 : INFO : topic diff=15.487407, rho=1.000000
+2019-08-05 13:17:51,801 : INFO : -7.670 per-word bound, 203.6 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:51,801 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:17:52,361 : INFO : topic #8 (0.053): 0.029*"qualität" + 0.019*"fotobuch" + 0.019*"schnellen" + 0.018*"buchen" + 0.016*"einfach" + 0.010*"bestellen" + 0.009*"zuverlässig" + 0.009*"schön" + 0.009*"gestalten" + 0.009*"service"
+2019-08-05 13:17:52,361 : INFO : topic #12 (0.053): 0.028*"qualität" + 0.025*"müller" + 0.022*"zufrieden" + 0.021*"schnellen" + 0.020*"lieferung" + 0.017*"seite" + 0.015*"fotobuch" + 0.014*"bestellen" + 0.013*"software" + 0.011*"service"
+2019-08-05 13:17:52,361 : INFO : topic #2 (0.053): 0.032*"fotobuch" + 0.021*"seite" + 0.015*"buchen" + 0.015*"preisen" + 0.014*"geben" + 0.009*"obwohl" + 0.009*"teuer" + 0.008*"euro" + 0.008*"drucken" + 0.008*"fehler"
+2019-08-05 13:17:52,361 : INFO : topic #1 (0.053): 0.019*"müller" + 0.018*"qualität" + 0.016*"einfach" + 0.015*"..." + 0.014*"fotobücher" + 0.011*"seite" + 0.010*"freunde" + 0.010*"kunde" + 0.009*"schön" + 0.008*"bild"
+2019-08-05 13:17:52,361 : INFO : topic #6 (0.053): 0.034*"einfach" + 0.028*"schnellen" + 0.023*"qualität" + 0.019*"fotobuch" + 0.016*"foto" + 0.012*"seite" + 0.010*"buchen" + 0.010*"ander" + 0.009*"super" + 0.009*"programm"
+2019-08-05 13:17:52,361 : INFO : topic diff=0.134634, rho=0.577350
+2019-08-05 13:17:53,083 : INFO : -7.479 per-word bound, 178.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:53,083 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:17:53,498 : INFO : topic #17 (0.053): 0.055*"zufrieden" + 0.047*"qualität" + 0.027*"schnellen" + 0.021*"jed" + 0.018*"finden" + 0.017*"bild" + 0.017*"einfach" + 0.013*"buch" + 0.013*"cewe" + 0.013*"lieferung"
+2019-08-05 13:17:53,498 : INFO : topic #15 (0.053): 0.021*"bild" + 0.019*"fotobuch" + 0.018*"seite" + 0.012*"foto" + 0.012*"qualität" + 0.012*"finden" + 0.011*"datei" + 0.011*"fotobücher" + 0.009*"meist" + 0.009*"fehler"
+2019-08-05 13:17:53,499 : INFO : topic #1 (0.053): 0.020*"müller" + 0.020*"qualität" + 0.018*"..." + 0.015*"fotobücher" + 0.015*"einfach" + 0.011*"freunde" + 0.011*"seite" + 0.010*"kunde" + 0.009*"bild" + 0.009*"zufrieden"
+2019-08-05 13:17:53,499 : INFO : topic #5 (0.053): 0.023*"toll" + 0.022*"ander" + 0.021*"anbieter" + 0.013*"qualität" + 0.013*"öffnen" + 0.013*"speichern" + 0.012*"möglichkeit" + 0.009*"fotobuch" + 0.009*"einfach" + 0.009*"sache"
+2019-08-05 13:17:53,499 : INFO : topic #14 (0.053): 0.080*"qualität" + 0.024*"preisen" + 0.024*"software" + 0.023*"einfach" + 0.017*"zufrieden" + 0.017*"buch" + 0.015*"tollen" + 0.014*"handhabung" + 0.012*"super" + 0.011*"foto"
+2019-08-05 13:17:53,499 : INFO : topic diff=0.099889, rho=0.500000
+2019-08-05 13:17:54,209 : INFO : -7.387 per-word bound, 167.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:54,210 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:17:54,614 : INFO : topic #11 (0.053): 0.019*"foto" + 0.016*"fotobücher" + 0.015*"seite" + 0.013*"buchen" + 0.010*"schön" + 0.009*"bild" + 0.008*"möglichkeit" + 0.008*"drucken" + 0.008*"alt" + 0.008*"finden"
+2019-08-05 13:17:54,614 : INFO : topic #14 (0.053): 0.087*"qualität" + 0.026*"preisen" + 0.026*"einfach" + 0.026*"software" + 0.017*"buch" + 0.016*"zufrieden" + 0.016*"tollen" + 0.015*"handhabung" + 0.013*"super" + 0.012*"foto"
+2019-08-05 13:17:54,614 : INFO : topic #15 (0.053): 0.021*"bild" + 0.020*"fotobuch" + 0.018*"seite" + 0.013*"foto" + 0.012*"finden" + 0.012*"qualität" + 0.011*"datei" + 0.011*"fotobücher" + 0.010*"meist" + 0.009*"lassen"
+2019-08-05 13:17:54,614 : INFO : topic #4 (0.053): 0.024*"software" + 0.019*"möglichkeit" + 0.016*"zufrieden" + 0.015*"bestellung" + 0.014*"buch" + 0.013*"buchen" + 0.012*"finden" + 0.012*"fotobücher" + 0.012*"erstellen" + 0.011*"text"
+2019-08-05 13:17:54,614 : INFO : topic #7 (0.053): 0.033*"qualität" + 0.022*"bild" + 0.021*"service" + 0.014*"programm" + 0.013*"bestellen" + 0.012*"produkt" + 0.011*"einfach" + 0.010*"schnell" + 0.008*"zufrieden" + 0.008*"müller"
+2019-08-05 13:17:54,614 : INFO : topic diff=0.095213, rho=0.447214
+2019-08-05 13:17:55,294 : INFO : -7.329 per-word bound, 160.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:55,294 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:17:55,682 : INFO : topic #13 (0.053): 0.049*"zufrieden" + 0.026*"handhabung" + 0.025*"software" + 0.024*"qualität" + 0.018*"lieferung" + 0.018*"einfach" + 0.017*"einfache" + 0.017*"schnellen" + 0.017*"fotobücher" + 0.017*"cewe"
+2019-08-05 13:17:55,682 : INFO : topic #17 (0.053): 0.058*"zufrieden" + 0.041*"qualität" + 0.028*"schnellen" + 0.023*"jed" + 0.019*"finden" + 0.016*"bild" + 0.015*"einfach" + 0.014*"cewe" + 0.014*"buch" + 0.012*"buchen"
+2019-08-05 13:17:55,683 : INFO : topic #3 (0.053): 0.059*"super" + 0.050*"qualität" + 0.032*"einfach" + 0.030*"bearbeitung" + 0.025*"schnellen" + 0.015*"foto" + 0.013*"top" + 0.013*"schön" + 0.012*"lieferzeit" + 0.011*"sehen"
+2019-08-05 13:17:55,683 : INFO : topic #4 (0.053): 0.024*"software" + 0.020*"möglichkeit" + 0.018*"zufrieden" + 0.015*"bestellung" + 0.014*"buch" + 0.013*"fotobücher" + 0.013*"finden" + 0.012*"buchen" + 0.012*"erstellen" + 0.012*"gestalten"
+2019-08-05 13:17:55,683 : INFO : topic #16 (0.053): 0.020*"einfach" + 0.019*"cewe" + 0.019*"erstellen" + 0.014*"qualität" + 0.014*"buch" + 0.014*"cliparts" + 0.012*"geben" + 0.010*"ander" + 0.010*"gelingen" + 0.010*"ansonsten"
+2019-08-05 13:17:55,683 : INFO : topic diff=0.093666, rho=0.408248
+2019-08-05 13:17:56,337 : INFO : -7.289 per-word bound, 156.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:56,338 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:17:56,709 : INFO : topic #15 (0.053): 0.022*"bild" + 0.022*"fotobuch" + 0.018*"seite" + 0.013*"finden" + 0.013*"foto" + 0.012*"fotobücher" + 0.012*"datei" + 0.011*"meist" + 0.011*"qualität" + 0.010*"lassen"
+2019-08-05 13:17:56,710 : INFO : topic #6 (0.053): 0.033*"einfach" + 0.029*"schnellen" + 0.025*"qualität" + 0.020*"fotobuch" + 0.018*"foto" + 0.013*"seite" + 0.012*"bedienung" + 0.012*"ander" + 0.011*"programm" + 0.011*"auftrag"
+2019-08-05 13:17:56,710 : INFO : topic #11 (0.053): 0.020*"foto" + 0.016*"fotobücher" + 0.016*"seite" + 0.013*"buchen" + 0.010*"schön" + 0.010*"bild" + 0.008*"möglichkeit" + 0.008*"drucken" + 0.008*"alt" + 0.008*"finden"
+2019-08-05 13:17:56,710 : INFO : topic #2 (0.053): 0.037*"fotobuch" + 0.023*"seite" + 0.018*"buchen" + 0.015*"geben" + 0.014*"preisen" + 0.012*"teuer" + 0.012*"drucken" + 0.010*"euro" + 0.010*"fehler" + 0.009*"gutschein"
+2019-08-05 13:17:56,710 : INFO : topic #1 (0.053): 0.022*"qualität" + 0.021*"müller" + 0.020*"..." + 0.014*"fotobücher" + 0.013*"einfach" + 0.012*"freunde" + 0.011*"seite" + 0.010*"kunde" + 0.009*"bild" + 0.008*"ok"
+2019-08-05 13:17:56,710 : INFO : topic diff=0.087796, rho=0.377964
+2019-08-05 13:17:57,428 : INFO : -7.262 per-word bound, 153.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:57,429 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:17:57,964 : INFO : topic #10 (0.053): 0.037*"bild" + 0.023*"fotobuch" + 0.015*"all" + 0.015*"buch" + 0.014*"buchen" + 0.012*"tollen" + 0.012*"seite" + 0.010*"bestellung" + 0.010*"sehen" + 0.009*"lieferung"
+2019-08-05 13:17:57,964 : INFO : topic #14 (0.053): 0.099*"qualität" + 0.030*"einfach" + 0.029*"preisen" + 0.028*"software" + 0.018*"tollen" + 0.017*"buch" + 0.016*"zufrieden" + 0.015*"handhabung" + 0.013*"gestaltungsmöglichkeiten" + 0.013*"super"
+2019-08-05 13:17:57,964 : INFO : topic #1 (0.053): 0.022*"qualität" + 0.021*"..." + 0.021*"müller" + 0.013*"fotobücher" + 0.013*"einfach" + 0.012*"freunde" + 0.012*"seite" + 0.010*"kunde" + 0.009*"bild" + 0.009*"ok"
+2019-08-05 13:17:57,965 : INFO : topic #6 (0.053): 0.031*"einfach" + 0.029*"schnellen" + 0.026*"qualität" + 0.021*"fotobuch" + 0.018*"foto" + 0.013*"bedienung" + 0.013*"seite" + 0.012*"ander" + 0.012*"programm" + 0.011*"auftrag"
+2019-08-05 13:17:57,965 : INFO : topic #15 (0.053): 0.022*"fotobuch" + 0.022*"bild" + 0.018*"seite" + 0.013*"finden" + 0.013*"foto" + 0.012*"fotobücher" + 0.012*"datei" + 0.011*"meist" + 0.010*"qualität" + 0.010*"lassen"
+2019-08-05 13:17:57,965 : INFO : topic diff=0.079389, rho=0.353553
+2019-08-05 13:17:58,739 : INFO : -7.245 per-word bound, 151.7 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:58,740 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:17:59,124 : INFO : topic #16 (0.053): 0.020*"einfach" + 0.019*"cewe" + 0.018*"erstellen" + 0.014*"buch" + 0.014*"cliparts" + 0.014*"qualität" + 0.012*"geben" + 0.010*"ander" + 0.010*"gelingen" + 0.010*"ansonsten"
+2019-08-05 13:17:59,124 : INFO : topic #8 (0.053): 0.030*"buchen" + 0.026*"qualität" + 0.020*"zuverlässig" + 0.020*"fotobuch" + 0.016*"schön" + 0.015*"schnellen" + 0.014*"einfach" + 0.010*"service" + 0.010*"lieferung" + 0.009*"bestellen"
+2019-08-05 13:17:59,124 : INFO : topic #3 (0.053): 0.065*"super" + 0.053*"qualität" + 0.038*"einfach" + 0.032*"bearbeitung" + 0.030*"schnellen" + 0.015*"foto" + 0.015*"schön" + 0.013*"top" + 0.012*"lieferzeit" + 0.011*"buch"
+2019-08-05 13:17:59,124 : INFO : topic #2 (0.053): 0.037*"fotobuch" + 0.024*"seite" + 0.018*"buchen" + 0.015*"geben" + 0.014*"preisen" + 0.013*"teuer" + 0.012*"drucken" + 0.010*"euro" + 0.010*"fehler" + 0.010*"gutschein"
+2019-08-05 13:17:59,124 : INFO : topic #4 (0.053): 0.023*"software" + 0.022*"möglichkeit" + 0.019*"zufrieden" + 0.016*"bestellung" + 0.014*"fotobücher" + 0.014*"buch" + 0.013*"gestalten" + 0.013*"finden" + 0.012*"erstellen" + 0.012*"text"
+2019-08-05 13:17:59,124 : INFO : topic diff=0.068396, rho=0.333333
+2019-08-05 13:17:59,777 : INFO : -7.231 per-word bound, 150.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:17:59,777 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:18:00,195 : INFO : topic #13 (0.053): 0.061*"zufrieden" + 0.031*"qualität" + 0.029*"handhabung" + 0.026*"software" + 0.024*"lieferung" + 0.022*"einfach" + 0.021*"fotobücher" + 0.020*"schnellen" + 0.019*"toll" + 0.019*"einfache"
+2019-08-05 13:18:00,195 : INFO : topic #10 (0.053): 0.038*"bild" + 0.023*"fotobuch" + 0.015*"all" + 0.015*"buch" + 0.014*"buchen" + 0.012*"tollen" + 0.012*"seite" + 0.011*"bestellung" + 0.010*"sehen" + 0.009*"qualität"
+2019-08-05 13:18:00,195 : INFO : topic #14 (0.053): 0.103*"qualität" + 0.032*"einfach" + 0.030*"preisen" + 0.030*"software" + 0.018*"tollen" + 0.016*"buch" + 0.016*"handhabung" + 0.015*"zufrieden" + 0.014*"gestaltungsmöglichkeiten" + 0.013*"foto"
+2019-08-05 13:18:00,195 : INFO : topic #0 (0.053): 0.041*"einfach" + 0.020*"fotobuch" + 0.019*"programm" + 0.017*"software" + 0.017*"cewe" + 0.016*"übersichtlich" + 0.015*"bedienen" + 0.013*"möglichkeit" + 0.012*"pc" + 0.012*"zufrieden"
+2019-08-05 13:18:00,195 : INFO : topic #18 (0.053): 0.027*"fotobücher" + 0.016*"buchen" + 0.016*"spaßen" + 0.015*"geben" + 0.015*"ergebnis" + 0.014*"gestalten" + 0.013*"begeistern" + 0.011*"software" + 0.010*"ander" + 0.010*"erstellen"
+2019-08-05 13:18:00,196 : INFO : topic diff=0.058411, rho=0.316228
+2019-08-05 13:18:00,970 : INFO : -7.222 per-word bound, 149.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:00,970 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:18:01,367 : INFO : topic #14 (0.053): 0.104*"qualität" + 0.032*"einfach" + 0.030*"preisen" + 0.030*"software" + 0.018*"tollen" + 0.016*"handhabung" + 0.016*"buch" + 0.014*"zufrieden" + 0.014*"gestaltungsmöglichkeiten" + 0.013*"foto"
+2019-08-05 13:18:01,368 : INFO : topic #11 (0.053): 0.020*"foto" + 0.016*"fotobücher" + 0.016*"seite" + 0.013*"buchen" + 0.010*"bild" + 0.010*"schön" + 0.008*"möglichkeit" + 0.008*"drucken" + 0.008*"alt" + 0.008*"finden"
+2019-08-05 13:18:01,368 : INFO : topic #7 (0.053): 0.031*"qualität" + 0.023*"bild" + 0.017*"service" + 0.016*"programm" + 0.014*"bestellen" + 0.011*"produkt" + 0.010*"einfach" + 0.008*"müller" + 0.008*"bedienen" + 0.008*"zufrieden"
+2019-08-05 13:18:01,368 : INFO : topic #3 (0.053): 0.067*"super" + 0.053*"qualität" + 0.041*"einfach" + 0.035*"schnellen" + 0.034*"bearbeitung" + 0.016*"schön" + 0.015*"foto" + 0.013*"top" + 0.012*"lieferzeit" + 0.012*"buch"
+2019-08-05 13:18:01,368 : INFO : topic #6 (0.053): 0.027*"qualität" + 0.027*"einfach" + 0.026*"schnellen" + 0.019*"fotobuch" + 0.019*"foto" + 0.015*"bedienung" + 0.013*"seite" + 0.012*"programm" + 0.012*"ander" + 0.012*"auftrag"
+2019-08-05 13:18:01,368 : INFO : topic diff=0.048655, rho=0.301511
+2019-08-05 13:18:01,376 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-05 13:18:01,396 : INFO : using symmetric alpha at 0.05
+2019-08-05 13:18:01,396 : INFO : using symmetric eta at 0.05
+2019-08-05 13:18:01,397 : INFO : using serial LDA version on this node
+2019-08-05 13:18:01,401 : INFO : running online (multi-pass) LDA training, 20 topics, 10 passes over the supplied corpus of 1507 documents, updating model once every 1507 documents, evaluating perplexity every 1507 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-05 13:18:02,774 : INFO : -15.544 per-word bound, 47785.0 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:02,774 : INFO : PROGRESS: pass 0, at document #1507/1507
+2019-08-05 13:18:03,832 : INFO : topic #12 (0.050): 0.031*"qualität" + 0.030*"zufrieden" + 0.021*"fotobuch" + 0.020*"müller" + 0.020*"schnellen" + 0.016*"einfach" + 0.014*"lieferung" + 0.014*"bestellen" + 0.011*"seite" + 0.010*"software"
+2019-08-05 13:18:03,832 : INFO : topic #18 (0.050): 0.016*"fotobücher" + 0.014*"software" + 0.014*"buchen" + 0.014*"cewe" + 0.013*"bestellen" + 0.013*"geben" + 0.011*"foto" + 0.009*"all" + 0.009*"ander" + 0.007*"fehler"
+2019-08-05 13:18:03,832 : INFO : topic #0 (0.050): 0.022*"einfach" + 0.020*"zufrieden" + 0.018*"programm" + 0.017*"erstellen" + 0.016*"übersichtlich" + 0.015*"qualität" + 0.014*"fotobücher" + 0.013*"foto" + 0.011*"seite" + 0.011*"schnell"
+2019-08-05 13:18:03,832 : INFO : topic #11 (0.050): 0.022*"qualität" + 0.018*"foto" + 0.018*"buchen" + 0.013*"schön" + 0.010*"seite" + 0.009*"drucken" + 0.009*"fotobücher" + 0.009*"bild" + 0.008*"alt" + 0.008*"finden"
+2019-08-05 13:18:03,832 : INFO : topic #6 (0.050): 0.040*"einfach" + 0.035*"qualität" + 0.029*"schnellen" + 0.017*"fotobuch" + 0.015*"super" + 0.011*"foto" + 0.011*"bearbeitung" + 0.009*"seite" + 0.008*"erstellen" + 0.008*"ander"
+2019-08-05 13:18:03,833 : INFO : topic diff=16.425915, rho=1.000000
+2019-08-05 13:18:04,720 : INFO : -7.669 per-word bound, 203.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:04,721 : INFO : PROGRESS: pass 1, at document #1507/1507
+2019-08-05 13:18:05,351 : INFO : topic #15 (0.050): 0.021*"bild" + 0.018*"foto" + 0.017*"fotobuch" + 0.013*"seite" + 0.013*"qualität" + 0.011*"datei" + 0.010*"gestaltung" + 0.010*"fotobuches" + 0.009*"fehler" + 0.009*"gedruckt"
+2019-08-05 13:18:05,351 : INFO : topic #2 (0.050): 0.024*"preisen" + 0.022*"seite" + 0.019*"buchen" + 0.016*"fotobuch" + 0.013*"bild" + 0.011*"cewe" + 0.009*"teuer" + 0.009*"schön" + 0.008*"buch" + 0.008*"zufrieden"
+2019-08-05 13:18:05,351 : INFO : topic #14 (0.050): 0.063*"qualität" + 0.044*"zufrieden" + 0.026*"software" + 0.019*"einfach" + 0.015*"schnellen" + 0.014*"preisen" + 0.013*"produkt" + 0.009*"lieferzeit" + 0.009*"bestellen" + 0.008*"seite"
+2019-08-05 13:18:05,351 : INFO : topic #12 (0.050): 0.032*"qualität" + 0.025*"zufrieden" + 0.025*"müller" + 0.021*"schnellen" + 0.019*"fotobuch" + 0.018*"einfach" + 0.017*"lieferung" + 0.017*"bestellen" + 0.011*"seite" + 0.010*"software"
+2019-08-05 13:18:05,351 : INFO : topic #10 (0.050): 0.028*"fotobuch" + 0.020*"bild" + 0.014*"lieferung" + 0.012*"schnellen" + 0.012*"buch" + 0.012*"bestellung" + 0.011*"all" + 0.011*"seite" + 0.011*"zuverlässig" + 0.010*"fotobücher"
+2019-08-05 13:18:05,351 : INFO : topic diff=0.148739, rho=0.577350
+2019-08-05 13:18:06,127 : INFO : -7.466 per-word bound, 176.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:06,127 : INFO : PROGRESS: pass 2, at document #1507/1507
+2019-08-05 13:18:06,533 : INFO : topic #2 (0.050): 0.024*"preisen" + 0.022*"seite" + 0.019*"buchen" + 0.016*"fotobuch" + 0.014*"bild" + 0.012*"cewe" + 0.010*"teuer" + 0.009*"schön" + 0.009*"buch" + 0.008*"zufrieden"
+2019-08-05 13:18:06,533 : INFO : topic #8 (0.050): 0.028*"fotobuch" + 0.023*"qualität" + 0.022*"letzt" + 0.021*"buchen" + 0.014*"erhalten" + 0.014*"foto" + 0.012*"reklamation" + 0.010*"zufriedenheit" + 0.009*"schön" + 0.009*"liefern"
+2019-08-05 13:18:06,534 : INFO : topic #13 (0.050): 0.021*"cewe" + 0.020*"einfach" + 0.019*"zufrieden" + 0.017*"..." + 0.017*"toll" + 0.015*"qualität" + 0.014*"fotobuch" + 0.013*"handhabung" + 0.012*"farbe" + 0.012*"lieferung"
+2019-08-05 13:18:06,534 : INFO : topic #9 (0.050): 0.025*"bild" + 0.022*"fotobuch" + 0.015*"zufrieden" + 0.012*"buch" + 0.012*"seite" + 0.011*"handhabung" + 0.011*"qualität" + 0.011*"fotobücher" + 0.011*"einfach" + 0.011*"bestellung"
+2019-08-05 13:18:06,534 : INFO : topic #6 (0.050): 0.075*"schnellen" + 0.049*"qualität" + 0.045*"einfach" + 0.032*"bearbeitung" + 0.022*"super" + 0.016*"fotobuch" + 0.013*"lieferung" + 0.009*"seite" + 0.009*"hintergrund" + 0.008*"ander"
+2019-08-05 13:18:06,534 : INFO : topic diff=0.099573, rho=0.500000
+2019-08-05 13:18:07,222 : INFO : -7.369 per-word bound, 165.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:07,222 : INFO : PROGRESS: pass 3, at document #1507/1507
+2019-08-05 13:18:07,600 : INFO : topic #13 (0.050): 0.022*"cewe" + 0.020*"einfach" + 0.018*"..." + 0.018*"zufrieden" + 0.018*"toll" + 0.015*"handhabung" + 0.014*"fotobuch" + 0.014*"qualität" + 0.012*"farbe" + 0.012*"mal"
+2019-08-05 13:18:07,600 : INFO : topic #5 (0.050): 0.014*"möglichkeit" + 0.013*"toll" + 0.013*"speichern" + 0.012*"öffnen" + 0.011*"fotobuch" + 0.010*"qualität" + 0.010*"foto" + 0.010*"sache" + 0.009*"bild" + 0.009*"software"
+2019-08-05 13:18:07,601 : INFO : topic #18 (0.050): 0.016*"geben" + 0.015*"buchen" + 0.012*"fotobücher" + 0.012*"foto" + 0.011*"bestellen" + 0.010*"software" + 0.010*"cewe" + 0.010*"programm" + 0.010*"kaste" + 0.010*"schwarz"
+2019-08-05 13:18:07,601 : INFO : topic #12 (0.050): 0.028*"müller" + 0.027*"qualität" + 0.024*"zufrieden" + 0.020*"bestellen" + 0.017*"fotobuch" + 0.017*"einfach" + 0.015*"schnellen" + 0.013*"lieferung" + 0.012*"ausführung" + 0.012*"seite"
+2019-08-05 13:18:07,601 : INFO : topic #10 (0.050): 0.029*"fotobuch" + 0.019*"bild" + 0.014*"lieferung" + 0.013*"zuverlässig" + 0.013*"buch" + 0.012*"seite" + 0.012*"bestellung" + 0.011*"all" + 0.011*"schnellen" + 0.010*"gruß"
+2019-08-05 13:18:07,601 : INFO : topic diff=0.093946, rho=0.447214
+2019-08-05 13:18:08,264 : INFO : -7.309 per-word bound, 158.5 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:08,264 : INFO : PROGRESS: pass 4, at document #1507/1507
+2019-08-05 13:18:08,647 : INFO : topic #3 (0.050): 0.034*"qualität" + 0.023*"schnell" + 0.016*"seite" + 0.015*"software" + 0.015*"super" + 0.014*"bearbeitung" + 0.013*"lieferung" + 0.012*"top" + 0.012*"foto" + 0.012*"service"
+2019-08-05 13:18:08,647 : INFO : topic #12 (0.050): 0.029*"müller" + 0.024*"qualität" + 0.023*"zufrieden" + 0.021*"bestellen" + 0.017*"fotobuch" + 0.016*"einfach" + 0.012*"ausführung" + 0.012*"seite" + 0.012*"lieferung" + 0.012*"auftrag"
+2019-08-05 13:18:08,648 : INFO : topic #8 (0.050): 0.031*"fotobuch" + 0.024*"letzt" + 0.023*"buchen" + 0.019*"qualität" + 0.015*"erhalten" + 0.014*"foto" + 0.013*"reklamation" + 0.013*"zufriedenheit" + 0.010*"schön" + 0.010*"liefern"
+2019-08-05 13:18:08,648 : INFO : topic #14 (0.050): 0.070*"qualität" + 0.066*"zufrieden" + 0.030*"software" + 0.020*"einfach" + 0.018*"produkt" + 0.013*"lieferzeit" + 0.013*"preisen" + 0.009*"schnellen" + 0.009*"bestellen" + 0.008*"lieferung"
+2019-08-05 13:18:08,648 : INFO : topic #2 (0.050): 0.026*"preisen" + 0.022*"seite" + 0.019*"buchen" + 0.017*"fotobuch" + 0.014*"bild" + 0.013*"cewe" + 0.013*"teuer" + 0.009*"schön" + 0.009*"buch" + 0.009*"ordnung"
+2019-08-05 13:18:08,648 : INFO : topic diff=0.093001, rho=0.408248
+2019-08-05 13:18:09,354 : INFO : -7.266 per-word bound, 153.9 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:09,354 : INFO : PROGRESS: pass 5, at document #1507/1507
+2019-08-05 13:18:09,784 : INFO : topic #0 (0.050): 0.043*"einfach" + 0.028*"erstellen" + 0.026*"zufrieden" + 0.024*"fotobücher" + 0.023*"programm" + 0.021*"qualität" + 0.016*"cewe" + 0.015*"übersichtlich" + 0.015*"foto" + 0.013*"fotobuch"
+2019-08-05 13:18:09,784 : INFO : topic #11 (0.050): 0.028*"buchen" + 0.016*"foto" + 0.014*"schön" + 0.014*"seite" + 0.013*"drucken" + 0.011*"finden" + 0.010*"alt" + 0.010*"bestellen" + 0.010*"dick" + 0.009*"möglichkeit"
+2019-08-05 13:18:09,784 : INFO : topic #7 (0.050): 0.020*"bild" + 0.019*"buchen" + 0.016*"bestellen" + 0.016*"qualität" + 0.013*"gestalten" + 0.010*"geben" + 0.010*"zufrieden" + 0.010*"fotobuch" + 0.010*"obwohl" + 0.009*"einfach"
+2019-08-05 13:18:09,785 : INFO : topic #15 (0.050): 0.021*"bild" + 0.019*"foto" + 0.018*"fotobuch" + 0.016*"seite" + 0.012*"datei" + 0.012*"fotobuches" + 0.010*"gestaltung" + 0.010*"fehler" + 0.009*"qualität" + 0.009*"gedruckt"
+2019-08-05 13:18:09,785 : INFO : topic #12 (0.050): 0.030*"müller" + 0.023*"zufrieden" + 0.022*"bestellen" + 0.021*"qualität" + 0.017*"fotobuch" + 0.015*"einfach" + 0.013*"ausführung" + 0.012*"seite" + 0.012*"auftrag" + 0.010*"unfreundlich"
+2019-08-05 13:18:09,785 : INFO : topic diff=0.090675, rho=0.377964
+2019-08-05 13:18:10,484 : INFO : -7.237 per-word bound, 150.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:10,484 : INFO : PROGRESS: pass 6, at document #1507/1507
+2019-08-05 13:18:10,894 : INFO : topic #14 (0.050): 0.074*"zufrieden" + 0.067*"qualität" + 0.030*"software" + 0.020*"einfach" + 0.019*"produkt" + 0.013*"lieferzeit" + 0.011*"preisen" + 0.009*"bestellen" + 0.008*"100" + 0.008*"all"
+2019-08-05 13:18:10,895 : INFO : topic #19 (0.050): 0.027*"jed" + 0.026*"finden" + 0.023*"cewe" + 0.022*"geben" + 0.014*"früh" + 0.014*"fotobuch" + 0.013*"bild" + 0.013*"weiterempfehlen" + 0.013*"layout" + 0.013*"nehmen"
+2019-08-05 13:18:10,895 : INFO : topic #11 (0.050): 0.029*"buchen" + 0.016*"foto" + 0.015*"schön" + 0.014*"seite" + 0.014*"drucken" + 0.011*"finden" + 0.010*"alt" + 0.010*"bestellen" + 0.010*"dick" + 0.009*"möglichkeit"
+2019-08-05 13:18:10,895 : INFO : topic #17 (0.050): 0.080*"qualität" + 0.039*"super" + 0.036*"zufrieden" + 0.032*"service" + 0.032*"einfach" + 0.020*"bild" + 0.014*"buchen" + 0.014*"buch" + 0.013*"handhabung" + 0.013*"ergebnis"
+2019-08-05 13:18:10,895 : INFO : topic #12 (0.050): 0.031*"müller" + 0.023*"zufrieden" + 0.023*"bestellen" + 0.019*"qualität" + 0.017*"fotobuch" + 0.014*"einfach" + 0.013*"ausführung" + 0.012*"seite" + 0.012*"auftrag" + 0.011*"unfreundlich"
+2019-08-05 13:18:10,895 : INFO : topic diff=0.081918, rho=0.353553
+2019-08-05 13:18:11,546 : INFO : -7.217 per-word bound, 148.8 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:11,546 : INFO : PROGRESS: pass 7, at document #1507/1507
+2019-08-05 13:18:11,930 : INFO : topic #13 (0.050): 0.022*"cewe" + 0.021*"..." + 0.017*"handhabung" + 0.017*"toll" + 0.017*"zufrieden" + 0.017*"einfach" + 0.015*"fotobuch" + 0.014*"qualität" + 0.014*"farbe" + 0.012*"mal"
+2019-08-05 13:18:11,930 : INFO : topic #15 (0.050): 0.021*"bild" + 0.020*"foto" + 0.018*"fotobuch" + 0.016*"seite" + 0.012*"fotobuches" + 0.012*"datei" + 0.010*"fehler" + 0.010*"gestaltung" + 0.009*"gedruckt" + 0.009*"auftragsnummer"
+2019-08-05 13:18:11,930 : INFO : topic #4 (0.050): 0.031*"software" + 0.020*"gestalten" + 0.018*"möglichkeit" + 0.017*"programm" + 0.015*"text" + 0.013*"zufrieden" + 0.012*"finden" + 0.012*"fotobuch" + 0.011*"buch" + 0.010*"einig"
+2019-08-05 13:18:11,930 : INFO : topic #16 (0.050): 0.018*"buch" + 0.018*"cliparts" + 0.017*"einfach" + 0.016*"geben" + 0.015*"bild" + 0.014*"qualität" + 0.014*"zum beispiel" + 0.013*"anbieter" + 0.012*"auswahl" + 0.011*"ander"
+2019-08-05 13:18:11,931 : INFO : topic #19 (0.050): 0.027*"jed" + 0.026*"finden" + 0.023*"cewe" + 0.022*"geben" + 0.014*"früh" + 0.014*"fotobuch" + 0.014*"weiterempfehlen" + 0.014*"bild" + 0.013*"layout" + 0.013*"nehmen"
+2019-08-05 13:18:11,931 : INFO : topic diff=0.071024, rho=0.333333
+2019-08-05 13:18:12,607 : INFO : -7.203 per-word bound, 147.4 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:12,608 : INFO : PROGRESS: pass 8, at document #1507/1507
+2019-08-05 13:18:12,987 : INFO : topic #13 (0.050): 0.022*"cewe" + 0.021*"..." + 0.017*"toll" + 0.017*"handhabung" + 0.017*"zufrieden" + 0.016*"einfach" + 0.015*"fotobuch" + 0.014*"farbe" + 0.014*"qualität" + 0.012*"mal"
+2019-08-05 13:18:12,987 : INFO : topic #19 (0.050): 0.028*"jed" + 0.027*"finden" + 0.023*"cewe" + 0.022*"geben" + 0.015*"früh" + 0.014*"bild" + 0.014*"layout" + 0.014*"weiterempfehlen" + 0.014*"fotobuch" + 0.013*"nehmen"
+2019-08-05 13:18:12,987 : INFO : topic #15 (0.050): 0.021*"bild" + 0.020*"foto" + 0.018*"fotobuch" + 0.016*"seite" + 0.013*"fotobuches" + 0.012*"datei" + 0.010*"fehler" + 0.009*"gestaltung" + 0.009*"gedruckt" + 0.009*"auftragsnummer"
+2019-08-05 13:18:12,988 : INFO : topic #9 (0.050): 0.027*"bild" + 0.021*"fotobuch" + 0.016*"zufrieden" + 0.013*"buch" + 0.012*"bestellung" + 0.011*"foto" + 0.011*"fotobücher" + 0.011*"seite" + 0.011*"qualität" + 0.010*"rahmen"
+2019-08-05 13:18:12,988 : INFO : topic #11 (0.050): 0.029*"buchen" + 0.016*"foto" + 0.016*"schön" + 0.014*"seite" + 0.014*"drucken" + 0.011*"finden" + 0.010*"alt" + 0.010*"bestellen" + 0.010*"dick" + 0.010*"verschieden"
+2019-08-05 13:18:12,988 : INFO : topic diff=0.059564, rho=0.316228
+2019-08-05 13:18:13,660 : INFO : -7.193 per-word bound, 146.3 perplexity estimate based on a held-out corpus of 1507 documents with 13628 words
+2019-08-05 13:18:13,660 : INFO : PROGRESS: pass 9, at document #1507/1507
+2019-08-05 13:18:14,045 : INFO : topic #10 (0.050): 0.029*"fotobuch" + 0.021*"bild" + 0.014*"zuverlässig" + 0.014*"buch" + 0.013*"seite" + 0.012*"anschauen" + 0.011*"all" + 0.011*"gruß" + 0.010*"bestellung" + 0.009*"2"
+2019-08-05 13:18:14,046 : INFO : topic #19 (0.050): 0.028*"jed" + 0.027*"finden" + 0.023*"cewe" + 0.022*"geben" + 0.015*"früh" + 0.014*"layout" + 0.014*"bild" + 0.014*"weiterempfehlen" + 0.014*"fotobuch" + 0.013*"nehmen"
+2019-08-05 13:18:14,046 : INFO : topic #6 (0.050): 0.139*"schnellen" + 0.069*"qualität" + 0.049*"einfach" + 0.048*"lieferung" + 0.044*"bearbeitung" + 0.020*"super" + 0.017*"fotobuch" + 0.013*"schön" + 0.011*"software" + 0.010*"hintergrund"
+2019-08-05 13:18:14,046 : INFO : topic #5 (0.050): 0.015*"möglichkeit" + 0.015*"speichern" + 0.013*"toll" + 0.012*"öffnen" + 0.011*"bild" + 0.011*"sache" + 0.009*"2" + 0.009*"foto" + 0.008*"software" + 0.008*"welch"
+2019-08-05 13:18:14,046 : INFO : topic #0 (0.050): 0.052*"einfach" + 0.032*"erstellen" + 0.026*"zufrieden" + 0.026*"fotobücher" + 0.026*"programm" + 0.019*"cewe" + 0.018*"qualität" + 0.016*"bedienung" + 0.015*"bedienen" + 0.015*"möglichkeit"
+2019-08-05 13:18:14,046 : INFO : topic diff=0.048859, rho=0.301511
+2019-08-05 13:18:14,054 : INFO : CorpusAccumulator accumulated stats from 1000 documents

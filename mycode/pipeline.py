@@ -14,6 +14,7 @@ from tqdm import tqdm
 import datetime
 import yaml
 import ntpath
+import logging
 
 parser = argparse.ArgumentParser()
 
@@ -58,8 +59,13 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path = yaml.load(open(args.path_file)).values()
+parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path, log_path = yaml.load(
+    open(args.path_file)).values()
+
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
+
+logging.basicConfig(filename=ntpath.split(log_path)[0] + '/' + dt + ntpath.split(log_path)[1],
+                    format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 if args.pipeline[0]:
     # Parsing
@@ -89,7 +95,8 @@ if args.pipeline[1]:
     try:
         for i in tqdm(range(n_topic_min, n_topics_max + 1)):
             # Data Modelling
-            lda = LdaModel(corpus, num_topics=i, random_state=args.seed)
+            lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, update_every=1, distributed=False,
+                           passes=1, iterations=400, random_state=args.seed, eval_every=1)
             lda_lst.append(lda)
 
             # Data Evaluation
@@ -97,6 +104,12 @@ if args.pipeline[1]:
                                 coherence='u_mass')
             coherence = cm.get_coherence()
             coherence_lst.append(coherence)
+
+            lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
+                          "n_topics_min": n_topic_min, "n_topics_max": n_topics_max}
+            pickle.dump(lda_pickle, open(model_path, 'wb'))
+            pickle.dump(lda_pickle,
+                        open(ntpath.split(model_path)[0] + '/archive/' + dt + ntpath.split(model_path)[1], 'wb'))
     # If the modelling time is too long, the program can be interrupted by keyboard.
     # All the generated content will be saved.
     # TODO:
@@ -111,11 +124,7 @@ if args.pipeline[1]:
             print("> The modelling processing is stopped. Generated Models are saved, "
                   "but the coherence of the last model is failed to save.")
 
-    # Model Selection
-    lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
-                  "n_topics_min": n_topic_min, "n_topics_max": n_topics_max}
-    pickle.dump(lda_pickle, open(model_path, 'wb'))
-    pickle.dump(lda_pickle, open(ntpath.split(model_path)[0] + '/archive/' + dt + ntpath.split(model_path)[1], 'wb'))
+
 elif args.pipeline[2]:
     try:
         lda_pickle = pickle.load(open(model_path, 'rb'))
