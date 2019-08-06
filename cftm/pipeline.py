@@ -64,14 +64,11 @@ parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path, log_pa
 
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
 
-logging.basicConfig(filename=ntpath.split(log_path)[0] + '/' + dt + ntpath.split(log_path)[1],
-                    format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-
 if args.pipeline[0]:
     # Parsing
     df_pd = cftm_parser.parquet_transform(parquet_path1, parquet_path2, n=args.observation_n)
 
-    # Preprocessing
+    # Pre-processing
     stopwords = list(STOP_WORDS)
     texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
                                                 min_len=args.agg_length)
@@ -86,6 +83,9 @@ elif args.pipeline[1] or args.pipeline[2]:
         exit(1)
 
 if args.pipeline[1]:
+    # Logger
+    logging.basicConfig(filename=ntpath.split(log_path)[0] + '/' + dt + ntpath.split(log_path)[1],
+                        format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     # Model Generation
     lda_lst = []
     coherence_lst = []
@@ -101,7 +101,7 @@ if args.pipeline[1]:
             # the algorithm will read through the whole corpus multiple times.
             # It is a similar parameter with 'epoch' in neural networks.
             lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
-                           update_every=1, chunksize=2000, passes=1, iterations=400,
+                           update_every=1, chunksize=30000, passes=1, iterations=400,
                            random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
@@ -143,13 +143,14 @@ if args.pipeline[2]:
     # Plot Topic Coherence
     index = int(np.argmin(coherence_lst))
     lda = lda_lst[index]
-    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst)
+    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst, s = 5)
     plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
     plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]),
                  (n_topic_min + index, coherence_lst[index]))
     plt.title('Topic Coherence vs. Number of Topics')
     plt.xlabel('Number of Topics')
     plt.ylabel('Topic Coherence (By UMass)')
+    plt.ticklabel_format(useOffset=False)
     plt.tight_layout()
     plt.savefig(pic_path)
     if args.pipeline[1]:
