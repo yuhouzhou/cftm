@@ -8,8 +8,7 @@ Data is from two Apache parquet files of the overall size 1.47 GB.  The parquet 
 
 ### Data Importing
 
-* **Spark**
-  Use `spark.read.parquet()` function to read parquet files, which preserves the schema of the original data. `spark.sql()` returns a spark dataframe. We can write query to select the data we are interested in.
+Use `spark.read.parquet()` function to read parquet files, which preserves the schema of the original data. `spark.sql()` returns a spark dataframe. We can write query to select the data we are interested in.
 
 ### Data Parsing
 
@@ -19,7 +18,7 @@ By using `spark.sql()` we get the columns of interests, such as "Date", "Sentime
 
 * Drop duplicates (transform the spark dataframe to pandas dataframe)
 * Aggregate short feedback to long documents by specified aggregation strategy
-* preprocessing pipeline
+* preprocessing pipeline using `spaCy`
   * Tokenization
   * lemmatization
   * Lowercasing
