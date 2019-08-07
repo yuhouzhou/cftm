@@ -1,0 +1,12 @@
+2019-08-07 14:34:46,520 : INFO : using symmetric alpha at 0.04
+2019-08-07 14:34:46,520 : INFO : using symmetric eta at 0.04
+2019-08-07 14:34:46,529 : INFO : using serial LDA version on this node
+2019-08-07 14:34:46,680 : INFO : running online (single-pass) LDA training, 25 topics, 1 passes over the supplied corpus of 448 documents, updating model once every 448 documents, evaluating perplexity every 0 documents, iterating 400x with a convergence threshold of 0.001000
+2019-08-07 14:34:46,681 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-07 14:34:46,681 : INFO : PROGRESS: pass 0, at document #448/448
+2019-08-07 14:35:02,005 : INFO : topic #13 (0.040): 0.002*"kalender" + 0.001*"bild" + 0.001*"bestellen" + 0.001*"bestellung" + 0.001*"programm" + 0.001*"einfach" + 0.001*"qualität" + 0.000*"lieferung" + 0.000*"finden" + 0.000*"schön"
+2019-08-07 14:35:02,006 : INFO : topic #19 (0.040): 0.020*"qualität" + 0.013*"zufrieden" + 0.011*"einfach" + 0.011*"bestellen" + 0.010*"kalender" + 0.010*"fotobuch" + 0.010*"schnellen" + 0.009*"bild" + 0.009*"lieferung" + 0.008*"cewe"
+2019-08-07 14:35:02,007 : INFO : topic #16 (0.040): 0.018*"qualität" + 0.016*"zufrieden" + 0.016*"einfach" + 0.015*"fotobuch" + 0.013*"schnellen" + 0.012*"buchen" + 0.012*"bild" + 0.010*"buch" + 0.010*"seite" + 0.010*"super"
+2019-08-07 14:35:02,007 : INFO : topic #9 (0.040): 0.017*"qualität" + 0.016*"fotobuch" + 0.014*"einfach" + 0.013*"schnellen" + 0.012*"zufrieden" + 0.011*"cewe" + 0.010*"bild" + 0.010*"buchen" + 0.010*"software" + 0.010*"buch"
+2019-08-07 14:35:02,008 : INFO : topic #17 (0.040): 0.023*"qualität" + 0.019*"kalender" + 0.013*"zufrieden" + 0.012*"bild" + 0.011*"schnellen" + 0.009*"fotobuch" + 0.009*"super" + 0.009*"einfach" + 0.009*"seite" + 0.008*"lieferung"
+2019-08-07 14:35:02,016 : INFO : topic diff=16.290939, rho=1.000000
