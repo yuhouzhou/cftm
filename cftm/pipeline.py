@@ -101,7 +101,7 @@ if args.pipeline[1]:
             # the algorithm will read through the whole corpus multiple times.
             # It is a similar parameter with 'epoch' in neural networks.
             lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
-                           update_every=1, chunksize=30000, passes=1, iterations=400,
+                           update_every=1, chunksize=10, passes=1, iterations=400,
                            random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
@@ -157,6 +157,6 @@ if args.pipeline[2]:
         plt.savefig(ntpath.split(pic_path)[0] + '/archive/' + dt + ntpath.split(pic_path)[1])
 
     # Data Visualization
-    vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary)
+    vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary, mds='mmds')
     pyLDAvis.save_html(vis, html_path)
     webbrowser.open(os.path.abspath(html_path), new=2)
