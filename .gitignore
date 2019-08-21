@@ -2,6 +2,7 @@
 data*/
 output/archive/
 *.pickle
+test/test_output
 
 # Track deliverables
 doc/*
