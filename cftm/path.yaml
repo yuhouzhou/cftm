@@ -1,5 +1,6 @@
 parquet_path1: '../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet'
 parquet_path2: '../data.nosync/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet'
+archive_fore_path: '../output/archive/'
 data_path: '../output/training_data.pickle'
 model_path: '../output/lda_model_n_coherence_lst.pickle'
 pic_path: '../output/coherence.png'

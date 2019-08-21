@@ -58,15 +58,17 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
-
-parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path, log_path = yaml.load(
+parquet_path1, parquet_path2, archive_fore_path, data_path, model_path, pic_path, html_path, log_path = yaml.load(
     open(args.path_file)).values()
 
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
-archive_path = '../output/archive/' + dt + '/'
+archive_path = archive_fore_path + dt + '/'
+if not os.path.exists(archive_fore_path):
+    os.mkdir(archive_fore_path)
 os.mkdir(archive_path)
 
-if args.pipeline[0]:
+preproc, modelling, visualization = args.pipeline
+if preproc:
     # Parsing
     df_pd = cftm_parser.parquet_transform(parquet_path1, parquet_path2, n=args.observation_n)
 
@@ -77,7 +79,7 @@ if args.pipeline[0]:
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open(data_path, 'wb'))
     pickle.dump(training_data, open(archive_path + ntpath.split(data_path)[1], 'wb'))
-elif args.pipeline[1] or args.pipeline[2]:
+elif modelling or visualization:
     try:
         training_data = pickle.load(open(data_path, 'rb'))
         texts, dictionary, corpus = training_data['texts'], training_data['dictionary'], training_data['corpus']
@@ -85,7 +87,7 @@ elif args.pipeline[1] or args.pipeline[2]:
         print("> Training Data Not Found!")
         exit(1)
 
-if args.pipeline[1]:
+if modelling:
     # Logger
     logging.basicConfig(filename=archive_path + ntpath.split(log_path)[1],
                         format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
@@ -134,7 +136,7 @@ if args.pipeline[1]:
                   "but the coherence of the last model is failed to save.")
 
 
-elif args.pipeline[2]:
+elif visualization:
     try:
         lda_pickle = pickle.load(open(model_path, 'rb'))
         lda_lst, coherence_lst, n_topic_min, n_topics_max = lda_pickle.values()
@@ -142,7 +144,7 @@ elif args.pipeline[2]:
         print("> Model Not Found!")
         exit(1)
 
-if args.pipeline[2]:
+if visualization:
     # Plot Topic Coherence
     index = int(np.argmin(coherence_lst))
     lda = lda_lst[index]

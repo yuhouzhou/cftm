@@ -9,7 +9,7 @@ rm ./test_output/archive/*
 python ../cftm/pipeline.py 1 1 1 -p '../test/test_path.yaml' -o 30000 -a 300 -r 25 35 -s 2
 
 # clean up
-if [ "$(ls -1 ../test/test_output/archive | wc -l)" -ne 2 ]; then
+if [ "$(ls -1 ../test/test_output/archive | wc -l)" -ne 5 ]; then
    echo "archive failed!" > ./integration_test_result.txt
    rm ./test_output/archive/*
 else
