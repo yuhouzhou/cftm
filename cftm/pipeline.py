@@ -63,6 +63,8 @@ parquet_path1, parquet_path2, data_path, model_path, pic_path, html_path, log_pa
     open(args.path_file)).values()
 
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
+archive_path = '../output/archive/' + dt + '/'
+os.mkdir(archive_path)
 
 if args.pipeline[0]:
     # Parsing
@@ -74,6 +76,7 @@ if args.pipeline[0]:
                                                 min_len=args.agg_length)
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open(data_path, 'wb'))
+    pickle.dump(training_data, open(archive_path + ntpath.split(data_path)[1], 'wb'))
 elif args.pipeline[1] or args.pipeline[2]:
     try:
         training_data = pickle.load(open(data_path, 'rb'))
@@ -84,7 +87,7 @@ elif args.pipeline[1] or args.pipeline[2]:
 
 if args.pipeline[1]:
     # Logger
-    logging.basicConfig(filename=ntpath.split(log_path)[0] + '/' + dt + ntpath.split(log_path)[1],
+    logging.basicConfig(filename=archive_path + ntpath.split(log_path)[1],
                         format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     # Model Generation
     lda_lst = []
@@ -101,7 +104,7 @@ if args.pipeline[1]:
             # the algorithm will read through the whole corpus multiple times.
             # It is a similar parameter with 'epoch' in neural networks.
             lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
-                           update_every=1, chunksize=10, passes=1, iterations=400,
+                           update_every=1, chunksize=1000, passes=1, iterations=400,
                            random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
@@ -115,7 +118,7 @@ if args.pipeline[1]:
                           "n_topics_min": n_topic_min, "n_topics_max": n_topics_max}
             pickle.dump(lda_pickle, open(model_path, 'wb'))
             pickle.dump(lda_pickle,
-                        open(ntpath.split(model_path)[0] + '/archive/' + dt + ntpath.split(model_path)[1], 'wb'))
+                        open(archive_path + ntpath.split(model_path)[1], 'wb'))
     # If the modelling time is too long, the program can be interrupted by keyboard.
     # All the generated content will be saved.
     # TODO:
@@ -153,10 +156,10 @@ if args.pipeline[2]:
     plt.ticklabel_format(useOffset=False)
     plt.tight_layout()
     plt.savefig(pic_path)
-    if args.pipeline[1]:
-        plt.savefig(ntpath.split(pic_path)[0] + '/archive/' + dt + ntpath.split(pic_path)[1])
+    plt.savefig(archive_path + ntpath.split(pic_path)[1])
 
     # Data Visualization
     vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary, mds='mmds')
     pyLDAvis.save_html(vis, html_path)
+    pyLDAvis.save_html(vis, archive_path + ntpath.split(html_path)[1])
     webbrowser.open(os.path.abspath(html_path), new=2)
