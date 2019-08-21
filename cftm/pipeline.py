@@ -106,7 +106,7 @@ if modelling:
             # the algorithm will read through the whole corpus multiple times.
             # It is a similar parameter with 'epoch' in neural networks.
             lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
-                           update_every=1, chunksize=1000, passes=1, iterations=400,
+                           update_every=1, chunksize=300000, passes=1, iterations=400,
                            random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
@@ -148,7 +148,7 @@ if visualization:
     # Plot Topic Coherence
     index = int(np.argmin(coherence_lst))
     lda = lda_lst[index]
-    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst, s = 5)
+    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst, s=5)
     plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
     plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]),
                  (n_topic_min + index, coherence_lst[index]))
@@ -161,6 +161,7 @@ if visualization:
     plt.savefig(archive_path + ntpath.split(pic_path)[1])
 
     # Data Visualization
+    # TODO: When use all the topics, it consumes much memory.
     vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary, mds='mmds')
     pyLDAvis.save_html(vis, html_path)
     pyLDAvis.save_html(vis, archive_path + ntpath.split(html_path)[1])
