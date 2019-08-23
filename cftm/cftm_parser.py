@@ -54,11 +54,12 @@ def parquet_transform(path1, path2, n=-1):
     query = query_p1 + query_p2
 
     df = spark.sql(query)
+    print("> Parsing finished!")
 
     # Convert Spark dataframe to Pandas dataframe
+    print("> Drop duplicates and transform to Pandas dataframe started...")
     df_pd = df.dropDuplicates().toPandas()
-
-    print("> Parsing finished!")
+    print("> Drop duplicates and transform to Pandas dataframe finished!")
 
     sc.stop()
 

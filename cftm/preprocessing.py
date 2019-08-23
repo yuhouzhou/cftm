@@ -3,6 +3,7 @@ import spacy
 from gensim.corpora.dictionary import Dictionary
 from tqdm import tqdm
 
+
 def text_preproc_maker(stopwords, language='de'):
     nlp = spacy.load(language)
 
@@ -18,13 +19,13 @@ def text_preproc_maker(stopwords, language='de'):
 
 
 def text_aggregator(df_pd, metadata=None, min_len=-1):
-    if metadata is not None:
+    if metadata in ['DATE', 'SENTIMENT']:
+        print("> Text aggregation started...")
         # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
-        if min_len > 0:
-            print("> Text aggregation started...")
+        if metadata == 'DATE':
             # TODO:
             #  Figure out why this does not improve the result
-            if metadata == 'DATE':
+            if min_len > 0:
                 texts = []
                 tokens_agg = []
                 for tokens in tqdm(df_pd['TEXT_PROCESSED']):
@@ -36,13 +37,19 @@ def text_aggregator(df_pd, metadata=None, min_len=-1):
                 # Append the rest of tokens to data
                 if tokens_agg is not []:
                     texts.append(tokens_agg)
-            # TODO:
-            #  Finish the SENTIMENT aggregation
-            if metadata == 'SENTIMENT':
-                pass
-        else:
-            print("> Text aggregation is skipped...")
-            texts = df_pd['TEXT_PROCESSED']
+            else:
+                texts = df_pd['TEXT_PROCESSED']
+        # TODO:
+        #  Finish the SENTIMENT aggregation
+        elif metadata == 'SENTIMENT':
+            texts = []
+            for i, tokens in enumerate(tqdm(df_pd['TEXT_PROCESSED'])):
+                if df_pd['SENTIMENT'][i] == 'Complaint':
+                    texts.append(tokens)
+    else:
+        print("> Text aggregation is skipped...")
+        texts = df_pd['TEXT_PROCESSED']
+    print("> # of observations:", len(texts))
 
     return texts
 
@@ -68,16 +75,23 @@ if __name__ == "__main__":
 
     path1 = "../data.nosync/customer_feedbacks/part-00000-985ad763-a6d6-4ead-a6dd-c02279e9eeba-c000.snappy.parquet"
     path2 = "../data.nosync/customer_feedbacks_cat/part-00000-4820af87-4b19-4958-a7a6-7ed03b76f1b1-c000.snappy.parquet"
-    df_pd = cftm_parser.parquet_transform(path1, path2, n=20000)
+    df_pd = cftm_parser.parquet_transform(path1, path2, n=-1)
 
     stopwords = list(STOP_WORDS)
     text_preproc = text_preproc_maker(stopwords)
 
     df_pd['TEXT_PROCESSED'] = df_pd['TEXT'].apply(text_preproc)
-    # TODO:
-    #  Remove low frequent words
-    texts = text_aggregator(df_pd, metadata='DATE', min_len=-1)
-    for i in range(len(texts)):
-        print("The length of Doc {} is {}".format(i, len(texts[i])))
-    avg_len = df_pd['TEXT_PROCESSED'].apply(len).mean()
-    print("Before aggregation, the average length of the feedbacks is:", avg_len)
+
+    texts = text_aggregator(df_pd, metadata='SENTIMENT', min_len=1)
+
+    # for i in range(len(texts)):
+    #     print("The length of Doc {} is {}.".format(i, len(texts[i])))
+
+    print("Before aggregation, "
+          "the average length of the feedbacks is {}, "
+          "and the # of observations is {}."
+          .format(df_pd['TEXT_PROCESSED'].apply(len).mean(), df_pd['TEXT_PROCESSED'].shape[0]))
+    print('After aggregation, '
+          'the average length of the feedbacks is {}, '
+          'and the # of observations is {}.'.format(sum([len(tokens) for tokens in texts]) / len(texts), len(texts))
+          )

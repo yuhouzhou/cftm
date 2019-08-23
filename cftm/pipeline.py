@@ -49,7 +49,7 @@ parser.add_argument(
 
 parser.add_argument(
     '-r', '--topic_range',
-    type=int, nargs=2, default=[1, 10]
+    type=int, nargs=3, default=[1, 10, 1]
 )
 
 parser.add_argument(
@@ -58,14 +58,19 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
+
 parquet_path1, parquet_path2, archive_fore_path, data_path, model_path, pic_path, html_path, log_path = yaml.load(
     open(args.path_file)).values()
+
 
 dt = str(datetime.datetime.now().strftime('%Y%m%d_%H_%M_%S'))
 archive_path = archive_fore_path + dt + '/'
 if not os.path.exists(archive_fore_path):
     os.mkdir(archive_fore_path)
 os.mkdir(archive_path)
+
+with open(archive_path + 'commandline_args.yaml', 'w') as f:
+    yaml.dump(args.__dict__, f)
 
 preproc, modelling, visualization = args.pipeline
 if preproc:
@@ -74,7 +79,7 @@ if preproc:
 
     # Pre-processing
     stopwords = list(STOP_WORDS)
-    texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='DATE',
+    texts, dictionary, corpus = pp.preprocessor(df_pd, stopwords=stopwords, language='de', text='TEXT', metadata='SENTIMENT',
                                                 min_len=args.agg_length)
     training_data = {"texts": texts, "dictionary": dictionary, "corpus": corpus}
     pickle.dump(training_data, open(data_path, 'wb'))
@@ -96,9 +101,10 @@ if modelling:
     coherence_lst = []
     n_topic_min = args.topic_range[0]
     n_topics_max = args.topic_range[1]
+    step = args.topic_range[2]
     print("> Topic modelling started at ", datetime.datetime.now())
     try:
-        for i in tqdm(range(n_topic_min, n_topics_max + 1)):
+        for i in tqdm(range(n_topic_min, n_topics_max + 1, step)):
             # Data Modelling
             # Gensim LDA model set update_every=1 by default, meaning it uses Online LDA;
             # The algorithm update the model after read every chunk-size number of documents.
@@ -106,7 +112,7 @@ if modelling:
             # the algorithm will read through the whole corpus multiple times.
             # It is a similar parameter with 'epoch' in neural networks.
             lda = LdaModel(corpus=corpus, num_topics=i, id2word=dictionary, distributed=False,
-                           update_every=1, chunksize=300000, passes=1, iterations=400,
+                           update_every=1, chunksize=30000, passes=1, iterations=400,
                            random_state=args.seed, eval_every=None)
             lda_lst.append(lda)
 
@@ -117,7 +123,7 @@ if modelling:
             coherence_lst.append(coherence)
 
             lda_pickle = {"model_lst": lda_lst, "coherence_lst": coherence_lst,
-                          "n_topics_min": n_topic_min, "n_topics_max": n_topics_max}
+                          "n_topics_min": n_topic_min, "n_topics_max": n_topics_max, "step": step}
             pickle.dump(lda_pickle, open(model_path, 'wb'))
             pickle.dump(lda_pickle,
                         open(archive_path + ntpath.split(model_path)[1], 'wb'))
@@ -139,7 +145,7 @@ if modelling:
 elif visualization:
     try:
         lda_pickle = pickle.load(open(model_path, 'rb'))
-        lda_lst, coherence_lst, n_topic_min, n_topics_max = lda_pickle.values()
+        lda_lst, coherence_lst, n_topic_min, n_topics_max, step = lda_pickle.values()
     except FileNotFoundError:
         print("> Model Not Found!")
         exit(1)
@@ -148,10 +154,11 @@ if visualization:
     # Plot Topic Coherence
     index = int(np.argmin(coherence_lst))
     lda = lda_lst[index]
-    plt.scatter(range(n_topic_min, n_topics_max + 1), coherence_lst, s=5)
-    plt.scatter(n_topic_min + index, coherence_lst[index], color='r')
-    plt.annotate(str(n_topic_min + index) + ', ' + str(coherence_lst[index]),
-                 (n_topic_min + index, coherence_lst[index]))
+    step = 20
+    plt.scatter(range(n_topic_min, n_topics_max + 1, step), coherence_lst, s=5)
+    plt.scatter(n_topic_min + index*step, coherence_lst[index], color='r')
+    plt.annotate(str(n_topic_min + index*step) + ', ' + str(coherence_lst[index]),
+                 (n_topic_min + index*step, coherence_lst[index]))
     plt.title('Topic Coherence vs. Number of Topics')
     plt.xlabel('Number of Topics')
     plt.ylabel('Topic Coherence (By UMass)')
