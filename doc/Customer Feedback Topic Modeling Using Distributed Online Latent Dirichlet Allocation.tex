@@ -44,13 +44,12 @@ paragraph.
 
 \section{Introduction}
 
-NIPS requires electronic submissions.  The electronic submission site is  
-\begin{center}
-   \url{http://papers.nips.cc}
-\end{center}
+Customer feedback is information provided by clients about their general experience with a product or a service. In CEWE, one method to collect such feedback is asking customers to complete online survey.
 
-Please read carefully the
-instructions below, and follow them faithfully.
+By collecting customer feedback, the extracted information can act as a guide to improve products. Feedback gives the company the clue of customers' general experience and the satisfaction rate. Except the description provided by sellers, the publicly posted feedback is useful information to other consumers, imparting them an overview how the product really is. This information also helps managers to make correct business decisions.
+
+The current way of processing user feedback requires that working staff reads the feedback and later extracts topics. This process can be costly and inefficient, because of manual intervention. At one time, people can only process a small batch of text from a recent period. Thus, the information, which concerning long lasting but less frequently appeared issues, may lost. This proposal will present a workflow, which can extract topics from customer feedback without manual effort. 
+
 \subsection{Style}
 
 Papers to be submitted to NIPS 2013 must be prepared according to the
@@ -157,27 +156,7 @@ sections \ref{gen_inst}, \ref{headings}, and \ref{others} below.
 \section{Related Work}
 \label{gen_inst}
 
-The text must be confined within a rectangle 5.5~inches (33~picas) wide and
-9~inches (54~picas) long. The left margin is 1.5~inch (9~picas).
-Use 10~point type with a vertical spacing of 11~points. Times New Roman is the
-preferred typeface throughout. Paragraphs are separated by 1/2~line space,
-with no indentation.
-
-Paper title is 17~point, initial caps/lower case, bold, centered between
-2~horizontal rules. Top rule is 4~points thick and bottom rule is 1~point
-thick. Allow 1/4~inch space above and below title to rules. All pages should
-start at 1~inch (6~picas) from the top of the page.
-
-%The version of the paper submitted for review should have ``Anonymous Author(s)'' as the author of the paper.
-
-For the final version, authors' names are
-set in boldface, and each name is centered above the corresponding
-address. The lead author's name is to be listed first (left-most), and
-the co-authors' names (if different address) are set to follow. If
-there is only one co-author, list both author and co-author side by side.
-
-Please pay special attention to the instructions in section \ref{others}
-regarding figures, tables, acknowledgments, and references.
+Discovering “topics” from a collection of documents has been a long-standing problem in natural language understanding. Latent Semantic Analysis (LSA) acts as the base of recent topic models [2]. Hofmann proposed Probabilistic Latent Semantic Indexing (pLSA) [3], bringing topic models from deterministic to probabilistic. In 2003, Blei described Latent Dirichlet Allocation (LDA) which is a Bayesian alternative to pLSA [1]. LDA makes use of word co-occurrence information in documents, to generate document-topic distribution. However, the lack of word co-occurrence in short texts prevents LDA yielding satisfying results [9]. Such short texts are news headlines, tweets, user feedback, questions and answers, and so on. One strategy to overcome this data sparsity problem is to concatenate a set of short texts according to available metadata [6, 7, 8]. For example, aggregating texts by timestamps, locations or users. The evaluation plans for topic models include perplexity, topic coherence, etc. [4, 5].
 
 \section{Approach}
 \label{headings}
