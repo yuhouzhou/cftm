@@ -174,6 +174,7 @@ if __name__ == '__main__':
             exit(1)
 
     if visualization:
+        print("> Plot Topic Coherence vs. Number of Topics started...")
         # Plot Topic Coherence
         index = int(np.argmin(coherence_lst))
         lda = lda_lst[index]
@@ -189,10 +190,13 @@ if __name__ == '__main__':
         plt.tight_layout()
         plt.savefig(pic_path)
         plt.savefig(archive_path + ntpath.split(pic_path)[1])
+        print("> Plot Topic Coherence vs. Number of Topics finished!")
 
         # Data Visualization
         # TODO: When use all the topics, it consumes much memory.
+        print("> pyLDAvis started...")
         vis = pyLDAvis.gensim.prepare(lda, corpus, dictionary=dictionary, mds='mmds')
         pyLDAvis.save_html(vis, html_path)
         pyLDAvis.save_html(vis, archive_path + ntpath.split(html_path)[1])
         webbrowser.open(os.path.abspath(html_path), new=2)
+        print("> pyLDAvis finished!")
