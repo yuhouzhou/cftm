@@ -18,37 +18,35 @@ def text_preproc_maker(stopwords, language='de'):
     return text_preproc
 
 
-def text_aggregator(df_pd, metadata=None, min_len=-1):
-    if metadata in ['DATE', 'SENTIMENT']:
-        print("> Text aggregation started...")
-        # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
-        if metadata == 'DATE':
-            # TODO:
-            #  Figure out why this does not improve the result
-            if min_len > 0:
-                texts = []
-                tokens_agg = []
-                for tokens in tqdm(df_pd['TEXT_PROCESSED']):
-                    if len(tokens_agg) < min_len:
-                        tokens_agg += tokens
-                    else:
-                        texts.append(tokens_agg)
-                        tokens_agg = []
-                # Append the rest of tokens to data
-                if tokens_agg is not []:
-                    texts.append(tokens_agg)
-            else:
-                texts = df_pd['TEXT_PROCESSED']
+def text_aggregator(df_pd, metadata='DATE', min_len=-1):
+    # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
+    if metadata == 'DATE':
         # TODO:
-        #  Finish the SENTIMENT aggregation
-        elif metadata == 'SENTIMENT':
+        #  Figure out why this does not improve the result
+        if min_len > 0:
+            print("> Text aggregation by 'DATE' started...")
             texts = []
-            for i, tokens in enumerate(tqdm(df_pd['TEXT_PROCESSED'])):
-                if df_pd['SENTIMENT'][i] == 'Complaint':
-                    texts.append(tokens)
-    else:
-        print("> Text aggregation is skipped...")
-        texts = df_pd['TEXT_PROCESSED']
+            tokens_agg = []
+            for tokens in tqdm(df_pd['TEXT_PROCESSED']):
+                if len(tokens_agg) < min_len:
+                    tokens_agg += tokens
+                else:
+                    texts.append(tokens_agg)
+                    tokens_agg = []
+            # Append the rest of tokens to data
+            if tokens_agg is not []:
+                texts.append(tokens_agg)
+        else:
+            print("> Text aggregation is skipped...")
+            texts = df_pd['TEXT_PROCESSED']
+    # TODO:
+    #  Finish the SENTIMENT aggregation
+    elif metadata == 'SENTIMENT':
+        print("> Text aggregation by 'SENTIMENT' started...")
+        texts = []
+        for i, tokens in enumerate(tqdm(df_pd['TEXT_PROCESSED'])):
+            if df_pd['SENTIMENT'][i] == 'Complaint':
+                texts.append(tokens)
     print("> # of observations:", len(texts))
 
     return texts

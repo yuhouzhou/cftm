@@ -57,9 +57,9 @@ def parquet_transform(path1, path2, n=-1):
     print("> Parsing finished!")
 
     # Convert Spark dataframe to Pandas dataframe
-    print("> Drop duplicates and transform to Pandas dataframe started...")
+    print("> Dropping duplicates and transforming to Pandas dataframe started...")
     df_pd = df.dropDuplicates().toPandas()
-    print("> Drop duplicates and transform to Pandas dataframe finished!")
+    print("> Dropping duplicates and transforming to Pandas dataframe finished!")
 
     sc.stop()
 
