@@ -178,7 +178,6 @@ if __name__ == '__main__':
         # Plot Topic Coherence
         index = int(np.argmin(coherence_lst))
         lda = lda_lst[index]
-        print(range(n_topic_min, n_topics_max + 1, step), coherence_lst)
         plt.scatter(range(n_topic_min, n_topics_max + 1, step), coherence_lst, s=5)
         plt.scatter(n_topic_min + index * step, coherence_lst[index], color='r')
         plt.annotate(str(n_topic_min + index * step) + ', ' + str(coherence_lst[index]),
