@@ -1,0 +1,51 @@
+2019-08-23 23:37:40,188 : INFO : using symmetric alpha at 0.1
+2019-08-23 23:37:40,188 : INFO : using symmetric eta at 0.1
+2019-08-23 23:37:40,206 : INFO : using serial LDA version on this node
+2019-08-23 23:37:40,299 : INFO : running online LDA training, 10 topics, 1 passes over the supplied corpus of 14071 documents, updating every 6000 documents, evaluating every ~14071 documents, iterating 800x with a convergence threshold of 0.001000
+2019-08-23 23:37:40,299 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2019-08-23 23:37:40,299 : INFO : training LDA model using 3 processes
+2019-08-23 23:37:40,330 : INFO : PROGRESS: pass 0, dispatched chunk #0 = documents up to #2000/14071, outstanding queue size 1
+2019-08-23 23:37:40,402 : INFO : PROGRESS: pass 0, dispatched chunk #1 = documents up to #4000/14071, outstanding queue size 2
+2019-08-23 23:37:40,620 : INFO : PROGRESS: pass 0, dispatched chunk #2 = documents up to #6000/14071, outstanding queue size 3
+2019-08-23 23:37:40,628 : INFO : PROGRESS: pass 0, dispatched chunk #3 = documents up to #8000/14071, outstanding queue size 4
+2019-08-23 23:37:40,636 : INFO : PROGRESS: pass 0, dispatched chunk #4 = documents up to #10000/14071, outstanding queue size 5
+2019-08-23 23:37:40,674 : INFO : PROGRESS: pass 0, dispatched chunk #5 = documents up to #12000/14071, outstanding queue size 6
+2019-08-23 23:37:40,800 : INFO : PROGRESS: pass 0, dispatched chunk #6 = documents up to #14000/14071, outstanding queue size 7
+2019-08-23 23:37:40,848 : INFO : PROGRESS: pass 0, dispatched chunk #7 = documents up to #14071/14071, outstanding queue size 8
+2019-08-23 23:37:56,287 : INFO : merging changes from 6000 documents into a model of 14071 documents
+2019-08-23 23:37:56,555 : INFO : topic #1 (0.100): 0.026*"qualität" + 0.016*"bild" + 0.015*"zufrieden" + 0.013*"schnellen" + 0.013*"einfach" + 0.012*"bestellen" + 0.011*"foto" + 0.010*"lieferung" + 0.009*"fotobuch" + 0.009*"schön"
+2019-08-23 23:37:56,556 : INFO : topic #5 (0.100): 0.012*"bild" + 0.008*"foto" + 0.006*"qualität" + 0.006*"einfach" + 0.006*"buchen" + 0.006*"schnellen" + 0.005*"buch" + 0.005*"seite" + 0.004*"bestellen" + 0.004*"fotobuch"
+2019-08-23 23:37:56,557 : INFO : topic #8 (0.100): 0.020*"qualität" + 0.019*"fotobuch" + 0.016*"zufrieden" + 0.012*"bild" + 0.012*"einfach" + 0.012*"software" + 0.012*"buchen" + 0.010*"fotobücher" + 0.008*"schnellen" + 0.008*"buch"
+2019-08-23 23:37:56,558 : INFO : topic #9 (0.100): 0.019*"qualität" + 0.016*"fotobuch" + 0.015*"einfach" + 0.014*"zufrieden" + 0.013*"schnellen" + 0.011*"kalender" + 0.011*"bild" + 0.010*"buchen" + 0.008*"bestellen" + 0.008*"fotobücher"
+2019-08-23 23:37:56,559 : INFO : topic #0 (0.100): 0.024*"qualität" + 0.015*"bild" + 0.014*"software" + 0.014*"einfach" + 0.012*"super" + 0.012*"fotobuch" + 0.011*"schnellen" + 0.010*"foto" + 0.009*"buchen" + 0.009*"zufrieden"
+2019-08-23 23:37:56,560 : INFO : topic diff=8.948043, rho=1.000000
+2019-08-23 23:38:11,614 : INFO : merging changes from 6071 documents into a model of 14071 documents
+2019-08-23 23:38:11,694 : INFO : topic #1 (0.100): 0.028*"qualität" + 0.017*"bild" + 0.016*"zufrieden" + 0.014*"schnellen" + 0.013*"einfach" + 0.012*"bestellen" + 0.011*"lieferung" + 0.011*"foto" + 0.010*"schön" + 0.009*"kalender"
+2019-08-23 23:38:11,695 : INFO : topic #5 (0.100): 0.014*"bild" + 0.009*"foto" + 0.007*"qualität" + 0.006*"buchen" + 0.005*"einfach" + 0.005*"schnellen" + 0.005*"buch" + 0.004*"bestellen" + 0.004*"seite" + 0.004*"fotobuch"
+2019-08-23 23:38:11,696 : INFO : topic #7 (0.100): 0.020*"qualität" + 0.014*"zufrieden" + 0.012*"schnellen" + 0.011*"bild" + 0.011*"kalender" + 0.010*"seite" + 0.009*"foto" + 0.009*"einfach" + 0.009*"fotobuch" + 0.009*"bestellung"
+2019-08-23 23:38:11,696 : INFO : topic #3 (0.100): 0.019*"kalender" + 0.017*"qualität" + 0.013*"bestellen" + 0.009*"lieferung" + 0.009*"bild" + 0.009*"einfach" + 0.008*"schön" + 0.008*"zufrieden" + 0.006*"schnellen" + 0.006*"foto"
+2019-08-23 23:38:11,697 : INFO : topic #2 (0.100): 0.025*"qualität" + 0.013*"bild" + 0.012*"foto" + 0.012*"schnellen" + 0.010*"kalender" + 0.009*"zufrieden" + 0.009*"lieferung" + 0.009*"einfach" + 0.007*"programm" + 0.007*"bestellen"
+2019-08-23 23:38:11,698 : INFO : topic diff=1.078209, rho=0.500000
+2019-08-23 23:38:23,540 : INFO : merging changes from 2000 documents into a model of 14071 documents
+2019-08-23 23:38:23,608 : INFO : topic #7 (0.100): 0.021*"qualität" + 0.013*"zufrieden" + 0.012*"schnellen" + 0.012*"bild" + 0.010*"seite" + 0.009*"einfach" + 0.009*"fotobuch" + 0.009*"foto" + 0.009*"super" + 0.009*"bestellung"
+2019-08-23 23:38:23,609 : INFO : topic #4 (0.100): 0.041*"qualität" + 0.018*"schnellen" + 0.017*"einfach" + 0.013*"lieferung" + 0.013*"super" + 0.013*"zufrieden" + 0.012*"bild" + 0.009*"bestellen" + 0.009*"fotobuch" + 0.008*"software"
+2019-08-23 23:38:23,610 : INFO : topic #0 (0.100): 0.025*"qualität" + 0.017*"bild" + 0.014*"einfach" + 0.013*"super" + 0.012*"software" + 0.012*"schnellen" + 0.010*"foto" + 0.010*"fotobuch" + 0.009*"zufrieden" + 0.008*"lieferung"
+2019-08-23 23:38:23,610 : INFO : topic #5 (0.100): 0.012*"bild" + 0.007*"foto" + 0.006*"qualität" + 0.005*"buchen" + 0.005*"schnellen" + 0.005*"einfach" + 0.004*"buch" + 0.004*"fotobuch" + 0.004*"bestellen" + 0.003*"zufrieden"
+2019-08-23 23:38:23,611 : INFO : topic #9 (0.100): 0.020*"qualität" + 0.015*"einfach" + 0.014*"zufrieden" + 0.013*"schnellen" + 0.013*"fotobuch" + 0.012*"kalender" + 0.011*"bild" + 0.009*"bestellen" + 0.008*"buchen" + 0.008*"lieferung"
+2019-08-23 23:38:23,612 : INFO : topic diff=0.520768, rho=0.377010
+2019-08-23 23:38:23,898 : INFO : -7.800 per-word bound, 222.9 perplexity estimate based on a held-out corpus of 71 documents with 14758 words
+2019-08-23 23:38:24,058 : INFO : CorpusAccumulator accumulated stats from 1000 documents
+2019-08-23 23:38:24,083 : INFO : CorpusAccumulator accumulated stats from 2000 documents
+2019-08-23 23:38:24,107 : INFO : CorpusAccumulator accumulated stats from 3000 documents
+2019-08-23 23:38:24,132 : INFO : CorpusAccumulator accumulated stats from 4000 documents
+2019-08-23 23:38:24,155 : INFO : CorpusAccumulator accumulated stats from 5000 documents
+2019-08-23 23:38:24,178 : INFO : CorpusAccumulator accumulated stats from 6000 documents
+2019-08-23 23:38:24,200 : INFO : CorpusAccumulator accumulated stats from 7000 documents
+2019-08-23 23:38:24,224 : INFO : CorpusAccumulator accumulated stats from 8000 documents
+2019-08-23 23:38:24,250 : INFO : CorpusAccumulator accumulated stats from 9000 documents
+2019-08-23 23:38:24,275 : INFO : CorpusAccumulator accumulated stats from 10000 documents
+2019-08-23 23:38:24,299 : INFO : CorpusAccumulator accumulated stats from 11000 documents
+2019-08-23 23:38:24,323 : INFO : CorpusAccumulator accumulated stats from 12000 documents
+2019-08-23 23:38:24,347 : INFO : CorpusAccumulator accumulated stats from 13000 documents
+2019-08-23 23:38:24,372 : INFO : CorpusAccumulator accumulated stats from 14000 documents
+2019-08-23 23:38:49,833 : WARNING : sklearn not present, switch to PCoA

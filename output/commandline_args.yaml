@@ -1,0 +1,15 @@
+agg_length: 200
+agg_metadata: DATE
+chunksize: 2000
+iterations: 800
+observation_n: 500000
+path_file: ./path.yaml
+pipeline:
+- 1
+- 1
+- 1
+seed: 1
+topic_range:
+- 10
+- 10
+- 1
