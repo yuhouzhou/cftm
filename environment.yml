@@ -36,7 +36,6 @@ dependencies:
   - libcxx=8.0.0
   - libcxxabi=8.0.0
   - libffi=3.2.1
-  - libgfortran=4.0.0
   - liblapack=3.8.0
   - libopenblas=0.3.6
   - libpng=1.6.37
@@ -93,5 +92,6 @@ dependencies:
   - zlib=1.2.11
   - pip:
     - msgpack==0.5.6
+    - libgfortran==4.0.0
 prefix: /Users/YuhouZhou/miniconda3/envs/cftm
 
