@@ -11,13 +11,12 @@ doc/*
 # Others
 *.ipynb
 __pycache__/
-.ipynb_checkpoints/
-.idea/
 spark-warehouse/
 tmp/
-.git.bfg-report/
+.*/
 
 # Include
 !*.sty
 !*.tex
 !*.docx
+!.git

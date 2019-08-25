@@ -2,6 +2,7 @@
 \usepackage{nips13submit_e,times}
 \usepackage{hyperref}
 \usepackage{url}
+\usepackage{todonotes}
 %\documentstyle[nips13submit_09,times,art10]{article} % For LaTeX 2.09
 
 
@@ -29,141 +30,65 @@ Bremen, Germany\\
 
 \nipsfinalcopy % Uncomment for camera-ready version
 
+\setlength {\marginparwidth }{2cm}
 \begin{document}
 
 
 \maketitle
 
 \begin{abstract}
-The abstract paragraph should be indented 1/2~inch (3~picas) on both left and
-right-hand margins. Use 10~point type, with a vertical spacing of 11~points.
-The word \textbf{Abstract} must be centered, bold, and in point size 12. Two
-line spaces precede the abstract. The abstract must be limited to one
-paragraph.
+   % Two line spaces precede the abstract. 
+   % The abstract must be limited to one paragraph.
 \end{abstract}
 
 \section{Introduction}
 
-Customer feedback is information provided by clients about their general experience with a product or a service. In CEWE, one method to collect such feedback is asking customers to complete online survey.
+Customer feedback is information provided by clients about their general experience
+with a product or a service. In CEWE, one method to collect such feedback is asking
+customers to complete online survey.
 
-By collecting customer feedback, the extracted information can act as a guide to improve products. Feedback gives the company the clue of customers' general experience and the satisfaction rate. Except the description provided by sellers, the publicly posted feedback is useful information to other consumers, imparting them an overview how the product really is. This information also helps managers to make correct business decisions.
+By collecting customer feedback, the extracted information can act as a guide to
+improve products. Feedback gives the company the clue of customers' general experience
+and the satisfaction rate. Except the description provided by sellers, the publicly
+posted feedback is useful information to other consumers, imparting them an overview
+how the product really is. This information also helps managers to make correct business
+decisions.
 
-The current way of processing user feedback requires that working staff reads the feedback and later extracts topics. This process can be costly and inefficient, because of manual intervention. At one time, people can only process a small batch of text from a recent period. Thus, the information, which concerning long lasting but less frequently appeared issues, may lost. This proposal will present a workflow, which can extract topics from customer feedback without manual effort. 
-
-\subsection{Style}
-
-Papers to be submitted to NIPS 2013 must be prepared according to the
-instructions presented here. Papers may be only up to eight pages long,
-including figures. Since 2009 an additional ninth page \textit{containing only
-cited references} is allowed. Papers that exceed nine pages will not be
-reviewed, or in any other way considered for presentation at the conference.
-%This is a strict upper bound. 
-
-Please note that this year we have introduced automatic line number generation
-into the style file (for \LaTeXe and Word versions). This is to help reviewers
-refer to specific lines of the paper when they make their comments. Please do
-NOT refer to these line numbers in your paper as they will be removed from the
-style file for the final version of accepted papers.
-
-The margins in 2013 are the same as since 2007, which allow for $\approx 15\%$
-more words in the paper compared to earlier years. We are also again using 
-double-blind reviewing. Both of these require the use of new style files.
-
-Authors are required to use the NIPS \LaTeX{} style files obtainable at the
-NIPS website as indicated below. Please make sure you use the current files and
-not previous versions. Tweaking the style files may be grounds for rejection.
-
-%% \subsection{Double-blind reviewing}
-
-%% This year we are doing double-blind reviewing: the reviewers will not know 
-%% who the authors of the paper are. For submission, the NIPS style file will 
-%% automatically anonymize the author list at the beginning of the paper.
-
-%% Please write your paper in such a way to preserve anonymity. Refer to
-%% previous work by the author(s) in the third person, rather than first
-%% person. Do not provide Web links to supporting material at an identifiable
-%% web site.
-
-%%\subsection{Electronic submission}
-%%
-%% \textbf{THE SUBMISSION DEADLINE IS MAY 31st, 2013. SUBMISSIONS MUST BE LOGGED BY
-%% 23:00, MAY 31st, 2013, UNIVERSAL TIME}
-
-%% You must enter your submission in the electronic submission form available at
-%% the NIPS website listed above. You will be asked to enter paper title, name of
-%% all authors, keyword(s), and data about the contact
-%% author (name, full address, telephone, fax, and email). You will need to
-%% upload an electronic (postscript or pdf) version of your paper.
-
-%% You can upload more than one version of your paper, until the
-%% submission deadline. We strongly recommended uploading your paper in
-%% advance of the deadline, so you can avoid last-minute server congestion.
-%%
-%% Note that your submission is only valid if you get an e-mail
-%% confirmation from the server. If you do not get such an e-mail, please
-%% try uploading again. 
-
-
-\subsection{Retrieval of style files}
-
-The style files for NIPS and other conference information are available on the World Wide Web at
-\begin{center}
-   \url{http://www.nips.cc/}
-\end{center}
-The file \verb+nips2013.pdf+ contains these 
-instructions and illustrates the
-various formatting requirements your NIPS paper must satisfy. \LaTeX{}
-users can choose between two style files:
-\verb+nips11submit_09.sty+ (to be used with \LaTeX{} version 2.09) and
-\verb+nips11submit_e.sty+ (to be used with \LaTeX{}2e). The file
-\verb+nips2013.tex+ may be used as a ``shell'' for writing your paper. All you
-have to do is replace the author, title, abstract, and text of the paper with
-your own. The file
-\verb+nips2013.rtf+ is provided as a shell for MS Word users.
-
-The formatting instructions contained in these style files are summarized in
-sections \ref{gen_inst}, \ref{headings}, and \ref{others} below.
-
-%% \subsection{Keywords for paper submission}
-%% Your NIPS paper can be submitted with any of the following keywords (more than one keyword is possible for each paper):
-
-%% \begin{verbatim}
-%% Bioinformatics
-%% Biological Vision
-%% Brain Imaging and Brain Computer Interfacing
-%% Clustering
-%% Cognitive Science
-%% Control and Reinforcement Learning
-%% Dimensionality Reduction and Manifolds
-%% Feature Selection
-%% Gaussian Processes
-%% Graphical Models
-%% Hardware Technologies
-%% Kernels
-%% Learning Theory
-%% Machine Vision
-%% Margins and Boosting
-%% Neural Networks
-%% Neuroscience
-%% Other Algorithms and Architectures
-%% Other Applications
-%% Semi-supervised Learning
-%% Speech and Signal Processing
-%% Text and Language Applications
-
-%% \end{verbatim}
+The current way of processing user feedback requires that working staff reads the
+feedback and later extracts topics. This process can be costly and inefficient,
+because of manual intervention. At one time, people can only process a small batch of
+text from a recent period. Thus, the information, which concerning long lasting but
+less frequently appeared issues, may lost. This proposal will present a workflow,
+which can extract topics from customer feedback without manual effort.
 
 \section{Related Work}
 \label{gen_inst}
 
-Discovering “topics” from a collection of documents has been a long-standing problem in natural language understanding. Latent Semantic Analysis (LSA) acts as the base of recent topic models [2]. Hofmann proposed Probabilistic Latent Semantic Indexing (pLSA) [3], bringing topic models from deterministic to probabilistic. In 2003, Blei described Latent Dirichlet Allocation (LDA) which is a Bayesian alternative to pLSA [1]. LDA makes use of word co-occurrence information in documents, to generate document-topic distribution. However, the lack of word co-occurrence in short texts prevents LDA yielding satisfying results [9]. Such short texts are news headlines, tweets, user feedback, questions and answers, and so on. One strategy to overcome this data sparsity problem is to concatenate a set of short texts according to available metadata [6, 7, 8]. For example, aggregating texts by timestamps, locations or users. The evaluation plans for topic models include perplexity, topic coherence, etc. [4, 5].
+Discovering “topics” from a collection of documents has been a long-standing problem
+in natural language understanding. Latent Semantic Analysis (LSA) acts as the base of
+recent topic models [2]. Hofmann proposed Probabilistic Latent Semantic Indexing (pLSA) [3],
+bringing topic models from deterministic to probabilistic. In 2003, Blei described Latent
+Dirichlet Allocation (LDA) which is a Bayesian alternative to pLSA [1]. LDA makes use of
+word co-occurrence information in documents, to generate document-topic distribution.
+\todo[inline]{add oneline LDA}
+\todo[inline]{cite distributed and multicore LDA}
+However, the lack of word co-occurrence in short texts prevents LDA yielding satisfying
+results [9]. Such short texts are news headlines, tweets, user feedback, questions and
+answers, and so on. One strategy to overcome this data sparsity problem is to concatenate
+a set of short texts according to available metadata [6, 7, 8]. For example, aggregating
+texts by timestamps, locations or users. The evaluation plans for topic models include perplexity,
+topic coherence, etc. [4, 5].
 
 \section{Approach}
 \label{headings}
 
-First level headings are lower case (except for first word and proper nouns),
-flush left, bold and in point size 12. One line space before the first level
-heading and 1/2~line space after the first level heading.
+Data preparation will be performed to filter useless information and concatenate entries of feedback according to their metadata. Afterwards a LDA model will be trained on previous customer feedback. Topic coherence will be picked to measure the function of the model.
+
+The tools expected to be used and compared are Google Cloud Platform (GCP) Natural Language, Python spaCy, and Gensim. GCP Natural Language provides German support and offers easy to use APIs. Spacy also supports German and is highly optimized. It has very good interfaces with other machine learning libraries, such as TensorFlow, scikit-learn. Gensim is a python library which is highly efficient and scalable towards topic and semantic modelling.
+
+Two obstacles are about to be solved. The feedback is written in German is one of the difficulties. Nowadays, many natural language processing libraries have poor support to German language. Either they cannot train models based on German, or they only provide limited features to German. The other difficulty is the variation of text is dramatic and unpredictable. This is reflected on two aspects. First, the quality of the feedback is varying. Some feedback contains totally useless information, such as "Nein", the copy of the survey email. The length of the feedback varies from one word to a long text containing hundreds of words. Second, the content of new feedback is unforeseeable. It may include new products, new services, etc.
+
+For model deployment, the model will be retrained based on a time period. Outdated observations will be removed, and new observations will be included into the training process. This process can be scheduled using an ochestrator tool, such as Apache Airflow.
 
 \subsection{System Pipeline}
 
@@ -194,12 +119,12 @@ paper, in the \textbf{References} section. (Note: the standard
 references themselves, any style is acceptable as long as it is used
 consistently.
 
-As submission is double blind, refer to your own published work in the 
+As submission is double blind, refer to your own published work in the
 third person. That is, use ``In the previous work of Jones et al.\ [4]'',
 not ``In our previous work [4]''. If you cite your other papers that
 are not widely available (e.g.\ a journal paper under review), use
 anonymous author names in the citation, e.g.\ an author of the
-form ``A.\ Anonymous''. 
+form ``A.\ Anonymous''.
 
 
 \subsection{Footnotes}
@@ -221,16 +146,16 @@ first word and proper nouns); figures are numbered consecutively.
 Make sure the figure caption does not get separated from the figure.
 Leave sufficient space to avoid splitting the figure and figure caption.
 
-You may use color figures. 
+You may use color figures.
 However, it is best for the
 figure captions and the paper body to make sense if the paper is printed
 either in black/white or in color.
-\begin{figure}[h]
-\begin{center}
-%\framebox[4.0in]{$\;$}
-\fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
-\end{center}
-\caption{Sample figure caption.}
+\begin{figure}[ht]
+   \begin{center}
+      %\framebox[4.0in]{$\;$}
+      \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
+   \end{center}
+   \caption{Sample figure caption.}
 \end{figure}
 
 \subsection{Tables}
@@ -244,17 +169,17 @@ title, and one line space after the table. The table title must be lower case
 (except for first word and proper nouns); tables are numbered consecutively.
 
 \begin{table}[t]
-\caption{Sample table title}
-\label{sample-table}
-\begin{center}
-\begin{tabular}{ll}
-\multicolumn{1}{c}{\bf PART}  &\multicolumn{1}{c}{\bf DESCRIPTION}
-\\ \hline \\
-Dendrite         &Input terminal \\
-Axon             &Output terminal \\
-Soma             &Cell body (contains cell nucleus) \\
-\end{tabular}
-\end{center}
+   \caption{Sample table title}
+   \label{sample-table}
+   \begin{center}
+      \begin{tabular}{ll}
+         \multicolumn{1}{c}{\bf PART} & \multicolumn{1}{c}{\bf DESCRIPTION}
+         \\ \hline \\
+         Dendrite                     & Input terminal                      \\
+         Axon                         & Output terminal                     \\
+         Soma                         & Cell body (contains cell nucleus)   \\
+      \end{tabular}
+   \end{center}
 \end{table}
 
 \section{Final instructions}
@@ -276,88 +201,88 @@ to achieve this.
 
 \begin{itemize}
 
-\item You can check which fonts a PDF files uses.  In Acrobat Reader,
-select the menu Files$>$Document Properties$>$Fonts and select Show All Fonts. You can
-also use the program \verb+pdffonts+ which comes with \verb+xpdf+ and is
-available out-of-the-box on most Linux machines.
+   \item You can check which fonts a PDF files uses.  In Acrobat Reader,
+         select the menu Files$>$Document Properties$>$Fonts and select Show All Fonts. You can
+         also use the program \verb+pdffonts+ which comes with \verb+xpdf+ and is
+         available out-of-the-box on most Linux machines.
 
-\item The IEEE has recommendations for generating PDF files whose fonts
-are also acceptable for NIPS. Please see
-\url{http://www.emfield.org/icuwb2010/downloads/IEEE-PDF-SpecV32.pdf}
+   \item The IEEE has recommendations for generating PDF files whose fonts
+         are also acceptable for NIPS. Please see
+         \url{http://www.emfield.org/icuwb2010/downloads/IEEE-PDF-SpecV32.pdf}
 
-\item LaTeX users:
+   \item LaTeX users:
 
-\begin{itemize}
+         \begin{itemize}
 
-\item Consider directly generating PDF files using \verb+pdflatex+
-(especially if you are a MiKTeX user). 
-PDF figures must be substituted for EPS figures, however.
+            \item Consider directly generating PDF files using \verb+pdflatex+
+                  (especially if you are a MiKTeX user).
+                  PDF figures must be substituted for EPS figures, however.
 
-\item Otherwise, please generate your PostScript and PDF files with the following commands:
-\begin{verbatim} 
+            \item Otherwise, please generate your PostScript and PDF files with the following commands:
+                  \begin{verbatim} 
 dvips mypaper.dvi -t letter -Ppdf -G0 -o mypaper.ps
 ps2pdf mypaper.ps mypaper.pdf
 \end{verbatim}
 
-Check that the PDF files only contains Type 1 fonts. 
-%For the final version, please send us both the Postscript file and
-%the PDF file. 
+                  Check that the PDF files only contains Type 1 fonts.
+                  %For the final version, please send us both the Postscript file and
+                  %the PDF file. 
 
-\item xfig "patterned" shapes are implemented with 
-bitmap fonts.  Use "solid" shapes instead. 
-\item The \verb+\bbold+ package almost always uses bitmap
-fonts.  You can try the equivalent AMS Fonts with command
-\begin{verbatim}
+            \item xfig "patterned" shapes are implemented with
+                  bitmap fonts.  Use "solid" shapes instead.
+            \item The \verb+\bbold+ package almost always uses bitmap
+                  fonts.  You can try the equivalent AMS Fonts with command
+                  \begin{verbatim}
 \usepackage[psamsfonts]{amssymb}
 \end{verbatim}
- or use the following workaround for reals, natural and complex: 
-\begin{verbatim}
+                  or use the following workaround for reals, natural and complex:
+                  \begin{verbatim}
 \newcommand{\RR}{I\!\!R} %real numbers
 \newcommand{\Nat}{I\!\!N} %natural numbers 
 \newcommand{\CC}{I\!\!\!\!C} %complex numbers
 \end{verbatim}
 
-\item Sometimes the problematic fonts are used in figures
-included in LaTeX files. The ghostscript program \verb+eps2eps+ is the simplest
-way to clean such figures. For black and white figures, slightly better
-results can be achieved with program \verb+potrace+.
-\end{itemize}
-\item MSWord and Windows users (via PDF file):
-\begin{itemize}
-\item Install the Microsoft Save as PDF Office 2007 Add-in from
-\url{http://www.microsoft.com/downloads/details.aspx?displaylang=en\&familyid=4d951911-3e7e-4ae6-b059-a2e79ed87041}
-\item Select ``Save or Publish to PDF'' from the Office or File menu
-\end{itemize}
-\item MSWord and Mac OS X users (via PDF file):
-\begin{itemize}
-\item From the print menu, click the PDF drop-down box, and select ``Save
-as PDF...''
-\end{itemize}
-\item MSWord and Windows users (via PS file):
-\begin{itemize}
-\item To create a new printer
-on your computer, install the AdobePS printer driver and the Adobe Distiller PPD file from
-\url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=204} {\it Note:} You must reboot your PC after installing the
-AdobePS driver for it to take effect.
-\item To produce the ps file, select ``Print'' from the MS app, choose
-the installed AdobePS printer, click on ``Properties'', click on ``Advanced.''
-\item Set ``TrueType Font'' to be ``Download as Softfont''
-\item Open the ``PostScript Options'' folder
-\item Select ``PostScript Output Option'' to be ``Optimize for Portability''
-\item Select ``TrueType Font Download Option'' to be ``Outline''
-\item Select ``Send PostScript Error Handler'' to be ``No''
-\item Click ``OK'' three times, print your file.
-\item Now, use Adobe Acrobat Distiller or ps2pdf to create a PDF file from
-the PS file. In Acrobat, check the option ``Embed all fonts'' if
-applicable.
-\end{itemize}
+            \item Sometimes the problematic fonts are used in figures
+                  included in LaTeX files. The ghostscript program \verb+eps2eps+ is the simplest
+                  way to clean such figures. For black and white figures, slightly better
+                  results can be achieved with program \verb+potrace+.
+         \end{itemize}
+   \item MSWord and Windows users (via PDF file):
+         \begin{itemize}
+            \item Install the Microsoft Save as PDF Office 2007 Add-in from
+                  \url{http://www.microsoft.com/downloads/details.aspx?displaylang=en\&familyid=4d951911-3e7e-4ae6-b059-a2e79ed87041}
+            \item Select ``Save or Publish to PDF'' from the Office or File menu
+         \end{itemize}
+   \item MSWord and Mac OS X users (via PDF file):
+         \begin{itemize}
+            \item From the print menu, click the PDF drop-down box, and select ``Save
+                  as PDF...''
+         \end{itemize}
+   \item MSWord and Windows users (via PS file):
+         \begin{itemize}
+            \item To create a new printer
+                  on your computer, install the AdobePS printer driver and the Adobe Distiller PPD file from
+                  \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=204} {\it Note:} You must reboot your PC after installing the
+                  AdobePS driver for it to take effect.
+            \item To produce the ps file, select ``Print'' from the MS app, choose
+                  the installed AdobePS printer, click on ``Properties'', click on ``Advanced.''
+            \item Set ``TrueType Font'' to be ``Download as Softfont''
+            \item Open the ``PostScript Options'' folder
+            \item Select ``PostScript Output Option'' to be ``Optimize for Portability''
+            \item Select ``TrueType Font Download Option'' to be ``Outline''
+            \item Select ``Send PostScript Error Handler'' to be ``No''
+            \item Click ``OK'' three times, print your file.
+            \item Now, use Adobe Acrobat Distiller or ps2pdf to create a PDF file from
+                  the PS file. In Acrobat, check the option ``Embed all fonts'' if
+                  applicable.
+         \end{itemize}
 
 \end{itemize}
 If your file contains Type 3 fonts or non embedded TrueType fonts, we will
-ask you to fix it. 
+ask you to fix it.
 
 \subsection{Margins in LaTeX}
- 
+
 Most of the margin problems come from figures positioned by hand using
 \verb+\special+ or other commands. We suggest using the command
 \verb+\includegraphics+
@@ -372,9 +297,9 @@ or % Apr 2009 addition
    \usepackage[pdftex]{graphicx} ... 
    \includegraphics[width=0.8\linewidth]{myfile.pdf} 
 \end{verbatim}
-for .pdf graphics. 
-See section 4.4 in the graphics bundle documentation (\url{http://www.ctan.org/tex-archive/macros/latex/required/graphics/grfguide.ps}) 
- 
+for .pdf graphics.
+See section 4.4 in the graphics bundle documentation (\url{http://www.ctan.org/tex-archive/macros/latex/required/graphics/grfguide.ps})
+
 A number of width problems arise when LaTeX cannot properly hyphenate a
 line. Please give LaTeX hyphenation hints using the \verb+\-+ command.
 
@@ -382,32 +307,32 @@ line. Please give LaTeX hyphenation hints using the \verb+\-+ command.
 \subsubsection*{Acknowledgments}
 
 Use unnumbered third level headings for the acknowledgments. All
-acknowledgments go at the end of the paper. Do not include 
-acknowledgments in the anonymized submission, only in the 
-final paper. 
+acknowledgments go at the end of the paper. Do not include
+acknowledgments in the anonymized submission, only in the
+final paper.
 
 \subsubsection*{References}
 
 References follow the acknowledgments. Use unnumbered third level heading for
 the references. Any choice of citation style is acceptable as long as you are
-consistent. It is permissible to reduce the font size to `small' (9-point) 
+consistent. It is permissible to reduce the font size to `small' (9-point)
 when listing the references. {\bf Remember that this year you can use
-a ninth page as long as it contains \emph{only} cited references.}
+      a ninth page as long as it contains \emph{only} cited references.}
 
 \small{
 [1] Alexander, J.A. \& Mozer, M.C. (1995) Template-based algorithms
 for connectionist rule extraction. In G. Tesauro, D. S. Touretzky
 and T.K. Leen (eds.), {\it Advances in Neural Information Processing
-Systems 7}, pp. 609-616. Cambridge, MA: MIT Press.
+      Systems 7}, pp. 609-616. Cambridge, MA: MIT Press.
 
-[2] Bower, J.M. \& Beeman, D. (1995) {\it The Book of GENESIS: Exploring
-Realistic Neural Models with the GEneral NEural SImulation System.}
+   [2] Bower, J.M. \& Beeman, D. (1995) {\it The Book of GENESIS: Exploring
+      Realistic Neural Models with the GEneral NEural SImulation System.}
 New York: TELOS/Springer-Verlag.
 
 [3] Hasselmo, M.E., Schnell, E. \& Barkai, E. (1995) Dynamics of learning
 and recall at excitatory recurrent synapses and cholinergic modulation
 in rat hippocampal region CA3. {\it Journal of Neuroscience}
-{\bf 15}(7):5249-5262.
+   {\bf 15}(7):5249-5262.
 }
 
 \end{document}
