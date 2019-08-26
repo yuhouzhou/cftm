@@ -22,6 +22,7 @@ before_script:
   - apt-get install -y build-essential
   - conda info
   - conda env create --file ./environment.yml
+  - conda init bash
   - conda activate cftm
 
 test:
