@@ -17,6 +17,10 @@ cache:
 
 before_script:
   - python -V  # Print out python version for debugging
+  # build conda environment
+  - apt-get update -q -y
+  - apt-get install -y build-essential
+  - conda info
   - conda env create --file ./environment.yml
   - conda activate cftm
 
