@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
                 # Data Evaluation
                 cm = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
-                                    coherence='u_mass')
+                                    coherence='c_v')
                 coherence = cm.get_coherence()
                 coherence_lst.append(coherence)
 
@@ -176,7 +176,7 @@ if __name__ == '__main__':
     if visualization:
         print("> Plot Topic Coherence vs. Number of Topics started...")
         # Plot Topic Coherence
-        index = int(np.argmin(coherence_lst))
+        index = int(np.argmax(coherence_lst))
         lda = lda_lst[index]
         plt.scatter(range(n_topic_min, n_topics_max + 1, step), coherence_lst, s=5)
         plt.scatter(n_topic_min + index * step, coherence_lst[index], color='r')
@@ -184,7 +184,7 @@ if __name__ == '__main__':
                      (n_topic_min + index * step, coherence_lst[index]))
         plt.title('Topic Coherence vs. Number of Topics')
         plt.xlabel('Number of Topics')
-        plt.ylabel('Topic Coherence (By UMass)')
+        plt.ylabel('Topic Coherence (By c_v)')
         plt.ticklabel_format(useOffset=False)
         plt.tight_layout()
         plt.savefig(pic_path)
