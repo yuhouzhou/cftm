@@ -18,7 +18,7 @@ def text_preproc_maker(stopwords, language='de'):
     return text_preproc
 
 
-def text_aggregator(df_pd, metadata='DATE', min_len=-1):
+def text_aggregator(df_pd, metadata=None, min_len=-1):
     # Speed: 151 milliseconds to concatenate 200,000 feedback to minimum length of 2000 words
     if metadata == 'DATE':
         # TODO:
@@ -58,7 +58,7 @@ def gensim_prep(texts):
     return texts, dictionary, corpus
 
 
-def preprocessor(df_pd, stopwords, language='de', text='TEXT', metadata=None, min_len=300):
+def preprocessor(df_pd, stopwords, language='de', text='TEXT', metadata=None, min_len=-1):
     text_preproc = text_preproc_maker(stopwords, language)
     print('> Text preprocessing started...')
     tqdm.pandas()

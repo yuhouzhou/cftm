@@ -3,10 +3,15 @@
 \usepackage{hyperref}
 \usepackage{url}
 \usepackage{todonotes}
+\usepackage{paralist}
+\usepackage{bm}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage[bottom]{footmisc}
 %\documentstyle[nips13submit_09,times,art10]{article} % For LaTeX 2.09
 
 
-\title{Customer Feedback Topic Modelling Using Distributed Online Latent Dirichlet Allocation}
+\title{Customer Feedback Topic Modelling Using Online Latent Dirichlet Allocation}
 
 
 \author{
@@ -14,7 +19,11 @@ Yuhou Zhou\\
 Department of Computer Science \& Electrical Engineering\\
 Jacobs University Bremen\\
 Bremen, Germany\\
-\texttt{yu.zhou@jacobs-university.de} \\
+Corporate Information Management\\
+CEWE Stiftung \& Co. KGaA\\
+Oldenburg, Germany\\
+\texttt{yu.zhou@jacobs-university.de}\\
+\texttt{yuhou.zhou@cewe.de}\\
 }
 
 % The \author macro works with any number of authors. There are two commands
@@ -32,19 +41,19 @@ Bremen, Germany\\
 
 \setlength {\marginparwidth }{2cm}
 \begin{document}
-
-
+\raggedbottom
 \maketitle
 
 \begin{abstract}
    % Two line spaces precede the abstract. 
    % The abstract must be limited to one paragraph.
+   I develope a topic modelling system\footnote{Available on \textit{gitlab.com/yuhouzhou/cftm}} for extracting topics from customer feedback. The system includes three parts which are preprocessing, modelling, and visualization. Apache PySpark helps to read large volume data, and Python spaCy is used to run preprocessing pipeline. Online Latent Dirichlet Allocation is the selected topic model, and the system uses Gensim implementation. Topic coherence serves as the evaluation metric for choosing the optimal topic number. LDAvis presents topic modelling results interactively and shows the topic distribution over two principal components. This project can serve as a base for further generalizing to extract topics from different data sources.
 \end{abstract}
 
 \section{Introduction}
 
 Customer feedback is information provided by clients about their general experience
-with a product or a service. In CEWE, one method to collect such feedback is asking
+with a product or a service. At CEWE, one method to collect such feedback is asking
 customers to complete online survey.
 
 By collecting customer feedback, the extracted information can act as a guide to
@@ -58,281 +67,229 @@ The current way of processing user feedback requires that working staff reads th
 feedback and later extracts topics. This process can be costly and inefficient,
 because of manual intervention. At one time, people can only process a small batch of
 text from a recent period. Thus, the information, which concerning long lasting but
-less frequently appeared issues, may lost. This proposal will present a workflow,
-which can extract topics from customer feedback without manual effort.
+less frequently appeared issues, may lost. 
+
+Latent Dirichlet Allocation (LDA) can automate this topic extraction process. LDA is a generative probabilistic model for discrete data, and it is especially popular in the field of topic modelling.
+In this project, I automate the topic extraction process utilizing Online Latent Dirichlet Allocation with the optimal number of topics found by topic coherence.
 
 \section{Related Work}
 \label{gen_inst}
 
 Discovering “topics” from a collection of documents has been a long-standing problem
 in natural language understanding. Latent Semantic Analysis (LSA) acts as the base of
-recent topic models [2]. Hofmann proposed Probabilistic Latent Semantic Indexing (pLSA) [3],
-bringing topic models from deterministic to probabilistic. In 2003, Blei described Latent
-Dirichlet Allocation (LDA) which is a Bayesian alternative to pLSA [1]. LDA makes use of
-word co-occurrence information in documents, to generate document-topic distribution.
-\todo[inline]{add online LDA}
-\todo[inline]{cite distributed and multicore LDA}
+recent topic models \cite{deerwester_indexing_1990}. Hofmann proposed Probabilistic Latent Semantic Indexing (pLSA) \cite{hofmann_probabilistic_2017}, bringing topic models from deterministic to probabilistic. Blei et al. (2003) described Latent Dirichlet Allocation (LDA) which is a Bayesian alternative to pLSA \cite{blei_latent_2003}. LDA makes use of word co-occurrence information in documents, to generate document-topic distribution. Hoffman et al. (2010) developed an online variational Bayes algorithm for LDA \cite{hoffman_online_2010}. This online version of LDA was demonstrated that it has advantages over batch LDA in terms of model accuracy and the modelling time.
 However, the lack of word co-occurrence in short texts prevents LDA yielding satisfying
-results [9]. Such short texts are news headlines, tweets, user feedback, questions and
-answers, and so on. One strategy to overcome this data sparsity problem is to concatenate
-a set of short texts according to available metadata [6, 7, 8]. For example, aggregating
-texts by timestamps, locations or users. The evaluation plans for topic models include perplexity,
-topic coherence, etc. [4, 5].
+results \cite{li_topic_2016}. Such short texts are news headlines, tweets, user feedback, questions and answers, and so on. One strategy to overcome this data sparsity problem is to concatenate a set of short texts according to available metadata \cite{weng_twitterrank:_2010, hong_empirical_2010, mehrotra_improving_2013}. For example, aggregating texts by timestamps, locations or users. 
 
-\section{Approach}
-\label{headings}
+Perplexity was used to evaluate the accuracy of topic models \cite{wallach_evaluation_2009}. However, Chang et al (2009) found that perplexity does not always correlated with the interpretability of topics \cite{chang_reading_2009}. Topic coherence c\textunderscore{}uci was first proposed by Newman et al.(2010)\cite{newman_automatic_nodate}, by using pairwise pointwise mutual information (PMI) between the topic words. c\textunderscore{}uci was proven highly correlated with human judgment. Röder et al. (2015) proposed topic coherence c\textunderscore{}v which was identified that it outperformed other topic coherence \cite{roder_exploring_2015}.
 
-Data preparation will be performed to filter useless information and concatenate entries of feedback according to their metadata. Afterwards a LDA model will be trained on previous customer feedback. Topic coherence will be picked to measure the function of the model.
+\section{Online Latent Dirichlet Allocation}
+Latent Dirichlet Allocation is an unsupervised machine learning model \cite{blei_latent_2003}. It identifies latent topics in corpus. Each document in the corpus is represented as probability distribution over some other topics. All the topics are represented as a probability distribution over some words.
 
-The tools expected to be used and compared are Google Cloud Platform (GCP) Natural Language, Python spaCy, and Gensim. GCP Natural Language provides German support and offers easy to use APIs. Spacy also supports German and is highly optimized. It has very good interfaces with other machine learning libraries, such as TensorFlow, scikit-learn. Gensim is a python library which is highly efficient and scalable towards topic and semantic modelling.
+Theoretically, a document $\bm{w}$ in the corpus $D$ is associated with a multinomial distribution over $T$ topics; $T$ is the predefined number of topics, and document is denoted by $\bm{w} = (w_1, w_2, ..., w_N)$ where $w_n$ is the $n$th word in the sequence. The multinomial distribution is denoted as $\theta$. One topic is similarly associated with a multinomial distribution $\phi$ over words $w_n$.
 
-Two obstacles are about to be solved. The feedback is written in German is one of the difficulties. Nowadays, many natural language processing libraries have poor support to German language. Either they cannot train models based on German, or they only provide limited features to German. The other difficulty is the variation of text is dramatic and unpredictable. This is reflected on two aspects. First, the quality of the feedback is varying. Some feedback contains totally useless information, such as "Nein", the copy of the survey email. The length of the feedback varies from one word to a long text containing hundreds of words. Second, the content of new feedback is unforeseeable. It may include new products, new services, etc.
+$\theta$ and $\phi$ whose hyper-parameters are $\alpha$ and $\beta$ respectively have Dirichlet prior. For every word in one document $\bm{w}$, a topic $z$ is sampled consequently. This generative process is repeated $N$ times, where $N$ is the number of words in the document \cite{hong_empirical_2010}.
 
-For model deployment, the model will be retrained based on a time period. Outdated observations will be removed, and new observations will be included into the training process. This process can be scheduled using an ochestrator tool, such as Apache Airflow.
+A k-dimensional Dirichlet Random variable has the following probability density:
+\begin{align}
+p(\theta|\alpha) = \frac{\Gamma(\sum_{i=1}^{k} \alpha_i)}{\Pi_{i=1}^{k}\Gamma(\alpha_i)}\theta_{1}^{\alpha_{1}-1}\dots\theta_{k}^{\alpha_{k}-1}
+\end{align}
+where $\Gamma(x)$ is the Gamma function.
+The probability of a corpus:
+\begin{align}
+      p(D|\alpha, \beta) = \displaystyle \prod_{d=1}^{M}\int p(\theta_{d}|\alpha) \left( \displaystyle  \prod_{n=1}^{N_d}\sum_{z_{dn}}p(z_{dn}|\theta)p(w_{dn}|z_{dn}, \beta) \right)d\theta_d
+\end{align}
+The probabilistic graphical model representation of LDA is in Figure 1. As shown in the Figure 1, LDA consists of three layers. The parameters $\alpha$ and $\beta$ are one the level of corpus. $\theta_{d}$ are variables on the level of document. $z_{dn}$ and $w_{dn}$ are variables on the level of word. 
 
-\subsection{System Pipeline}
+However batch LDA still requires to feed the entire corpus into each iteration when the model is being trained. Thus, in some circumstance LDA does not perform well, such as when the datasets are large, or when new data comes in stream to the training process \cite{hoffman_online_2010}. 
+\begin{figure}[H]
+      \graphicspath{ {images/} }
+      \begin{center}
+      \includegraphics[scale=0.4]{LDA.png}
+      \end{center}
+      \caption{Graphical model representation of LDA}
+\end{figure}
+\todo[inline]{online version}
 
-Second level headings are lower case (except for first word and proper nouns),
-flush left, bold and in point size 10. One line space before the second level
-heading and 1/2~line space after the second level heading.
+\section{Topic Coherence}
+By combining elementary components, Röder et al proposed the topic coherence c\textunderscore{}v, which was proved that it outperforms other topic coherence \cite{roder_exploring_2015}. 
 
-\subsection{LDA Model Archetecture}
+\section{Visualization}
+In 2014, Sievert et al. presented a web-based visualization for Latent Dirichlet Allocation \cite{sievert_ldavis:_2014}
 
-\subsubsection{Headings: third level}
+% \section{Approach}
+% \label{headings}
 
-Third level headings are lower case (except for first word and proper nouns),
-flush left, bold and in point size 10. One line space before the third level
-heading and 1/2~line space after the third level heading.
+% Data preparation is performed to filter information and concatenate entries of feedback according to their metadata. Afterwards a LDA model will be trained on previous customer feedback. Topic coherence will be picked to measure the function of the model.
 
-\section{Citations, figures, tables, references}
-\label{others}
+% The used tools are Python spaCy, Apache Spark and Gensim. Spacy also supports German and is highly optimized. It has very good interfaces with other machine learning libraries, such as TensorFlow, scikit-learn. Gensim is a python library which is highly efficient and scalable towards topic and semantic modelling.
 
-These instructions apply to everyone, regardless of the formatter being used.
+% Two obstacles are about to be solved. The feedback is written in German is one of the difficulties. Nowadays, many natural language processing libraries have poor support to German language. Either they cannot train models based on German, or they only provide limited features to German. The other difficulty is the variation of text is dramatic and unpredictable. This is reflected on two aspects. First, the quality of the feedback is varying. Some feedback contains totally useless information, such as "Nein", the copy of the survey email. The length of the feedback varies from one word to a long text containing hundreds of words. Second, the content of new feedback is unforeseeable. It may include new products, new services, etc.
 
-\subsection{Citations within the text}
+% For model deployment, the model will be retrained based on a time period. Outdated observations will be removed, and new observations will be included into the training process. This process can be scheduled using an orchestrator tool, such as Apache Airflow.
 
-Citations within the text should be numbered consecutively. The corresponding
-number is to appear enclosed in square brackets, such as [1] or [2]-[5]. The
-corresponding references are to be listed in the same order at the end of the
-paper, in the \textbf{References} section. (Note: the standard
-\textsc{Bib\TeX} style \texttt{unsrt} produces this.) As to the format of the
-references themselves, any style is acceptable as long as it is used
-consistently.
+\section{Data File}
+The original data files used for this project are two parquet files of the overall size 1.47 GB.  The parquet file in customer\textunderscore{}feedbacks/ contains 101 columns, and the one in customer\textunderscore{}feedbacks\textunderscore{}cat/ contains 7 columns. The content of customer feedback is stored in the column ANTWORT\textunderscore{}WERT, There are 1,917,490 feedbacks including duplicates since 14/04/2012.The sentiment of the feedback is stored in the column STIMMUNG.
 
-As submission is double blind, refer to your own published work in the
-third person. That is, use ``In the previous work of Jones et al.\ [4]'',
-not ``In our previous work [4]''. If you cite your other papers that
-are not widely available (e.g.\ a journal paper under review), use
-anonymous author names in the citation, e.g.\ an author of the
-form ``A.\ Anonymous''.
+\section{System Architecture and Usage}
+Under the project root directory, there are cftm/ directory, environment.yml file and README.md file.
+
+environment.yml files specifies the environment dependencies of the system. We can use conda to recreate the system environment. README.md provide brief introduction of the system.
+
+The source code of the system is under cftm/cftm/ directory. It contains three python files which are pipeline.py, cftm\textunderscore{}parser.py, preprocessing.py and one yml file, path.yml file. 
+
+pipeline.py is the entry of the system, passing arguments to this file in order to control the behavior of the system. cftm\textunderscore{}parser.py and preprocessing.py contains modules used by pipeline. cftm\textunderscore{}parser.py extracts specified data from data source file; preprocessing.py executes standard nlp preprocessing operations, eventually converting texts to the object which Gensim requires. path.yml file contains all the paths to store system output.
+
+\subsection{cftm\textunderscore{}parser.py}
+cftm\textunderscore{}parser.py contains one method parquet\textunderscore{}transform() to transform data in parquet files to the data format for preprocessing and modelling.
+
+\underline{\textit{parquet\textunderscore{}transform(path1, path2, n=-1)}}
+
+\textbf{parameters: }
+\begin{compactitem}
+      \item path1 (str) - the path of the first parquet file
+      \item path2 (str) - the path of the second parquet file
+      \item n (int, optional) - the number of observations to be transformed. When the passed integer is smaller than 0, all observations from data source will be transformed.
+\end{compactitem}
+
+\textbf{returns:}
+\begin{compactitem}
+      \item \textit{pandas.dataframe} - include the data frame with desired columns and the specified number of observations 
+\end{compactitem}
 
 
-\subsection{Footnotes}
+cftm\textunderscore{}parser makes use of Apache Spark, and Spark SQL to import data from parqurt file. Since the size of the parquet files are in the level of gigabytes, directly using method \textit{pandas.read\textunderscore{}parquet()} to extract pandas data frame requires large volume of memory. This is sometimes unrealistic when only a personal computer is available for running the system. 
 
-Indicate footnotes with a number\footnote{Sample of the first footnote} in the
-text. Place the footnotes at the bottom of the page on which they appear.
-Precede the footnote with a horizontal rule of 2~inches
-(12~picas).\footnote{Sample of the second footnote}
+An alternative way to import the data is using \textit{spark.read.parquet()}. Instead of fitting all the data to memory, Spark's operators spill data to disk, which make it possible to run over any size of data. \textit{spark.read.parquet()} reads a parquet file from a specified path and return a \textit{spark.data frame} object. Writing queries by Spark SQL makes the data manipulation the same as the process over relational database. After the query the size of the data drops significantly. Sequentially, duplicated observations are dropped and \textit{spark.dateframe} is transformed to \textit{pandas.data frame} for preprocessing procedures.
 
-\subsection{Figures}
+\subsection{preprocessing.py}
+\textit{preprocessing.py} utilizes python spaCy to run the standard text preprocessing pipeline, which includes tokenization, lemmatization, lowercasing, striping white spaces, and removing stopwords and punctuations. A token is the name for a sequence of characters that we want to treat as a group, i.e. word, punctuation symbol, white space, etc. Tokenization means to convert a text to a collection of tokens. Lemmatization assigns the base forms of words. For example, assign "run" to "running", "ran", or "be" to "is", "am", "were", etc. Stopwords are the words which appear with high-frequency, such as "also", "the", "to", etc. They too ubiquitously exist in texts, and therefore contain little information about the text. Stopwords and punctuations are removed to only keep words which are distinct.
 
-All artwork must be neat, clean, and legible. Lines should be dark
-enough for purposes of reproduction; art work should not be
-hand-drawn. The figure number and caption always appear after the
-figure. Place one line space before the figure caption, and one line
-space after the figure. The figure caption is lower case (except for
-first word and proper nouns); figures are numbered consecutively.
+spaCy\footnote{Available on \textit{github.com/explosion/spaCy}} is a Python/Cython natural language processing package which currently offers fastest syntactic parser in the word. Choi et al. (2015) conducted an evaluation research proved the outstanding performance of spaCy \cite{choi_it_2015}. The high speed of spaCy makes it especially suitable to processing large volume of text data.
 
-Make sure the figure caption does not get separated from the figure.
-Leave sufficient space to avoid splitting the figure and figure caption.
+Four methods are in this script. \textit{text\textunderscore{}preproc\textunderscore{}maker()}, \textit{text\textunderscore{}aggregation()}, \textit{gensim\textunderscore{}prep()}, and \textit{preprocessor()}.
 
-You may use color figures.
-However, it is best for the
-figure captions and the paper body to make sense if the paper is printed
-either in black/white or in color.
-\begin{figure}[ht]
-   \begin{center}
-      %\framebox[4.0in]{$\;$}
-      \fbox{\rule[-.5cm]{0cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
-   \end{center}
-   \caption{Sample figure caption.}
+\underline{\textit{text\textunderscore{}preproc\textunderscore{}maker(stopwords, language='de')}}
+
+A currying function which returns a new function \textit{text\textunderscore{}preproc(sentence)} to run the text preprocessing pipeline ,including tokenization, emmatization, lowercasing, striping white spaces, and removing stopwords and punctuations, for the specified language.
+
+\textbf{parameters: }
+\begin{compactitem}
+      \item stopwords (list of str) - a list of stopwords
+      \item language (str, optional) - the possible inputs are the languages which spaCy supports, such as 'de', 'en', etc. Before use the specified language, first install the spaCy required language, using command \textit{pip install spacy \&\& python -m spacy download en}, here 'en' can be replaced with the language you would like to install.
+\end{compactitem}
+
+\textbf{returns:}
+\begin{compactitem}
+      \item \textit{text\textunderscore{}preproc object} - a function takes sentences as the parameter, containing the pipeline of preprocessing.
+\end{compactitem}
+
+\underline{\textit{text\textunderscore{}aggregator(df\textunderscore{}pd, metadata='DATE', min\textunderscore{}len=-1)}}
+
+\textbf{parameters: }
+\begin{compactitem}
+      \item df\textunderscore{}pd (pandas.dataframe) - a Pandas data frame containing text data and metadata.
+      \item metadata (str, optional) - the column name of the metadata which is used to aggregate texts. Legal options are 'DATE' and 'SENTIMENT'.
+      \item min\textunderscore{}len (int, optional) - when the metadata is 'DATE', this argument decides the minimal length of the aggregated text. The default is -1, which means no aggregation, but using the original texts.
+\end{compactitem}
+
+\textbf{returns:}
+\begin{compactitem}
+      \item \textit{list of lists of str} - the text data after aggregation.
+\end{compactitem}
+
+\underline{\textit{gensim\textunderscore{}prep(texts)}}
+
+This method converts list of lists string to gensim dictionary and corpus objects.
+\textbf{parameters: }
+\begin{compactitem}
+      \item texts (list of lists of str) - text data.
+\end{compactitem}
+
+\textbf{returns:}
+\begin{compactitem}
+      \item \textit{list of lists of str} - the text data.
+      \item \textit{gensim.corpora.dictionary.Dictionary} - A mapping between words and their integer ids.
+      \item \textit{list of lists of (int, int)} - Bag of words representation of the documents.
+\end{compactitem}
+
+\underline{\textit{preprocessor(df\textunderscore{}pd, stopwords, language='de', text='TEXT', metadata=None, min\textunderscore{}len=-1)}}
+
+This method wraps up preproc, text aggregator, and gensim\textunderscore{}prep to compose a full preprocessing pipeline. It returns text data, gensim dictionary, and gensim bag of words corpus. See the information of the arguments above.
+
+\subsection{pipeline.py}
+pipeline.py is the entry of the system. It consists of three parts preprocessing, modelling, and visualization. Preprocessing part uses the function \textit{preprocessor()} in preprocessing.py. For modelling, gensim implemented Online LDA is used. pyLDAvis module takes the training results from Online LDA, and produce a html file which supports interactive visualization.
+
+\subsubsection{Arguments}
+This program takes 9 arguments. \textit{--pipeline} is a positional argument, and others are optional arguments.
+
+\textit{--pipeline} is a positional parameter, requiring 3 integer numbers, which switches preprocessing, modelling, and visualization respectively. If one of the numbers is 0, the corresponding function is turned off. If it is none 0, the corresponding function is turned on. For example, if the parameter is \textit{1 1 1}, then the pipeline will be preprocessing, modelling, and visualization. If the parameter is \textit{0 1 1}, then the pipeline will only have the procedures of modelling and visualization, when the training data is read from a pickle file, which is either got from a archive or is copied to the required path. The parameter \textit{0 0 1} has the same logic. \textit{1 0 0} and \textit{1 1 0} also are the legal combinations. Designing the system in this way makes the pipeline flexible and fault tolerant. Since the data volume is big, user can choose which part of the pipeline he would like to run to avoid repeated work. Every part of the pipeline produces a pickle file to archive the outcome, so even if the program is stopped during a run, the results are saved and can be continued next run.
+
+\textit{--path\textunderscore{}file} or \textit{-p} is an optional parameter, requiring a str value. The default value is \textit{./path.yml}. It accepts a path of the yml file in which all output paths are indicated. The yml file uses a dictionary to store paths, and the keys are parquet\textunderscore{}path1, 
+parquet\textunderscore{}path2, 
+archive\textunderscore{}fore\textunderscore{}path, 
+data\textunderscore{}path, 
+model\textunderscore{}path, 
+pic\textunderscore{}path, 
+html\textunderscore{}path, 
+log\textunderscore{}path.
+
+\textit{--observation\textunderscore{}n} or \textit{-o} indicates the number of observations used in the program, requiring a integer. The default value is -1, which means use all observations.
+
+\textit{--agg\textunderscore{}metadata} or \textit{-m} indicates the metadata which is used during the aggregation session. The default value is 'DATE', and the other legal value is 'SENTIMENT'.
+
+\textit{--agg\textunderscore{}length} or \textit{-l} indicates the minimal length of every document after an aggregation session, if the metadata 'DATE' is used. It requires an integer number, and the default value is -1, which means the aggregation is aborted.
+
+\textit{--topic\textunderscore{}range} or \textit{-r} indicates the topic range during the modelling session. It requires 3 integer numbers, meaning the minimal number of topics, the maximal number of topics, and the step. The default value is \textit{1 10 1}, so the modelling session will generate 10 LDA models with topic numbers from 1 topic to 10 topics.
+
+\textit{--chunksize} or \textit{-c} is an hyperparameter to Online LDA model. Online LDA algorithm update the model every chunksize. For example, if a corpus has 10000 documents, and the chunksize is set to 1000, then Online LDA will update the model 10 time through one complete pass of the corpus. The default value is 2000.
+
+\textit{--iteration} or \textit{-i} indicates the number of iterations during optimization, requiring a integer number. The number of iterations should high enough to make the model converge. However, fewer iterations make the modelling time shorter. The default value is 50.
+
+\textit{--seed} or \textit{-s} indicates the seed passed to LDA model, make the whole process replicable.
+
+For every run of the program, parameters are saved in \textit{commandline\textunderscore{}args.yaml} file in the archive folder.
+
+\subsubsection{Modelling}
+gensim\footnote{Available on github.com/RaRe-Technologies/gensim} is an open-source library for unsupervised topic modelling and natural language processing. This software framework was proposed by {\v R}eh{\r u}{\v r}ek in 2010, featuring with its clarity, efficiency and scalability \cite{rehurek_lrec}. gensim supports parallel computing and is scalable through a cluster, which accelerate training process significantly. For this customer feedback topic extraction system, gensim Online LDA model is chosen. 
+
+\subsubsection{Visualization}
+
+\section{Results}
+% Example pictures
+% Comparing with concatenation and without concatenation
+\begin{figure}[H]
+      \graphicspath{ {images/} }
+      \begin{center}
+      \includegraphics[scale=0.8]{coherence.png}
+      \end{center}
+      \caption{Topic Coherence vs. Number of Topics}
 \end{figure}
 
-\subsection{Tables}
+\begin{figure}[H]
+      \graphicspath{ {images/} }
+      \begin{center}
+      \includegraphics[scale=0.65, angle=-90]{vis_result.png}
+      \end{center}
+      \caption{Screenshot of the Modelling Visualization}
+\end{figure}
+\newpage
+\section{Summary}
 
-All tables must be centered, neat, clean and legible. Do not use hand-drawn
-tables. The table number and title always appear before the table. See
-Table~\ref{sample-table}.
+\section{Outlook}
+Generalize the system, provide an interfaces where get different parsers.
 
-Place one line space before the table title, one line space after the table
-title, and one line space after the table. The table title must be lower case
-(except for first word and proper nouns); tables are numbered consecutively.
+The evaluation metrics and be improved. Some results from different topic coherence indexes conflict with each other. For example, topic coherence generated from c\textunderscore{}umass \cite{mimno_optimizing_nodate} and c\textunderscore{}v \cite{roder_exploring_2015} are often negatively correlated.
 
-\begin{table}[t]
-   \caption{Sample table title}
-   \label{sample-table}
-   \begin{center}
-      \begin{tabular}{ll}
-         \multicolumn{1}{c}{\bf PART} & \multicolumn{1}{c}{\bf DESCRIPTION}
-         \\ \hline \\
-         Dendrite                     & Input terminal                      \\
-         Axon                         & Output terminal                     \\
-         Soma                         & Cell body (contains cell nucleus)   \\
-      \end{tabular}
-   \end{center}
-\end{table}
+Better user interface, utilizing tools such as Semantic UI.
 
-\section{Final instructions}
-Do not change any aspects of the formatting parameters in the style files.
-In particular, do not modify the width or length of the rectangle the text
-should fit into, and do not change font sizes (except perhaps in the
-\textbf{References} section; see below). Please note that pages should be
-numbered.
+Containerize the system.
 
-\section{Preparing PostScript or PDF files}
+% Configure distributed version
 
-Please prepare PostScript or PDF files with paper size ``US Letter'', and
-not, for example, ``A4''. The -t
-letter option on dvips will produce US Letter files.
+\section*{Acknowledgments}
 
-Fonts were the main cause of problems in the past years. Your PDF file must
-only contain Type 1 or Embedded TrueType fonts. Here are a few instructions
-to achieve this.
-
-\begin{itemize}
-
-   \item You can check which fonts a PDF files uses.  In Acrobat Reader,
-         select the menu Files$>$Document Properties$>$Fonts and select Show All Fonts. You can
-         also use the program \verb+pdffonts+ which comes with \verb+xpdf+ and is
-         available out-of-the-box on most Linux machines.
-
-   \item The IEEE has recommendations for generating PDF files whose fonts
-         are also acceptable for NIPS. Please see
-         \url{http://www.emfield.org/icuwb2010/downloads/IEEE-PDF-SpecV32.pdf}
-
-   \item LaTeX users:
-
-         \begin{itemize}
-
-            \item Consider directly generating PDF files using \verb+pdflatex+
-                  (especially if you are a MiKTeX user).
-                  PDF figures must be substituted for EPS figures, however.
-
-            \item Otherwise, please generate your PostScript and PDF files with the following commands:
-                  \begin{verbatim} 
-dvips mypaper.dvi -t letter -Ppdf -G0 -o mypaper.ps
-ps2pdf mypaper.ps mypaper.pdf
-\end{verbatim}
-
-                  Check that the PDF files only contains Type 1 fonts.
-                  %For the final version, please send us both the Postscript file and
-                  %the PDF file. 
-
-            \item xfig "patterned" shapes are implemented with
-                  bitmap fonts.  Use "solid" shapes instead.
-            \item The \verb+\bbold+ package almost always uses bitmap
-                  fonts.  You can try the equivalent AMS Fonts with command
-                  \begin{verbatim}
-\usepackage[psamsfonts]{amssymb}
-\end{verbatim}
-                  or use the following workaround for reals, natural and complex:
-                  \begin{verbatim}
-\newcommand{\RR}{I\!\!R} %real numbers
-\newcommand{\Nat}{I\!\!N} %natural numbers 
-\newcommand{\CC}{I\!\!\!\!C} %complex numbers
-\end{verbatim}
-
-            \item Sometimes the problematic fonts are used in figures
-                  included in LaTeX files. The ghostscript program \verb+eps2eps+ is the simplest
-                  way to clean such figures. For black and white figures, slightly better
-                  results can be achieved with program \verb+potrace+.
-         \end{itemize}
-   \item MSWord and Windows users (via PDF file):
-         \begin{itemize}
-            \item Install the Microsoft Save as PDF Office 2007 Add-in from
-                  \url{http://www.microsoft.com/downloads/details.aspx?displaylang=en\&familyid=4d951911-3e7e-4ae6-b059-a2e79ed87041}
-            \item Select ``Save or Publish to PDF'' from the Office or File menu
-         \end{itemize}
-   \item MSWord and Mac OS X users (via PDF file):
-         \begin{itemize}
-            \item From the print menu, click the PDF drop-down box, and select ``Save
-                  as PDF...''
-         \end{itemize}
-   \item MSWord and Windows users (via PS file):
-         \begin{itemize}
-            \item To create a new printer
-                  on your computer, install the AdobePS printer driver and the Adobe Distiller PPD file from
-                  \url{http://www.adobe.com/support/downloads/detail.jsp?ftpID=204} {\it Note:} You must reboot your PC after installing the
-                  AdobePS driver for it to take effect.
-            \item To produce the ps file, select ``Print'' from the MS app, choose
-                  the installed AdobePS printer, click on ``Properties'', click on ``Advanced.''
-            \item Set ``TrueType Font'' to be ``Download as Softfont''
-            \item Open the ``PostScript Options'' folder
-            \item Select ``PostScript Output Option'' to be ``Optimize for Portability''
-            \item Select ``TrueType Font Download Option'' to be ``Outline''
-            \item Select ``Send PostScript Error Handler'' to be ``No''
-            \item Click ``OK'' three times, print your file.
-            \item Now, use Adobe Acrobat Distiller or ps2pdf to create a PDF file from
-                  the PS file. In Acrobat, check the option ``Embed all fonts'' if
-                  applicable.
-         \end{itemize}
-
-\end{itemize}
-If your file contains Type 3 fonts or non embedded TrueType fonts, we will
-ask you to fix it.
-
-\subsection{Margins in LaTeX}
-
-Most of the margin problems come from figures positioned by hand using
-\verb+\special+ or other commands. We suggest using the command
-\verb+\includegraphics+
-from the graphicx package. Always specify the figure width as a multiple of
-the line width as in the example below using .eps graphics
-\begin{verbatim}
-   \usepackage[dvips]{graphicx} ... 
-   \includegraphics[width=0.8\linewidth]{myfile.eps} 
-\end{verbatim}
-or % Apr 2009 addition
-\begin{verbatim}
-   \usepackage[pdftex]{graphicx} ... 
-   \includegraphics[width=0.8\linewidth]{myfile.pdf} 
-\end{verbatim}
-for .pdf graphics.
-See section 4.4 in the graphics bundle documentation (\url{http://www.ctan.org/tex-archive/macros/latex/required/graphics/grfguide.ps})
-
-A number of width problems arise when LaTeX cannot properly hyphenate a
-line. Please give LaTeX hyphenation hints using the \verb+\-+ command.
-
-
-\subsubsection*{Acknowledgments}
-
-Use unnumbered third level headings for the acknowledgments. All
-acknowledgments go at the end of the paper. Do not include
-acknowledgments in the anonymized submission, only in the
-final paper.
-
-\subsubsection*{References}
-
-References follow the acknowledgments. Use unnumbered third level heading for
-the references. Any choice of citation style is acceptable as long as you are
-consistent. It is permissible to reduce the font size to `small' (9-point)
-when listing the references. {\bf Remember that this year you can use
-      a ninth page as long as it contains \emph{only} cited references.}
-
-\small{
-[1] Alexander, J.A. \& Mozer, M.C. (1995) Template-based algorithms
-for connectionist rule extraction. In G. Tesauro, D. S. Touretzky
-and T.K. Leen (eds.), {\it Advances in Neural Information Processing
-      Systems 7}, pp. 609-616. Cambridge, MA: MIT Press.
-
-   [2] Bower, J.M. \& Beeman, D. (1995) {\it The Book of GENESIS: Exploring
-      Realistic Neural Models with the GEneral NEural SImulation System.}
-New York: TELOS/Springer-Verlag.
-
-[3] Hasselmo, M.E., Schnell, E. \& Barkai, E. (1995) Dynamics of learning
-and recall at excitatory recurrent synapses and cholinergic modulation
-in rat hippocampal region CA3. {\it Journal of Neuroscience}
-   {\bf 15}(7):5249-5262.
-}
+\bibliographystyle{IEEEtran}
+\bibliography{Library, gensim}
 
 \end{document}

@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     parser.add_argument(
         '-s', '--seed',
-        type=int, nargs='?', const=-1, default=1
+        type=int, nargs='?', const=1, default=1
     )
 
     args = parser.parse_args()
