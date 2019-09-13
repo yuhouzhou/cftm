@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
                 lda_lst.append(lda)
 
-                # Data Evaluation
+                # Model Evaluation
                 cm = CoherenceModel(model=lda, texts=texts, corpus=corpus, dictionary=dictionary,
                                     coherence='c_v')
                 coherence = cm.get_coherence()
