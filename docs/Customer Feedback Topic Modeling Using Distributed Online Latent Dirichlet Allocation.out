@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{Online Latent Dirichlet Allocation}{}% 3
+\BOOKMARK [1][-]{section.4}{Topic Coherence}{}% 4
+\BOOKMARK [1][-]{section.5}{LDAvis}{}% 5
+\BOOKMARK [1][-]{section.6}{Data Source}{}% 6
+\BOOKMARK [1][-]{section.7}{System Architecture and Usage}{}% 7
+\BOOKMARK [2][-]{subsection.7.1}{cftm\137parser.py}{section.7}% 8
+\BOOKMARK [2][-]{subsection.7.2}{preprocessing.py}{section.7}% 9
+\BOOKMARK [2][-]{subsection.7.3}{pipeline.py}{section.7}% 10
+\BOOKMARK [3][-]{subsubsection.7.3.1}{Arguments}{subsection.7.3}% 11
+\BOOKMARK [3][-]{subsubsection.7.3.2}{Modelling}{subsection.7.3}% 12
+\BOOKMARK [3][-]{subsubsection.7.3.3}{Visualization}{subsection.7.3}% 13
+\BOOKMARK [1][-]{section.8}{Experiments}{}% 14
+\BOOKMARK [1][-]{section.9}{Discussion}{}% 15
+\BOOKMARK [1][-]{section.10}{Summary}{}% 16

@@ -184,7 +184,7 @@ if __name__ == '__main__':
                      (n_topic_min + index * step, coherence_lst[index]))
         plt.title('Topic Coherence vs. Number of Topics')
         plt.xlabel('Number of Topics')
-        plt.ylabel('Topic Coherence (By c_v)')
+        plt.ylabel('Topic Coherence (By $C_V$)')
         plt.ticklabel_format(useOffset=False)
         plt.tight_layout()
         plt.savefig(pic_path)
