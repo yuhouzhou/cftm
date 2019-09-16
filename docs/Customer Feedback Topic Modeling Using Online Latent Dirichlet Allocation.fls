@@ -2,8 +2,8 @@ PWD /Users/YuhouZhou/projects/cftm/docs
 INPUT /usr/local/texlive/2019/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.tex
-OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.log
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.tex
+OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.log
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
@@ -171,7 +171,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.pdf
+OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/paralist/paralist.sty
@@ -192,9 +192,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.sty
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.aux
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.aux
-OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.aux
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.aux
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.aux
+OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.aux
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
@@ -210,13 +210,13 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+OUTPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
@@ -290,11 +290,11 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /Users/YuhouZhou/projects/cftm/docs/images/vis_result.png
 INPUT /Users/YuhouZhou/projects/cftm/docs/images/vis_result.png
 INPUT /Users/YuhouZhou/projects/cftm/docs/images/vis_result.png
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.bbl
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.bbl
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.aux
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
-INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Distributed Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.bbl
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.bbl
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.aux
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
+INPUT /Users/YuhouZhou/projects/cftm/docs/Customer Feedback Topic Modeling Using Online Latent Dirichlet Allocation.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
