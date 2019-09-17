@@ -306,7 +306,7 @@ We yield the best LDA model with 25 topics using 1.9 million customer feedback, 
  The scatterplot of topic coherence against number of topics is shown in Figure 2, and the screenshot of the topic visualization is in Figure 3. The top 5 topics are shown below:
 
 Topic 1: \textit{filiale, bestellung, erhalten, abholen, lieferung, liefem, dm, kalender, weihnachten, ...}\\
-Tipic 2: \textit{bild, rand, abschneiden, leinwand, weiß, zuscheiden, automatische, mm, kopf, dunkel, ...}\\
+Topic 2: \textit{bild, rand, abschneiden, leinwand, weiß, zuscheiden, automatische, mm, kopf, dunkel, ...}\\
 Topic 3: \textit{möglichkeit, hintergrund, seite, layout, cliparts, einfügen, auswahl, gestalten, software, ...}\\
 Topic 4: \textit{fotobuch, cewe, empfehlen, begeistern, kunde, weiterempfehlen, freund, zufrieden, ...}\\
 Topic 5: \textit{schnellen, lieferung, bearbeitung, zuverlässig, preiswert, zügig, prompt, einfach, unkomolizierte, unproblematisch, ...}
@@ -324,7 +324,7 @@ Interpreting the word context, we can know the ideas of these topics. Topic 1 is
 \section{Discussion}
 Since the topic modelling is an interesting task in many situations, such as extracing topics from articles, get top topics from tweets of differnet users, etc. It will be very helpful, if the system can be further generalized by providing an interfaces where the system gets different parsers. The ability to direclty connect to databases and run queries on them should also be included in the system in the future.
 
-The evaluation metrics can be improved. Some results from different topic coherence indexes conflict with each other. For example, topic coherence generated from $C_{UMASS}$ \cite{mimno_optimizing_nodate} and $C_V$ \cite{roder_exploring_2015} are often negatively correlated. Topic coherence thus is not so relible to be the single metric to find the best topic numbers. To improve the consistence of topic coherence indexes, further studies should be conducted.
+The evaluation metrics can be improved. Some results from different topic coherence indexes conflict with each other. For example, topic coherence generated from $C_{UMass}$ \cite{mimno_optimizing_nodate} and $C_V$ \cite{roder_exploring_2015} are often negatively correlated. Topic coherence thus is not so relible to be the single metric to find the best topic numbers. To improve the consistence of topic coherence indexes, further studies should be conducted.
 
 Currently, the system is using terminal as the interface with users. The system can be more approachable to non-technical users by providing a better user interface, utilizing tools such as Semantic UI to build a graphical user interface.
 
