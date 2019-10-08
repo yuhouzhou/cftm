@@ -23,6 +23,9 @@ tmp/
 !*.bib
 !*.bst
 
+# Exclude sensitive data
+*.html
+
 # Tex.ignore
 ## Core latex/pdflatex auxiliary files:
 *.aux
