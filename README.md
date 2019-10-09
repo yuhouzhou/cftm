@@ -1,4 +1,4 @@
-# Customer Feedback Topic Extraction
+# Customer Feedback Topic Modelling (CFTM)
 
 ## Data Description
 
