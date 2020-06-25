@@ -39,3 +39,6 @@ Use `matplotlib` to visualize the topic coherence change of models.
 
 Use `pyLDAvis` to visualize the topic result.
 
+## Result
+
+![vis_result](https://github.com/yuhouzhou/cftm/blob/master/docs/images/vis_result.png)
